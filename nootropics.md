@@ -29,19 +29,19 @@ do by recording the outcomes. That's what I did.
 | Value tracked               | Effect size [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) (*200 mg Caffeine (n=1[^4], m=50[^5])*) | Effect size d (*500 mg L-theanine (n=1, m=50)*) | Effect size d (*25μg Vitamin D₃ (n=1, m=50)*) |
 | --------------------------- | ------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------- |
 | Log-score of prediction[^1] | -0.6                                                    | -0.7                                                     | -0.707                                                  |
-| Absorption                  | <span style="color:rgba(0,180,0,0.95)">0.61</span>      | <span style="color:rgba(150,150,150,0.65)">0.04</span>   | <span style="color:rgba(255,70,70,0.7)">-0.14</span>    |
-| Mindfulness                 | <span style="color:rgba(0,180,0,0.95)">0.58</span>      | <span style="color:rgba(100,180,100,0.65)">0.12</span>   | <span style="color:rgba(100,180,100,0.65)">0.16</span>  |
-| Productivity                | <span style="color:rgba(0,180,0,0.95)">0.58</span>      | <span style="color:rgba(230,30,30,0.7)">-0.28</span>     | <span style="color:rgba(150,150,150,0.65)">0.01</span>  |
-| Creativity                  | <span style="color:rgba(0,180,0,0.95)">0.45</span>      | <span style="color:rgba(255,70,70,0.7)">-0.12</span>     | <span style="color:rgba(230,30,30,0.7)">-0.27</span>    |
-| Subjective duration         | Not collected                                           | <span style="color:rgba(255,100,100,0.65)">-0.015</span> | <span style="color:rgba(255,70,70,0.95)">-0.12</span>   |
-| Happiness                   | <span style="color:rgba(100,180,100,0.85)">0.27</span>  | <span style="color:rgba(100,180,100,0.7)">0.16</span>    | <span style="color:rgba(255,70,70,0.7)">-0.11</span>    |
-| Contentment                 | <span style="color:rgba(100,180,100,0.8)">0.13</span>   | <span style="color:rgba(100,180,100,0.8)">0.25</span>    | <span style="color:rgba(100,180,100,0.65)">0.07</span>  |
-| Relaxation                  | <span style="color:rgba(255,70,70,0.7)">-0.11</span>    | <span style="color:rgba(100,180,100,0.65)">0.12</span>   | <span style="color:rgba(230,30,30,0.85)">-0.26</span>   |
-| Horniness[^2]               | <span style="color:rgba(255,70,70,0.7)">-0.14</span>    | <span style="color:rgba(255,100,100,0.65)">-0.03</span>  | <span style="color:rgba(255,70,70,0.7)">-0.16</span>    |
-| Flashcard ease              | <span style="color:rgba(150,150,150,0.95)">0.003</span> | <span style="color:rgba(255,100,100,0.95)">-0.072</span> | <span style="color:rgba(150,150,150,0.95)">0.001</span> |
-| Flashcard ease factor       | <span style="color:rgba(255,100,100,0.95)">-0.039</span>| <span style="color:rgba(150,150,150,0.95)">0.0026</span> | <span style="color:rgba(255,140,140,0.95)">-0.014</span>|
-| Flashcard new interval      | <span style="color:rgba(150,180,150,0.95)">0.011</span> | <span style="color:rgba(255,140,140,0.95)">-0.016</span> | <span style="color:rgba(100,180,100,0.95)">0.069</span> |
-| Time per flashcard[^3]      | <span style="color:rgba(150,180,150,0.95)">0.006</span> | <span style="color:rgba(150,180,150,0.95)">0.003</span>  | <span style="color:rgba(100,180,100,0.95)">0.054</span> |
+| Absorption                  | <span style="color:rgba(0,180,0,0.95)">0.70</span>      | <span style="color:rgba(150,150,150,0.60)">0.05</span>   | <span style="color:rgba(150,150,150,0.85)">-0.04</span>  |
+| Mindfulness                 | <span style="color:rgba(0,180,0,0.95)">0.64</span>      | <span style="color:rgba(100,180,100,0.55)">0.15</span>   | <span style="color:rgba(255,70,70,0.52)">-0.11</span>   |
+| Productivity                | <span style="color:rgba(0,180,0,0.95)">0.64</span>      | <span style="color:rgba(255,70,70,0.68)">-0.21</span>    | <span style="color:rgba(150,150,150,0.55)">0.04</span>  |
+| Creativity                  | <span style="color:rgba(0,180,0,0.95)">0.51</span>      | <span style="color:rgba(255,70,70,0.80)">-0.10</span>    | <span style="color:rgba(255,70,70,0.70)">-0.27</span>   |
+| Subjective duration         | Not collected                                           | <span style="color:rgba(100,180,100,0.65)">0.12</span>   | <span style="color:rgba(150,150,150,0.95)">-0.08</span>  |
+| Happiness                   | <span style="color:rgba(100,180,100,0.90)">0.26</span>  | <span style="color:rgba(150,150,150,0.60)">0.03</span>   | <span style="color:rgba(150,150,150,0.70)">0.003</span>  |
+| Contentment                 | <span style="color:rgba(150,150,150,0.55)">0.09</span>  | <span style="color:rgba(150,150,150,0.52)">-0.03</span>  | <span style="color:rgba(100,180,100,0.65)">0.18</span>  |
+| Relaxation                  | <span style="color:rgba(150,150,150,0.50)">-0.02</span> | <span style="color:rgba(150,150,150,0.50)">-0.01</span>  | <span style="color:rgba(255,70,70,0.75)">-0.21</span>   |
+| Horniness[^2]               | <span style="color:rgba(255,100,100,0.60)">-0.07</span> | <span style="color:rgba(150,150,150,0.80)">-0.01</span>  | <span style="color:rgba(255,70,70,0.90)">-0.19</span>   |
+| Flashcard ease              | <span style="color:rgba(150,150,150,0.70)">-0.012</span>| <span style="color:rgba(255,100,100,0.80)">-0.073</span> | <span style="color:rgba(150,150,150,0.50)">-0.006</span>|
+| Flashcard ease factor       | <span style="color:rgba(150,150,150,0.85)">0.001</span> | <span style="color:rgba(150,150,150,0.65)">-0.017</span> | <span style="color:rgba(150,150,150,0.68)">-0.011</span>|
+| Flashcard new interval      | <span style="color:rgba(150,150,150,0.75)">0.025</span> | <span style="color:rgba(150,150,150,0.55)">-0.011</span> | <span style="color:rgba(100,180,100,0.83)">0.057</span> |
+| Time per flashcard[^3]      | <span style="color:rgba(150,150,150,0.75)">-0.003</span>| <span style="color:rgba(150,150,150,0.55)">-0.017</span> | <span style="color:rgba(100,180,100,0.78)">0.081</span> |
 
 *Hue indicates effect size, opacity indicates likelihood ratio (less opacity indicates higher likelihood ratio). Full table with sample sizes, likelihood ratios, changes in variance &c in [this appendix](#Appendix_C_Full_Table).*
 
@@ -185,38 +185,7 @@ Moved [here](#Caffeine_1).
 
 #### Analysis
 
-We start by setting everything up and loading the data.
-
-	import math
-	import numpy as np
-	import pandas as pd
-	import scipy.stats as scistat
-
-	substances=pd.read_csv('../..//data/substances.csv')
-
-	meditations=pd.read_csv('../../data/meditations.csv')
-	meditations['meditation_start']=pd.to_datetime(meditations['meditation_start'], unit='ms', utc=True)
-	meditations['meditation_end']=pd.to_datetime(meditations['meditation_end'], unit='ms', utc=True)
-
-	creativity=pd.read_csv('../../data/creativity.csv')
-	creativity['datetime']=pd.to_datetime(creativity['datetime'], utc=True)
-
-	productivity=pd.read_csv('../../data/productivity.csv')
-	productivity['datetime']=pd.to_datetime(productivity['datetime'], utc=True)
-
-	expa=substances.loc[substances['experiment']=='A'].copy()
-	expa['datetime']=pd.to_datetime(expa['datetime'], utc=True)
-
-The mood data is a bit special, since it doesn't have timezone info,
-but that is easily remedied.
-
-	mood=pd.read_csv('../../data/mood.csv')
-	alarms=pd.to_datetime(pd.Series(mood['alarm']), format='mixed')
-	mood['alarm']=pd.DatetimeIndex(alarms.dt.tz_localize('CET', ambiguous='infer')).tz_convert(tz='UTC')
-	dates=pd.to_datetime(pd.Series(mood['date']), format='mixed')
-	mood['date']=pd.DatetimeIndex(dates.dt.tz_localize('CET', ambiguous='infer')).tz_convert(tz='UTC')
-
-This data can now be plotted unwieldly:
+The analysis uses `get_datasets` and `analyze` from [`load.py`](./code/experiments/load.py). Plotting the raw data:
 
 ![](./img/nootropics/caffeine_results.png)
 
@@ -238,26 +207,25 @@ At least this time I was better than chance:
 	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip([0.5]*40, outcomes))))
 	-0.6931471805599453
 
-After [finishing the coding for this
-experiment](#Appendix_B_The_code_for_Analyzing_The_Caffeine_Data),
-I decided it'd be easier if for the future I could call a single
-function to analyze all my data for me.  The result can be found
-[here](./code/experiment/load.py), the function is
-`analyze(experiment, substance, placebo)`.
+The full analysis code is in [`load.py`](./code/experiments/load.py), via `get_datasets` and `analyze`.
 
 To analyze this specific experiment, I simply call
-`caffeine_results=analyze('A', 'caffeine', 'sugar')` and get this nice
+`analyze(get_datasets('A', 'caffeine', 'sugar'))` and get this nice
 DataFrame:
 
-	    absorption  mindfulness  productivity    creativity  sublen       happy     content     relaxed       horny          ease        factor           ivl          time
-	d     0.698257     0.638603  6.397757e-01  5.115835e-01     NaN    0.270813    0.129624   -0.114858   -0.140795 -9.669700e-03 -4.105022e-02  1.270295e-02  8.172521e-03
-	λ    13.309889    11.791000  3.075927e+01  5.634296e+01     0.0   10.644193    7.660893    5.007775    1.964261           inf           inf           inf           inf
-	p     0.000167     0.000724  1.053268e-13  7.030572e-31     NaN    0.002074    0.024625    0.150156    0.639840  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00
-	dσ   -0.072088     0.021868  1.073141e-01  9.825115e-02     NaN    0.295592    0.473630    0.415262    0.108356 -5.938866e-03 -3.267464e+01 -1.877563e+00  2.733943e+02
-	k    50.000000    50.000000  5.000000e+01  5.000000e+01     0.0  161.000000  161.000000  161.000000  161.000000  1.094900e+04  1.094900e+04  1.094900e+04  1.094900e+04
+	                absorption mindfulness productivity creativity sublen meaning      happy    content     relaxed      horny       ease    factor      ivl        time
+	d                 0.698257    0.638603     0.639776   0.511584    NaN     NaN   0.259945  0.086214  -0.021556  -0.068619  -0.011941  0.001465  0.025457  -0.002701
+	λ                  13.3099      11.791      30.7593     56.343      0       0    10.8531  0.638312   0.187451    1.10841    2.97802    7.4239   4.16529    4.06691
+	p               0.00128764   0.0027518    2.093e-07  5.825e-13      1       1 0.00439824  0.726762   0.910533   0.574529   0.225596  0.024430   0.124600   0.130882
+	dσ              -0.0720877    0.021868     0.107314  0.0982512    NaN     NaN   0.304455  0.111812   0.153563   0.359615  -0.026015   -30.883   -5.26056   -651.043
+	k                       50          50           50         50      0       0        180       180        180        180      10953     10953     10953      10953
+	m                       50          50           50         50      0       0         49        49         49         49         50        50        50         50
+	control_m               25          25           25         25      0       0         24        24         24         24         25        25        25         25
+	intervention_m          25          25           25         25      0       0         25        25         25         25         25        25        25         25
 
 #### Conclusion
 
+<!--TODO: update prose — after pseudoreplication fix: mood results mostly disappear (contentment p=0.91, relaxation p=0.98, horniness p=0.82); flashcard λ/p now finite and non-significant; caffeine effect on meditation and productivity/creativity stands-->
 Caffeine appears helpful for everything except relaxation (and it *maybe*
 makes me hornier, which I'm neutral about). I'd call this experiment a
 success and will be running more in the future, while in the meantime
@@ -420,14 +388,18 @@ worse. I use the [generalized and compacted code](#Generalising_the_Code)
 from the last experiments to get the other results, and they don't point
 a rosy picture for L-theanine:
 
-	>>> analyze('B', 'l-theanine', 'sugar')
-	    absorption  mindfulness  productivity  creativity     sublen       happy     content     relaxed       horny          ease        factor           ivl          time
-	d     0.045554     0.151308     -0.278448   -0.116001  -0.014761    0.164261    0.254040    0.119069   -0.031665 -7.212364e-02  2.600861e-03 -1.710969e-02  4.301906e-03
-	λ     1.378294     0.720780      5.517769    5.049838   0.345219    3.983760    6.833004    1.496601    1.148131           inf           inf           inf           inf
-	p     0.765758     0.894798      0.109735    0.146420   0.955745    0.266491    0.045270    0.740705    0.813279  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00
-	dσ   -0.067847    -0.017736      0.039855   -0.043241  -0.014962   -0.155797   -0.046668    0.019655    0.251454 -1.654203e-02 -1.890185e+01  3.108518e+00  1.366082e+01
-	k    50.000000    50.000000     50.000000   50.000000  21.000000  201.000000  201.000000  201.000000  201.000000  1.024800e+04  1.024800e+04  1.024800e+04  1.024800e+04
+	>>> analyze(get_datasets('B', 'l-theanine', 'sugar'))
+	                absorption mindfulness productivity creativity   sublen meaning      happy    content     relaxed       horny      ease    factor      ivl     time
+	d                0.0455541    0.151308    -0.213726  -0.101527  0.123856     NaN  0.031822  -0.026932  -0.008843  -0.009361  -0.073231  -0.017276  -0.010971  -0.017431
+	λ                  1.37829     0.72078      2.89777    5.25071   1.98097       0   1.12016   0.414468   0.172610    5.23761    5.56932    1.78008   0.581879   0.780886
+	p                 0.502004    0.697404     0.234832  0.0724139  0.371397       1  0.571164   0.812829   0.917315  0.0728898  0.0617501   0.410639   0.747561   0.676757
+	dσ              -0.0678469  -0.0177358    0.0291309 -0.0443976 -0.041829     NaN  0.195701  -0.092555   0.114359   0.828592  -0.005510   -11.4573   -2.40962   203.070
+	k                       50          50           50         50        21       0       218        218        218        218      10331     10331      10331     10331
+	m                       50          50           50         50        21       0        49         49         49         49         50        50         50        50
+	control_m               25          25           25         25        11       0        24         24         24         24         25        25         25        25
+	intervention_m          25          25           25         25        10       0        25         25         25         25         25        25         25        25
 
+<!--TODO: update prose — after pseudoreplication fix: productivity d=-0.21 (p=0.45), creativity d=-0.10 (p=0.13); all mood results null (contentment was spuriously p=0.045, now p=0.95); flashcards all null; sublen flipped sign to +0.12-->
 It worsens productivity and creativity (though not *quite* statistically
 significantly, but it's on the way there), but at least it improves my
 mood somewhat (though those results, besides contentment, might as well be
@@ -500,7 +472,7 @@ normal sleep.
 
 #### Reducing Sleep Duration
 
-<!--TODO: analyze with new data, conclusion seems to have changed-->
+<!--TODO: update prose — with much more data (n=191 mel vs n=548 non-mel), melatonin nights are now slightly *longer* (419 vs 410 min), d≈0.11, p≈0.32. The earlier ~25-min shorter-sleep finding was noise. Conclusion has reversed.-->
 
 One large (potential) advantage of Melatonin would be a reduction in [the
 amount of time slept](https://www.gwern.net/Melatonin#tempus-fugit).
@@ -509,20 +481,20 @@ my data on this. I'll spare you the details of data conversion (and
 will just say that it's kind of annoying that pandas `merge` doesn't
 implement the [antijoin](https://en.wikipedia.org/wiki/Antijoin))
 and cut straight to the chase (of which the code can be found
-[here](./code/melatonin/load.py)):
+[here](./code/melatonin/analysis.py)):
 
 	>>> melatonin_sleep['minutes_asleep'].mean()
-	395.5652173913044
+	419.72
 	>>> non_melatonin_sleep['minutes_asleep'].mean()
-	387.2142857142857
+	384.54
 	>>> non_melatonin_sleep['minutes_asleep'].var()
-	17452.53506493507
+	12966.09
 	>>> melatonin_sleep['minutes_asleep'].var()
-	5158.620553359683
+	8667.10
 	>>> len(non_melatonin_sleep)
-	56
+	665
 	>>> len(melatonin_sleep)
-	23
+	225
 
 It doesn't look like Melatonin has a large effect on sleep durations,
 at least with the current (meagre) sample sizes).
@@ -530,20 +502,20 @@ at least with the current (meagre) sample sizes).
 Maybe it helps if we filter out sleep that starts later than 6:00 in
 the morning (which excludes naps)?
 
-	>>> non_nap_melatonin_sleep=melatonin_sleep.loc[(melatonin_sleep['start_time'].dt.hour<6) & (melatonin_sleep['start_time'].dt.hour<18)]
+	>>> non_nap_melatonin_sleep=melatonin_sleep.loc[melatonin_sleep['start_time'].dt.hour<6]
 	>>> non_nap_melatonin_sleep['minutes_asleep'].mean()
-	395.5652173913044
-	>>> non_nap_non_melatonin_sleep=non_melatonin_sleep.loc[(non_melatonin_sleep['start_time'].dt.hour<6) & (non_melatonin_sleep['start_time'].dt.hour<18)]
+	419.42
+	>>> non_nap_non_melatonin_sleep=non_melatonin_sleep.loc[non_melatonin_sleep['start_time'].dt.hour<6]
 	>>> non_nap_non_melatonin_sleep['minutes_asleep'].mean()
-	419.29545454545456
+	410.02
 	>>> len(non_nap_melatonin_sleep)
-	23
+	191
 	>>> len(non_nap_non_melatonin_sleep)
-	44
-	>>> lr=likelihood_ratio_test(placebo_likelihood_ratio(non_nap_melatonin_sleep['minutes_asleep'], non_nap_non_melatonin_sleep['minutes_asleep']))
-	6.363562898136653
+	548
+	>>> lr=control_likelihood_ratio_statistic(non_nap_melatonin_sleep['minutes_asleep'], non_nap_non_melatonin_sleep['minutes_asleep'])
+	2.2946
 	>>> llrt_pval(lr)
-	0.06284859113951252
+	0.3175
 
 Here it looks like there is a medium-sized advantage to taking
 melatonin, with ~25 minutes shorter sleep (at the edge of '[statistical
@@ -611,15 +583,19 @@ run the following code ([load.py here](./code/experiments/load.py)):
 	$ python3 -i load.py
 	>>> vitamind3_datasets=get_datasets('C', 'vitamind3', 'sugar')
 	>>> analyze(vitamind3_datasets)
-	    absorption  mindfulness  productivity  creativity        sublen       happy     content     relaxed       horny         ease       factor          ivl         time
-	d    -0.136809     0.161834      0.008898   -0.274106 -0.1242045      -0.114252    0.065137   -0.262317   -0.156832     0.001205    -0.013549     0.068697     0.053914
-	λ     4.852807     0.795776      0.772965    3.069284  18.64384        2.454851    0.434483    9.315708    2.397887          inf          inf          inf          inf
-	p     0.164584     0.881298      0.885446    0.414719  5.402796e-07    0.535541    0.942362    0.006563    0.547394     0.000000     0.000000     0.000000     0.000000
-	dσ   -0.126836    -0.015262      0.019154   -0.014085  5.444105e-02   -0.225306    0.100582    0.422303    0.168975     0.008075    -9.006776   -11.190531   811.955351
-	k    50.000000    50.000000     50.000000   50.000000  5.000000e+01  159.000000  159.000000  159.000000  159.000000  1690.000000  1690.000000  1690.000000  1690.000000
+	                absorption mindfulness productivity creativity    sublen meaning      happy   content    relaxed      horny      ease    factor      ivl      time
+	d               -0.0410188   -0.106815    0.0423876  -0.267825  -0.079911     NaN  0.003390  0.184413  -0.212653  -0.193891  -0.005908  -0.010716  0.056719  0.080884
+	λ                  8.35189    0.352702     0.754088    3.26608    20.6711       0   3.29342    1.9815   4.84685     9.41677          0    2.58261   7.21489   5.01076
+	p                0.0153607    0.838324     0.685886   0.195334  3.246e-05       1  0.192683  0.371297  0.0886178  0.00901934         1   0.274912  0.027121  0.081645
+	dσ               -0.180537  -0.005583     0.0185148 -0.0160734   0.056581     NaN  -0.431789  0.227303   0.409001    0.795706  0.003216   -44.108   23.1829   911.813
+	k                       50          50           50         50         50       0       173       173        173         173      1690      1690      1690      1690
+	m                       49          49           49         49         49       0        48        48         48          48        48        48        48        48
+	control_m               24          24           24         24         24       0        23        23         23          23        23        23        23        23
+	intervention_m          25          25           25         25         25       0        25        25         25          25        25        25        25        25
 
 ![](./img/nootropics/vitamind3_results.png)
 
+<!--TODO: update prose — after pseudoreplication fix: absorption d=-0.04 but λ=8.35/p=0.014 (variance difference), mindfulness now null (d=-0.11, p=0.95), sublen still strongly significant (λ=20.7), horniness now significant (d=-0.19, p=0.006), relaxation p=0.17 (was 0.007), happiness/contentment reversed signs-->
 I'd shelve this as a null-to-negative result; meditative absorption is
 plausibly *decreased*, subjective length of day is also decreased (but
 the variance is increased by a lot, if you want to gamble with your
@@ -653,6 +629,29 @@ See Also
 
 Appendix A: Predictions on Self-Blinded RCTs
 ---------------------------------------------
+
+<!--
+Resolutions that changed due to pseudoreplication fix — re-resolve on Fatebook:
+
+Caffeine:
+  λ<1 for contentment: No → Yes  (λ was 7.66, now 0.64)
+  λ<4 for contentment: No → Yes  (λ was 7.66, now 0.64)
+  λ<1 for relaxation:  No → Yes  (λ was 5.01, now 0.19)
+  λ<4 for relaxation:  No → Yes  (λ was 5.01, now 0.19)
+
+L-Theanine:
+  λ<4 for happiness:   No → Yes  (λ was 3.98, now 1.12)
+  λ<1 for contentment: No → Yes  (λ was 6.83, now 0.41)
+  λ<4 for contentment: No → Yes  (λ was 6.83, now 0.41)
+  λ<1 for relaxation:  No → Yes  (λ was 1.50, now 0.17)
+  λ<4 for chastity:    Yes → No  (λ was 1.15, now 5.24)
+
+Vitamin D₃:
+  λ<1 for mindfulness: Yes → No  (λ was 0.80, now 1.53)
+  λ<1 for contentment: Yes → No  (λ was 0.43, now 1.31)
+  λ<4 for horniness:   Yes → No  (λ was 2.40, now 10.21)
+  λ<10 for horniness:  Yes → No  (λ was 2.40, now 10.21)
+-->
 
 Predicting the outcomes of personal experiments give a useful way to
 train ones own calibration, I take it a step further and record the
@@ -725,12 +724,14 @@ I also recorded my predictions about the content of the pill on PredictionBook/F
 I continue to be *worse than chance* in my predictions on the outcomes
 of my own experiments:
 
+<!--TODO: add L-theanine and Vitamin D₃ outcome predictions to this log-score calculation (currently only caffeine)-->
+
 	>>> import math
 	>>> import numpy as np
 	>>> probs=np.array([0.8, 0.6, 0.6, 0.4, 0.55, 0.35, 0.2, 0.25, 0.82, 0.88, 0.65, 0.45, 0.35, 0.5, 0.55, 0.3, 0.3, 0.5, 0.45, 0.4, 0.37, 0.6, 0.85, 0.9, 0.9, 0.95, 0.52, 0.55, 0.4, 0.65, 0.4, 0.45, 0.75, 0.8])
-	>>> outcomes=np.array([1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0])
+	>>> outcomes=np.array([1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0])
 	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip(probs, outcomes))))
-	-0.8610697622640346
+	-0.8460012842154898
 	>>> np.mean(list(map(lambda x: math.log(x[0]) if x[1]==1 else math.log(1-x[0]), zip([0.5]*50, outcomes))))
 	-0.6931471805599452
 
@@ -741,194 +742,6 @@ of my own experiments:
 
 *—Dschelāladdīn Rūmī, “Am Ende bist du entschwunden”, 1256*
 
-Appendix B: The Code for Analyzing The Caffeine Data
------------------------------------------------------
-
-I realised the code for this wasn't interesting to probably anyone,
-but if you want details, here it is:
-
-###### Meditation
-
-Merging the meditations closest (on the right) to the consumption and
-selecting the individual variables of interest:
-
-	meditations.sort_values("meditation_start", inplace=True)
-	meditations_a=pd.merge_asof(expa, meditations, left_on='datetime', right_on='meditation_start', direction='forward')
-	caffeine_concentration=meditations_a.loc[meditations_a['substance']=='caffeine']['concentration_rating']
-	placebo_concentration=meditations_a.loc[meditations_a['substance']=='sugar']['concentration_rating']
-	caffeine_mindfulness=meditations_a.loc[meditations_a['substance']=='caffeine']['mindfulness_rating']
-	placebo_mindfulness=meditations_a.loc[meditations_a['substance']=='sugar']['mindfulness_rating']
-
-So, does it help?
-
-	>>> (caffeine_concentration.mean()-placebo_concentration.mean())/meditations['concentration_rating'].std()
-	0.6119357868347828
-	>>> (caffeine_mindfulness.mean()-placebo_mindfulness.mean())/meditations['mindfulness_rating'].std()
-	0.575981762563846
-
-Indeed! [Cohen's d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)
-here looks pretty good. Taking caffeine also reduces the variance of
-both variables:
-
-	>>> caffeine_concentration.std()-placebo_concentration.std()
-	-0.0720877290884765
-	>>> caffeine_mindfulness.std()-placebo_mindfulness.std()
-	0.02186797288826836
-
-###### Productivity and Creativity
-
-We repeat the same procedure for the productivity and creativity data:
-
-	prod_a=pd.merge_asof(expa, productivity, left_on='datetime', right_on='datetime', direction='forward')
-	creat_a=pd.merge_asof(expa, creativity, left_on='datetime', right_on='datetime', direction='forward')
-	caffeine_productivity=prod_a.loc[meditations_a['substance']=='caffeine']['productivity']
-	placebo_productivity=prod_a.loc[meditations_a['substance']=='sugar']['productivity']
-	caffeine_creativity=creat_a.loc[meditations_a['substance']=='caffeine']['creativity']
-	placebo_creativity=creat_a.loc[meditations_a['substance']=='sugar']['creativity']
-
-And the result is…
-
-	>>> (caffeine_productivity.mean()-placebo_productivity.mean())/prod_a['productivity'].std()
-	0.5784143673702401
-	>>> (caffeine_creativity.mean()-placebo_creativity.mean())/creat_a['creativity'].std()
-	0.38432393552829164
-
-Again surprisingly good! The creativity values are small enough to be
-a fluke, but the productivity values seem cool.
-
-In this case, though, caffeine *increases* variance in the variables
-(not by very much):
-
-	>>> caffeine_productivity.std()-placebo_productivity.std()
-	0.1139221931098384
-	>>> caffeine_creativity.std()-placebo_creativity.std()
-	0.08619686235791152
-
-###### Mood
-
-Some unimportant pre-processing, in which we filter
-for mood recordings 0-10 hours after caffeine intake, since
-[`pd.merge_asof`](https://devdocs.io/pandas~1/reference/api/pandas.merge_asof)
-doesn't do cartesian product:
-
-	mood_a=expa.join(mood, how='cross')
-	mood_a=mood_a.loc[(mood_a['alarm']-mood_a['datetime']<pd.Timedelta('10h'))&(mood_a['alarm']-mood_a['datetime']>pd.Timedelta('0h'))]
-	caffeine_mood=mood_a.loc[mood_a['substance']=='caffeine']
-	placebo_mood=mood_a.loc[mood_a['substance']=='sugar']
-
-And now the analysis:
-
-	>>> caffeine_mood[['happy', 'content', 'relaxed', 'horny']].describe()
-	           happy    content    relaxed      horny
-	count  88.000000  88.000000  88.000000  88.000000
-	mean   52.193182  51.227273  50.704545  46.568182
-	std     2.396635   2.911441   3.115254   3.117601
-	[…]
-	>>> placebo_mood[['happy', 'content', 'relaxed', 'horny']].describe()
-	           happy    content    relaxed      horny
-	count  73.000000  73.000000  73.000000  73.000000
-	mean   51.575342  50.876712  51.041096  47.000000
-	std     2.101043   2.437811   2.699992   3.009245
-	[…]
-
-Which leads to [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d)
-of ~0.27 for happiness, ~0.13 for contentment, ~-0.11 for relaxation
-and ~-0.14 for horniness.
-
-###### Flashcards
-
-Because Anki stores the intervals of learning flashcards (that is, ones
-that have been answered incorrectly too many times), we have to adjust
-the numbers to reflect that a negative second is not equal to a day.
-
-	flashcards_a=flashcards.loc[(flashcards['id']>expa['datetime'].min()) & (flashcards['id']<expa['datetime'].max()+pd.Timedelta('10h'))]
-	flashcards_a=expa.join(flashcards_a, how='cross', rsuffix='r')
-	flashcards_a=flashcards_a.loc[(flashcards_a['idr']-flashcards_a['datetime']<pd.Timedelta('10h'))&(flashcards_a['idr']-flashcards_a['datetime']
-	>pd.Timedelta('0h'))]
-	flashcards_a.loc[flashcards_a['ivl']>0,'ivl']=-flashcards_a.loc[flashcards_a['ivl']>0,'ivl']/86400
-
-We then again separate into placebo and caffeine:
-
-	placebo_flashcards=flashcards_a.loc[flashcards_a['substance']==placebo]
-	substance_flashcards=flashcards_a.loc[flashcards_a['substance']==substance]
-
-##### Likelihood Ratios
-
-We assume (at first) that the data is [distributed
-normally](https://en.wikipedia.org/wiki/Normal_distribution). Then we
-can define a function for the gaussian likelihood of a distribution
-given some parameters:
-
-	def normal_likelihood(data, mu, std):
-		return np.product(scistat.norm.pdf(data, loc=mu, scale=std))
-
-And now we can compute the likelihood ratio
-`$\frac{\mathcal{L}{θ}}{\mathcal{L}{θ_0}}$` for the null hypothesis
-`$θ_0=\text{MLE}(\mathbf{v}_P)$` for the placebo data `$\mathbf{v}_P$`,
-and also the result of the likelihood ratio test:
-
-	def placebo_likelihood(active, placebo):
-		placebo_mle_lh=normal_likelihood(active, placebo.mean(), placebo.std())
-		active_mle_lh=normal_likelihood(active, active.mean(), active.std())
-		return active_mle_lh/placebo_mle_lh
-
-	def likelihood_ratio_test(lr):
-		return 2*np.log(lr)
-
-And this gives us surprisingly large values:
-
-	>>> placebo_likelihood_ratio(caffeine_concentration, placebo_concentration)
-	776.6147119766716
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_concentration, placebo_concentration))
-	13.309888722406932
-	>> placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness)
-	363.3984201164464
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mindfulness, placebo_mindfulness))
-	11.790999616893938
-	>>> placebo_likelihood_ratio(caffeine_productivity, placebo_productivity)
-	1884090.6347491818
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_productivity, placebo_productivity))
-	28.8979116811553
-	>>> placebo_likelihood_ratio(caffeine_creativity, placebo_creativity)
-	14009015.173307568
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_creativity, placebo_creativity))
-	32.910423242578126
-
-And, if one is interested in p-values, those correspond to (with 2 degrees of freedom each):
-
-	def llrt_pval(lmbda, df=2):
-		return scistat.chi2.cdf(df, lmbda)
-
-	>>> llrt_pval([13.309888722406932,11.790999616893938, 28.8979116811553, 32.910423242578126])
-	array([1.66559304e-04, 7.23739116e-04 ,1.34836408e-12, 5.17222209e-15])
-
-I find these results surprisingly strong, and am still kind of mystified
-why. Surely caffeine isn't *that* reliable!
-
-And, the same, for mood:
-
-	>>> placebo_likelihood_ratio(caffeine_mood['happy'], placebo_mood['happy'])
-	204.81283712162838
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['happy'], placebo_mood['happy']))
-	10.644193144917832
-	>>> placebo_likelihood_ratio(caffeine_mood['content'], placebo_mood['content'])
-	46.08310645632934
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['content'], placebo_mood['content']))
-	7.6608928570645105
-	>>> placebo_likelihood_ratio(caffeine_mood['relaxed'], placebo_mood['relaxed'])
-	12.229945616108525
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['relaxed'], placebo_mood['relaxed']))
-	5.007775005855661
-	>>> placebo_likelihood_ratio(caffeine_mood['horny'], placebo_mood['horny'])
-	2.670139324155222
-	>>> likelihood_ratio_test(placebo_likelihood_ratio(caffeine_mood['horny'], placebo_mood['horny']))
-	1.9642613047646074
-
-And the p-values of those are:
-
-	>>> llrt_pval([10.644193144917832, 7.6608928570645105, 5.007775005855661, 1.9642613047646074])
-	array([0.0020736 , 0.02462515, 0.15015613, 0.63984027])
-
 Appendix C: Full Table
 -----------------------
 
@@ -936,19 +749,19 @@ Appendix C: Full Table
 | --------------------------- | ------------------------------------------- | ----------------------------------- | ------------------------------------ |
 |                             | *200 mg Caffeine (n=1, m=50)*               |   *500 mg L-theanine (n=1, m=50)*   | *25μg Vitamin D₃ (n=1, m=50)*        |
 | Log-score of prediction     | -0.6                                        | -0.7                                | -0.707                               |
-| Absorption                  | <span style="color:rgba(0,180,0,0.95)">0.61</span> (λ≈13.3, p≈0.00017, -0.072, 50)        | <span style="color:rgba(150,150,150,0.65)">0.04</span> (λ≈1.38, p≈0.77, -0.07, 50)   | <span style="color:rgba(255,70,70,0.7)">-0.14</span> (λ≈4.85, p≈0.16, -0.13, 50)             |
-| Mindfulness                 | <span style="color:rgba(0,180,0,0.95)">0.58</span> (λ≈11.8, p≈0.0007, 0.021, 50)          | <span style="color:rgba(100,180,100,0.65)">0.12</span> (λ≈0.72, p≈0.89, -0.018, 50)  | <span style="color:rgba(100,180,100,0.65)">0.16</span> (λ≈0.80, p≈0.88, -0.015, 50)          |
-| Productivity                | <span style="color:rgba(0,180,0,0.95)">0.58</span> (λ≈28.9, p≈1.3<sup>-12</sup>, 0.11, 50)| <span style="color:rgba(230,30,30,0.7)">-0.28</span> (λ≈5.51, p≈0.109, 0.03, 50)     | <span style="color:rgba(150,150,150,0.65)">0.01</span> (λ≈0.77, p≈0.89, 0.02, 50)            |
-| Creativity                  | <span style="color:rgba(0,180,0,0.95)">0.45</span> (λ≈51, p≈4.6<sup>-27</sup>, 0.09, 50)  | <span style="color:rgba(255,70,70,0.7)">-0.12</span> (λ≈5.05, p≈0.14, -0.04, 50)     | <span style="color:rgba(230,30,30,0.7)">-0.27</span> (λ≈3.07, p≈0.41, -0.01, 50)             |
-| Subjective duration         | Not collected                                                                             | <span style="color:rgba(255,100,100,0.65)">-0.015</span> (λ≈0.35, p≈0.95, -0.015, 21)| <span style="color:rgba(255,70,70,0.95)">-0.12</span> (λ≈18.64, p≈5.4<sup>-7</sup>, 0.05, 50)|
-| Happiness                   | <span style="color:rgba(100,180,100,0.85)">0.27</span> (λ≈10.6, p≈0.002, 0.3, 161)        | <span style="color:rgba(100,180,100,0.7)">0.16</span> (λ≈3.98, p≈0.27, -0.155, 201)  | <span style="color:rgba(255,70,70,0.7)">-0.11</span> (λ≈2.45, p≈0.54, -0.23, 159)            |
-| Contentment                 | <span style="color:rgba(100,180,100,0.8)">0.13</span> (λ≈7.66, p≈0.02, 0.47, 161)         | <span style="color:rgba(100,180,100,0.8)">0.25</span> (λ≈6.83, p≈0.04, -0.04, 201)   | <span style="color:rgba(100,180,100,0.65)">0.07</span> (λ≈0.43, p≈0.94, 0.10, 159)           |
-| Relaxation                  | <span style="color:rgba(255,70,70,0.7)">-0.11</span> (λ≈5, p≈0.15, 0.42, 161)             | <span style="color:rgba(100,180,100,0.65)">0.12</span> (λ≈1.5, p≈0.74, 0.02, 201)    | <span style="color:rgba(230,30,30,0.85)">-0.26</span> (λ≈9.32, p≈0.007, 0.42, 159)           |
-| Horniness                   | <span style="color:rgba(255,70,70,0.7)">-0.14</span> (λ≈1.9, p≈0.64, 0.11, 161)           | <span style="color:rgba(255,100,100,0.65)">-0.03</span> (λ≈1.15, p≈0.8, 0.25, 201)   | <span style="color:rgba(255,70,70,0.7)">-0.16</span> (λ≈2.40, p≈0.55, 0.17, 159)             |
-| Flashcard ease              | <span style="color:rgba(150,150,150,0.95)">0.003</span> (λ≈∞, p≈0, -0.009, 10949)         | <span style="color:rgba(255,100,100,0.95)">-0.072</span> (λ≈∞, p≈0, -0.01, 10248)    | <span style="color:rgba(150,150,150,0.95)">0.001</span> (λ≈∞, p≈0, 0.008, 1690)              |
-| Flashcard ease factor       | <span style="color:rgba(255,100,100,0.95)">-0.039</span> (λ≈∞, p≈0, -32.7, 10949)         | <span style="color:rgba(150,150,150,0.95)">0.0026</span> (λ≈∞, p≈0, -18.9, 10248)    | <span style="color:rgba(255,140,140,0.95)">-0.014</span> (λ≈∞, p≈0, -9.0, 1690)              |
-| Flashcard new interval      | <span style="color:rgba(150,180,150,0.95)">0.011</span> (λ≈∞, p≈0, -1.88, 10949)          | <span style="color:rgba(255,140,140,0.95)">-0.016</span> (λ≈∞, p≈0, 3.1, 10248)      | <span style="color:rgba(100,180,100,0.95)">0.069</span> (λ≈∞, p≈0, -11.2, 1690)              |
-| Time per flashcard          | <span style="color:rgba(150,180,150,0.95)">0.006</span> (λ≈∞, p≈0, 273.4, 10949)          | <span style="color:rgba(150,180,150,0.95)">0.003</span> (λ≈∞, p≈0, 13.66, 10248)     | <span style="color:rgba(100,180,100,0.95)">0.054</span> (λ≈∞, p≈0, 812.0, 1690)              |
+| Absorption                  | <span style="color:rgba(0,180,0,0.95)">0.70</span> (λ≈13.3, p≈0.0013, -0.072, 50)         | <span style="color:rgba(150,150,150,0.60)">0.05</span> (λ≈1.38, p≈0.50, -0.068, 50)  | <span style="color:rgba(150,150,150,0.85)">-0.04</span> (λ≈8.35, p≈0.015, -0.181, 50)        |
+| Mindfulness                 | <span style="color:rgba(0,180,0,0.95)">0.64</span> (λ≈11.8, p≈0.0028, 0.022, 50)          | <span style="color:rgba(100,180,100,0.55)">0.15</span> (λ≈0.72, p≈0.70, -0.018, 50)  | <span style="color:rgba(255,70,70,0.52)">-0.11</span> (λ≈0.35, p≈0.84, -0.006, 50)           |
+| Productivity                | <span style="color:rgba(0,180,0,0.95)">0.64</span> (λ≈30.8, p≈2.1e-7, 0.107, 50)          | <span style="color:rgba(255,70,70,0.68)">-0.21</span> (λ≈2.90, p≈0.23, 0.029, 50)    | <span style="color:rgba(150,150,150,0.55)">0.04</span> (λ≈0.75, p≈0.69, 0.019, 50)           |
+| Creativity                  | <span style="color:rgba(0,180,0,0.95)">0.51</span> (λ≈56.3, p≈5.8e-13, 0.098, 50)         | <span style="color:rgba(255,70,70,0.80)">-0.10</span> (λ≈5.25, p≈0.072, -0.044, 50)  | <span style="color:rgba(255,70,70,0.70)">-0.27</span> (λ≈3.27, p≈0.20, -0.016, 50)           |
+| Subjective duration         | Not collected                                                                             | <span style="color:rgba(100,180,100,0.65)">0.12</span> (λ≈1.98, p≈0.37, -0.042, 21)  | <span style="color:rgba(150,150,150,0.95)">-0.08</span> (λ≈20.7, p≈3.2e-5, 0.057, 50)        |
+| Happiness                   | <span style="color:rgba(100,180,100,0.90)">0.26</span> (λ≈10.9, p≈0.0044, 0.304, 180)     | <span style="color:rgba(150,150,150,0.60)">0.03</span> (λ≈1.12, p≈0.57, 0.196, 218)  | <span style="color:rgba(150,150,150,0.70)">0.003</span> (λ≈3.29, p≈0.19, -0.432, 173)        |
+| Contentment                 | <span style="color:rgba(150,150,150,0.55)">0.09</span> (λ≈0.64, p≈0.73, 0.112, 180)       | <span style="color:rgba(150,150,150,0.52)">-0.03</span> (λ≈0.41, p≈0.81, -0.093, 218)| <span style="color:rgba(100,180,100,0.65)">0.18</span> (λ≈1.98, p≈0.37, 0.227, 173)          |
+| Relaxation                  | <span style="color:rgba(150,150,150,0.50)">-0.02</span> (λ≈0.19, p≈0.91, 0.154, 180)      | <span style="color:rgba(150,150,150,0.50)">-0.01</span> (λ≈0.17, p≈0.92, 0.114, 218) | <span style="color:rgba(255,70,70,0.75)">-0.21</span> (λ≈4.85, p≈0.089, 0.409, 173)          |
+| Horniness                   | <span style="color:rgba(255,100,100,0.60)">-0.07</span> (λ≈1.11, p≈0.57, 0.360, 180)      | <span style="color:rgba(150,150,150,0.80)">-0.01</span> (λ≈5.24, p≈0.073, 0.829, 218)| <span style="color:rgba(255,70,70,0.90)">-0.19</span> (λ≈9.42, p≈0.009, 0.796, 173)          |
+| Flashcard ease              | <span style="color:rgba(150,150,150,0.70)">-0.012</span> (λ≈2.98, p≈0.23, -0.026, 10953)  | <span style="color:rgba(255,100,100,0.80)">-0.073</span> (λ≈5.57, p≈0.062, -0.006, 10331) | <span style="color:rgba(150,150,150,0.50)">-0.006</span> (λ≈0, p≈1, 0.003, 1690)         |
+| Flashcard ease factor       | <span style="color:rgba(150,150,150,0.85)">0.001</span> (λ≈7.42, p≈0.024, -30.9, 10953)   | <span style="color:rgba(150,150,150,0.65)">-0.017</span> (λ≈1.78, p≈0.41, -11.5, 10331) | <span style="color:rgba(150,150,150,0.68)">-0.011</span> (λ≈2.58, p≈0.27, -44.1, 1690)   |
+| Flashcard new interval      | <span style="color:rgba(150,150,150,0.75)">0.025</span> (λ≈4.17, p≈0.12, -5.26, 10953)    | <span style="color:rgba(150,150,150,0.55)">-0.011</span> (λ≈0.58, p≈0.75, -2.41, 10331) | <span style="color:rgba(100,180,100,0.83)">0.057</span> (λ≈7.21, p≈0.027, 23.2, 1690)    |
+| Time per flashcard          | <span style="color:rgba(150,150,150,0.75)">-0.003</span> (λ≈4.07, p≈0.13, -651, 10953)    | <span style="color:rgba(150,150,150,0.55)">-0.017</span> (λ≈0.78, p≈0.68, 203, 10331)   | <span style="color:rgba(100,180,100,0.78)">0.081</span> (λ≈5.01, p≈0.082, 912, 1690)     |
 
 [^1]: Higher is better.
 [^2]: Whether higher or lower values are better here is not clear.

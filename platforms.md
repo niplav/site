@@ -207,13 +207,13 @@ with.
 | Value tracked        | [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) | [λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General) | [p](https://en.wikipedia.org/wiki/P-Value) | [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change | [k](https://en.wikipedia.org/wiki/Sample_size) |
 | -------------------- | --- | --- | --- | --- | --- |
 |                      | *Pomodoro method (n=1)* | | | | |
-| Productivity         | <span style="color:rgba(100,180,100,0.75)">0.26</span>  | 5.41 | 0.117 | -0.04 | 54  |
-| Creativity           | <span style="color:rgba(255,100,100,0.55)">-0.13</span> | 0.51 | 0.93  |  0.01 | 54  |
-| Subjective length    | <span style="color:rgba(255,70,70,0.65)">-0.14</span>   | 4.10 | 0.256 |  0.04 | 54  |
-| Happiness            | <span style="color:rgba(150,150,150,0.5)">-0.07</span>  | 0.32 | 0.96  |  0.01 | 111 |
-| Contentment          | <span style="color:rgba(255,100,100,0.55)">-0.13</span> | 1.08 | 0.83  |  0.05 | 111 |
-| Relaxation           | <span style="color:rgba(150,150,150,0.55)">-0.04</span> | 1.23 | 0.80  | -0.25 | 111 |
-| Horniness            | <span style="color:rgba(255,70,70,0.8)">-0.14</span>    | 7.76 | 0.02  |  0.74 | 111 |
+| Productivity         | <span style="color:rgba(100,180,100,0.75)">0.27</span>  | 4.62 | 0.099 | -0.041 | 54  |
+| Creativity           | <span style="color:rgba(255,70,70,0.55)">-0.18</span>   | 0.95 | 0.623 |  0.008 | 54  |
+| Subjective length    | <span style="color:rgba(150,150,150,0.75)">-0.08</span> | 4.01 | 0.135 |  0.041 | 54  |
+| Happiness            | <span style="color:rgba(150,150,150,0.50)">0.006</span> | 0.98 | 0.612 | -0.197 | 111 |
+| Contentment          | <span style="color:rgba(150,150,150,0.65)">-0.10</span> | 1.92 | 0.382 | -0.282 | 111 |
+| Relaxation           | <span style="color:rgba(150,150,150,0.68)">-0.09</span> | 2.45 | 0.294 | -0.370 | 111 |
+| Horniness            | <span style="color:rgba(255,70,70,0.68)">-0.26</span>   | 2.94 | 0.230 |  0.495 | 111 |
 
 *Hue indicates effect size, opacity indicates likelihood ratio (higher opacity = higher λ).*
 
@@ -259,12 +259,36 @@ fishy is going on in my data analysis—possibly a day with duplicated
 data.<!--TODO: fix--> I didn't meditate and mostly didn't do flashcards
 during that time.
 
+<!--TODO: update prose — after pseudoreplication fix: horniness effect (was d=-0.14, p=0.02, now d=-0.26, p=0.44) was spurious; happiness sign flipped (+0.006); productivity/sublen largely unchanged; flashcard rows now NaN (only 2 days of flashcard data during the experiment, m=2, effectively useless)-->
 So the pomodoro method somewhat increases productivity (at the edge of
 statistical significance), and *maybe* decreases subjective length of
 the day a bit. It also decreases horniness a little bit, which I find
 pretty funny[^2].
 
 ### Lumenator
+
+The lumenator RCT ran from 2024-07-02
+until 2026-02-19, using twenty [6000K HZSANUE
+bulbs](https://www.amazon.de/dp/B07CTPQFSY) and four [3500K HZSANUE
+bulbs](https://www.amazon.de/Hzsane-Leuchtmittel-Entspricht-Gl%C3%BChbirnen-Schraube/dp/B07514G8HL)
+(following the advice in [Korzekwa
+2020](https://www.lesswrong.com/posts/7izSBpNJSEXSAbaFh/why-indoor-lighting-is-hard-to-get-right-and-how-to-fix-it)).
+
+At 1350 [lm](https://en.wikipedia.org/wiki/Lumen_(unit))
+each this resulted in 32400 lm total, at
+[CRI](https://en.wikipedia.org/wiki/Color-rendering_index) >85 (not
+*great* but I don't have a huge problem with it). I hung up the bulbs
+on a string light around & above my desk facing so that the light was
+distributed evenly at a distance of 1–2m, in winter that resulted in my
+room being noticeably brighter than the outside, and probably made it look
+like a supervillain's den. I didn't measure the lux at my desk<!--TODO:
+do that-->.
+
+I tracked my [standard variables](./data.html), though was slightly
+inconsistent with some of them, especially flashcard results are to be
+taken with a large grain of salt.
+
+#### Results
 
 | Value tracked         | [d](https://en.wikipedia.org/wiki/Effect_size#Cohen's_d) | [λ](https://en.wikipedia.org/wiki/Likelihood-ratio_test#General) | [p](https://en.wikipedia.org/wiki/P-Value) | [σ](https://en.wikipedia.org/wiki/Standard_Deviation) change | [k](https://en.wikipedia.org/wiki/Sample_size) |
 | --------------------- | --- | --- | --- | --- | --- |
@@ -275,16 +299,49 @@ pretty funny[^2].
 | Creativity            | <span style="color:rgba(150,150,150,0.5)">0.0140</span> |  0.57 | 0.921 |    0.014 |  50 |
 | Subjective duration   | <span style="color:rgba(0,180,0,0.9)">0.5061</span>     | 10.28 | 0.003 |    0.031 |  50 |
 | Meaning               | <span style="color:rgba(150,150,150,0.4)">0.0358</span> | 0.140 | 0.984 |    0.02  |  22 |
-| Happiness             | <span style="color:rgba(0,180,0,0.95)">0.5518</span>    | 31.00 | 0.000 |   -0.244 | 198 |
-| Contentment           | <span style="color:rgba(0,180,0,0.9)">0.3823</span>     | 15.64 | 0.000 |   -0.350 | 198 |
-| Relaxation            | <span style="color:rgba(0,180,0,0.95)">0.4046</span>    | 28.39 | 0.000 |    0.545 | 198 |
-| Horniness             | <span style="color:rgba(100,180,100,0.8)">0.2238</span> |  7.67 | 0.025 |   -0.450 | 198 |
-| Flashcard ease        | <span style="color:rgba(100,180,100,0.6)">0.1079</span> |  2.55 | 0.516 |   -0.067 | 295 |
-| Flashcard ease factor | <span style="color:rgba(0,180,0,0.95)">0.5192</span>    | 43.90 | 0.000 | -232.288 | 295 |
-| Flashcard new interval| <span style="color:rgba(255,70,70,0.7)">-0.1511</span>  |  4.64 | 0.186 |   29.127 | 295 |
-| Time per flashcard    | <span style="color:rgba(150,150,150,0.55)">-0.0449</span>|  0.42 | 0.945 |  577.413 | 295 |
+| Happiness             | <span style="color:rgba(0,180,0,0.95)">0.679</span>     | 31.23 | 1.7e-7 |  -0.745 | 198 |
+| Contentment           | <span style="color:rgba(0,180,0,0.95)">0.501</span>     | 16.30 | 2.9e-4 |  -0.231 | 198 |
+| Relaxation            | <span style="color:rgba(0,180,0,0.95)">0.499</span>     | 28.08 | 8.0e-7 |   0.144 | 198 |
+| Horniness             | <span style="color:rgba(100,180,100,0.65)">0.300</span> |  4.55 | 0.103  |  -0.571 | 198 |
+| Flashcard ease        | <span style="color:rgba(150,150,150,0.50)">0.023</span> |   0   | 1      |   0.026 | 295 |
+| Flashcard ease factor | <span style="color:rgba(100,180,100,0.70)">0.400</span> |  3.42 | 0.181  |  52.481 | 295 |
+| Flashcard new interval| <span style="color:rgba(150,150,150,0.68)">-0.071</span>|  2.74 | 0.254  |  30.769 | 295 |
+| Time per flashcard    | <span style="color:rgba(150,150,150,0.68)">-0.050</span>|  2.77 | 0.250  | -930.400| 295 |
 
 *Hue indicates effect size, opacity indicates likelihood ratio (higher opacity = higher λ).*
+
+<!--TODO: also add Bonferroni-corrected p-/λ-values?-->
+
+<!--TODO: update prose — after pseudoreplication fix: happiness d increased to 0.68 (stronger!), contentment 0.50, relaxation 0.50, all still p≈0; horniness was p=0.025 (spurious), now d=0.30 p=0.196 (not significant); flashcard ease factor d dropped from 0.52/p≈0 to 0.40/p=0.35 (spurious); flashcard ease NaN (numerical issue with m=9 days of data)-->
+Most stark are the results on multiple subjective values, especlly
+happiness which is the most commonly-talked-about endpoint,
+yielding d≥0.5 in improvement. Improvements in contentment &
+relaxation similarly are pleasant surprises, though these are
+pretty correlated in my dataset and come apart only when [taking
+caffeine](./nootropics.html#Summary_Statistics). The slight increase in
+horniness is probably correlated with a feeling of "vitality", but it's
+not a huge effect and can probably be ignored.
+
+End-of-day metrics like the retrospective subjective length of the day
+being increased is also pretty cool, and I'm surprised retrospective
+meaning didn't get affected at all (perhaps due to only being measured
+half of all the days because I started collecting it only mid 2025).
+
+A big surprise is the lack of a statistically significant increase in
+productivity, it's a metric people commonly report as having increased
+after getting their lumenator. (Productivity assessment over the day is
+somewhat hazardous, I could cross-check with my number of hours worked,
+though I have a smaller sample size for that.)
+
+The meditation results are *curious*, I don't know what exactly to
+make of them. Mindfulness having such a large decrease feels confusing
+(absorption isn't really statistically significant but still worth
+keeping an eye out for).
+
+Flashcard data is a wash due to a small number of days on which I actually
+*did* flashcards (nine days in total), the effect size is likely due to
+[pseudoreplication](https://en.wikipedia.org/wiki/Pseudoreplication)<!--TODO:
+fix-->.
 
 ![](./img/lumenator/lumenator_results.png)
 

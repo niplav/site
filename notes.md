@@ -3619,6 +3619,57 @@ cooperate.
 
 [^dupoc]: "DUPOC"≝"defect unless proof of cooperation".
 
+List of Decision Theory Dilemmas
+---------------------------------
+
+* [Newcomb's Problem](https://en.wikipedia.org/wiki/Newcomb's_Problem)
+
+> There is a reliable predictor, another player, and two boxes designated A and B. The player is given a choice between taking only box B or taking both boxes A and B. The player knows the following:
+>
+> * Box A is transparent and always contains a visible $1,000.
+> * Box B is opaque, and its content has already been set by the predictor:
+> 	* If the predictor has predicted that the player will take both boxes A and B, then box B contains nothing.
+> 	* If the predictor has predicted that the player will take only box B, then box B contains $1,000,000.
+> The player does not know what the predictor predicted or what box B contains while making the choice.
+
+* Transparent Newcomb's Problem
+
+* [Meta-Newcomb Problem](https://en.wikipedia.org/wiki/Newcomb's_Problem#The_meta-Newcomb_problem)
+
+> The setup of this problem is similar to the original Newcomb
+problem. However, the twist here is that the predictor may elect to
+decide whether to fill box B after the player has made a choice, and the
+player does not know whether box B has already been filled. There is also
+another predictor: a "meta-predictor" who has reliably predicted both the
+players and the predictor in the past, and who predicts the following:
+"Either you will choose both boxes, and the predictor will make its
+decision after you, or you will choose only box B, and the predictor
+will already have made its decision."
+
+* [Kavka's Toxin Puzzle](https://en.wikipedia.org/wiki/Kavka's_toxin_puzzle)
+
+> An eccentric billionaire places before you a vial of toxin that,
+if you drink it, will make you painfully ill for a day, but will not
+threaten your life or have any lasting effects. The billionaire will
+pay you one million dollars tomorrow morning if, at midnight tonight,
+you intend to drink the toxin tomorrow afternoon. He emphasizes that you
+need not drink the toxin to receive the money; in fact, the money will
+already be in your bank account hours before the time for drinking it
+arrives, if you succeed. All you have to do is ... intend at midnight
+tonight to drink the stuff tomorrow afternoon. You are perfectly free
+to change your mind after receiving the money and not drink the toxin.
+
+* Smoking Lesion
+* Parfit's Hitchhiker
+* Twin Prisoner's Dilemma
+* Death in Damascus
+* Counterfactual Mugging
+* XOR Blackmail
+* Bomb
+* Counterlogical Mugging
+* XOR Logical Mugging
+
+<!--
 Reversible Minds
 -----------------
 
@@ -3651,6 +3702,7 @@ Do reversible minds matter? How much?
 ### Implications
 
 Pure altruism in running reversible minds
+-->
 
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------

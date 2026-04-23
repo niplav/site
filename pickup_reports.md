@@ -380,7 +380,9 @@ We get a tea (I pay), sit down and start talking. She is from Ukraine
 (came in early 2022), currently unemployed and ¿lives with her
 mother? iirc.
 
-[^same]: Neither do I actually.
+<!--me buying her some tea, her telling me that she has some long-term injury on her knee, which I use as an excuse to gently feel, talking about exercise (she tells me she's done ballet, gets up and does a spin (green light!)). I ask her about her job, it's unclear to me if she's recently done a weekend of modeling (I manage to not look impressed/not understand her) or is actually a software engineer. The café closes at 20:00, I think about (and verbalize) going to a bar with her, but am too chicken to actually do it (I remember now, half a year later, that she was vaguely positive about the idea, and smiling). I instead tell her I'll head to the gym and attempt a skip connection for the following day. The next evening she texts me, she cancels our date. Pain. I'm a buffoon.-->
+
+[^same]: Neither do I, actually, but the word "coffee" has the right connotations.
 
 #### Miss Pulling Doesn't Get Away
 
