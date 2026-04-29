@@ -17,6 +17,19 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Do The Real Thing (Scott Young, 2020)](https://www.scotthyoung.com/blog/2020/05/04/do-the-real-thing/)
+* [The Secret of the Machines (Rudyard Kipling, 1911)](https://www.poetryfoundation.org/poems/46786/the-secret-of-the-machines)
+* [Artificial Intelligence (Adrienne Rich, 1961)](http://www.autodidactproject.org/other/Artificial_Intelligence_Rich_A.html)
+* Die schlesischen Weber (Heinrich Heine, 1845)
+* [The machines are fine. I'm worried about us. (Minas Karamanis, 2026)](https://ergosphere.blog/posts/the-machines-are-fine/)
+* [Transparent Newcomb's Problem (Eliezer Yudkowsky/Eric B/Rauno Arike, 2016)](https://www.lesswrong.com/w/transparent-newcomb-s-problem)
+* |51 AI Safety Governance Framework 2.0 (National Technical Committee 260 on Cybersecurity of SAC/National Computer Network Emergency Response Technical Team & Coordination Center of China, 2025)
+* [Infinitesimally False (Adrià Garriga-alonso/Abram Demski, 2025)](https://www.lesswrong.com/posts/j3Cv94eEZTDFiLREW/infinitesimally-false)
+* [Our evaluation of Claude Mythos Preview’s cyber capabilities (UK AI Security Institute, 2026)](https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities)
+* [Comment on “Cyborgism” (Flipnash, 2023)](https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism?commentId=wjqLzcDxbz89b8zBK)
+* [Core EA principles (Centre for Effective Altruism, 2026)](https://www.centreforeffectivealtruism.org/core-principles)
+* [SCP-426 (Flah, 2025)](https://scp-wiki.wikidot.com/scp-426)
+* [An overview of control measures (Ryan Greenblatt, 2025)](https://blog.redwoodresearch.org/p/an-overview-of-control-measures)
 * [Intrinsic Power-Seeking: AI Might Seek Power for Power's Sake (TurnTrout, 2025)](https://turntrout.com/dangers-of-intrinsic-power-seeking)
 * [shortform on terminal power-seeking (evhub, 2026)](https://www.lesswrong.com/posts/HE3Styo9vpk7m8zi4/evhub-s-shortform?commentId=42BAmYJXHYPcCJiHd)
 * [Cyborgism (NicholasKees/janus, 2023)](https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism)
