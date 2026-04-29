@@ -3632,7 +3632,16 @@ List of Decision Theory Dilemmas
 > 	* If the predictor has predicted that the player will take only box B, then box B contains $1,000,000.
 > The player does not know what the predictor predicted or what box B contains while making the choice.
 
-* Transparent Newcomb's Problem
+* [Transparent Newcomb's Problem](https://www.lesswrong.com/w/transparent-newcomb-s-problem)
+
+> Omega has presented you with the following dilemma:
+>
+* There are two boxes before you, Box A and Box B.
+* You can either take both boxes ("two-box"), or take only Box B ("one-box").
+* Box A is transparent and contains $1,000.
+* Box B is also transparent and contains either $1,000,000 or $0.
+* Omega has already put $1,000,000 into Box B if and only if Omega predicts that you will one-box when faced with a visibly full Box B.
+* Omega has been right in a couple of dozen games so far, but not a thousand games, and Omega could be wrong next time given our current knowledge. We may alternatively suppose that Omega is right 99%, but not 99.9%, of the time.
 
 * [Meta-Newcomb Problem](https://en.wikipedia.org/wiki/Newcomb's_Problem#The_meta-Newcomb_problem)
 
@@ -3669,7 +3678,6 @@ to change your mind after receiving the money and not drink the toxin.
 * Counterlogical Mugging
 * XOR Logical Mugging
 
-<!--
 Reversible Minds
 -----------------
 
@@ -3702,7 +3710,6 @@ Do reversible minds matter? How much?
 ### Implications
 
 Pure altruism in running reversible minds
--->
 
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
