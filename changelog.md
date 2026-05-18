@@ -26,6 +26,22 @@ content.
 April 2026
 ----------
 
+* Claude 4.6 Sonnet found some bugs in my data analysis code. The numbers have been updated where applicable, the prose hasn't, see [here]()<!--TODO: link to LW comment--> for an overview of the changes.
+* Notes:
+	* [List of Decision Theory Dilemmas](./notes.html#List_of_Decision_Theory_Dilemmas)
+
+### Links
+
+* [Cyborgism (NicholasKees/janus, 2023)](https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism)
+* [Core EA principles (Centre for Effective Altruism, 2026)](https://www.centreforeffectivealtruism.org/core-principles)
+* [Infinitesimally False (Adrià Garriga-alonso/Abram Demski, 2025)](https://www.lesswrong.com/posts/j3Cv94eEZTDFiLREW/infinitesimally-false)
+* Some singularity poetry:
+	* [Hyperions Schicksalslied (Friedrich Hölderlin, 1797)](https://www.textlog.de/17824.html)
+	* [Die schlesischen Weber (Heinrich Heine, 1845)](https://www.deutschelyrik.de/die-schlesischen-weber.407.html)
+	* [The Secret of the Machines (Rudyard Kipling, 1911)](https://www.poetryfoundation.org/poems/46786/the-secret-of-the-machines)
+	* [Artificial Intelligence (Adrienne Rich, 1961)](http://www.autodidactproject.org/other/Artificial_Intelligence_Rich_A.html)
+	* [Meltdown (Nick Land, 1995)](http://www.ccru.net/swarm1/1_melt.htm)
+
 March 2026
 -----------
 

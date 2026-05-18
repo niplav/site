@@ -18,10 +18,11 @@ Meditation Retreats
 - My experience
 	- Big emotional processes/processing steps (two IIRC)
 		- Changed attachment style away from avoidant
-	- Crossed the A&P (lots of very strong absorption with much focus, followed by a very bright yellow-white & *loud* sensation with lots of energy rising up in the body, accumulating below the top of the skull)
+	- Likely crossed the A&P (lots of very strong absorption with much focus, followed by a very bright yellow-white & *loud* sensation with lots of energy rising up in the body, accumulating below the top of the skull)
 	- Saw tanha, I think?
 		- Like not *saw* saw, I didn't have a path moment, but there was something very clearly fast/grabby/suffering-inducing that my mind was involved in when it was *doing* stuff.
-	- If there were dukkha-ñanas they were really mild
+		- It's kind of disgusting, feels almost insectoid/parasitic. Much ew.
+	- If there were dukkha-ñanas they were quite mild
 - Mice in the attic that one can hear in the meditation hall, it's kinda cute
 - Now stomach aches and churns while meditating
 	- Maybe just more awareness of sensations from the stomach
@@ -34,7 +35,7 @@ Meditation Retreats
 	- They tell you some quite strict rules at the beginning, then don't supervise at all.
 		- E.g. white clothes, right leg on left leg, right hand in left hand, prostating before the small altar before/after each meditation session…
 - Meditation style:
-	- Half walking meditation! It's great!
+	- Half the time was spent on walking meditation! It's great!
 	- Sitting meditation:
 		- Simple labeling, some light bodyscanning
 		- Balances absorption and insight quite well imho
@@ -291,7 +292,7 @@ the AIs values" and "democracy" and "social solutions", and the
 Finally: Who *the hell* decided this was a good way to do endnotes? In
 general the best policy is to [under no circumstances use endnotes, *ever*,
 __why__](https://entirelyuseless.com/2015/07/11/are-hyperlinks-a-bad-idea/).
-But WWOTF makes it 10x worse: I usually read endnotes,
+But WWOTF makes it 10× worse: I usually read endnotes,
 because I'm unusually curious and bad at priorization,
 but WWOTF only has ~25% substantive endnotes, with the rest
 being just incomplete references (which can be accessed on [the
@@ -504,7 +505,7 @@ Fact density: Extreme. Outstanding for that.
 
 Read this as part of a [comprehensive information
 gathering](https://www.lesswrong.com/posts/9LXxgXySTFsnookkw/exercises-in-comprehensive-information-gathering).
-Good here too, but so dry that it sometimes feels like fucking a skeleton.
+Good there, but so dry that it sometimes felt like fucking a skeleton.
 
 Uses sigmoid curve-fitting far too much: They can't be relied upon
 for prediction, [especially if the inflection point is not in the data
@@ -599,15 +600,24 @@ Grand Futures is *full* of those, a caravan of joyful estimates, robed in
 strange units and gnarly little sentences that I often had to double-take
 on to make sure they weren't typos.
 
-I learned about the Penrose process, the Azolla event, galactic
-superwinds, the Collingridge dilemma, trinitite, ramjet bussards, the
-fact that general relativity doesn't respect conservation of energy
-(though, the book explains (in detail), likely without an option for
-anyone to exploit), neutrino stars & Wigner crystals, hydroponics
-and the Hoagland-Arnon solution, physical limits to everything
-(storage, computation, self-replication, braking, moving objects, beam
-focussing…)… Thus, it's recommended to read the book with a copy of
-the Wikipedia open by the side.
+I learned about the [Penrose
+process](https://en.wikipedia.org/wiki/Penrose_Process), the [Azolla
+event](https://en.wikipedia.org/wiki/Azolla_Event), [galactic
+superwinds](https://en.wikipedia.org/wiki/Galactic_superwind),
+the [Collingridge
+dilemma](https://en.wikipedia.org/wiki/Collingridge_dilemma),
+[trinitite](https://en.wikipedia.org/wiki/Trinitite), [bussards
+ramjets](https://en.wikipedia.org/wiki/Bussard_Ramjet), the
+fact that general relativity doesn't respect conservation of
+energy (though, the book explains (in detail), likely without
+an option for anyone to exploit), neutrino stars & [Wigner
+crystals](https://en.wikipedia.org/wiki/Wigner_crystal),
+[hydroponics](https://en.wikipedia.org/wiki/Hydroponics)
+and the [Hoagland-Arnon
+solution](https://en.wikipedia.org/wiki/Hoagland-Arnon_solution),
+physical limits to everything (storage, computation, self-replication,
+braking, moving objects, beam focussing…)… Thus, it's recommended
+to read the book with a copy of the Wikipedia open by the side.
 
 Around section 10 the book picks up in mathematical difficulty, I had to
 take a stop to gather my strength and scale that part, it does reward,
@@ -721,6 +731,9 @@ Prise die Leserschaft um 15% senkt. Keine Fuß- und Endnoten.
 
 ### The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)
 
+<!--TODO: Talk about the aboriginals like Erlikilyika (though not that
+one himself) who enabled this research, and who weren't credited-->
+
 I read all of William Buckner's blog [Traditions
 of Conflict](https://traditionsofconflict.com/)
 ([substack](https://traditionsofconflict.substack.com/)), and saw him
@@ -737,9 +750,10 @@ years (except for [some mild cultural, genetic and fauna inflow 4k years
 ago](https://en.wikipedia.org/wiki/History_of_Indigenous_Australians#Changes_around_4,000_years_ago)),
 so it's a different experiment in culture-formation.
 
-I liked the book, though I feel like the focus a bit much on ritual
-proceedings and less on the statistics of everyday life, which would
-interest me more:
+Sure, I liked this book, though it was focussed too much bit much on
+ritual proceedings (sometimes resulting in a slog) and not enough on the
+statistics of everyday life, which would have interested me more. A few
+questions whose answers would've interested me:
 
 How often do aboriginals eat? How much? How varied? How long are periods
 of starvation or thirst, how much food is there in time of plenty? (Food
@@ -777,7 +791,7 @@ Things that stood out about the aboriginals (highlighting not in the original te
 * A person was mostly not allowed to eat from their totem animal[^animal]
 	* *Commentary*: This makes me wonder if food taboos are a way of implementing [Ostromian](https://en.wikipedia.org/wiki/Elinor_Ostrom) [common-pool resources](https://en.wikipedia.org/wiki/Common_pool_good), though it doesn't *quite* fit this case.
 
-<!--TODO: Bold more-->
+<!--TODO: Bold more?-->
 [^nocebo]: p. 537/538: "In addition to procuring death by giving an enemy a bone or stick it is a very common thing to charm a spear by singing over it. Any bone, stick, spear &c, which has thus been “sung” is supposed to be endowed with what the natives call *Arungquiltha*, that is magical poisonous properties, and **any native who believes that he has been struck by, say, a charmed spear is almost sure to die whether the would be slight or severe** unless he be saved by the counter magic of a medicine man. There is no doubt whatever that a native will die after the infliction of even a most superficial wound if only he believes that the weapon which inflicted the woulnd had been sung over and thus endowed with *Arungquiltha*. He simply lies down, refuses food and pines away. Not long ago a man from Barrow Creek received a slight wound in the groin. Though there was apparently nothing serious the matter with him, still he persisted in saying that the spear had been charmed and that he must die, which accordingly he did in the course of a few days. Another man coming down to the Alice Springs from the Tennant Creek contracted a slight cold, but the local men told him that the members of a group about twelve miles away to the east had taken his heart out, and believeing this to be so he simply laid himself down and wasted away. In a similar way a man at Charlotte Waters came to one of the authors with a slight spear woulnd in his back. He was assured that the wound was not serious, and it was dressed in the usual way, but he persisted in saying that the spear had been sung, and that though it could not be seen yet in reality it had broken his back and he was going to die, which accordingly he did. As a result of this a party was organized among the members of his group to avenge his death, and the man who had wounded him with the charmed weapon was killed. Instances of occurrences such as these could be multiplied, and though of course it is impossible to prove that death would not have followed under any circumstances, that is whether the native had or had not imagined the weapon to have been “sung,” yet with a knowledge of what wounds and what injuries he will survive if he does not suspect the intervention of magic, it is not possible to explain death under such circumstances except as associated directly with the firm belief of the injured man that *Arungquiltha* has entered his body, and that therefore he must die."
 [^wife]: p. 554: "The use of these objects is a well recognised method of obtaining wives, as is shown by the fact that a man's right to a woman, secured by means of one or other of them, is supported by the men of his local group, provided always that the woman stands to the man in the relationship of *Unawa* or lawful wife."
 [^tracking]: p. 483: "As to the question of tracking, the idea which has been generally held, that the shoes are used to prevent the tracks being seen will not be regarded as at all satisfactory by those who are acquainted with the remarkable power of the Australian native in this respect. They will neither hide the track nor, though they are shaped alike at each end, will they even suffice to prevent any native who cares to look from seeing at a glance which direction the wearer has come from, or gone towards. **Any even moderately experienced native will, without the slighest difficulty, tell from the faintest track—from an upturned stone, a down-bent piece of grass or a twig of shrub—not only that some one has passed by but also the direction in which he has travelled**. The only way in which they can be of use in hiding tracks is by preventing it from being recognised who was the particular individual, and in this way they might be of service, for when **once an experienced native—almost incredible though it may sound to those who have not had the opportunity of watching them —has seen the track of a man or woman he will distinguish it afterwards from that of any other individual of his acquaintance**."

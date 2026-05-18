@@ -312,6 +312,7 @@ See Also
 * [GPT-5 on this post](./outputs/mugging_feedback.html), some complaints already fixed.
 
 <!--https://claude.ai/chat/1e8ba86b-bf92-4f55-a7c8-fe5dac3d8cff-->
+<!--https://openrouter.ai/chat?room=orc-1778204194-ufjaGyqd53yOrhN8YMjM-->
 
 Appendix A: The Pure Speed Prior
 ---------------------------------

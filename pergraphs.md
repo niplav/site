@@ -359,6 +359,11 @@ sheet is a bit like a torus, lossily. (Are rhizomes just particular spaces??)
 
 Every edge has 1 sink, 1 source, n incomers, n outgoers.
 
+Definition of transitive closure of a pergraph, are there "exploding
+pergraphs" which grow infinitely under transitive closure?
+
+The adjacency/incidence tensor of a pergraph? Is a |p|×|p|×|p+1| tensor?
+
 ### Counting
 
 Unlabeled pergraphs are counted up to isomorphism for renamings of
