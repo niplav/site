@@ -143,13 +143,27 @@ one into an [Oldowan tool](https://en.wikipedia.org/wiki/Oldowan).
 
 <!--TODO: image-->
 
+![](./img/golden/oldowan.jpg)
+
+![](./img/golden/gebel-el-arak_knife.jpg)
+
+![](./img/golden/hindsgavl_daggers.jpg)
+
+![](./img/golden/eccentric_flint.jpg)
+
 ### Tracking
 
 ### Coding
 
+[The Story of Mel (Ed Nather, 1983)](http://www.catb.org/jargon/html/story-of-mel.html)
+
 ### The Loss of Craft
 
+![](./img/golden/blast_furnace.jpg)
+
 #### Cope
+
+There is no good replacement word for "cope", truly an incredible invention.
 
 Purpose
 --------

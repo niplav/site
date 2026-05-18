@@ -20,7 +20,7 @@ accuracy](./range_and_forecasting_accuracy.html), and a literature
 review on [transfer learning in humans](./transfer.html). See also my
 [track records](./about.html#Track_Records).
 
-<!--TODO: add Raymond feedback. Ask Yagudin & Leech?-->
+<!--TODO: add Raymond feedback. Ask Yagudin & Leech? Raj?-->
 
 ### Rates
 
@@ -34,6 +34,9 @@ splitting the difference in bids[^1]:
 * We both reveal `$r_{\text{min}}$` and `$r_{\text{max}}$`, either first through [hashsums](https://en.wikipedia.org/wiki/Hash_sum) of the numbers (with random text appended) and then the cleartext, or simply at the same time.
 	* If `$r_{\text{max}} \ge r_{\text{min}}$`, then my rate is `$\frac{r_{\text{max}}+r_{\text{min}}}{2}$` (i.e. the [mean](https://en.wikipedia.org/wiki/Mean) of the two bids).
 	* If `$r_{\text{max}}<r_{\text{min}}$`, then no agreement takes place and we fall back to our [BATNA](https://en.wikipedia.org/wiki/BATNA)s.
+
+<!--TODO: this version but with sampling? Add disproof of
+incentive-comaptibility?-->
 
 <!--My past rates are available [here](#Past_Rates).-->
 

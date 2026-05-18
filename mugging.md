@@ -125,7 +125,7 @@ in program length.
 
 I don't know if this is the only way of formalizing Pascal's mugging.
 
-### Mugging Immunity
+### Mugging Immunity via Diminishing Utility
 
 __Summary__: We can circumvent Pascal's mugging by having utilities grow
 *extremely slowly* in whatever goods we are presented with, almost as
@@ -177,7 +177,7 @@ but grow somewhat faster (e.g. by not first writing the pseudo-numéraire
 and then copying, but doing something more complex and interleaved.) But
 the result is "spiritually correct".
 
-### Multiple Numéraires
+#### Multiple Numéraires
 
 One issue that may come up is that a muggee has multiple
 pseudo-numéraires. I'm pretty sure that a small number of
@@ -225,7 +225,7 @@ constants are selected right.
 But I don't have a great intuition for when that kind of constant-picking
 is possible and when it isn't; we may be stuck.
 
-#### The Need for Speed
+### Mugging Immunity via Modifying the Prior
 
 <!--TODO: Instead switch to explaining the leverage penalty here-->
 
@@ -289,6 +289,10 @@ saves you from this type of copying Pascal's mugging.
 I imagine an extremely advanced agent coming into existence, doing some
 mathematics, and then *modifying its prior* based on pure mathematical
 reasoning.
+
+### Mugging Immunity via Restricting the Hypothesis Class
+
+### Trading Off Different Types of Muging Immunity
 
 Acknowledgements
 -----------------
