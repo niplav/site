@@ -17,6 +17,12 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [2015 Longitudinal Study (Dan Keys, 2016)](https://rationality.org/studies/2015-longitudinal-study)
+* [Pythia (plex, 2025)](https://www.lesswrong.com/posts/qqEndN5Cuzbat9fyx/entity-review-pythia)
+* [Review of the "Risks from automated R&D" section in the Anthropic Risk Report (February 2026) (Nikola Jurkovic/Beth Barnes/Hjalmar Wijk, 2026)](https://metr.org/blog/2026-05-08-rd-section-anthropic-risk-report-feb-2026-review/)
+* [Scaling Materials Discovery with Self-Driving Labs (Charles Yang, 2025)](https://ifp.org/scaling-materials-discovery-with-self-driving-labs/)
+* [Will Space Colonization Multiply Wild-Animal Suffering? (Brian Tomasik, 2018)](https://reducing-suffering.org/will-space-colonization-multiply-wild-animal-suffering/)
+* [Wilson (Daniel Clowes, 2010)](https://en.wikipedia.org/wiki/Wilson_(comics))
 * [Do The Real Thing (Scott Young, 2020)](https://www.scotthyoung.com/blog/2020/05/04/do-the-real-thing/)
 * [The Secret of the Machines (Rudyard Kipling, 1911)](https://www.poetryfoundation.org/poems/46786/the-secret-of-the-machines)
 * [Artificial Intelligence (Adrienne Rich, 1961)](http://www.autodidactproject.org/other/Artificial_Intelligence_Rich_A.html)
