@@ -17,16 +17,6 @@ Text Reviews
 Book Reviews
 ------------
 
-<!--
-### Designing Data-Intensive Applications (Martin Kleppmann, 2017)
-### Die Drei Sonnen (Cixin Liu, 2006)
-### World War Z (Max Brooks, 2006)
-### Avoiding the Worst (Tobias Baumann, 2022)
-### Die Insel der Tausend Leuchttürme (Walter Moers, 2024)
-### Schild's Ladder (Greg Egan, 2004)
-### Bombay. Maximum City (Suketu Mehta, 2005)
--->
-
 ### Compassion, by the Pound (F. Bailey Norwood/Jayson L. Lusk, 2011)
 
 Moved [here](./reviews.html#Compassion_by_the_Pound_F_Bailey_NorwoodJayson_L_Lusk_2011).
@@ -93,14 +83,3 @@ Moved [here](./reviews.html#2019).
 ### 2020
 
 Moved [here](./reviews.html#2020).
-
-<!--TODO: import 2022 & 2023 reviews-->
-
-<!--
-See Also
----------
-
-* Gwern's Reviews
-* Gavin Leech's Reviews
-* Yudhister Kumar's Reviews
--->

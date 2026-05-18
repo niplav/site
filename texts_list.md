@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-12-24, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2025-04-30, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -44,7 +44,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Introduction (Benjamin Treynor Sloss/Betsy Beyer, 2016)
 * Foreword (Mark Burgess, 2016)
 * \* Site Reliability Engineering (Betsy Beyer/Chris Jones/Jennifer Petoff/Niall Richard Murphy, 2016)
-* \* Vom Licht des Krieges zur Geburt der Geschichte (Michel Foucault, 1986)
+* Vom Licht des Krieges zur Geburt der Geschichte (Michel Foucault, 1986)
 * Für Christian von Mechel (Friedrich Schiller, 1805)
 * Scharade (Friedrich Schiller, 1804)
 * Für August Wilhelm Iffland (Friedrich Schiller, 1804)
@@ -118,7 +118,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [I underestimated AI capabilities (again) (Ajeya Cotra, 2026)](https://www.planned-obsolescence.org/p/i-underestimated-ai-capabilities)
 * [Recent Frontier Models Are Reward Hacking (Sydney Von Arx/Lawrence Chan/Elizabeth Barnes, 2025)](https://metr.org/blog/2025-06-05-recent-reward-hacking/)
 * [How to mitigate sandbagging (Teun van der Weij, 2025)](https://www.lesswrong.com/posts/Qv5PkrJYAaiBuEJjB/how-to-mitigate-sandbagging-1)
-* \* Red Heart (Max Harms, 2025)
+* Red Heart (Max Harms, 2025)
 * [Comment on “Does Agent-like Behavior Imply Agent-like Architecture?” (Jesse Richardson, 2023)](https://www.lesswrong.com/posts/osxNg6yBCJ4ur9hpi/does-agent-like-behavior-imply-agent-like-architecture?commentId=g6JtHopibkQYmamdv)
 * [Comment on “Does Agent-like Behavior Imply Agent-like Architecture?” (Pattern, 2019)](https://www.lesswrong.com/posts/osxNg6yBCJ4ur9hpi/does-agent-like-behavior-imply-agent-like-architecture?commentId=kNfKLieA46o9CeMxA)
 * [Comment on “Does Agent-like Behavior Imply Agent-like Architecture?” (Scott Garrabrant, 2019)](https://www.lesswrong.com/posts/osxNg6yBCJ4ur9hpi/does-agent-like-behavior-imply-agent-like-architecture?commentId=zmzchvaq6WtbbmxDp)
@@ -150,7 +150,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Category:English LLM coinages (English Wiktionary, 2025)](https://en.wiktionary.org/wiki/Category:English_LLM_coinages)
 * [Predeployment Interview Excerpt — Jan 12, 2029 (Brangus, 2026)](https://ratorthodox.substack.com/p/predeployment-interview-excerpt-jan)
 * [Nenex: A Neural Personal Wiki Idea (Gwern Branwen, 2023)](https://gwern.net/nenex)
-* |15 The 2025 Peregrine Report (Maximilian Schons/Samuel Härgestam/Gavin Leech/Raymound Bermejo, 2025)
+* * The 2025 Peregrine Report (Maximilian Schons/Samuel Härgestam/Gavin Leech/Raymound Bermejo, 2025)
 * [How relevant is wild intelligence to the future? (Croissanthology, 2026)](https://croissanthology.substack.com/p/how-relevant-is-wild-intelligence)
 * [Julia (Fernando Boretti, 2026)](https://borretti.me/fiction/julia)
 * [An update on our child safety efforts and commitments (Susan Jasper, 2024)](https://blog.google/innovation-and-ai/technology/safety-security/an-update-on-our-child-safety-efforts-and-commitments/)
@@ -171,7 +171,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Comment on “What's the Elo rating of optimal chess?” (cosmobobak, 2025)](https://www.lesswrong.com/posts/i7JSL5awGFcSRhyGF/shortform-2?commentId=5AvkB65BSZdtsH4sC)
 * [What's the Elo rating of optimal chess? (Cleo Nardo, 2025)](https://www.lesswrong.com/posts/i7JSL5awGFcSRhyGF/shortform-2?commentId=3JumkCBbKfLtgQZYu)
 * |5 PropensityBench: Evaluating Latent Safety Risks in Large Language Models via an Agentic Approach (Udari Madhushani Sehwag/Shayan Shabihi/Alex McAvoy/Vikash Sehwag/Yuancheng Xu/Dalton Towers/Furong Huang, 2025)
-* \* Permutation City (Greg Egan, 1994)
+* Permutation City (Greg Egan, 1994)
 * [2025 LLM Year in Review (Andrej Karpathy, 2025)](https://karpathy.bearblog.dev/year-in-review-2025/)
 * [Forum poweruser forum (Tsvi Benson-Tilsen, 2025)](https://tsvibt.blogspot.com/2025/11/forum-poweruser-forum.html)
 * [Rational Teletubbies (Tomas Bjartur, 2025)](https://tomasbjartur.bearblog.dev/rational-teletubbies/)
@@ -218,7 +218,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [what do the religious know about religion? (hbdchick, 2010)](https://hbdchick.wordpress.com/2010/09/29/what-do-the-religious-know-about-religion/)
 * [Ecophagy (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Ecophagy)
 * Crystal Eternity (Max Harms, 2018)
-* |3 The Loss of Control Playbook: Degrees, Dynamics, and Preparedness (Charlotte Stix/Annika Hallensleben/Alejandro Ortega/Matteo Pistillo, 2025)
+* * The Loss of Control Playbook: Degrees, Dynamics, and Preparedness (Charlotte Stix/Annika Hallensleben/Alejandro Ortega/Matteo Pistillo, 2025)
 * [Comment on “AI in 2025: gestalt” (Gordon Seidoh Worley, 2025)](https://www.lesswrong.com/posts/Q9ewXs8pQSAX5vL7H/ai-in-2025-gestalt?commentId=GqzwEGAre4X7zsWte)
 * [Comment on “AI in 2025: gestalt” (Gavin Leech, 2025)](https://www.lesswrong.com/posts/Q9ewXs8pQSAX5vL7H/ai-in-2025-gestalt?commentId=iijqKj2rzwz2ouRon)
 * [Comment on “AI in 2025: gestalt” (Vladimir Nesov, 2025)](https://www.lesswrong.com/posts/Q9ewXs8pQSAX5vL7H/ai-in-2025-gestalt?commentId=PEiZF3D3PZttPRWzt)
@@ -252,7 +252,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [comment on “libya – land o’ tribes” (RS, 2011)](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/#comment-528)
 * [libya – land o’ tribes (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/)
 * [cousin marriage conundrum addendum (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/15/cousin-marriage-conundrum-addendum/)
-* |70 Intro to Brain-Like-AGI Safety (Steven Byrnes, 2025)
+* * Intro to Brain-Like-AGI Safety (Steven Byrnes, 2025)
 * [Vegetarianism, abortion, and moral empathy (Amanda Askell, 2016)](https://www.askell.blog/vegetarianism-abortion-and-moral-empathy/)
 * [Can we offset immorality? (Amanda Askell, 2016)](https://www.askell.blog/can-we-offset-immorality/)
 * [baharnas and ajams and howalas, oh my! (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/20/baharnas-and-ajams-and-howalas-oh-my/)
