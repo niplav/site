@@ -63,7 +63,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Für Amalie von Imhoff (Friedrich Schiller, 1803)
 * Für einen Unbekannten (Friedrich Schiller, 1803)
 * Für Johannes Büel (Friedrich Schiller, 1802)
-* Parabeoln und Rätsel — Auflösungen (11) (Friedrich Schiller, 1801)
+* Parabeln und Rätsel — Auflösungen (11) (Friedrich Schiller, 1801)
 * Für einen Unbekannten (Friedrich Schiller, 1801)
 * Für August von Goethe (Friedrich Schiller, 1800)
 * Für Johan Niclas Lindahl (Friedrich Schiller, 1798)

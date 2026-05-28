@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-07-10, modified: 2025-12-26, language: english, status: in progress, importance: 3, confidence: likely*
+*author: niplav, created: 2025-07-10, modified: 2026-05-18, language: english, status: in progress, importance: 3, confidence: likely*
 
 > __`$P→(V∪P)^2$`, the rest is commentary.__
 

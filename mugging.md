@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2025-08-27, modified: 2025-10-27, language: english, status: in progress, importance: 4, confidence: possible*
+*author: niplav, created: 2025-08-27, modified: 2026-05-19, language: english, status: in progress, importance: 4, confidence: possible*
 
 > __I [~formalize](#Formalizing_Pascals_Mugging) [Pascal's
 mugging](https://nickbostrom.com/papers/pascal.pdf)

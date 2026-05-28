@@ -3678,6 +3678,11 @@ to change your mind after receiving the money and not drink the toxin.
 * Counterlogical Mugging
 * XOR Logical Mugging
 
+Different Kinds of Uncertainty
+-------------------------------
+
+<!--
+
 Reversible Minds
 -----------------
 
@@ -3710,6 +3715,8 @@ Do reversible minds matter? How much?
 ### Implications
 
 Pure altruism in running reversible minds
+
+-->
 
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------

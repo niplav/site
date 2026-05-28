@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2025-12-24, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2026-05-18, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -26,9 +26,10 @@ content.
 April 2026
 ----------
 
-* Claude 4.6 Sonnet found some bugs in my data analysis code. The numbers have been updated where applicable, the prose hasn't, see [here]()<!--TODO: link to LW comment--> for an overview of the changes.
+* Claude 4.6 Sonnet found some bugs in my data analysis code. The numbers have been updated where applicable, the prose hasn't, see [here](https://www.lesswrong.com/posts/QZM6pErzL7JwE3pkv/shortplav?commentId=NrJANquGJagSKpx5v) for an overview of the changes.
 * Notes:
 	* [List of Decision Theory Dilemmas](./notes.html#List_of_Decision_Theory_Dilemmas)
+* AI Outputs: [Explorer for the 24-cell](./outputs/24cell.html)
 
 ### Links
 
