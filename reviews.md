@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-12-30, modified: 2025-09-15, language: english, status: in progress, importance: 3, confidence: opinion*
+*author: niplav, created: 2020-12-30, modified: 2026-05-19, language: english, status: in progress, importance: 3, confidence: opinion*
 
 > __Reviews of things.__
 
@@ -778,9 +778,9 @@ Things that stood out about the aboriginals (highlighting not in the original te
 
 * Aboriginals experienced [nocebo effects](https://en.wikipedia.org/wiki/Nocebo_Effect) strong enough to result in death, even from mild injuries, *if* the weapon causing the injury was believed to be enchanted[^nocebo]
 * Each aboriginal man had the right to at least one wife[^wife]
-* Aboriginals were *very* good at [tracking](https://en.wikipedia.org/wiki/Tracking_\(hunting\)), for example easily able to identify a person from their tracks[^tracking]
+* Aboriginals were *very* good at [tracking](https://en.wikipedia.org/wiki/Tracking_\(hunting\)), for example easily able to distinguish individuals from their tracks[^tracking]
 * The central Australian aboriginals plausibly had a form of specialization/division of labour independent of differences in supply of resources[^specialization]
-* Aboriginals had a lot of rituals resulting in injuries, sometimes gruesome ones, the cost of not engaging in these rituals in ridicule, which is highly aversive[^ridicule]
+* Aboriginals had a lot of rituals resulting in injuries, sometimes gruesome ones, the cost of not engaging in these rituals was ridicule, which is highly aversive[^ridicule]
 	* The most shocking one was [penile subincision](https://en.wikipedia.org/wiki/Penile_subincision) (extra content warning, very unpleasant images of mutilated penises)
 		* Basically, penile subincision is a cutting-open of the urethra along the length of the penis starting from the tip, differing in how far it is cut[^subincision]
 		* Very surprisingly to me, many men who willingly undergo the subincision a second (and even third!) time[^repeat]
@@ -814,7 +814,7 @@ Things that stood out about the authors:
 	* They do not thank any aboriginals in the acknowledgements section despite having lived among aboriginals and having been introduced into the tribe
 	* And yes, the book contains an appendix with a table of measurements of heads and faces (the authors inform that they couldn't desecrate graves to find skulls to measure[^skulls] without having soured relations to the aboriginals)
 * The authors frequently make passing æsthetic judgements on aboriginal tribal objects and the skills of aboriginals, my vague recollection is that positive judgments are slightly more common than negative judgments<!--TODO: find and assemble here-->
-* *Commentary*: Overall I find the authors to be fairly scientific my my modern WEIRD standards, but slightly disrespectful at times and rarely *highly* disrespectful. I enjoy that they attempt to directly report observations, and usually don't mix observations with inferences.
+* *Commentary*: Overall I find the authors to be fairly scientific by my modern WEIRD standards, but slightly disrespectful at times and rarely *highly* disrespectful. I enjoy that they attempt to directly report observations, and usually don't mix observations with inferences.
 	* The racism of the authors is often marked by the *absence* rather than the presence of certain actions/statements (taking photos of [churinga](https://en.wikipedia.org/wiki/Churinga) (sacred objects) which should never seen by unintiated outsiders without even commenting on it, not acknowledging any individual aboriginals for their help), which I found curious; I believe this is because they didn't have the type of anti-racism to contrast themselves against, as many people explicitly racist today would have to; today you have to wear your racism on your sleeve to counter-signal.
 
 [^ugliness]: p. 66: "The body is usually smooth with, at most, a development of very fine short hairs only perceptible on close examination, and there may be occasionally a well-marked development of hair on the lip or chin, which is especially noticeable in **the old women, some of whom are probably fifty years of age and have reached a stage of ugliness which baffles description**."
