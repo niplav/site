@@ -3681,8 +3681,16 @@ to change your mind after receiving the money and not drink the toxin.
 Different Kinds of Uncertainty
 -------------------------------
 
-<!--
+Six types of (incommensurable?) uncertainty:
 
+* Empirical/adversarial ((infra-)Bayesianism/whatever imprecise probability theory)
+* Logical (Garrabrant induction)
+* Self-referential/semantic ((hyperfinite) Łukasiewicz degree)
+* Indexical (anthropic measure, SIA/SSA)
+* Quantum credences/amplitude (non-commuting observables, Born rule?)
+* Normative (choiceworthiness, decision-theoretic/¿aesthetic?)
+
+<!--
 Reversible Minds
 -----------------
 
