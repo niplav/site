@@ -954,7 +954,7 @@ The resulting source languages & language families:
 
 </details>
 
-<!--sabre, shiver, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), mukbang, kiwi, llama, pemmican, ¿patch?, skurr, shucks, monogatari, alhambra, tipi, isekai, wigwam, ¿abarka?, bonsai, doozy, ¿geek?-->
+<!--sabre, shiver, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [Ogle](https://en.wiktionary.org/wiki/ogle), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, ¿flirt?, jump, heroin, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), mukbang, kiwi, llama, pemmican, ¿patch?, skurr, shucks, monogatari, alhambra, tipi, isekai, wigwam, ¿abarka?, bonsai, doozy, gömböc, ¿geek?-->
 
 ### Jihad Musket
 

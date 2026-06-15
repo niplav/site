@@ -11,10 +11,11 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Good Luck Have Fun Don't Die](https://www.goodluckhavefundontdiemovie.com/)
 * [Project Hail Mary](https://www.imdb.com/title/tt12042730/)
 * [Cars](https://en.wikipedia.org/wiki/Cars_\(Movie\))
 * [Annie Hall](https://en.wikipedia.org/wiki/Annie_Hall)
-<!--TODO: The latest Glass Onion movie-->
+* [Wake Up Dead Man](https://en.wikipedia.org/wiki/Wake_Up_Dead_Man)
 * [The Boondock Saints](https://en.wikipedia.org/wiki/The_Boondock_Saints)
 * [The Addams Family](https://en.wikipedia.org/wiki/Addams_family_\(animated_film\))
 * [Cold War](https://en.wikipedia.org/wiki/Cold_War_\(2018_film\))

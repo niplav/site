@@ -2243,7 +2243,8 @@ Being a hunter-gatherer is very unpleasant in well-documented ways:
 * Stress and anxiety due to fear from predators
 
 There's a reason why hunter-gatherers live half as long as people in
-industrialized societies.
+industrialized societies (more, *fine*, if you discount infant mortality,
+but man that's a lot of dead babies).
 
 But living in an industrial society warps humans in very strange ways
 they don't seem to cope with very well, and my impression is that
@@ -3678,19 +3679,81 @@ to change your mind after receiving the money and not drink the toxin.
 * Counterlogical Mugging
 * XOR Logical Mugging
 
-Different Kinds of Uncertainty
--------------------------------
+Different Kinds of Strength
+-----------------------------
 
-Six types of (incommensurable?) uncertainty:
+As of now, I can find six distinct types of (incommensurable?) belief
+strength:
 
-* Empirical/adversarial ((infra-)Bayesianism/whatever imprecise probability theory)
-* Logical (Garrabrant induction)
-* Self-referential/semantic ((hyperfinite) Łukasiewicz degree)
-* Indexical (anthropic measure, SIA/SSA)
-* Quantum credences/amplitude (non-commuting observables, Born rule?)
-* Normative (choiceworthiness, decision-theoretic/¿aesthetic?)
+* Empirical/adversarial (([infra-](https://www.lesswrong.com/s/CmrW8fCmSLK7E25sa/p/zB4f7QqKhBHa5b37a))[Bayesianism](https://en.wikipedia.org/wiki/Bayesianism)/whatever [imprecise probability theory](https://en.wikipedia.org/wiki/Imprecise_Probability_Theory))
+* [Logical](https://www.alignmentforum.org/w/logical-uncertainty) ([Garrabrant induction](https://arxiv.org/abs/1609.03543))
+* Self-referential/semantic (([hyperfinite](https://www.lesswrong.com/posts/j3Cv94eEZTDFiLREW/infinitesimally-false)) [Łukasiewicz degree](https://en.wikipedia.org/wiki/Lukasiewicz_logic))
+* [Indexical](https://www.lesswrong.com/w/indexical-uncertainty) ([Anthropic reasoning](https://en.wikipedia.org/wiki/Anthropic_reasoning), [SIA](https://en.wikipedia.org/wiki/Self-indication_assumption)/[SSA](https://en.wikipedia.org/wiki/Self-Sampling_Assumption))
+* [Quantum state](https://en.wikipedia.org/wiki/Quantum_state_vector) credences (non-commuting observables, [Born rule](https://en.wikipedia.org/wiki/Born_Rule)?)
+* [Normative](./doc/philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf) (choiceworthiness, decision-theoretic/¿aesthetic?)
 
-<!--
+Possibly commensurable:
+
+* Self-referential/semantic→logical (Garrabrant inductors oscillate around p([Liar's paradox](https://en.wikipedia.org/wiki/Liar's_Paradox))=0.5, possibly solving it as well for [Restall](https://en.wikipedia.org/wiki/Greg_Restall)'s paradox-type sentences, converging to (but never reaching) 0?)
+* Indexical→quantum (afaiu, from the [Gleason theorem](https://en.wikipedia.org/wiki/Gleason_theorem)/[Kochen-Specker theorem](https://en.wikipedia.org/wiki/Kochen-Specker_Theorem) we know we can't collapse quantum states into probabilities without losing information, but maybe indexcal uncertainty, at the end of the day, just *is* best represented as quantum states?)
+* Indexical uncertainty→empirical uncertainty: Perhaps indexical uncertainty is just a spicier version of empirical uncertainty, and we can see different anthropic updating rules as hidden variants of empirical reasoning.
+
+Possibly disambiguable:
+
+* Normative uncertainty: Many in one bucket, maybe this becomes philosophical uncertainty if expanded? Not clear to me that decision-theoretic uncertainty/aesthetic/normative/metanormative uncertainty &c follow the same update rule.
+
+Attempt at a table:
+
+| Type of belief-strength  | Formal object                   | Update rule |
+|------------------------- | ------------------------------- | ----------- |
+| Empirical                | [Probability distribution](https://en.wikipedia.org/wiki/Probability_Distribution)/[credal set](https://en.wikipedia.org/wiki/Credal_set)/[infradistribution &c](https://www.lesswrong.com/s/CmrW8fCmSLK7E25sa/p/GS5P7LLLbSSExb3Sk) | [Bayes rule](https://en.wikipedia.org/wiki/Bayes_Rule)/imprecise update rule/[the infra-Bayesian equivalent](https://www.lesswrong.com/posts/YAa4qcMyoucRS2Ykr/basic-inframeasure-theory#Theorem_6__InfraBayes_) |
+| Logical                  | `$\mathcal{L} \rightarrow [0, 1]$` | [Logical induction](https://arxiv.org/abs/1609.03543) |
+| Self-referential         | [MV-algebra](https://en.wikipedia.org/wiki/MV-algebra) over the [hyperreal](https://en.wikipedia.org/wiki/Hyperreals) (in [Łukasiewicz logic](https://en.wikipedia.org/wiki/Lukasiewicz_logic)) | ??? maybe an ongoing process of expanding the hyperreal tree to deal with novel paradoxes? None? |
+| Indexical                | Measure over observer-moments   | [SSA](https://en.wikipedia.org/wiki/Self-sampling_assumption)/[SIA](https://en.wikipedia.org/wiki/Anthropic_Bias_\(book\)#Self-indication_assumption) |
+| Quantum                  | [Density matrix](https://en.wikipedia.org/wiki/Density_Matrix) | ? maybe the [Quantum Liouville equation](https://en.wikipedia.org/wiki/Quantum_Liouville_equation)? |
+| Normative                | Probability distribution over normative statements (or [a fixed point in infinite meta-regress](https://link.springer.com/content/pdf/10.1007%2Fs11229-019-02098-9.pdf)) | Philosophical argument, [reflective equilibrium](https://en.wikipedia.org/wiki/Reflective_equilibrium) |
+
+Qualiagnosia
+-------------
+
+Lots of illusions (e.g. [optical illusions](https://en.wikipedia.org/wiki/Optical_illusion)) can be dispelled through inspecting them enough; people who claim that e.g. [free will](https://en.wikipedia.org/wiki/Illusionism_(free_will)) or [the self](https://en.wikipedia.org/wiki/Anatt%C4%81) are illusions also say that those illusions can be seen through and/or dispelled. (Often the method is (copious amounts of) meditation.)
+
+Similarly, [illusionism](https://en.wikipedia.org/wiki/Eliminative_materialism#Illusionism) in philosophy of consciousness claims that phenomenal consciousness (i.e. the dreaded "qualia") are an illusion, too. I was thus curious if there were any people who reported absence of qualia/not understanding what other people mean with "qualia", similar how [aphantasics](https://en.wikipedia.org/wiki/Aphantasia) report not being able to visualize things in their mind.
+
+We may call such people "qualia agnosics", or short "qualiagnosics". (*Not* p-zombies, since such people don't claim to have qualia while lacking them.)
+
+If "qualia" are an illusion, surely one should find people who are *either* "congenital" qualiagnosics, *or*, have seen through the illusion? The philosophy literature has some speculation on how the illusion of qualia could be adaptive, but I find that speculation to be mostly just-so, and among all the properties of human minds surely there must be some who have the ¿fortune? to not have the illusion anymore.
+
+At first I had difficulty locating any qualiagnosics. Many philosophers say they understand, on a cognitive level, that qualia aren't a thing, *but* still feel the intuitive pull of the notion. E.g.:
+
+> Despite the seeming confidence with which I wrote 'Dissolving Confusion about Consciousness' and other essays on subjective experience, I still feel confused about consciousness at an emotional level. Rationally I think my reductionist viewpoint is likely to be right, but there has always occasionally still been a weird feeling I have when I ask myself the 'hard problem'… I sometimes lie awake in bed asking it to myself over and over. It feels similar to bumping my head against an insoluble math problem. While I feel like I do know the 'answer' — it's the reductive physicalist answer I discuss in other essays — the answer doesn't quite feel intuitive when looked at from a certain perspective.
+
+*—Brian Tomasik, [“My Confusions about the Hard Problem of Consciousness”](https://reducing-suffering.org/my-confusions-about-the-hard-problem-of-consciousness/), 2015*
+
+> The analogy with visual illusions also holds with respect to cognitive penetrability. Forming the theoretical belief that phenomenal properties are illusory does not change one's introspective representations, and one remains strongly disposed to make all usual phenomenal judgments (and perhaps does still make them at some level). As with perceptual illusions, this may indicate that the phenomenal illusion is an adaptive one, which has been hardwired into our psychology.
+
+*—Keith Frankish, [“Illusionism as a Theory of Consciousness”](https://keithfrankish.github.io/articles/Frankish_Illusionism%20as%20a%20theory%20of%20consciousness_eprint.pdf#page=6), 2016*
+
+"Weird illusion," I thought to myself, "that is exceptionlessly universal".
+
+But it's not! There are at least two people who have openly said they are deeply confused when they hear others talk about "phenomenal consciousness", "qualia" &c. One [is Carl Feynman](https://www.lesswrong.com/posts/NyiFLzSrkfkDW4S7o/why-it-s-so-hard-to-talk-about-consciousness?commentId=q64Wz6SpLfhxrmxFH), as he explains here on LessWrong, user [Sky S](https://www.lesswrong.com/posts/NyiFLzSrkfkDW4S7o/why-it-s-so-hard-to-talk-about-consciousness?commentId=2fjxcTF8hrCsKu3CR) joins in and later [jokingly speculates](https://www.lesswrong.com/posts/NyiFLzSrkfkDW4S7o/why-it-s-so-hard-to-talk-about-consciousness?commentId=kRwW8nR4GL7mcCkpL) that it might be genetic.
+
+I think the apparent existence of qualiagnosics brings up a bunch of interesting questions:
+
+* How common is qualiagnosia?
+    * Is qualiagnosia always from birth, or has it ever been induced?
+    * Are there any correlates? Aphantasia, of course, but others? Sex? Neurotype, OCEAN variables, intelligence?
+* Is congenital qualiagnosia heritable or even genetic?
+     * I suspect Sky S' joke is not actually *that* implausible: If qualiagnosia would be learned/induceable, then we may hear of people who have switched from claiming qualia to qualiagnosia, or back; but I know of no such reports.
+
+The apparent existence of qualiagnosia has made me update positively on eliminativism/illusionism. But, a possible rejoinder could be that there are genuine qualia-havers, and genuine qualiagnosics (the two other options are p-zombies, and people who *have* qualia but *say* they don't have them).
+
+If it ends up that there is a biological foundation of qualia-reporting/qualiagnosia, there's some interesting ethics. Not that one shouldn't treat qualiagnosics as moral patients (and most moral theories agree, though *how exactly* hedonic utilitarianism would justify that is unclear). Tbc I think we *should* treat qualiagnosics as moral patients.
+
+But e.g. genetically modifying people to be/not be qualiagnosics would be an interesting debate, dispelling the illusion on one side and creating qualialess humans on the other side of the equation.
+
+(I don't have much interest in discussing the hard problem here, instead thoughts about the implication of the existence of qualiagnosics and/or more psychological pointers/case reports are welcome :-)
+
 Reversible Minds
 -----------------
 
@@ -3723,8 +3786,6 @@ Do reversible minds matter? How much?
 ### Implications
 
 Pure altruism in running reversible minds
-
--->
 
 <!--Why Are There So Few Natural NP-Complete Problems with Superquadratic Verifiers?
 ---------------------------------------------------------------------------------
