@@ -196,8 +196,8 @@ to be used as anything but ritual objects. The [Hindsgavl
 dagger](https://en.wikipedia.org/wiki/Hindsgavl_Dagger) is an example of
 such an object, forged of deep craftsperson ability, weeks or *months*
 of careful pressure, a slow and methodical chipping away where any wrong
-pressure breaks the substrate, to have start again. A platonic dagger
-flaked out of a volcanoes cooled blood.
+pressure breaks the damn substrate, to have start again. A Platonic
+dagger flaked out of a volcanoes cooled blood.
 
 ![](./img/golden/hindsgavl_daggers.jpg)
 

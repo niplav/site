@@ -11,6 +11,7 @@ List of Series I have Watched
 These are the series I have watched since January 2018 (alphabetical
 order). I may not be finished with some of these yet.
 
+* [Agatha Christie's Seven Dials](https://www.imdb.com/title/tt31974288)
 * [Altered Carbon](https://www.imdb.com/title/tt2261227/)
 * [Andor](https://www.imdb.com/title/tt9253284/)
 * [Avatar: The Last Airbender](https://en.wikipedia.org/wiki/Avatar:The_Last_Airbender)
@@ -35,7 +36,6 @@ order). I may not be finished with some of these yet.
 * [Rick and Morty](https://www.imdb.com/title/tt2861424/)
 * [Scavengers Reign](https://en.wikipedia.org/wiki/Scavengers_Reign)
 * [Serial Experiments Lain](https://www.imdb.com/title/tt0500092/)
-* [Seven Dials]()<!--TODO: link-->
 * [Silicon Valley](https://www.imdb.com/title/tt2575988/)
 * [Snowpiercer](https://www.imdb.com/title/tt6156584/)
 * [Squid Game](https://www.imdb.com/title/tt10919420/)
@@ -44,4 +44,6 @@ order). I may not be finished with some of these yet.
 * [The Boys](https://en.wikipedia.org/wiki/The_Boys_\(TV_series\))
 * [The Lord of the Rings: The Rings of Power](https://www.imdb.com/title/tt7631058/)
 * [The Mandalorian](https://www.imdb.com/title/tt8111088/)
+* [Walking with Beasts](https://en.wikipedia.org/wiki/Walking_With_Beasts)
+* [Walking With Dinosaurs](https://en.wikipedia.org/wiki/Walking_with_Dinosaurs)
 * [Wednesday](https://en.wikipedia.org/wiki/Wednesday_\(TV_Series\))

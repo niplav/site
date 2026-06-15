@@ -258,7 +258,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [comment on “libya – land o’ tribes” (RS, 2011)](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/#comment-528)
 * [libya – land o’ tribes (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/21/libya-land-o-tribes/)
 * [cousin marriage conundrum addendum (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/15/cousin-marriage-conundrum-addendum/)
-* * Intro to Brain-Like-AGI Safety (Steven Byrnes, 2025)
+* Intro to Brain-Like-AGI Safety (Steven Byrnes, 2025)
 * [Vegetarianism, abortion, and moral empathy (Amanda Askell, 2016)](https://www.askell.blog/vegetarianism-abortion-and-moral-empathy/)
 * [Can we offset immorality? (Amanda Askell, 2016)](https://www.askell.blog/can-we-offset-immorality/)
 * [baharnas and ajams and howalas, oh my! (hbdchick, 2011)](https://hbdchick.wordpress.com/2011/02/20/baharnas-and-ajams-and-howalas-oh-my/)
