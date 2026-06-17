@@ -511,6 +511,18 @@ who fever towards silver tendrils bashing open their skulls and eating up their 
 <!--who in their final moments look up at the sky and whisper, "I saw
 the best minds of my generation...and they were all bots."-->
 
+#### GET OUT OF MY HEAD
+
+> Very Online AI discourse in 2015-2020: highly theoretical, uncertain, conjectures, thought experiments, EA and LW, monoculture apotheosis, concrete problems in AI safety,  post-extropians echoes, I Notice I'm Confused, big owl book, AlphaGo, specification gaming, SSC, basilisks, Christiano's IDA, value loading problems, malicious use of AI arxiv, the alignment problem, "solving the technical problem", mesa-optimization, CFAR, acausal trade, quokkas, foom debates, GPT2 too dangerous to release
+>
+> Very Online AI discourse in 2020-2023: governance becomes a thing, Brussels Effect hypothesis, open source mccarthysm, hallucinations and strawberries, scaling laws, Act I, shoggoths, international governance, SBF, subsequent e/acc ascendency, "TESCREAL", compute thresholds, DAN, waluigis, Kimi, cyborgism, Land, hyperstition, Sydney, simulators and looms, RSPs, websim, RLHF, pause letter, stochastic parrots, deception, BabyGPT, egregores, the Bankless interview
+>
+> Very Online AI discourse in 2023-2026: pendulum shifts the other way, discourse broadens, situational awareness, national frameworks, 2027, Pliny, Golden Gate, deepseek, memes reach upper normie media, Truth Terminal, "little tech", reasoning models, Dwarkesh, scheming, MechaHitler, 4o, state level bills, sb1047, METR graph, advocacy and activism, IABIED, two more years bro I swear bro, jobs paranoia, Replika, psychosis, code of practice, eVaL aWaReNeSs, Ghibli, model welfare, agents, standards, Moltbook, cyber, slop, Mythos too dangerous to release
+
+*—Seb Krier<!--TODO: find the actual tweet-->*
+
+<!--TODO: continue https://claude.ai/chat/e8d64d11-1cec-4d06-9806-a321f959c23d, https://claude.ai/chat/ba2fe1ae-d54f-427c-bb21-0fec6cab5365-->
+
 Dialogues
 ----------
 
