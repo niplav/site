@@ -162,7 +162,21 @@ function load_masturbations()
 end
 
 function load_outcome_df(variable)
-	variable ∈ MOOD_VARIABLES ? load_mood() : load_mental()
+	df = variable ∈ MOOD_VARIABLES ? load_mood() : load_mental()
+	validate_outcome_df(df, variable)
+	return df
+end
+
+function validate_outcome_df(df, variable)
+	col = df[!, variable]
+	bad = findall(i -> !ismissing(col[i]) && !(col[i] isa Number), 1:length(col))
+	if !isempty(bad)
+		println("ERROR: Non-numeric values in '$variable' column:")
+		for i in bad
+			println("  row $(i): $(repr(col[i]))  (date: $(df.date[i]))")
+		end
+		exit(1)
+	end
 end
 
 # Build training data

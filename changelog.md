@@ -23,6 +23,20 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+May 2026
+---------
+
+* Partial [review](./reviews.html#The_Native_Tribes_of_Central_Australia_Baldwin_SpencerFrancis_James_Gillen_1899) of “The Native Tribes of Central Australia”
+
+### Links
+
+* CFAR [2015 Longitudinal Study (Dan Keys, 2016)](https://rationality.org/studies/2015-longitudinal-study)
+* [Scaling Materials Discovery with Self-Driving Labs (Charles Yang, 2025)](https://ifp.org/scaling-materials-discovery-with-self-driving-labs/)
+* Some of the old BBC 'Walking With' and 'Chased By' series are up on YouTube:
+	* [Walking With Dinosaurs](https://www.youtube.com/watch?v=nI3gPsbeKD0&list=PLdUANq6JqMnqrWIo_CF1Obq2_dXpyvQ9g)
+	* [Walking With Beasts](https://www.youtube.com/watch?v=QiHM1b_Hbbg&list=PLaqKxzpxjNUHlSe5QJcbiYfS856C3S1Ez)
+	* [Chased By Sea Monsters](https://www.youtube.com/watch?v=5z5lWPdnR8I&list=PLoHviZA_MIrP7RwV5DKYc0XtvxAks6zRl)
+
 April 2026
 ----------
 

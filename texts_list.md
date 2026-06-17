@@ -17,6 +17,14 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Model Organisms of Misalignment: The Case for a New Pillar of Alignment Research (evhub/Nicholas Schiefer/Carson Denison/Ethan Perez, 2023)](https://www.alignmentforum.org/posts/ChDH335ckdvpxXaXX/model-organisms-of-misalignment-the-case-for-a-new-pillar-of-1)
+* The Epiphany of Gliese 581 (Fernando Borretti, 2022)
+* [Tiramisu (Geoffrey K. Pullum, 2011)](https://languagelog.ldc.upenn.edu/nll/?p=3546)
+* [How To Read More (Fernando Boretti, 2026)](https://borretti.me/article/how-to-read-more)
+* [Indexical uncertainty (Eliezer Yudkowsky, 2026)](https://www.lesswrong.com/w/indexical-uncertainty)
+* [Logical Uncertainty (Ruby/abramdemski, 2022)](https://www.alignmentforum.org/w/logical-uncertainty)
+* [When AI builds itself (Marina Favaro/Jack Clark, 2026)](https://www.anthropic.com/institute/recursive-self-improvement)
+* ["Contagious Humming" to Silence a Room (JohnofCharleston, 2026)](https://www.lesswrong.com/posts/nfcbMeLmSy7LNegoD/contagious-humming-to-silence-a-room)
 * [2015 Longitudinal Study (Dan Keys, 2016)](https://rationality.org/studies/2015-longitudinal-study)
 * [Pythia (plex, 2025)](https://www.lesswrong.com/posts/qqEndN5Cuzbat9fyx/entity-review-pythia)
 * [Review of the "Risks from automated R&D" section in the Anthropic Risk Report (February 2026) (Nikola Jurkovic/Beth Barnes/Hjalmar Wijk, 2026)](https://metr.org/blog/2026-05-08-rd-section-anthropic-risk-report-feb-2026-review/)
