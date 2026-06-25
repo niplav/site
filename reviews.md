@@ -635,7 +635,8 @@ may as well be included in the newer versions).
 I had so much fun reading this book, and it's so big I'll probably start
 reading it again from the beginning again soon.
 
-Fact density: Asymptoting towards Smil
+Fact density: Asymptoting towards Smil, but where Smil is the
+personification of "nothing ever happens" Sandberg is very much not that.
 
 __9.5/10__, to leave room for the finished book. (This was just a draft!!!!)
 

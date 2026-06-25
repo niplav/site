@@ -3754,6 +3754,9 @@ But e.g. genetically modifying people to be/not be qualiagnosics would be an int
 
 (I don't have much interest in discussing the hard problem here, instead thoughts about the implication of the existence of qualiagnosics and/or more psychological pointers/case reports are welcome :-)
 
+RLVR Deletes Aesthetics
+------------------------
+
 Reversible Minds
 -----------------
 
