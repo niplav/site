@@ -1,64 +1,108 @@
 #!/usr/bin/env node
 
-const mjpage = require('mathjax-node-page').mjpage;
+// Bakes math into inline SVG at build time. Math is written in the markdown
+// source as TeX inside inline code (`$...$`) and as `$$...$$` inside a <div>;
+// after lowdown that becomes <code>$...$</code> and <div>...$$...$$...</div>.
+// We pull each math region out, typeset just the TeX with mathjax-node, and
+// splice the SVG back. Nothing else on the page is scanned, so dollar signs in
+// prose or code are left alone -- no escaping dance, no delimiter collisions.
+
+const mjAPI = require('mathjax-node');
 const fs = require('fs');
 
 if (process.argv.length !== 3) {
-    console.error('Usage: prerender-mathjax <html-file>');
-    process.exit(1);
+	console.error('Usage: prerender <html-file>');
+	process.exit(1);
 }
-
 const filename = process.argv[2];
 
-try {
-    let html = fs.readFileSync(filename, 'utf8');
-    const protectedBlocks = [];
+// Shared glyph <defs> for the whole page: each equation's SVG references glyphs
+// by id, and the defs are emitted once (see useGlobalCache + state below).
+const state = {};
 
-    html = html.replace(/<code[^>]*>\$([^<>$]+?)\$<\/code>|<div[^>]*>(\s*)\$\$([^<>$]+?)\$\$(\s*)<\/div>/g,
-        function(match, inlineContent, preDiv, displayContent, postDiv) {
-            const placeholder = `__PROTECTED_${protectedBlocks.length}__`;
-            if (inlineContent !== undefined) {
-                protectedBlocks.push(`$${inlineContent}$`);
-            } else {
-                protectedBlocks.push(`<div>${preDiv}$$${displayContent}$$${postDiv}</div>`);
-            }
-            return placeholder;
-        }
-    );
-
-    html = html.replace(/<code[^>]*>([^]*?)<\/code>|<pre[^>]*>([^]*?)<\/pre>/g,
-        function(match) {
-            const placeholder = `__PROTECTED_${protectedBlocks.length}__`;
-            protectedBlocks.push(match);
-            return placeholder;
-        }
-    );
-
-    html = html.replace(/(?<!\\)\$/g, '\\$');
-    html = html.replace(/__PROTECTED_(\d+)__/g, (match, index) => protectedBlocks[parseInt(index)]);
-
-    mjpage(html, {
-        format: ["TeX"],
-        singleDollars: true,
-        removeJax: true
-    }, {
-        svg: true,
-        useGlobalCache: true,
-        linebreaks: true,
-        MathJax: {
-            tex2jax: {
-                skipTags: []
-            }
-        }
-    }, function(output) {
-        try {
-            fs.writeFileSync(filename, output);
-        } catch (err) {
-            console.error(`Error writing file ${filename}:`, err.message);
-            process.exit(1);
-        }
-    });
-} catch (err) {
-    console.error(`Error reading file ${filename}:`, err.message);
-    process.exit(1);
+// lowdown HTML-escapes the TeX body (e.g. a<b -> a&lt;b, & -> &amp;); MathJax
+// wants the raw characters back.
+function decode(tex)
+{
+	return tex.replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+	          .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+	          .replace(/&amp;/g, '&');
 }
+
+function typeset(tex, format)
+{
+	return new Promise(function(resolve, reject) {
+		mjAPI.typeset({
+			math: decode(tex),
+			format: format,	// 'TeX' (display) or 'inline-TeX'
+			svg: true,
+			useGlobalCache: true,
+			state: state,
+			linebreaks: true
+		}, function(data) {
+			if (data.errors) reject(new Error(data.errors.join('; ')));
+			else resolve(data.svg);
+		});
+	});
+}
+
+// Injected once per page
+const CSS = `
+.mjpage .MJX-monospace { font-family: monospace }
+.mjpage .MJX-sans-serif { font-family: sans-serif }
+.mjpage {
+	display: inline; font-style: normal; font-weight: normal;
+	line-height: normal; font-size: 100%; font-size-adjust: none;
+	text-indent: 0; text-align: left; text-transform: none;
+	letter-spacing: normal; word-spacing: normal; word-wrap: normal;
+	white-space: nowrap; float: none; direction: ltr;
+	max-width: none; max-height: none; min-width: 0; min-height: 0;
+	border: 0; padding: 0; margin: 0
+}
+.mjpage * { transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none }
+.mjx-svg-href { fill: blue; stroke: blue }
+.MathJax_SVG_LineBox { display: table!important }
+.MathJax_SVG_LineBox span { display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0 }
+.mjpage__block { text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100% }
+`;
+
+(async function() {
+	let html = fs.readFileSync(filename, 'utf8');
+
+	// The body class forbids raw < > $ so a lazy match can't slip across a
+	// </code>/<div> boundary or stop on the wrong dollar, but it allows \$ so
+	// math containing literal dollar signs (currency) is matched whole.
+	const body = '(?:[^<>$]|\\\\\\$)+?';
+
+	const display = [], inline = [];
+	html = html.replace(new RegExp('<div[^>]*>\\s*\\$\\$(' + body + ')\\$\\$\\s*</div>', 'g'),
+		function(m, tex) { display.push(tex); return '<!--MJD' + (display.length - 1) + '-->'; });
+	html = html.replace(new RegExp('<code[^>]*>\\$(' + body + ')\\$</code>', 'g'),
+		function(m, tex) { inline.push(tex); return '<!--MJI' + (inline.length - 1) + '-->'; });
+
+	if (display.length + inline.length === 0) return;	// no math on this page
+
+	// Stray escaped dollars in prose (\$50 -> $50). Math is already pulled out;
+	// shield real code/pre, where a \$ may be intentional (shell, regex).
+	const code = [];
+	html = html.replace(/<pre[^>]*>[^]*?<\/pre>|<code[^>]*>[^]*?<\/code>/g,
+		function(m) { code.push(m); return '<!--MJC' + (code.length - 1) + '-->'; });
+	html = html.replace(/\\\$/g, '$');
+	html = html.replace(/<!--MJC(\d+)-->/g, function(m, i) { return code[i]; });
+
+	const dsvg = [];
+	for (const tex of display) dsvg.push(await typeset(tex, 'TeX'));
+	const isvg = [];
+	for (const tex of inline) isvg.push(await typeset(tex, 'inline-TeX'));
+
+	html = html.replace(/<!--MJD(\d+)-->/g, function(m, i) { return '<span class="mjpage mjpage__block">' + dsvg[i] + '</span>'; });
+	html = html.replace(/<!--MJI(\d+)-->/g, function(m, i) { return '<span class="mjpage">' + isvg[i] + '</span>'; });
+
+	html = html.replace('</head>', '<style type="text/css">' + CSS + '</style>\n</head>');
+	html = html.replace('</body>', '<svg xmlns="http://www.w3.org/2000/svg" style="display:none">' + state.defs.outerHTML + '</svg>\n</body>');
+
+	fs.writeFileSync(filename, html);
+})().catch(function(err) {
+	console.error('prerender ' + filename + ':', err.message);
+	process.exit(1);
+});
