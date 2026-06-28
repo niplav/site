@@ -882,7 +882,7 @@ over two options it is a line segment, for three options it is a triangle,
 for four it is a tetrahedron etc.
 
 Then for example the lottery `$[0.5: a, 0.5: b]$` is right in the middle
-on the line between `$a$` and `$b$`, the lottery `$[⅓: a, ⅓: b, ⅓: c]$`
+on the line between `$a$` and `$b$`, the lottery `$[\frac{1}{3}: a, \frac{1}{3}: b, \frac{1}{3}: c]$`
 is represented by the point in the middle of an [equilateral
 triangle](https://en.wikipedia.org/wiki/Equilateral_triangle), while
 `$[0.5: a, 0.5: b, 0: c]$` is in the middle of one edge of that triangle.

@@ -95,7 +95,8 @@ const CSS = `
 	const isvg = [];
 	for (const tex of inline) isvg.push(await typeset(tex, 'inline-TeX'));
 
-	html = html.replace(/<!--MJD(\d+)-->/g, function(m, i) { return '<span class="mjpage mjpage__block">' + dsvg[i] + '</span>'; });
+	// Keep the <div> wrapper: main.css gives div a grey block background.
+	html = html.replace(/<!--MJD(\d+)-->/g, function(m, i) { return '<div><span class="mjpage mjpage__block">' + dsvg[i] + '</span></div>'; });
 	html = html.replace(/<!--MJI(\d+)-->/g, function(m, i) { return '<span class="mjpage">' + isvg[i] + '</span>'; });
 
 	html = html.replace('</head>', '<style type="text/css">' + CSS + '</style>\n</head>');

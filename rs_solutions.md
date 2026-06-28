@@ -406,26 +406,26 @@ generality.
 
 #### `$P[f] \sim Q[f]$` for each relabelling `$f$`
 
-Let there be a transition `$P[f] \overset{ᰑ‎}{\rightarrow} P'[f]$`.
+Let there be a transition `$P[f] \overset{ᰑ}{\rightarrow} P'[f]$`.
 Then either the same transition was also possible before
-the replacement (`$P \overset{ᰑ‎}{\rightarrow} P'$`), in which
+the replacement (`$P \overset{ᰑ}{\rightarrow} P'$`), in which
 case no replacement took place, and the same transition should be
-possible for `$Q$` (`$Q \overset{ᰑ‎}{\rightarrow} Q'$`) because we
+possible for `$Q$` (`$Q \overset{ᰑ}{\rightarrow} Q'$`) because we
 assumed that `$P \mathcal{R} Q$`, or a replacement took place. In that case,
 the replacement would have replaced another variable `$α$` (perhaps
 because we thought that those greek variable names are [boring after a
 while](./mathematics_notation_convention.html#Things_I_Would_Like_To_Do_But_Im_Not_Brave_Enough)),
-so we assume (witout loss of generality) that `$f(α)=ᰑ‎$`.
+so we assume (witout loss of generality) that `$f(α)=ᰑ$`.
 
 Then we know that if `$P \mathcal{R} Q$` and `$P
 \overset{α}{\rightarrow}P'$`, then there is also a transition
 `$Q \overset{α}{\rightarrow} Q'$` so that `$P' \mathcal{R} Q'$`.
 Then the transition in the replacement version is
-`$P[f] \overset{f(α)=ᰑ‎}{\rightarrow} P'[f]$`, and the
+`$P[f] \overset{f(α)=ᰑ}{\rightarrow} P'[f]$`, and the
 previous `$Q \overset{α}{\rightarrow} Q'$` becomes
-`$Q[f] \overset{f(α)=ᰑ‎}{\rightarrow} Q'[f]$`, so we know that
+`$Q[f] \overset{f(α)=ᰑ}{\rightarrow} Q'[f]$`, so we know that
 `$P[f] \mathcal{R} Q[f]$` has the equivalent `$P'[f] \mathcal{R} Q'[f]$`
-for the `$ᰑ‎$` transition.
+for the `$ᰑ$` transition.
 
 ### 3.17
 
@@ -748,9 +748,9 @@ Chapter 5
 #### 1
 
 <div>
-	$$ ⟦ [\text{coffee}] \langle \text{biscuit} \rangle \textit{t}\!\textit{t}⟧=\\
-	[\cdot \text{coffee} \cdot ] ⟦ \langle \text{biscuit} \rangle \textit{t}\!\textit{t} ⟧=\\
-	[\cdot \text{coffee} \cdot ] \langle \cdot \text{biscuit} \cdot \rangle ⟦\textit{t}\!\textit{t} ⟧=\\
+	$$ [\![ [\text{coffee}] \langle \text{biscuit} \rangle \textit{t}\!\textit{t}]\!]=\\
+	[\cdot \text{coffee} \cdot ] [\![ \langle \text{biscuit} \rangle \textit{t}\!\textit{t} ]\!]=\\
+	[\cdot \text{coffee} \cdot ] \langle \cdot \text{biscuit} \cdot \rangle [\![\textit{t}\!\textit{t} ]\!]=\\
 	[\cdot \text{coffee} \cdot ](\langle \cdot \text{biscuit} \cdot \rangle \textbf{Proc})= \\
 	[\cdot \text{coffee} \cdot ] \{p \in \textbf{Proc} | p \overset{\text{biscuit}}{\rightarrow} p' \text{ and } p' \in \textbf{Proc} \text{ for some } p'\}= \\
 	[\cdot \text{coffee} \cdot ] \{p \in \textbf{Proc} | p \overset{\text{biscuit}}{\rightarrow}\} \\
@@ -789,16 +789,16 @@ were to not eat a biscuit after drinking coffee.
 
 #### 2
 
-* `$⟦[a][b]\textit{f}\!\textit{f}⟧=[\cdot a \cdot][\cdot b \cdot]\emptyset=[\cdot a \cdot]\{s, s_2, s_3, s_4\}=\{s_2, s_3, s_4\}$`
-* `$⟦(\langle a \rangle (\langle a \rangle \textit{t}\!\textit{t} \land \langle b \rangle \textit{t}\!\textit{t})⟧=\langle \cdot a \cdot \rangle (⟦\langle a \rangle \textit{t}\!\textit{t}⟧ \cap ⟦\langle b \rangle \textit{t}\!\textit{t}⟧)=\langle \cdot a \cdot \rangle (\{s, s_1, s_2, s_3, s_4\} \cap \{s_1\})=\langle \cdot a \cdot \rangle \{s_1\}=\{s\}$`
-* `$⟦[a][a][b] \textit{f}\!\textit{f}⟧=[\cdot a \cdot][\cdot a \cdot][\cdot b \cdot] \emptyset=[\cdot a \cdot][\cdot a \cdot]\{s, s_2, s_3, s_4\}=[\cdot a \cdot]\{s_2, s_3, s_4\}=\{s_2\}$`
-* `$⟦[a][a][b] \textit{f}\!\textit{f}⟧=[\cdot a \cdot] \textbf{Proc}=\{s, s_1, s_2, s_3, s_4\}$`
+* `$[\![[a][b]\textit{f}\!\textit{f}]\!]=[\cdot a \cdot][\cdot b \cdot]\emptyset=[\cdot a \cdot]\{s, s_2, s_3, s_4\}=\{s_2, s_3, s_4\}$`
+* `$[\![(\langle a \rangle (\langle a \rangle \textit{t}\!\textit{t} \land \langle b \rangle \textit{t}\!\textit{t})]\!]=\langle \cdot a \cdot \rangle ([\![\langle a \rangle \textit{t}\!\textit{t}]\!] \cap [\![\langle b \rangle \textit{t}\!\textit{t}]\!])=\langle \cdot a \cdot \rangle (\{s, s_1, s_2, s_3, s_4\} \cap \{s_1\})=\langle \cdot a \cdot \rangle \{s_1\}=\{s\}$`
+* `$[\![[a][a][b] \textit{f}\!\textit{f}]\!]=[\cdot a \cdot][\cdot a \cdot][\cdot b \cdot] \emptyset=[\cdot a \cdot][\cdot a \cdot]\{s, s_2, s_3, s_4\}=[\cdot a \cdot]\{s_2, s_3, s_4\}=\{s_2\}$`
+* `$[\![[a][a][b] \textit{f}\!\textit{f}]\!]=[\cdot a \cdot] \textbf{Proc}=\{s, s_1, s_2, s_3, s_4\}$`
 
 ### 5.4
 
 <div>
-	$$⟦[\text{tick}](\langle \text{tick} \rangle \textit{t}\!\textit{t} \land [\text{tock}] \textit{f}\!\textit{f})⟧=\\
-	[\cdot \text{tick} \cdot ](⟦\langle \text{tick} \rangle \textit{t}\!\textit{t} ⟧ \cap ⟦[ \text{tock} ] \textit{f}\!\textit{f} ⟧)=\\
+	$$[\![[\text{tick}](\langle \text{tick} \rangle \textit{t}\!\textit{t} \land [\text{tock}] \textit{f}\!\textit{f})]\!]=\\
+	[\cdot \text{tick} \cdot ]([\![\langle \text{tick} \rangle \textit{t}\!\textit{t} ]\!] \cap [\![[ \text{tock} ] \textit{f}\!\textit{f} ]\!])=\\
 	[\cdot \text{tick} \cdot ]((\langle \cdot \text{tick} \cdot \rangle \mathbf{Proc}) \cap ([ \cdot \text{tock} \cdot ] \emptyset))$$
 </div>
 

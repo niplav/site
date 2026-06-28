@@ -195,23 +195,25 @@ sometimes drawing >10% of the population to use them.
 __Cost__: The underlying software should not be expensive (a
 website, an app and a backend that could support tens to potentially
 hundreds of thousands of visits a day), and could be re-used for each
-election: An initial expense of ~\$5mio., with ~\$500k per year of
+election: An initial expense of ~$5mio., with ~$500k per year of
 maintenance seems on the conservative side for an estimate. Assuming we
 want to supply the elections of the 40 biggest (democratic) countries
 with information, there'd be (assuming an electoral cycle of ~4 years)
 ~10 elections a year — something a team of 5 political scientists
-(~\$100k a year each) should be able to handle. Assuming that for
+(~$100k a year each) should be able to handle. Assuming that for
 each election, there are ~6 candidates/coalitions that cover most of
 the election outcomes, and ~6 indicators we want to use to evaluate
-election outcomes, subsidizing each market with \$10k comes out at
-`$\frac{$10k}{\text{market}} \cdot \frac{6 \text{ markets}}{\text{
-candidate}} \cdot \frac{6 \text{ markets}}{\text{ indicator}} \cdot
-\frac{10 \text{ elections}}{\text{year}} \cdot \frac{1 \text{ candidate
-indicator}}{\text{ election market}}=\frac{$360k}{\text{year}}$`. If the
-whole thing runs for 20 years, we then pay `$\$5 \text{ mio.} + 20 \cdot
-(\$500k + \$500k + \$360k)=\$32 \text{ mio}$`. This is *surprisingly*
-cheap, so I'll fudge upwards to \$100 mio, just in case. Still a steal,
-if you ask me. Just not sure whether I'd have to fear angry politicians.
+election outcomes, subsidizing each market with \$10k comes out at:
+
+<div>
+	$$\frac{\$10k}{\text{market}} \cdot \frac{6 \text{ markets}}{\text{ candidate}} \cdot \frac{6 \text{ markets}}{\text{ indicator}} \cdot \frac{10 \text{ elections}}{\text{year}} \cdot \frac{1 \text{ candidate indicator}}{\text{ election market}}=\frac{\$360k}{\text{year}}$$
+</div>
+
+If the whole thing runs for 20 years, we then pay `$\$5 \text{ mio.} + 20 \cdot (\$500k + \$500k + \$360k)=\$32 \text{ mio}$`.
+
+This is *surprisingly* cheap, so I'll fudge upwards to \$100 mio, just
+in case. Still a steal, if you ask me. Just not sure whether I'd have
+to fear angry politicians.
 
 <!--TODO: Weaker version with voting advice based on how parties have
 voted for bills in the past-->
