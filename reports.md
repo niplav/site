@@ -274,7 +274,7 @@ the other.
 
 ### What I Did and Why I Did It
 
-Around the end of 2019, I started meditating. I had read about jhanas
+Around the end of 2019, I started meditating. I had read about jhānas
 on the blog [Qualia Computing](https://qualiacomputing.com),
 especially in the post [Investing Time and Resources in
 Happiness](https://qualiacomputing.com/2019/04/03/investing-time-and-resources-in-happiness),
@@ -595,7 +595,7 @@ quality](./quality.html) anyway.
 
 For the first 27 days my meditation practice was very
 absorption/concentration-heavy with the goal of entering
-the jhanas, on the last three days I switched to [Mahasi
+the jhānas, on the last three days I switched to [Mahasi
 Sayadaw](https://en.wikipedia.org/wiki/Mahasi_Sayadaw)-style
 noting practice. In the absorption-focussed period
 I'd start a meditation by settling down, then cultivate a
@@ -625,39 +625,39 @@ had high expectations.)
 
 ### 1st Jhana
 
-I did enter the first jhana on the 21st day, and was able to enter it
+I did enter the first jhāna on the 21st day, and was able to enter it
 sporadically in the days afterwards, but didn't graduate to being able
-to access any of the other jhanas. My guess is that I have a hard time
+to access any of the other jhānas. My guess is that I have a hard time
 generating [sukha](https://en.wikipedia.org/wiki/Sukha), as my first
-jhana is almost completely [pīti](https://en.wikipedia.org/wiki/Piti).
-When I entered the first jhana, it was almost exclusively in the evening
+jhāna is almost completely [pīti](https://en.wikipedia.org/wiki/Piti).
+When I entered the first jhāna, it was almost exclusively in the evening
 during the last or second-to-last sit of the day.
 
 ### That Other Equanimous Thing
 
-I had one experience which I can't quite place: I was in the first jhana,
-and attempted to shed the piti to drop into the second jhana. But instead
+I had one experience which I can't quite place: I was in the first jhāna,
+and attempted to shed the piti to drop into the second jhāna. But instead
 of landing in a purely happy state, I entered an incredibly equanimous,
 calm, crisp, clear, crystalline, relaxed, and open state. In that state I
 was sharply aware of the (often uncomfortable) sensations in my shoulders
-and legs, but didn't mind them very much, they were just happening on my
-body. To be metaphoricaly, I felt like a huge crystal in which sensations
-simply bouncing from one facet to the other or snaking along in faults
-along the surface, the underlying substrate completely unperturbed by
-the content of the sensations. The saying "awareness is unsullied by
-the contents that pass through it" comes to mind.
+and legs, but didn't mind them very much, they were just happening
+on my body. To be metaphorical, I felt like a huge crystal in which
+sensations were simply bouncing from one facet to the other or snaking
+along in faults along the surface, the underlying substrate completely
+unperturbed by the content of the sensations. The saying "awareness is
+unsullied by the contents that pass through it" comes to mind.
 
 The main factor of this state was equanimity, and a ~lack of inner
 monologue.
 
 In this state I tried to follow Brasington's instructions to enter the
-fifth jhana by expanding the subjective space around me, but didn't
+fifth jhāna by expanding the subjective space around me, but didn't
 succeed.
 
 My best guess is that I (for lack of sukha) just had to jump over
-it and enter the third jhana<sub>25%</sub>, though the descriptions
+the second jhāna and enter the third jhāna<sub>25%</sub>, though the descriptions
 I've read sound more similar to me having experienced the fourth
-jhana<sub>15%</sub>.
+jhāna<sub>15%</sub>.
 
 If I had to guess I'd say it lasted about 20 minutes, and it's probably
 my favourite [quale](https://en.wikipedia.org/wiki/Quale) to this day.

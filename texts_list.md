@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2025-04-30, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2026-06-27, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,31 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Comment on ”Alignment remains a hard, unsolved problem“ (evhub, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=poKDn6BWzua5c6ri7)
+* [Comment on ”Alignment remains a hard, unsolved problem“ (Eliezer Yudkowsky, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=DuuWYrpSJnnEdYhyT)
+* [Comment on ”Alignment remains a hard, unsolved problem“ (habryka, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=kfeuRZJoKGX9uakMd)
+* [Comment on ”Alignment remains a hard, unsolved problem“ (jacquesthibs, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=RixrG7nZ4owietuy5)
+* [Comment on ”Alignment remains a hard, unsolved problem“ (Seth Herd, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=tsCoYozoiyvw7PJPL)
+* [Comment on ”Alignment remains a hard, unsolved problem“ (Adrià Garriga-alonso, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=tsCoYozoiyvw7PJPL)
+* [Comment on ”Alignment remains a hard, unsolved problem“ (evhub, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=ktXtwgkLrrWHZyd8p)
+* [Comment on ”Alignment remains a hard, unsolved problem“ (Rohin Shah, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=eiszE7rKpHcay34Zw)
+* [Comment on ”Alignment remains a hard, unsolved problem“ (evhub, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=P6gseCBrTPpvwZ6st)
+* [Comment on ”Alignment remains a hard, unsolved problem“ (Adrià Garriga-alonso, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=gAuM6MKBdpyu6JszR)
+* [Alignment remains a hard, unsolved problem (evhub, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem
+* [Programmer Science Fiction (Sam T. Oates, 2026)](https://stoates.substack.com/p/programmer-science-fiction)
+* [Comment on “Meta Questions about Metaphilosophy” (Connor Leahy, 2023)](https://www.lesswrong.com/posts/fJqP9WcnHXBRBeiBg/meta-questions-about-metaphilosophy?commentId=runhNkj6u3b2BbDjj)
+* [Comment on “Meta Questions about Metaphilosophy” (Wei Dai, 2023)](https://www.lesswrong.com/posts/fJqP9WcnHXBRBeiBg/meta-questions-about-metaphilosophy?commentId=oNd6cmq3nxysAjnSF)
+* [Comment on “Meta Questions about Metaphilosophy” (Connor Leahy, 2023)](https://www.lesswrong.com/posts/fJqP9WcnHXBRBeiBg/meta-questions-about-metaphilosophy)
+* [First, Make Me Care (Gwern Branwen, 2026)](https://gwern.net/blog/2026/make-me-care)
+* Vom Nutzen des Drachen (Stanisław Lem, 1983)
+* Retten wir den Kosmos (offener Brief Ijon Tichys) (Stanisław Lem, 1971)
+* Doktor Diagoras (Stanisław Lem, 1971)
+* Die Anstalt des Doktor Vliperdius (Stanisław Lem, 1964)
+* Professor A. Donda (Stanisław Lem, 1973)
+* Aus den Erinnerungen Ijon Tichys (Stanisław Lem, 1957)
+* [Style-Aware Generative Models (Gwern Branwen, 2026)](https://gwern.net/generating-style)
+* [Glonzo (English Wiktionary, 2026)](https://en.wiktionary.org/wiki/Glonzo)
+* 100,000 lumens to treat seasonal affective disorder: A proof of concept RCT of Bright, whole-ROom, All-Day (BROAD) light therapy (Julia F. Sandkühler/Sarah Brochhagen/Paul Rohde/Rosa C. Muscheidt/Teja W. Grömer/Helge Müller/Jan M. Brauner, 2022)
 * [Model Organisms of Misalignment: The Case for a New Pillar of Alignment Research (evhub/Nicholas Schiefer/Carson Denison/Ethan Perez, 2023)](https://www.alignmentforum.org/posts/ChDH335ckdvpxXaXX/model-organisms-of-misalignment-the-case-for-a-new-pillar-of-1)
 * The Epiphany of Gliese 581 (Fernando Borretti, 2022)
 * [Tiramisu (Geoffrey K. Pullum, 2011)](https://languagelog.ldc.upenn.edu/nll/?p=3546)
@@ -126,7 +151,6 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * Empfindungen der Dankbarkeit beim NamensFeste Ihro Exzellenz der Frau Reichsgräfin von Hohenheim (Friedrich Schiller, 1777)
 * Einem ausgezeichneten Leser (Friedrich Schiller, 1776)
 * Für Christoph Ferdinand Moser (Friedrich Schiller, 1776)
-* \* Sterntagebücher (Stanisław Lem, 1961)
 * [Partnering with Mozilla to improve Firefox’s security (Evyatar Ben Asher/Keane Lucas/Nicholas Carlini/Newton Cheng/Daniel Freeman, 2026)](https://red.anthropic.com/2026/firefox/)
 * [Where things stand with the Department of War (Dario Amodei, 2026)](https://www.anthropic.com/news/where-stand-department-war)
 * [I underestimated AI capabilities (again) (Ajeya Cotra, 2026)](https://www.planned-obsolescence.org/p/i-underestimated-ai-capabilities)
