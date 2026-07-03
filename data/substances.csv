@@ -1530,3 +1530,5 @@ datetime,substance,amount,experiment,id,prediction
 2026-06-26T16:50:35+02:00,magnesium,300mg,,,
 2026-06-26T16:50:45+02:00,vitamind3,25μg,,,
 2026-06-26T16:50:50+02:00,vitaminb12,500μg,,,
+2026-06-29T09:45:52+02:00,orexin-a,500μg,E,B,0.62
+2026-06-16T08:41:00+02:00,water,1ml,E,A,0.38

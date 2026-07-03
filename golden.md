@@ -93,7 +93,9 @@ for the future is worth it.
 Though, ah, even business as usual puts a high discount rate
 on the value of becoming highly skilled at a specialized activity…
 
-In the *other* world: Ultraintelligent machines. [Transformative
+In the *other* world: [Ultraintelligent
+machines](http://incompleteideas.net/papers/Good65ultraintelligent.pdf).
+[Transformative
 AI](https://www.metaculus.com/questions/19356/transformative-ai-date/).
 [The
 Singularity](https://en.wikipedia.org/wiki/Technological_Singularity).
@@ -155,13 +157,13 @@ failed miserably, not getting anywhere close to even something like this:
 
 Humans, over history, got *really* good at shaping stones into tools. I
 fear that you, the reader, might default to skimming over the pictures
-here, not internalizing how magnificent these tools are. They are. They
-are artistic works of extreme and deep skill, made by lithic virtuosos
-with what I'd guess were sometimes *tens of thousands* of hours of
-experience, with an uncanny ability to *see through the flint* and trace
-its lines of weakness, a sharp David to be knapped into bladehood.
+here, not internalizing the magnificence of these tools. They are. You're
+looking at artistic works of extreme and deep skill, made by lithic
+virtuosos with what I'd guess were sometimes *tens of thousands* of hours
+of experience, with an uncanny ability to *see through the flint* and
+trace its lines of weakness, a sharp David to be knapped into bladehood.
 
-Flintknapping likely had whole *lineages* of teachers, and
+Flintknapping likely had whole lineages of teachers, and
 hunter-gatherers probably had significant specialization
 along broad categories, as we learn from the stories of
 [Ishi](https://en.wikipedia.org/wiki/Ishi)—humans who spent every day
@@ -186,9 +188,9 @@ hours to learn how to knap arrowheads, knives and axeheads. The kind of
 person who is able to sit at camp, every evening, not engaging with the
 others but instead obsessed with the exact way in which obsidian flakes
 off when pressed at a slightly different angle… does that remind you
-of people? Maybe even yourself? And being able to gift better stone
-tools to others confers social status, which can be converted into
-reproductive success.
+of people? Maybe even yourself? Being able to gift better stone tools to
+others confers social status, which can be converted into reproductive
+success.
 
 But flintknapping doesn't just produce tools—sometimes
 the resulting objects are too fragile, too *ethereal*
