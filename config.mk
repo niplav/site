@@ -55,7 +55,6 @@ HTML=index.html \
 	cuboid.html \
 	data.html \
 	daygame.html \
-	daygame_cost_benefit.html \
 	declaration.html \
 	decompose.html \
 	diamond.html \
@@ -93,6 +92,7 @@ HTML=index.html \
 	mugging.html \
 	nootropics.html \
 	nuclear.html \
+	on_daygame.html \
 	ontological.html \
 	options.html \
 	orexin.html \

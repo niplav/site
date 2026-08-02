@@ -47,7 +47,7 @@ shrimp and receding galaxies.
 <!--TODO: comment from https://manifold.markets/market/will-niplav-get-laid-by-eoy-2025?tab=comments#3pgnvm4i1zl-->
 
 But, like, still, is daygame *net good*? For others, that is, not [for
-me](./daygame_cost_benefit.html).
+me](./daygame.html).
 
 Insofar that daygame is good (or bad) for others, there's two obvious
 groups that can be considered: The women being approached, and the world

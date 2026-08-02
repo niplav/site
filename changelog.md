@@ -470,7 +470,7 @@ page](./logical.html). Merged the [toy AI takeoff model and my thoughts
 on AI takeoff](./foom.html).
 
 Lot's of [work](./stimulation.html) [on](./cause.html)
-[pages](./resolving.html) [that](daygame_cost_benefit.html)
+[pages](./resolving.html) [that](daygame.html)
 [nevertheless](masturbation.html)
 [remain](diamond.html) [unfinished](cryonics_outside_us.html).
 
@@ -881,8 +881,8 @@ January 2023
 
 * [Range and Forecasting Accuracy](./range.html)
 	* [Related Work](./range.html#Related_Work)
-* [Empirical Data for Daygame Ratios](./daygame_cost_benefit.md#Empirical_Data_For_Ratios)
-	* [Wolfe Daygame Ratios](./daygame_cost_benefit.md#Wolfe_Daygame)
+* [Empirical Data for Daygame Ratios](./daygame.md#Empirical_Data_For_Ratios)
+	* [Wolfe Daygame Ratios](./daygame.md#Wolfe_Daygame)
 * [Nootropics](./nootropics.md)
 * [Progress in Qualia](./qualia.md)
 * [Notes](./notes.md)
@@ -1412,7 +1412,7 @@ April 2020
 
 * [Range and Forecasting Accuracy](./range.html)
 * [Solutions for Exercises in “Naïve Set Theory”](./nst_solutions.html): Section [8](./nst_solutions.html#Section_8)
-* [Social Costs from being Found Out Doing Daygame](./daygame_cost_benefit.html#Social_Costs_from_Being_Found_Out)
+* [Social Costs from being Found Out Doing Daygame](./daygame.html#Social_Costs_from_Being_Found_Out)
 * Notes:
 	* [Some Qualitative Intuitions on the Effects of Open Borders](./notes.html#Some_Qualitative_Intuitions_on_the_Effects_of_Open_Borders)
 
@@ -1421,7 +1421,7 @@ March 2020
 
 ### Writing
 
-* [A Slightly More Complex Model for the Value of Daygame](./daygame_cost_benefit.html#A_Slightly_More_Complex_Model)
+* [A Slightly More Complex Model for the Value of Daygame](./daygame.html#A_Slightly_More_Complex_Model)
 * [Solutions for Exercises in “Naïve Set Theory”](./nst_solutions.html): Sections [6](./nst_solutions.html#Section_6) & [7](./nst_solutions.html#Section_7)
 * [A Generative Solution for P60](./99_problems_klong_solution.html#A_Generative_Solution) in the [99 Problems Klong Solution](./99_problems_klong_solution.html)
 * [A Monte-Carlo Simulation for the Value of Cryonics](./cryonics.html#Appendix_A_A_Guesstimate_Model)
@@ -1432,14 +1432,14 @@ February 2020
 ### Writing
 
 * [Further Hypotheses on Masturbation and Attractiveness](./masturbation.html#Appendix_C_Further_Hypotheses)
-* [Empirical Data for Daygame Ratios](./daygame_cost_benefit.html#Empirical_Data_for_Ratios)
+* [Empirical Data for Daygame Ratios](./daygame.html#Empirical_Data_for_Ratios)
 
 January 2020
 ------------
 
 ### Writing
 
-* Started [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
+* Started [Daygame Cost-Benefit Analysis](./daygame.html)
 * Added [Longevity Escape Velocity](https://en.wikipedia.org/wiki/Longevity_escape_velocity) impacts to [Considerations on Cryonics](./cryonics.html)
 * Notes
 	* [Some Thoughts about the Qualia Research Institute](./notes.html#Some_Thoughts_about_the_Qualia_Research_Institute)

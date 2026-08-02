@@ -152,12 +152,12 @@ one moment or forget it!
 
 *—[Sayyid Qutb ash-Shaheed](https://en.wikipedia.org/wiki/Sayyid_Qutb), [“The America I Have Seen”](https://en.wikipedia.org/wiki/The_America_I_Have_Seen) p. 16, 1951*
 
-* [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
+* [Daygame Cost-Benefit Analysis](./daygame.html)
 * [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
 * [Abstinence from Masturbation and Success from Cold Approach](./masturbation.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Pickup Reports](./pickup_reports.html)
-* [On Daygame](./daygame.html)
+* [On Daygame](./on_daygame.html)
 * [Flags](./flags.html)
 
 #### Existential Risk

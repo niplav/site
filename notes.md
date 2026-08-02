@@ -900,7 +900,7 @@ than zero, but otherwise can do whatever it wants.
 So far, I've already used this function
 [three](./range.html#Fitting_a_Logistic_Function)
 [times](./range.html#Fitting_an_Exponential_Function)
-[already](./daygame_cost_benefit.html#Estimating_Parameters), and
+[already](./daygame.html#Estimating_Parameters), and
 I've only known about it for a short time! A must for every wannabe
 data-scientist.
 
