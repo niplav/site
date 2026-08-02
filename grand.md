@@ -63,7 +63,7 @@ to be true
 
 I don't know of a good resource that firmly establishes this. [Dillon
 2020](https://rethinkpriorities.org/publications/data-on-forecasting-accuracy-across-different-time-horizons)
-and my [own investigation](./range_and_forecasting_accuracy.html)
+and my [own investigation](./range.html)
 don't come to firm conclusions, mostly because of
 a dearth of good long-term forecasting data. [Muehlhauser
 2019](https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting)

@@ -9,6 +9,17 @@
 .*vis*
 *.o
 !header.html
+!notes_on_politics_especially_economics.html
+!range_and_forecasting_accuracy.html
+!considerations_on_cryonics.html
+!equally_many_heads_and_tails.html
+!utilitarian_compliments.html
+!mathematics_notation_convention.html
+!bcis_and_alignment.html
+!against_applause.html
+!two_people_on_a_planet.html
+!circle_combinations.html
+!daygame_cost_benefit.html
 
 __pycache__
 

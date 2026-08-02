@@ -1118,7 +1118,7 @@ and decreases rapidly with less lenient assumptions.
 
 I tentatively conclude that daygame may be worth it, but
 it's definitely not a surefire positive deal. Sign up for
-[cryonics](./considerations_on_cryonics.html "Considerations on Cryonics")
+[cryonics](./cryonics.html "Considerations on Cryonics")
 first.
 
 Appendix A: A Guesstimate Version of the Simple Model

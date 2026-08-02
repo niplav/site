@@ -17,7 +17,7 @@ HTML=index.html \
 	notes.html \
 	notes_on_ethics.html \
 	notes_on_pickup.html \
-	notes_on_politics_especially_economics.html \
+	notes_on_politics.html \
 	notes_on_predictions.html \
 	administrativa_for_facts.html \
 	administrativa_for_textbooks.html \
@@ -39,16 +39,17 @@ HTML=index.html \
 	99_klong_problems.html \
 	99_problems_collection.html \
 	99_problems_klong_solution.html \
-	against_applause.html \
+	applause.html \
 	automated.html \
 	bandit.html \
-	bcis_and_alignment.html \
+	bcis.html \
+	become.html \
 	buch_stab.html \
 	cause.html \
-	circle_combinations.html \
+	circles.html \
 	china.html \
 	consciousness_diagram.html \
-	considerations_on_cryonics.html \
+	cryonics.html \
 	covid.html \
 	cryonics_outside_us.html \
 	cuboid.html \
@@ -61,7 +62,7 @@ HTML=index.html \
 	dimension.html \
 	eccentric.html \
 	eschews.html \
-	equally_many_heads_and_tails.html \
+	tails.html \
 	estimated_life_expectancy.html \
 	exercise_log.html \
 	expansion.html \
@@ -85,7 +86,7 @@ HTML=index.html \
 	logical.html \
 	malleable.html \
 	masturbation.html \
-	mathematics_notation_convention.html \
+	convention.html \
 	metamodernistisches_manifest.html \
 	microfiction.html \
 	mop.html \
@@ -106,7 +107,7 @@ HTML=index.html \
 	qualia.html \
 	quality.html \
 	quantum.html \
-	range_and_forecasting_accuracy.html \
+	range.html \
 	rationalist_gods.html \
 	resolving.html \
 	reviews.html \
@@ -121,8 +122,8 @@ HTML=index.html \
 	textbook_discord_servers.html \
 	transfer.html \
 	turning.html \
-	two_people_on_a_planet.html \
-	utilitarian_compliments.html \
+	planet.html \
+	compliments.html \
 	will.html \
 	bp_chrono.html \
 	ob_chrono.html \

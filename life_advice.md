@@ -34,7 +34,7 @@ Life Advice
 	* The longer you wait, the harder they become to root out
 	* This will probably become a bigger problem in the future
 6. Sign up for [cryonics](https://waitbutwhy.com/2016/03/cryonics.html) (if you can afford it).
-	* It's [likely worth it](./considerations_on_cryonics.html)
+	* It's [likely worth it](./cryonics.html)
 7.	People have a strong sense that once they come into remote contact
 	with something bad, it makes them a bad person, no matter
 	how small the badness or how remote the contact. You probably

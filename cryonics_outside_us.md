@@ -27,7 +27,7 @@ up your mind about that already. Coincidentally, I believe signing up
 for cryonics is a good idea (see [Urban
 2016](https://waitbutwhy.com/2016/03/cryonics.html "Why Cryonics Makes Sense")
 and perhaps my own [cost-benefit
-analysis](./considerations_on_cryonics.html "Considerations on Cryonics")).
+analysis](./cryonics.html "Considerations on Cryonics")).
 For instructions on how to sign up for cryonics in the US, see
 [here](https://www.lesswrong.com/s/weBHYgBXg9thEQNEe).
 

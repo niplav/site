@@ -680,7 +680,7 @@ two websites, and it turns out that Metaculus forecasts are slightly
 But this comparison is not telling us much, since the
 questions on the two websites and the strictness for
 resolving questions are radically different, as explained
-[here](./range_and_forecasting_accuracy.html#Limitations).
+[here](./range.html#Limitations).
 
 Now, one can calculate the Brier score for each of the forecasts and
 outcomes, with the mean being unnecessary, because we want to examine
@@ -2031,7 +2031,7 @@ my job, luckily the Metaculus admins also allowed me to use it for my
 private investigations.
 
 I subsequently [tried to replicate my previous
-findings](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
+findings](./range.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
 with the private data, finding that the findings [mostly replicate,
 or are only slightly different](#Replication_Inbound).
 
@@ -2076,7 +2076,7 @@ completely.
 Im am incredibly indebted to the Long-Term Future Fund, who
 gave me enough money for this project that I could justify to my
 parents that I wasn't wasting my time, and to pay my [cryonics
-membership](./considerations_on_cryonics.html) for the year on top
+membership](./cryonics.html) for the year on top
 of that.
 
 Miscellaneous

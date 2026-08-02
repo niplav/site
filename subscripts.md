@@ -142,7 +142,7 @@ f, g, j, q, r, u, v, w, y and z) are still missing…
 
 I've used this notation sparingly but
 increasingly, a good example of a first exploration is
-[here](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
+[here](./range.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
 and interspersed in the text [here](./spans.html).
 
 [Fischer

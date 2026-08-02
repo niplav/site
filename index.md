@@ -27,7 +27,7 @@ Content
 Best Of
 --------
 
-* [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
+* [Cryonics Cost-Benefit Analysis](./cryonics.html)
 * [Have Attention Spans Been Declining?](./spans.html)
 * [High Status Eschews Quantification of Performance](./eschews.html)
 * [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html)
@@ -55,7 +55,7 @@ you’d like to forward
 
 ##### Strategy
 
-* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
+* [Brain-Computer Interfaces and AI Alignment](./bcis.html)
 * [A TAI Race With China Can Be Better Than Not Racing](./china.html)
 * [On Discontinuous and Fast Takeoff](./foom.html)
 * [Patching ~All Security-Relevant Open-Source Software?](./patching.html)
@@ -67,7 +67,7 @@ you’d like to forward
 
 *—Robin Hanson, [“If Uploads Come First”](http://mason.gmu.edu/~rhanson/uploads.html), 1994*
 
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Range and Forecasting Accuracy](./range.html)
 * [Subscripts for Probabilities](./subscripts.html)
 * [On The Effectiveness Of Question Decomposition](./decompose.html)
 * [Precision of Sets of Forecasts](./precision.html)
@@ -109,11 +109,11 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 * [How Often Does ¬Correlation ⇏ ¬Causation?](./cause.html)
 * [How Often Does Taking Away Options Help?](./options.html)
 * [t-SNE and UMAP Don't Produce Clusters on Random Data](./dimension.html)
-* [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
+* [Equally Many Heads and Tails](./tails.html)
 * [Logical Correlation](./logical.html)
 * [Mugging-Immune Utility Functions](./mugging.html)
 * [Pergraphs](./pergraphs.html)
-* [Mathematics Notation Convention](./mathematics_notation_convention.html)
+* [Mathematics Notation Convention](./convention.html)
 
 #### Quantified Self
 
@@ -124,7 +124,7 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 
 #### Practical
 
-* [Cryonics Cost-Benefit Analysis](./considerations_on_cryonics.html)
+* [Cryonics Cost-Benefit Analysis](./cryonics.html)
 * [Building a Cuboid](./cuboid.html)
 
 ##### Pick-Up
@@ -164,7 +164,7 @@ Beides verdammen sie dir, zeigest du beides zugleich
 
 #### Philosophy
 
-* [Compliments as Utilitarian Praxis](./utilitarian_compliments.html)
+* [Compliments as Utilitarian Praxis](./compliments.html)
 * [Ontological Cluelessness](./ontological.html)
 * [Creating Libertarian Free Will](./will.html)
 * [Trying to Disambiguate Different Questions about Whether Humans are Turing Machines](./general.html)
@@ -206,8 +206,8 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 
 *—[Nikolai Googol](https://en.wikipedia.org/wiki/Nikolai_Gogol), “Die toten Seelen”, 1842*
 
-* [Against Applause After Classical Concerts](./against_applause.html)
-* [Two People on a Planet](./two_people_on_a_planet.html)
+* [Against Applause After Classical Concerts](./applause.html)
+* [Two People on a Planet](./planet.html)
 * [Progress in Qualia](./qualia.html)
 * [Life Advice](./life_advice.html)
 * [If I Was An Eccentric Trillionaire](./eccentric.html)

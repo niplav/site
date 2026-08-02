@@ -19,7 +19,7 @@ utilitarianism](https://en.wikipedia.org/wiki/Preference_utilitarianism)
 enjoys great popularity among utilitarians<!--TODO: citation
 needed? How does it compare to other utilitarianisms?-->,
 and I tend to agree that it is a [very good pragmatic
-compromise](./notes_on_politics_especially_economics.html#What_Politics_Is_For)
+compromise](./notes_on_politics.html#What_Politics_Is_For)
 especially in the context of politics.
 
 However, most formulations I have encountered bring up some problems

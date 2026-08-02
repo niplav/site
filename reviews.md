@@ -988,7 +988,7 @@ While the post shines in parts III, IV and V, I have some
 quibbles and complaints about the introduction, part I
 and part II. First, I disliked the jab against cryonics
 in the first paragraph [without considering the costs and
-benefits](https://niplav.github.io/considerations_on_cryonics.html),
+benefits](https://niplav.github.io/cryonics.html),
 which rightly received some pushback in the comments (the strongest
 counter-observation being that barring [some practical suggestions
 for slowing down aging right now](https://www.gwern.net/Longevity),

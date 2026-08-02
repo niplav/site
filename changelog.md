@@ -277,7 +277,7 @@ March 2025
 * [Creating Libertarian Free Will](./will.html)
 * [Model Expansion and AI Alignment](./expansion.html)
 * [Skip Connections](./notes_on_pickup.html#Skip_Connections)
-* [Considerations on Cryonics](./considerations_on_cryonics.html): [Sooner Singularity Scenarios](./considerations_on_cryonics.html#Sooner_Singularity). If longevity escape velocity happens before 2040, signing up for cryonics seems not worth it.
+* [Considerations on Cryonics](./cryonics.html): [Sooner Singularity Scenarios](./cryonics.html#Sooner_Singularity). If longevity escape velocity happens before 2040, signing up for cryonics seems not worth it.
 
 ### Links
 
@@ -618,7 +618,7 @@ January 2024
 [notes](hodge.html) [to](./hyperoperators.html) [top-level](./foom.html)
 [posts](./cuboid.html).
 
-* After incorporating existential risk more carefully into my [cryonics cost-benefit analysis](./considerations_on_cryonics.html), the expected value is now only \$850k for a 20 year old, and cryocrastination (until age 55) is rational under complete self-trust (though still irrational under even slight motivation drift).
+* After incorporating existential risk more carefully into my [cryonics cost-benefit analysis](./cryonics.html), the expected value is now only \$850k for a 20 year old, and cryocrastination (until age 55) is rational under complete self-trust (though still irrational under even slight motivation drift).
 * [Question Decomposition in Forecasting](./forecasters.html#Forecasting_Techniques): [Improvement of MECE Decomposition](./forecasters.html#Classification_and_Improvements) and an idea to [use LLMs](./forecasters.html#Using_LLMs) to test whether decomposition works.
 * Preliminary notes on [Increasing Subjective Lifespan](./increasing.html), at the moment mapping the territory and reading abstracts.
 * [Microfiction](./microfiction.html)
@@ -691,7 +691,7 @@ November 2023
 --------------
 
 * Wrote publishable version of [Using Prediction Platforms to Select Quantified Self Experiments](./platforms.html). Please predict the markets!
-* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html): [Top-Down WBE](./bcis_and_alignment.html#TopDown_WBE)
+* [Brain-Computer Interfaces and AI Alignment](./bcis.html): [Top-Down WBE](./bcis.html#TopDown_WBE)
 * [Playing with Language](./language.html): [New Eponymous Laws](./language.html#New_Eponymous_Laws)
 * [Microfiction](./microfiction.html): [Switcheroos](./microfiction.html#Switcheroos)
 * [Data](./data.html): [FitBit Biometrics](./data.html#Fitbit_Biometrics)
@@ -879,8 +879,8 @@ February 2023
 January 2023
 -------------
 
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-	* [Related Work](./range_and_forecasting_accuracy.html#Related_Work)
+* [Range and Forecasting Accuracy](./range.html)
+	* [Related Work](./range.html#Related_Work)
 * [Empirical Data for Daygame Ratios](./daygame_cost_benefit.md#Empirical_Data_For_Ratios)
 	* [Wolfe Daygame Ratios](./daygame_cost_benefit.md#Wolfe_Daygame)
 * [Nootropics](./nootropics.md)
@@ -912,11 +912,11 @@ October 2022
 	* [Abbreviations Turned Into Words](./language.html#Abbreviations_Turned_Into_Words)
 * [Notes](./notes.html)
 	* [Pet Peeves](./notes.html#Pet_Peeves)
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-	* [Appendix A: Replicating Metaculus Findings With Full Data](./range_and_forecasting_accuracy.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
-		* [Some Predictions About The Results](./range_and_forecasting_accuracy.html#Some_Predictions_About_The_Results)
-		* [Analysis And Results](./range_and_forecasting_accuracy.html#Analysis__Results)
-		* [Replication Inbound?](./range_and_forecasting_accuracy.html#Replication_Inbound)
+* [Range and Forecasting Accuracy](./range.html)
+	* [Appendix A: Replicating Metaculus Findings With Full Data](./range.html#Appendix_A_Replicating_Metaculus_Findings_With_Full_Data)
+		* [Some Predictions About The Results](./range.html#Some_Predictions_About_The_Results)
+		* [Analysis And Results](./range.html#Analysis__Results)
+		* [Replication Inbound?](./range.html#Replication_Inbound)
 
 September 2022
 --------------
@@ -971,22 +971,22 @@ June 2022
 May 2022
 ---------
 
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Range and Forecasting Accuracy](./range.html)
 	* Rewrote the code in Python 3
 	* Between Forecasts
-		* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear_CurveFitting)
-			* [Fitting a Logistic Function](./range_and_forecasting_accuracy.html#Fitting_a_Logistic_Function)
-			* [Fitting an Exponential Function](./range_and_forecasting_accuracy.html#Fitting_an_Exponential)
-			* [This Is Cool](./range_and_forecasting_accuracy.html#This_Is_Cool)
-	* [Statistical Significance of Truncated Datasets](./range_and_forecasting_accuracy.html#Statistical_Significance_of_Truncated_Datasets)
+		* [Non-Linear Curve-Fitting](./range.html#NonLinear_CurveFitting)
+			* [Fitting a Logistic Function](./range.html#Fitting_a_Logistic_Function)
+			* [Fitting an Exponential Function](./range.html#Fitting_an_Exponential)
+			* [This Is Cool](./range.html#This_Is_Cool)
+	* [Statistical Significance of Truncated Datasets](./range.html#Statistical_Significance_of_Truncated_Datasets)
 	* Between Questions
-		* [Non-Linear Curve-Fitting](./range_and_forecasting_accuracy.html#NonLinear_CurveFitting_1)
-		* [Why Long-Range Questions More Accurate](./range_and_forecasting_accuracy.html#Why_Longer_Range_Questions_More_Accurate)
-		* [This Partially Explains the Result Between Forecasts](./range_and_forecasting_accuracy.html#This_Partially_Explains_the_Result_Between_Forecasts)
+		* [Non-Linear Curve-Fitting](./range.html#NonLinear_CurveFitting_1)
+		* [Why Long-Range Questions More Accurate](./range.html#Why_Longer_Range_Questions_More_Accurate)
+		* [This Partially Explains the Result Between Forecasts](./range.html#This_Partially_Explains_the_Result_Between_Forecasts)
 	* Within Questions
-		* [Logistic Curve-Fit](./range_and_forecasting_accuracy.html#Logistic_CurveFit)
-		* [Exponential Curve-Fit](./range_and_forecasting_accuracy.html#Exponential_CurveFit)
-	* [Appendix A: Quotes About the Maximal Time-Horizon of Forecasts](./range_and_forecasting_accuracy.html#Appendix_A_Quotes_About_the_Maximal_TimeHorizon_of_Forecasts)
+		* [Logistic Curve-Fit](./range.html#Logistic_CurveFit)
+		* [Exponential Curve-Fit](./range.html#Exponential_CurveFit)
+	* [Appendix A: Quotes About the Maximal Time-Horizon of Forecasts](./range.html#Appendix_A_Quotes_About_the_Maximal_TimeHorizon_of_Forecasts)
 * [Turning Some Inconsistent Preferences into Consistent Ones](./turning.html)
 * Re-organised the [Text Reviews](./text_reviews.html)
 * [Notes](./notes.html)
@@ -1002,9 +1002,9 @@ April 2022
 	* [1.3](./agt_solutions.html#13)
 * Sent in [many fixes](./contributions.html) to typos in other peoples' texts
 * [Reward Long Content](./reward.html)
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Range and Forecasting Accuracy](./range.html)
 	* Rewrote part of the code in Python
-	* [Statistical Significance of Truncated Datasets](./range_and_forecasting_accuracy.html#Statistical_Significance_of_Truncated_Datasets)
+	* [Statistical Significance of Truncated Datasets](./range.html#Statistical_Significance_of_Truncated_Datasets)
 * Converted Twitter links to [nitter.net](https://nitter.net) links, since Twitter now freezes the view for visitors to the site who aren't logged in (another internet platform bites the dust, at least as infrastructure—maybe that will change under Musk?)
 
 March 2022
@@ -1037,7 +1037,7 @@ March 2022
 		* [6.9](./rs_solutions.html#69)
 * [Rationalist Gods](./rationalist_gods.html)
 	* [Nggwal](./rationalist_gods.html#Nggwal)
-* Restructured [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html) by moving the section previously called "Conclusion" to the beginning and renaming it to [Results](./range_and_forecasting_accuracy.html#Results)
+* Restructured [Range and Forecasting Accuracy](./range.html) by moving the section previously called "Conclusion" to the beginning and renaming it to [Results](./range.html#Results)
 
 February 2022
 --------------
@@ -1094,13 +1094,13 @@ January 2022
 * [Exercises for “The Jazz Piano Book”](./tjpb_exercises.html)
 	* [Chapter 4](./tjpb_exercises.html#Chapter_4)
 * Imported [Solutions to “Programming in Lua”](./pil_solutions.html)
-* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html):
-	* [Sidechannel Attacks](./bcis_and_alignment.html#Sidechannel_Attacks)
+* [Brain-Computer Interfaces and AI Alignment](./bcis.html):
+	* [Sidechannel Attacks](./bcis.html#Sidechannel_Attacks)
 * [Text Reviews](./text_reviews.html)
 	* [Anti-Aging: State of the Art (JackH, 2020)](./text_reviews.html#AntiAging_State_of_the_Art_JackH_2020)
 * [Notes](./notes.html)
 	* [A Simple Proof that in Hardy-Weinberg Mating, Allele Frequencies are Preserved](./notes.html#A_Simple_Proof_that_in_HardyWeinberg_Mating_Allele_Frequencies_are_Preserved)
-* [Mathematics Notation Convention](./mathematics_notation_convention.html)
+* [Mathematics Notation Convention](./convention.html)
 
 December 2021
 --------------
@@ -1117,12 +1117,12 @@ December 2021
 		* [4.3](./rs_solutions.html#43)
 		* [4.9](./rs_solutions.html#49)
 		* [Stray Exercise 4](./rs_solutions.html#Stray_Exercise_4)
-* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html):
-	* [Existing Texts](./bcis_and_alignment.html#Existing_Texts)
-	* [Scaling far Beyond Human Intelligence](./bcis_and_alignment.html#Scaling_far_Beyond_Human_Intelligence)
-	* [Removing Merged Humans is a Convergent Instrumental Strategy for AI Systems](./bcis_and_alignment.html#Removing_Merged_Humans_is_a_Convergent_Instrumental_Strategy_for_AI_Systems)
-	* [How Important is Wisdom?](./bcis_and_alignment.html#How_Important_Is_Wisdom)
-	* [Superintelligent Human Brains Seem Dangerous (Although Less So)](./bcis_and_alignment.html#Superintelligent_Human_Brains_Seem_Dangerous_Although_Less_So)
+* [Brain-Computer Interfaces and AI Alignment](./bcis.html):
+	* [Existing Texts](./bcis.html#Existing_Texts)
+	* [Scaling far Beyond Human Intelligence](./bcis.html#Scaling_far_Beyond_Human_Intelligence)
+	* [Removing Merged Humans is a Convergent Instrumental Strategy for AI Systems](./bcis.html#Removing_Merged_Humans_is_a_Convergent_Instrumental_Strategy_for_AI_Systems)
+	* [How Important is Wisdom?](./bcis.html#How_Important_Is_Wisdom)
+	* [Superintelligent Human Brains Seem Dangerous (Although Less So)](./bcis.html#Superintelligent_Human_Brains_Seem_Dangerous_Although_Less_So)
 * [Text Reviews](./text_reviews.html)
 	* [Persuasion Tools: AI takeover without AGI or agency? (Daniel Kokotajlo, 2020)](./text_reviews.html#Persuasion_Tools_AI_takeover_without_AGI_or_agency_Daniel_Kokotajlo_2020)
 
@@ -1148,10 +1148,10 @@ October 2021
 * Additions to old pages:
 	* [99 Problems Klong Solution](./99_problems_klong_solution.html):
 		* [P63](./99_problems_klong_solution.html#P63__Construct_a_complete_binary_tree)
-	* [Considerations on Cryonics](./considerations_on_cryonics.html)
-		* [Now What?](./considerations_on_cryonics.html#Now_What)
-	* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-		* [Limitations](./range_and_forecasting_accuracy.html#Limitations)
+	* [Considerations on Cryonics](./cryonics.html)
+		* [Now What?](./cryonics.html#Now_What)
+	* [Range and Forecasting Accuracy](./range.html)
+		* [Limitations](./range.html#Limitations)
 		* Fixed a bunch of minor problems
 	* [Solutions to “Naive Set Theory”](./nst_solutions.html):
 		* [Section 12](./nst_solutions.html#Section_12)
@@ -1188,12 +1188,12 @@ August 2021
 -----------
 
 * [Various Statistics About the Site](./about.html#Miscellania)
-* [Brain-Computer Interfaces and AI Alignment](./bcis_and_alignment.html)
+* [Brain-Computer Interfaces and AI Alignment](./bcis.html)
 * [Life Improvements in 2030](./life_improvements_2030.html)
 * [Notes on Ethics](./notes_on_ethics.html)
 	* [We Should Kill All Mosquitoes](./notes_on_ethics.html#We_Should_Kill_All_Mosquitoes)
-* Added one section to [Considerations on Cryonics](./considerations_on_cryonics.html):
-	* [Being Revived as an Emulation and Forced to Work](./considerations_on_cryonics.html#Being_Revived_as_an_Emulation_and_Forced_to_Work)
+* Added one section to [Considerations on Cryonics](./cryonics.html):
+	* [Being Revived as an Emulation and Forced to Work](./cryonics.html#Being_Revived_as_an_Emulation_and_Forced_to_Work)
 
 July 2021
 ---------
@@ -1244,7 +1244,7 @@ April 2021
 March 2021
 -----------
 
-* Rewrote & re-analyzed [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.md)
+* Rewrote & re-analyzed [Range and Forecasting Accuracy](./range.md)
 * [Solutions to “Artificial Intelligence: A Modern Approach”](./aima_solutions.md)
 	* [2.4](./aima_solutions.html#24)
 	* [3.1](./aima_solutions.html#31)
@@ -1297,7 +1297,7 @@ December 2020
 * Added [Text Reviews](./text_reviews.html)
 	* [The Human Predicament (David Benatar, 2017)](./text_reviews.html#The_Human_Predicament_David_Benatar_2017)
 	* [What failure looks like (Paul Christiano, 2019)](./text_reviews.html#What_failure_looks_like_Paul_Christiano_2019)
-* [Why Some Negative Ranges?](./range_and_forecasting_accuracy.html#Why_Some_Negative_Ranges) in [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Why Some Negative Ranges?](./range.html#Why_Some_Negative_Ranges) in [Range and Forecasting Accuracy](./range.html)
 * [Exercise 3 in Section 9](./nst_solutions.html#Exercise_3) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
 * Notes
 	* [Giving Better Gifts](./notes.html#Giving_Better_Gifts)
@@ -1308,7 +1308,7 @@ December 2020
 November 2020
 -------------
 
-* [Simpson's Paradox](./range_and_forecasting_accuracy.html#Simpsons_Paradox) in [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html#Simpsons_Paradox)
+* [Simpson's Paradox](./range.html#Simpsons_Paradox) in [Range and Forecasting Accuracy](./range.html#Simpsons_Paradox)
 * [Exercise 2 in Section 9](./nst_solutions.html#Exercise_2_3) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
 * Reports
 	* [Attempted 7-Day Meditation Retreat at Home](./reports.html#Attempted_7Day_Meditation_Retreat_at_Home)
@@ -1323,9 +1323,9 @@ Updated the [Texts List](./texts_list.html).
 October 2020
 ------------
 
-* Added two section to [Considerations on Cryonics](./considerations_on_cryonics.html):
-	* [Caveats](./considerations_on_cryonics.html#Caveats)
-	* [Quality of Preservation](./considerations_on_cryonics.html#Quality_of_Preservation)
+* Added two section to [Considerations on Cryonics](./cryonics.html):
+	* [Caveats](./cryonics.html#Caveats)
+	* [Quality of Preservation](./cryonics.html#Quality_of_Preservation)
 * Started [Reports](./reports.html) with
 	* [Counting Smarts](./reports.html#Countings_Smarts)
 	* [Eating Only Every Second Day](./reports.html#Eating_Only_Every_Second_Day)
@@ -1334,7 +1334,7 @@ October 2020
 	* [Mostly Stopping to Bite My Nails](./reports.html#Mostly_Stopping_to_Bite_My_Nails)
 	* [Melatonin](./reports.html#Melatonin)
 * [Some more thoughts](./nst_solutions.html#Other_Failing_Ways_of_Interpreting_the_Exercise) on [Exercise 1 from Section 9](./nst_solutions.html#Exercise_1_6) in [Solutions to “Naïve Set Theory“](./nst_solutions.html)
-* [Explaining the different approaches of analysis](./range_and_forecasting_accuracy.html#Three_Different_Analyses_An_Illustrative_Example) for [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Explaining the different approaches of analysis](./range.html#Three_Different_Analyses_An_Illustrative_Example) for [Range and Forecasting Accuracy](./range.html)
 
 ### Other
 
@@ -1351,9 +1351,9 @@ Renamed the Haikus page to [Senryūs](./microfiction.html#Senry).
 August 2020
 -----------
 
-* [Considerations on Cryonics](./considerations_on_cryonics.html)
-	* [Caveats](./considerations_on_cryonics.html#Caveats) on the value of future life years
-	* Started more in-depth thoughts on the [Quality of Cryopreservation](./considerations_on_cryonics.html#Quality_of_Preservation)
+* [Considerations on Cryonics](./cryonics.html)
+	* [Caveats](./cryonics.html#Caveats) on the value of future life years
+	* Started more in-depth thoughts on the [Quality of Cryopreservation](./cryonics.html#Quality_of_Preservation)
 
 July 2020
 ---------
@@ -1361,9 +1361,9 @@ July 2020
 ### Writing
 
 * Started the [Exercises for “The Jazz Piano Book”](./tjpb_exercises.html)
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
-	* [Results for Accuracy Between Questions](./range_and_forecasting_accuracy.html#Results_1)
-	* [Accuracy Within Questions](./range_and_forecasting_accuracy.html#Accuracy_Within_Questions)
+* [Range and Forecasting Accuracy](./range.html)
+	* [Results for Accuracy Between Questions](./range.html#Results_1)
+	* [Accuracy Within Questions](./range.html#Accuracy_Within_Questions)
 * [Notes](./notes.html)
 	* [Pseudocode for Finding Supermaximal Repeats via Enhanced Suffix Array](notes.html#Pseudocode_for_an_Algorithm_for_Finding_Supermaximal_Repeats_Using_a_Suffix_Array)
 
@@ -1383,7 +1383,7 @@ in June.
 ### Writing
 
 * [Non-Solution to Exercise 1 in Section 9 of Naïve Set Theory](./nst_solutions.html#Exercise_1_6)
-* [Analysis and Results on Range and Forecasting Accuracy between Questions](./range_and_forecasting_accuracy.html#Analysis_1)
+* [Analysis and Results on Range and Forecasting Accuracy between Questions](./range.html#Analysis_1)
 
 ### Other
 
@@ -1403,14 +1403,14 @@ much in May.
 
 ### Writing
 
-* [Low Sample Sizes In High Ranges In Forecasting](./range_and_forecasting_accuracy.html#Low_Sample_Sizes_With_High_Ranges)
+* [Low Sample Sizes In High Ranges In Forecasting](./range.html#Low_Sample_Sizes_With_High_Ranges)
 
 April 2020
 ----------
 
 ### Writing
 
-* [Range and Forecasting Accuracy](./range_and_forecasting_accuracy.html)
+* [Range and Forecasting Accuracy](./range.html)
 * [Solutions for Exercises in “Naïve Set Theory”](./nst_solutions.html): Section [8](./nst_solutions.html#Section_8)
 * [Social Costs from being Found Out Doing Daygame](./daygame_cost_benefit.html#Social_Costs_from_Being_Found_Out)
 * Notes:
@@ -1424,7 +1424,7 @@ March 2020
 * [A Slightly More Complex Model for the Value of Daygame](./daygame_cost_benefit.html#A_Slightly_More_Complex_Model)
 * [Solutions for Exercises in “Naïve Set Theory”](./nst_solutions.html): Sections [6](./nst_solutions.html#Section_6) & [7](./nst_solutions.html#Section_7)
 * [A Generative Solution for P60](./99_problems_klong_solution.html#A_Generative_Solution) in the [99 Problems Klong Solution](./99_problems_klong_solution.html)
-* [A Monte-Carlo Simulation for the Value of Cryonics](./considerations_on_cryonics.html#Appendix_A_A_Guesstimate_Model)
+* [A Monte-Carlo Simulation for the Value of Cryonics](./cryonics.html#Appendix_A_A_Guesstimate_Model)
 
 February 2020
 -------------
@@ -1440,7 +1440,7 @@ January 2020
 ### Writing
 
 * Started [Daygame Cost-Benefit Analysis](./daygame_cost_benefit.html)
-* Added [Longevity Escape Velocity](https://en.wikipedia.org/wiki/Longevity_escape_velocity) impacts to [Considerations on Cryonics](./considerations_on_cryonics.html)
+* Added [Longevity Escape Velocity](https://en.wikipedia.org/wiki/Longevity_escape_velocity) impacts to [Considerations on Cryonics](./cryonics.html)
 * Notes
 	* [Some Thoughts about the Qualia Research Institute](./notes.html#Some_Thoughts_about_the_Qualia_Research_Institute)
 	* [The Benefit of Reading LessWrong](./notes.html#The_Benefit_of_Reading_LessWrong)
@@ -1481,14 +1481,14 @@ October 2019
 
 ### Writing
 
-* [Considerations on Cryonics](./considerations_on_cryonics.html)
+* [Considerations on Cryonics](./cryonics.html)
 
 September 2019
 --------------
 
 ### Writing
 
-* [Against Applause After Classical Concerts](./against_applause.html)
+* [Against Applause After Classical Concerts](./applause.html)
 * Solutions to [P55](./99_problems_klong_solution.html#P55__Construct_completely_balanced_binary_trees), [P56](./99_problems_klong_solution.html#P56__Symmetric_binary_trees), [P57](./99_problems_klong_solution.html#P57__Binary_search_trees_dictionaries), [P58](./99_problems_klong_solution.html#P58__Generateandtest_paradigm) and [P59](./99_problems_klong_solution.html#P59__Construct_heightbalanced_binary_trees), and a complete implementation of the [Huffman code](./99_problems_klong_solution.html#A_More_Complete_Implementation) for the [99 Klong Problems](./99_problems_klong_solution.html)
 * Notes
 	* [Better Names for Things](./notes.html#Better_Names_for_Things)
@@ -1504,7 +1504,7 @@ August 2019
 
 * [Subjective Estimates of Life Expectancy](./estimated_life_expectancy.html)
 * Solutions to [P40](./99_problems_klong_solution.html#P40__Goldbachs_conjecture), [P41](./99_problems_klong_solution.html#P41__A_list_of_Goldbach_compositions), [P49](./99_problems_klong_solution.html#P49__Gray_code), [P50](./99_problems_klong_solution.html#P50__Huffman_code) and [P54A](./99_problems_klong_solution.html#P54A__Check_whether_a_given_term_represents_a_binary_tree) of the [99 Klong Problems](./99_problems_klong_solution.html)
-* [Compliments as Utilitarian Praxis](./utilitarian_compliments)
+* [Compliments as Utilitarian Praxis](./compliments.html)
 * Notes
 	* [Indirect Anti-Natalism](./notes.html#Indirect_AntiNatalism)
 
@@ -1521,7 +1521,7 @@ July 2019
 	* [Converging Preference Utilitarianism](./notes_on_ethics.html#Converging_Preference_Utilitarianism)
 	* [Silent & Loud Killers](./notes.html#Silent__Loud_Killers)
 * [Contributions](./contributions.html)
-* [Other Proposed Solutions to Rendezvous on a Sphere](./two_people_on_a_planet.html#Other_Proposed_Solutions)
+* [Other Proposed Solutions to Rendezvous on a Sphere](./planet.html#Other_Proposed_Solutions)
 * [Solutions to P34-P39 for the 99 Klong Problems](./99_problems_klong_solution.html#P34__Calculate_Eulers_totient_function_phim)
 * Archives
 	* [Bit-Player Posts Chronological Index](./bp_chrono.html)
@@ -1551,7 +1551,7 @@ May 2019
 * Started [Notes](./notes.html)
 * [Pipe Rings](./pipe_rings.html)
 * Transcribed chapters [43 to 70](./tao_te_king.html#Kapitel_43) of the Tao Tê King
-* Added illustrations to [Two People on a Planet](./two_people_on_a_planet.html)
+* Added illustrations to [Two People on a Planet](./planet.html)
 
 ### Site Changes
 
@@ -1564,7 +1564,7 @@ April 2019
 
 ### Writing
 
-* [Two People on a Planet](./two_people_on_a_planet.html)
+* [Two People on a Planet](./planet.html)
 * [Rationalist Gods](./rationalist_gods.html)
 
 Structurally supporting pages (like this changelog, the home page and [the
@@ -1578,7 +1578,7 @@ and imported some existing projects of mine.
 * [99 Problems Collection](./99_problems_collection.html)
 * [K-99: Ninety-Nine Klong Problems](./99_klong_problems.html)
 * [99 Problems Klong Solution](./99_problems_klong_solution.html)
-* [Equally Many Heads and Tails](./equally_many_heads_and_tails.html)
+* [Equally Many Heads and Tails](./tails.html)
 
 #### Translations
 

@@ -16,7 +16,7 @@ Lohnarbeit).
 
 If something isn't long enough to be its own article (yet…)
 and it is neither [ethics](./notes_on_ethics.html)- nor
-[politics](notes_on_politics_especially_economics.html)-,
+[politics](notes_on_politics.html)-,
 [prediction](./notes_on_predictions.html)- or
 [pickup](./notes_on_pickup.html)-related, I put it here.
 
@@ -443,7 +443,7 @@ of reading [Less Wrong](https://en.wikipedia.org/wiki/LessWrong), and it
 is true that it's often hard to point to specific advantages of doing so.
 
 One such advantage may be signing up for cryonics. [I
-estimate](./considerations_on_cryonics.html "Considerations on Cryonics")
+estimate](./cryonics.html "Considerations on Cryonics")
 that signing up for cryonics is worth \$2.5m in expectation for a twenty
 year old (and more for older people). Assume that after 500 hours reading
 Less Wrong, a person will decide to sign up for cryonics (it broadly
@@ -898,8 +898,8 @@ which says that `curve_fit` should not make the second argument smaller
 than zero, but otherwise can do whatever it wants.
 
 So far, I've already used this function
-[three](./range_and_forecasting_accuracy.html#Fitting_a_Logistic_Function)
-[times](./range_and_forecasting_accuracy.html#Fitting_an_Exponential_Function)
+[three](./range.html#Fitting_a_Logistic_Function)
+[times](./range.html#Fitting_an_Exponential_Function)
 [already](./daygame_cost_benefit.html#Estimating_Parameters), and
 I've only known about it for a short time! A must for every wannabe
 data-scientist.

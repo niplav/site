@@ -81,7 +81,7 @@ Requirements
 Uses
 ------
 
-* [Range and Forecasting Accuracy (niplav, 2023)](./range_and_forecasting_accuracy.html#Analysis__Results)
+* [Range and Forecasting Accuracy (niplav, 2023)](./range.html#Analysis__Results)
 * [Precision of Sets of Forecasts (niplav, 2023)](./precision.html)
 
 Possible Projects

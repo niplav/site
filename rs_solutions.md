@@ -414,7 +414,7 @@ possible for `$Q$` (`$Q \overset{ᰑ}{\rightarrow} Q'$`) because we
 assumed that `$P \mathcal{R} Q$`, or a replacement took place. In that case,
 the replacement would have replaced another variable `$α$` (perhaps
 because we thought that those greek variable names are [boring after a
-while](./mathematics_notation_convention.html#Things_I_Would_Like_To_Do_But_Im_Not_Brave_Enough)),
+while](./convention.html#Things_I_Would_Like_To_Do_But_Im_Not_Brave_Enough)),
 so we assume (witout loss of generality) that `$f(α)=ᰑ$`.
 
 Then we know that if `$P \mathcal{R} Q$` and `$P
@@ -816,7 +816,7 @@ Therefore, the process satisfies the formula.
 -----
 
 Proof that for any
-[`$n \in ℕ$`](./mathematics_notation_convention.html#Basics),
+[`$n \in ℕ$`](./convention.html#Basics),
 `$\text{Clock}$` satisfies
 `$\langle \text{tick} \rangle^n \textit{t}\!\textit{t}$`.
 
