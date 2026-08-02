@@ -10,7 +10,7 @@ julia: daygame.jl
 	$(JULIA) daygame.jl
 
 puttit: $(IMG)
-	mv $(IMG) ../../img/daygame_cost_benefit
+	mv $(IMG) ../../img/daygame
 
 .eps.png:
 	convert -chop 0x180 $< $@

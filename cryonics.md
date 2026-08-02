@@ -681,7 +681,7 @@ life in the future should then look like this:
 	plot({n.pdf(x;50000;500000000)})
 	draw()
 
-![Probability distribution over the value of a lifeyear in the future](./img/considerations_on_cryonics/avg_fut_year_val.png "The probability distribution over the value of a lifeyear in the future. The distribution is a normal distribution with an expected value of 50000 and a standard deviation of ~22000.")
+![Probability distribution over the value of a lifeyear in the future](./img/cryonics/avg_fut_year_val.png "The probability distribution over the value of a lifeyear in the future. The distribution is a normal distribution with an expected value of 50000 and a standard deviation of ~22000.")
 
 *this graph is not based on real data and only here for illustrative purposes*
 
@@ -728,7 +728,7 @@ like this:
 	plot({:[x>50000;n.pdf(x;50000;500000000);0.4472*n.pdf(x;50000;100000000)]})
 	draw()
 
-![Probability distribution over the value of a lifeyear in the future conditional on being resuscitated](./img/considerations_on_cryonics/cryo_fut_year_val.png "The probability distribution over the value of a lifeyear in the future conditional on being resuscitated. The distribution is two halves of two different normal distributions meeting at around $50000, the left half has much lower variance than the right half.")
+![Probability distribution over the value of a lifeyear in the future conditional on being resuscitated](./img/cryonics/cryo_fut_year_val.png "The probability distribution over the value of a lifeyear in the future conditional on being resuscitated. The distribution is two halves of two different normal distributions meeting at around $50000, the left half has much lower variance than the right half.")
 
 <!--TODO: wouldn't that just shift the normal curve rightwards? Think about it.-->
 
@@ -1462,7 +1462,7 @@ Results
 -------
 
 The complete code for the model can be found
-[here](./code/considerations_on_cryonics/cryoyear.lua).
+[here](./code/cryonics/cryoyear.lua).
 
 ### Standard Parameters
 
@@ -1490,7 +1490,7 @@ and \$142394 (~`$\$1.4 \cdot 10^5$`), respectively.
 	barplot(data)
 	draw()
 
-![Value of signing up for cryonics in n years at age 20, standard parameters.](./img/considerations_on_cryonics/std_param_val_20.png "Value of signing up for cryonics in n years at age 20, standard parameters. Value diminishes very quickly over the years, having the shape of a decreasing geometric distribution.")
+![Value of signing up for cryonics in n years at age 20, standard parameters.](./img/cryonics/std_param_val_20.png "Value of signing up for cryonics in n years at age 20, standard parameters. Value diminishes very quickly over the years, having the shape of a decreasing geometric distribution.")
 
 #### Currently 40 years old
 
@@ -1509,7 +1509,7 @@ old. Performing the signup immediately at age 40 is worth \$3009892
 	barplot(data)
 	draw()
 
-![Value of signing up for cryonics in n years at age 40, standard parameters.](./img/considerations_on_cryonics/std_param_val_40.png "Value of signing up for cryonics in n years at age 40, standard parameters. Value diminishes very quickly over the years, having the shape of a decreasing geometric distribution.")
+![Value of signing up for cryonics in n years at age 40, standard parameters.](./img/cryonics/std_param_val_40.png "Value of signing up for cryonics in n years at age 40, standard parameters. Value diminishes very quickly over the years, having the shape of a decreasing geometric distribution.")
 
 ### Without Motivation Drift
 
@@ -1530,7 +1530,7 @@ In this model, a very different picture emerges:
 	barplot(data)
 	draw()
 
-![Value of signing up for cryonics in n years at age 20, no motivation drift.](./img/considerations_on_cryonics/no_drift_val.png "Value of signing up for cryonics in n years at age 20, no motivation drift. In the first 30 years, the value continues to increase, until at ~30 (or age 50) the value starts decreasing rapidly.")
+![Value of signing up for cryonics in n years at age 20, no motivation drift.](./img/cryonics/no_drift_val.png "Value of signing up for cryonics in n years at age 20, no motivation drift. In the first 30 years, the value continues to increase, until at ~30 (or age 50) the value starts decreasing rapidly.")
 
 	$ lua cryoyear.lua 20 50000 0.05 0.6 4500 1 | sort -nr | head -10
 	772358.83294268: 52
@@ -1607,7 +1607,7 @@ y-axis. This should get fixed sometime in the future.
 	barplot(data)
 	draw()
 
-![Critical perspective on cryonics](./img/considerations_on_cryonics/critical.png "Critical perspective on cryonics. The older one get's, the less of a loss cryonics is, but it still stays a net negative trade.")
+![Critical perspective on cryonics](./img/cryonics/critical.png "Critical perspective on cryonics. The older one get's, the less of a loss cryonics is, but it still stays a net negative trade.")
 
 ### Sooner Singularity
 
@@ -1694,7 +1694,7 @@ point in time into a full membership quickly, and memberships at the
 than Alcor, but require much higher amount of initiative to assure a
 quick preservation).
 
-[![Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”](./img/considerations_on_cryonics/tetraspace_tweet.png "Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”")](http://nitter.poast.org/TetraspaceWest/status/1508597929082294272)
+[![Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”](./img/cryonics/tetraspace_tweet.png "Tweet by @TetraspaceWest, with text “It's called cryonics because you have to fill out like one form to do it, enough to make you cry”")](http://nitter.poast.org/TetraspaceWest/status/1508597929082294272)
 
 Generally, the [Cryonics Signup
 Guide](https://www.lesswrong.com/s/weBHYgBXg9thEQNEe) is the best
@@ -1853,7 +1853,7 @@ Guesstimate and converted them into a Klong array.
 	scplot2(incidence)
 	draw()
 
-![Distribution of value of signing up for cryonics, logarithmically](./img/considerations_on_cryonics/log_values.png "Distribution of value of signing up for cryonics, logarithmically")
+![Distribution of value of signing up for cryonics, logarithmically](./img/cryonics/log_values.png "Distribution of value of signing up for cryonics, logarithmically")
 
 Note that the scale is logarithmic to the [natural
 logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) (symmetrically

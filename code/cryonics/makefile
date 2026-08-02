@@ -5,7 +5,7 @@ include config.mk
 all: $(IMG)
 
 puttit: $(IMG)
-	mv $(IMG) ../../img/considerations_on_cryonics
+	mv $(IMG) ../../img/cryonics
 
 .eps.png:
 	convert -chop 0x180 $< $@

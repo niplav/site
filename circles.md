@@ -22,7 +22,7 @@ The characteristic description of a circle combination lists
 the number of planes contained by n circles, in ascending order.
 For example, the following circle has the description 1,2,1,1:
 
-![Circle Combination 3_6](img/circle_combinations/3_6.png)
+![Circle Combination 3_6](img/circles/3_6.png)
 
 There is only one plane not contained by any circles (the outer plane),
 2 planes only contained by one circle, 1 plane contained by 2 circles,
@@ -47,7 +47,7 @@ have the same characteristic description).
 		<td>Characteristic description</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/1_1.png"></img></td>
+		<td><img src="./img/circles/1_1.png"></img></td>
 		<td>1</td>
 		<td>0</td>
 		<td>1</td>
@@ -69,21 +69,21 @@ have the same characteristic description).
 		<td>Characteristic description</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/2_1.png"></img></td>
+		<td><img src="./img/circles/2_1.png"></img></td>
 		<td>2</td>
 		<td>0</td>
 		<td>3</td>
 		<td>1,2,0</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/2_2.png"></img></td>
+		<td><img src="./img/circles/2_2.png"></img></td>
 		<td>4</td>
 		<td>2</td>
 		<td>4</td>
 		<td>1,2,1</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/2_3.png"></img></td>
+		<td><img src="./img/circles/2_3.png"></img></td>
 		<td>2</td>
 		<td>0</td>
 		<td>3</td>
@@ -105,97 +105,97 @@ have the same characteristic description).
 		<td>Characteristic description</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_1.png"></img></td>
+		<td><img src="./img/circles/3_1.png"></img></td>
 		<td>3</td>
 		<td>0</td>
 		<td>4</td>
 		<td>1,3,0,0</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_2.png"></img></td>
+		<td><img src="./img/circles/3_2.png"></img></td>
 		<td>5</td>
 		<td>2</td>
 		<td>5</td>
 		<td>1,3,1,0</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_3.png"></img></td>
+		<td><img src="./img/circles/3_3.png"></img></td>
 		<td>8</td>
 		<td>4</td>
 		<td>6</td>
 		<td>1,3,3,0</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_4.png"></img></td>
+		<td><img src="./img/circles/3_4.png"></img></td>
 		<td>5</td>
 		<td>2</td>
 		<td>5</td>
 		<td>1,2,2,0</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_5.png"></img></td>
+		<td><img src="./img/circles/3_5.png"></img></td>
 		<td>8</td>
 		<td>4</td>
 		<td>6</td>
 		<td>1,2,2,1</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_6.png"></img></td>
+		<td><img src="./img/circles/3_6.png"></img></td>
 		<td>5</td>
 		<td>2</td>
 		<td>5</td>
 		<td>1,2,1,1</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_7.png"></img></td>
+		<td><img src="./img/circles/3_7.png"></img></td>
 		<td>12</td>
 		<td>6</td>
 		<td>8</td>
 		<td>1,3,3,1</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_8.png"></img></td>
+		<td><img src="./img/circles/3_8.png"></img></td>
 		<td>3</td>
 		<td>0</td>
 		<td>4</td>
 		<td>1,2,1,0</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_9.png"></img></td>
+		<td><img src="./img/circles/3_9.png"></img></td>
 		<td>3</td>
 		<td>0</td>
 		<td>4</td>
 		<td>1,1,2,0</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_10.png"></img></td>
+		<td><img src="./img/circles/3_10.png"></img></td>
 		<td>5</td>
 		<td>2</td>
 		<td>4</td>
 		<td>1,1,2,1</td>
 	<tr>
-		<td><img src="./img/circle_combinations/3_11.png"></img></td>
+		<td><img src="./img/circles/3_11.png"></img></td>
 		<td>3</td>
 		<td>0</td>
 		<td>4</td>
 		<td>1,1,1,1</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_12.png"></img></td>
+		<td><img src="./img/circles/3_12.png"></img></td>
 		<td>12</td>
 		<td>6</td>
 		<td>8</td>
 		<td>1,4,2,1</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_13.png"></img></td>
+		<td><img src="./img/circles/3_13.png"></img></td>
 		<td>12</td>
 		<td>6</td>
 		<td>8</td>
 		<td>1,2,4,1</td>
 	</tr>
 	<tr>
-		<td><img src="./img/circle_combinations/3_14.png"></img></td>
+		<td><img src="./img/circles/3_14.png"></img></td>
 		<td>12</td>
 		<td>6</td>
 		<td>8</td>

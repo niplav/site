@@ -286,7 +286,7 @@ here to judge the accuracy of forecasts, but simply the probability
 assigned to the correct outcome (here the vertical distance of the
 probability to the outcome)).
 
-![Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.](./img/range_and_forecasting_accuracy/example.png "Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.")
+![Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.](./img/range/example.png "Chart showing the forecasts on the day-range question and the week-range question. One can see that questions with a shorter range assign a higher probability to the correct outcome (i.e. 0), and also predictions on the question with the shorter range are more accurate.")
 
 ### Judging Between Forecasts
 
@@ -757,7 +757,7 @@ for PredictionBook forecasts):
 
 	plt.savefig("allscatter.png")
 
-![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](./img/range_and_forecasting_accuracy/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
+![Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)](./img/range/allscatter.png "Scatterplot with linear regression for Metaculus & PredictionBook forecasts by range (in days)")
 
 The high amounts of noise are probably due to the low number of
 predictions for single days (or, in the case of weeks and months, for
@@ -853,7 +853,7 @@ The result can be plotted:
 
 	plt.savefig("allscatter_logi.png")
 
-![Scatter-plot of Metaculus & PredictionBook data, with logistic-ish regressions (as described above).](./img/range_and_forecasting_accuracy/allscatter_logi.png "Scatter-plot of Metaculus & PredictionBook data, with logistic-ish regressions (as described above). Both plots start at 0.125, and approach 0.25, but the Metaculus plot does so far quicker (=0.25 at ~1500 days), while the PredictionBook regression hasn't reached 0.25 by day ~4000")
+![Scatter-plot of Metaculus & PredictionBook data, with logistic-ish regressions (as described above).](./img/range/allscatter_logi.png "Scatter-plot of Metaculus & PredictionBook data, with logistic-ish regressions (as described above). Both plots start at 0.125, and approach 0.25, but the Metaculus plot does so far quicker (=0.25 at ~1500 days), while the PredictionBook regression hasn't reached 0.25 by day ~4000")
 
 I wonder whether the reason the Metaculus fit reaches the Metaculus
 data so much faster is because the Metaculus data ends earlier? (Also,
@@ -924,7 +924,7 @@ We can now fit that kind of curve to the data:
 	>>> metexpfit=spo.curve_fit(shift_exp, metrngs, metbriers, bounds=([0], [1]))
 	(array([0.95788506]), array([[6.50321645e-07]]))
 
-![Scatter-plot of Metaculus & PredictionBook data, with exponential-ish regressions (as described above).](./img/range_and_forecasting_accuracy/allscatter_exp.png "Scatter-plot of Metaculus & PredictionBook data, with exponential-ish regressions (as described above). The PredictionBook exponential-ish plot looks more like a step-function, reaching 0.25 instantaneously, while the Metaculus data takes ~100 days to reach 0.25 (which is also quite quick).")
+![Scatter-plot of Metaculus & PredictionBook data, with exponential-ish regressions (as described above).](./img/range/allscatter_exp.png "Scatter-plot of Metaculus & PredictionBook data, with exponential-ish regressions (as described above). The PredictionBook exponential-ish plot looks more like a step-function, reaching 0.25 instantaneously, while the Metaculus data takes ~100 days to reach 0.25 (which is also quite quick).")
 
 As one can see, fitting this kind of curve suggests that
 the predictions become equivalent to random guesses almost
@@ -1105,7 +1105,7 @@ distinct subsets of the dataset.
 
 It is best explained visually:
 
-![Simpson's paradox, taken from Wikipedia](./img/range_and_forecasting_accuracy/simpsons_paradox.gif "An animated gif of a plot. In the plot there is a set of points in a grid. The set of points is elongated, from the top-left corner to the bottom-right corner. It can be clearly separated into five subsets. Each subset is elongated from the bottom-left corner to the top-right corner. The animation first shows one line going from top-left to bottom-right, through the whole set of points, and then highlights the five subsets, while also showing five lines, each going through the subsets from the bottom-left to the top-right corner.")
+![Simpson's paradox, taken from Wikipedia](./img/range/simpsons_paradox.gif "An animated gif of a plot. In the plot there is a set of points in a grid. The set of points is elongated, from the top-left corner to the bottom-right corner. It can be clearly separated into five subsets. Each subset is elongated from the bottom-left corner to the top-right corner. The animation first shows one line going from top-left to bottom-right, through the whole set of points, and then highlights the five subsets, while also showing five lines, each going through the subsets from the bottom-left to the top-right corner.")
 
 It might be the case that this analysis for PredictionBook data has come
 up against an instance of Simpson's paradox: The accuracy of forecasts
@@ -1150,7 +1150,7 @@ I generated charts for the sample sizes in days:
 
 	plt.savefig("ss_plot.png")
 
-![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range_and_forecasting_accuracy/ss_plot.png "Sample sizes for predictions with a range (in months), sorted and graphed.")
+![Sample sizes for predictions with a range of n months, sorted and graphed.](./img/range/ss_plot.png "Sample sizes for predictions with a range (in months), sorted and graphed.")
 
 The red graphs stands for Metaculus sample sizes, the blue graph stands
 for PredictionBook sample sizes.
@@ -1348,7 +1348,7 @@ PredictionBook data.
 
 	plt.savefig("allq.png")
 
-![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range")
+![Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range](./img/range/allq.png "Scatterplot with linear regression for Metaculus & PredictionBook question accuracy by range")
 
 The general trend seems to be: questions with a higher range tend to
 receive forecasts that have a higher accuracy than questions with a
@@ -1402,9 +1402,9 @@ clearer when plotted?
 
 	fig=plt.figure(figsize=(8,8))
 
-![Scatterplot with logistic regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq_logi.png "Scatterplot with logistic regression for Metaculus & PredictionBook question accuracy by range")
+![Scatterplot with logistic regression for Metaculus & PredictionBook question accuracy by range](./img/range/allq_logi.png "Scatterplot with logistic regression for Metaculus & PredictionBook question accuracy by range")
 
-![Scatterplot with exponential-ish regression for Metaculus & PredictionBook question accuracy by range](./img/range_and_forecasting_accuracy/allq_exp.png "Scatterplot with exponential-ish regression for Metaculus & PredictionBook question accuracy by range")
+![Scatterplot with exponential-ish regression for Metaculus & PredictionBook question accuracy by range](./img/range/allq_exp.png "Scatterplot with exponential-ish regression for Metaculus & PredictionBook question accuracy by range")
 
 Not—quite?
 
@@ -1611,12 +1611,12 @@ between 730 and 1095):
 
 	plt.savefig("permetquestion.png")
 
-![Linear regressions for the accuracy of questions by range](./img/range_and_forecasting_accuracy/permetquestion.png "Linear regressions for the accuracy of questions by range, which looks like someone threw a bunch of randomly-colored random-length lines onto a white canvas and then haphazardly shoved them into the bottom-left corner. Or, alternatively, like a failed attempt at modern art.")
+![Linear regressions for the accuracy of questions by range](./img/range/permetquestion.png "Linear regressions for the accuracy of questions by range, which looks like someone threw a bunch of randomly-colored random-length lines onto a white canvas and then haphazardly shoved them into the bottom-left corner. Or, alternatively, like a failed attempt at modern art.")
 
 Basically the same code for image generation is used also for the
 PredictionBook data:
 
-![Linear regressions for the accuracy of questions by range](./img/range_and_forecasting_accuracy/perpbquestion.png "Linear regressions for the accuracy of questions by range, which, as above, looks like someone  threw a bunch of randomly-colored random-length lines onto a white canvas and then haphazardly shoved them into the bottom-left corner. But, like, way more of them, so that it's way too busy to look at.")
+![Linear regressions for the accuracy of questions by range](./img/range/perpbquestion.png "Linear regressions for the accuracy of questions by range, which, as above, looks like someone  threw a bunch of randomly-colored random-length lines onto a white canvas and then haphazardly shoved them into the bottom-left corner. But, like, way more of them, so that it's way too busy to look at.")
 
 Although the plots are kind of cool to look at, I'm not really sure what
 they can tell us. My *guess* would be that it somewhat shows a trend
@@ -1690,7 +1690,7 @@ data. Everything else would have been surprising.
 
 	plt.savefig("withintotal.png")
 
-![Mean of linear regressions on accuracy within questions](./img/range_and_forecasting_accuracy/withintotal.png "Mean of linear regressions on accuracy within questions, with filtered PredictionBook data")
+![Mean of linear regressions on accuracy within questions](./img/range/withintotal.png "Mean of linear regressions on accuracy within questions, with filtered PredictionBook data")
 
 This chart, however, shows that the result is not as clean as one might
 hope: both linear regressions are very steep, predicting Brier scores
@@ -1764,12 +1764,12 @@ These can now be plotted, as the linear regressions were above:
 
 	plt.savefig("permetquestion_logi.png")
 
-![Logistic curve-fits for the accuracy of questions by range](./img/range_and_forecasting_accuracy/permetquestion_logi.png "Logistic curve-fits for the accuracy of questions by range. Most of the logistic curve-fits go to 0.25 around 0, but some of them are constant at various values <0.125 over 0 up to 1400 days, and some just rise quite slowly.")
+![Logistic curve-fits for the accuracy of questions by range](./img/range/permetquestion_logi.png "Logistic curve-fits for the accuracy of questions by range. Most of the logistic curve-fits go to 0.25 around 0, but some of them are constant at various values <0.125 over 0 up to 1400 days, and some just rise quite slowly.")
 
 Again, basically the same code, but for PredictionBook data, gives us
 these plots:
 
-![Logistic curve-fits for the accuracy of questions by range](./img/range_and_forecasting_accuracy/perpbquestion_logi.png "Logistic curve-fits for the accuracy of questions by range. Most of the logistic curve-fits go to 0.25 around 0, but some of them are constant at various values <0.125 over 0 up to 1400 days, and some just rise quite slowly, just as above with the Metaculus data.")
+![Logistic curve-fits for the accuracy of questions by range](./img/range/perpbquestion_logi.png "Logistic curve-fits for the accuracy of questions by range. Most of the logistic curve-fits go to 0.25 around 0, but some of them are constant at various values <0.125 over 0 up to 1400 days, and some just rise quite slowly, just as above with the Metaculus data.")
 
 These charts look like what I would have expected:
 
@@ -1833,7 +1833,7 @@ length being logarithmic, base 10):
 
 	plt.savefig("logi_horizons.png")
 
-![Horizons for the questions](./img/range_and_forecasting_accuracy/logi_horizons.png "Horizons for the questions in a barplot. Most horizon lengths center around 0, with ~400 for Metaculus and ~500 for PredictionBook, with the number of questions with a specific horizon falling monotonically in the positive direction (Metaculus numbers falling faster than PredictionBook numbers). The number of questions with a specific horizon reaches ~0 at ~10⁵, with a few outliers in the negative (~10⁻⁴) and positive (10²⁵) direction.")
+![Horizons for the questions](./img/range/logi_horizons.png "Horizons for the questions in a barplot. Most horizon lengths center around 0, with ~400 for Metaculus and ~500 for PredictionBook, with the number of questions with a specific horizon falling monotonically in the positive direction (Metaculus numbers falling faster than PredictionBook numbers). The number of questions with a specific horizon reaches ~0 at ~10⁵, with a few outliers in the negative (~10⁻⁴) and positive (10²⁵) direction.")
 
 From this we can glean that:
 
@@ -1870,9 +1870,9 @@ This [family of curves](https://en.wikipedia.org/wiki/Family_of_curves) can now 
 
 	plt.savefig("permetquestion_exp.png")
 
-![Sets of exponential fits on Metaculus questions](./img/range_and_forecasting_accuracy/permetquestion_exp.png "A plot, x-axis from 0 to 1400, y-axis from 0 to 0.25. On the plot there is a large number of graphs of functions, all exponential, with different steepnesses (all starting from 0 at 0, many reaching 0.25 immediately, and a few being less steep). Two empty regions (“rivers”) are also visible.")
+![Sets of exponential fits on Metaculus questions](./img/range/permetquestion_exp.png "A plot, x-axis from 0 to 1400, y-axis from 0 to 0.25. On the plot there is a large number of graphs of functions, all exponential, with different steepnesses (all starting from 0 at 0, many reaching 0.25 immediately, and a few being less steep). Two empty regions (“rivers”) are also visible.")
 
-![Sets of exponential fits on PredictionBook questions](./img/range_and_forecasting_accuracy/perpbquestion_exp.png "A plot, x-axis from 0 to 1400, y-axis from 0 to 0.25. On the plot there is a large number of graphs of functions, all exponential, with different steepnesses (all starting from 0 at 0, many reaching 0.25 immediately, and a few being less steep). Way more graphs of functions that in the Metaculus data. Basically ~0 “rivers”.")
+![Sets of exponential fits on PredictionBook questions](./img/range/perpbquestion_exp.png "A plot, x-axis from 0 to 1400, y-axis from 0 to 0.25. On the plot there is a large number of graphs of functions, all exponential, with different steepnesses (all starting from 0 at 0, many reaching 0.25 immediately, and a few being less steep). Way more graphs of functions that in the Metaculus data. Basically ~0 “rivers”.")
 
 I personally believe that these plots
 are kind of gorgeous. Interesting are the two
@@ -1924,7 +1924,7 @@ questions, scaled logarithmically:
 
 	plt.savefig("exp_horizons.png")
 
-![Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions](./img/range_and_forecasting_accuracy/exp_horizons.png "Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions: Horizons on the x-axis, ranging from 10⁻² to 10⁷, and number of questions in the bin on the y-axis, from 0 to ~450. For PredictionBook data, large peak at ~10 with ~420 (blaze it) questions. Then several bins, all with ~40 questions, to ~10⁴, then declining to ~15 questions per bin. Below 10, no strongly discernible pattern, again with ~20 questions per bin. Metaculus data quite similar: ~350 questions on the 10 bin, then a “hill” pattern that peaks at 10² and then declines to <10 questions per bin at 10⁴. ~20 questions per bin for horizons <10.")
+![Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions](./img/range/exp_horizons.png "Histogram of expected horizons of forecasts on Metaculus & PredictionBook questions: Horizons on the x-axis, ranging from 10⁻² to 10⁷, and number of questions in the bin on the y-axis, from 0 to ~450. For PredictionBook data, large peak at ~10 with ~420 (blaze it) questions. Then several bins, all with ~40 questions, to ~10⁴, then declining to ~15 questions per bin. Below 10, no strongly discernible pattern, again with ~20 questions per bin. Metaculus data quite similar: ~350 questions on the 10 bin, then a “hill” pattern that peaks at 10² and then declines to <10 questions per bin at 10⁴. ~20 questions per bin for horizons <10.")
 
 I wonder if the regularity I perceive (the nice declining "hill"-like
 patterns for horizons >10) is a spurious artifact, a result of the
@@ -2006,7 +2006,7 @@ I __know__, [this question about 2016 being the warmest year on
 record](https://www.metaculus.com/questions/126/will-2016-be-the-warmest-year-on-record/)
 has 765 forecasts)!
 
-![If an item does not appear in our records, it does not exist](./img/range_and_forecasting_accuracy/api_incomplete.png "Image of confused Obi-Wan Kenobi, with the text “Impossible. Perhaps the api is incomplete.” (If an item does not appear in our records, it does not exist)")
+![If an item does not appear in our records, it does not exist](./img/range/api_incomplete.png "Image of confused Obi-Wan Kenobi, with the text “Impossible. Perhaps the api is incomplete.” (If an item does not appear in our records, it does not exist)")
 
 I initially suspected a bug in my code, but to my surprise, after further
 investigation, it turns out that the Metaculus API returned timeseries
@@ -2083,16 +2083,16 @@ Miscellaneous
 -------------
 
 The code for image generation can be found
-[here](./code/range_and_forecasting_accuracy/draw_all.py),
+[here](./code/range/draw_all.py),
 the complete code for analyzing the data can be found
-[here](./code/range_and_forecasting_accuracy/load.py).
+[here](./code/range/load.py).
 
 The code for previous versions was written in
 [Klong](http://t3x.org/klong/index.html), but abandoned for reasons
 concerning performance & replicability. The previous code for analysis
-can be found [here](./code/range_and_forecasting_accuracy/load.kg),
+can be found [here](./code/range/load.kg),
 the previous code for image generation can be found
-[here](./code/range_and_forecasting_accuracy/draw_all.kg) (in some
+[here](./code/range/draw_all.kg) (in some
 ways the previous code was much nicer, especially when calculating
 `metquestions`).
 
@@ -2335,7 +2335,7 @@ The two methods have the *same* MSE for fitting the data.
 	>>> np.mean((shift_exp(pmetqbrier.T[0], pmetexpfit_betweenq[0][0])-pmetqbrier.T[1])**2)
 	0.024506121283245946
 
-![Image of an old overweight woman with open mouth, looking very confused, caption “Wat”](./img/range_and_forecasting_accuracy/wat.jpg "Image of an old overweight woman with open mouth, looking very confused, caption “Wat”")
+![Image of an old overweight woman with open mouth, looking very confused, caption “Wat”](./img/range/wat.jpg "Image of an old overweight woman with open mouth, looking very confused, caption “Wat”")
 
 I have no idea why this should be the case. Nice thing that I wrote
 the resolution criterion for the question comparing MSE unambigiously
@@ -2507,12 +2507,12 @@ corner, I couldn't figure out how to move it to the right middle-bottom).
 
 	plt.savefig("pvals_ss_plot.png")
 
-![Plot with four lines. Two are correlation coefficients, of Metaculus truncated correlations and PredictionBook truncated correlations. The Metaculus correlations are close to zero in the first ~15 months, then dip into negative correlations (around -0.2) until month ~35, then rise to positive correlations (around 0.15) until month 40, and then start oscillating wildly (shortly afterwards the data for Metaculus correlations ends). The PredictionBook correlations also start around 0, then rise slowly to ~0.05 at 60 months, at which point they start oscillating around 0 with larger and larger amplitudes until month 120. The p-values for Metaculus start out around 10⁻⁶, then jump around between 10⁻⁵ to 10⁻² in the first 15 months, and then dip down in the range of 10⁻²⁵ to 10⁻³⁵, and then recover back to 10⁻⁵ to 10⁻² until the end of the Metaculus dataset. The PredictionBook p-values start out at around 10⁻⁵, where they stay until 25 months, then rise to 10⁻¹ to 10⁻² until month 40, then drop down back to 10⁻⁵ until month 65, and then finally rise back up to 10⁻² to 10⁻³ month where they stay until the dataset ends.](./img/range_and_forecasting_accuracy/pvals_plot.png "Plot with four lines. Two are correlation coefficients, of Metaculus truncated correlations and PredictionBook truncated correlations. The Metaculus correlations are close to zero in the first ~15 months, then dip into negative correlations (around -0.2) until month ~35, then rise to positive correlations (around 0.15) until month 40, and then start oscillating wildly (shortly afterwards the data for Metaculus correlations ends). The PredictionBook correlations also start around 0, then rise slowly to ~0.05 at 60 months, at which point they start oscillating around 0 with larger and larger amplitudes until month 120. The p-values for Metaculus start out around 10⁻⁶, then jump around between 10⁻⁵ to 10⁻² in the first 15 months, and then dip down in the range of 10⁻²⁵ to 10⁻³⁵, and then recover back to 10⁻⁵ to 10⁻² until the end of the Metaculus dataset. The PredictionBook p-values start out at around 10⁻⁵, where they stay until 25 months, then rise to 10⁻¹ to 10⁻² until month 40, then drop down back to 10⁻⁵ until month 65, and then finally rise back up to 10⁻² to 10⁻³ month where they stay until the dataset ends.")
+![Plot with four lines. Two are correlation coefficients, of Metaculus truncated correlations and PredictionBook truncated correlations. The Metaculus correlations are close to zero in the first ~15 months, then dip into negative correlations (around -0.2) until month ~35, then rise to positive correlations (around 0.15) until month 40, and then start oscillating wildly (shortly afterwards the data for Metaculus correlations ends). The PredictionBook correlations also start around 0, then rise slowly to ~0.05 at 60 months, at which point they start oscillating around 0 with larger and larger amplitudes until month 120. The p-values for Metaculus start out around 10⁻⁶, then jump around between 10⁻⁵ to 10⁻² in the first 15 months, and then dip down in the range of 10⁻²⁵ to 10⁻³⁵, and then recover back to 10⁻⁵ to 10⁻² until the end of the Metaculus dataset. The PredictionBook p-values start out at around 10⁻⁵, where they stay until 25 months, then rise to 10⁻¹ to 10⁻² until month 40, then drop down back to 10⁻⁵ until month 65, and then finally rise back up to 10⁻² to 10⁻³ month where they stay until the dataset ends.](./img/range/pvals_plot.png "Plot with four lines. Two are correlation coefficients, of Metaculus truncated correlations and PredictionBook truncated correlations. The Metaculus correlations are close to zero in the first ~15 months, then dip into negative correlations (around -0.2) until month ~35, then rise to positive correlations (around 0.15) until month 40, and then start oscillating wildly (shortly afterwards the data for Metaculus correlations ends). The PredictionBook correlations also start around 0, then rise slowly to ~0.05 at 60 months, at which point they start oscillating around 0 with larger and larger amplitudes until month 120. The p-values for Metaculus start out around 10⁻⁶, then jump around between 10⁻⁵ to 10⁻² in the first 15 months, and then dip down in the range of 10⁻²⁵ to 10⁻³⁵, and then recover back to 10⁻⁵ to 10⁻² until the end of the Metaculus dataset. The PredictionBook p-values start out at around 10⁻⁵, where they stay until 25 months, then rise to 10⁻¹ to 10⁻² until month 40, then drop down back to 10⁻⁵ until month 65, and then finally rise back up to 10⁻² to 10⁻³ month where they stay until the dataset ends.")
 
 And the same chart, just without the Metaculus data to make it easier
 to read (*allegedly*):
 
-![The same plot, but without the outlier Metaculus p-values](./img/range_and_forecasting_accuracy/pvals_pb_plot.png "The same plot, but without the outlier Metaculus p-values")
+![The same plot, but without the outlier Metaculus p-values](./img/range/pvals_pb_plot.png "The same plot, but without the outlier Metaculus p-values")
 
 These graphs are quite interesting in several regards. First, we can see
 that the correlation coefficients don't have a clear development as one

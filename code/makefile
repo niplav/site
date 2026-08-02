@@ -1,9 +1,9 @@
 all:
 	make -C 99_klong/
-	make -C considerations_on_cryonics/
-	make -C daygame_cost_benefit/
+	make -C cryonics/
+	make -C daygame/
 	make -C estimated_life_expectancy/
-	make -C range_and_forecasting_accuracy/
+	make -C range/
 	make -C masturbation/
 	make -C naive_set_theory/
 	make -C bp_chrono/
@@ -13,10 +13,10 @@ all:
 
 puttit:
 	make -C 99_klong/ puttit
-	make -C considerations_on_cryonics/ puttit
-	make -C daygame_cost_benefit/ puttit
+	make -C cryonics/ puttit
+	make -C daygame/ puttit
 	make -C estimated_life_expectancy/ puttit
-	make -C range_and_forecasting_accuracy/ puttit
+	make -C range/ puttit
 	make -C masturbation / puttit
 	make -C bp_chrono/ puttit
 	make -C ob_chrono/ puttit
@@ -25,10 +25,10 @@ puttit:
 
 clean:
 	make -C 99_klong/ clean
-	make -C considerations_on_cryonics/ clean
-	make -C daygame_cost_benefit/ clean
+	make -C cryonics/ clean
+	make -C daygame/ clean
 	make -C estimated_life_expectancy/ clean
-	make -C range_and_forecasting_accuracy/ clean
+	make -C range/ clean
 	make -C masturbation / clean
 	make -C naive_set_theory/ clean
 	make -C bp_chrono/ clean

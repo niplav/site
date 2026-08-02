@@ -142,7 +142,7 @@ proclaims
 
 Tom Torero presents his experiences with daygame ratios in
 [this video](https://www.youtube.com/watch?v=7WzKWHvDOOQ)
-[(a)](./vid/daygame_cost_benefit/realistic_daygame_expectations.webm).
+[(a)](./vid/daygame/realistic_daygame_expectations.webm).
 He claims that a beginner will on average get a lay out of a hundred
 approaches, an intermediate one out of fifty, and an advanced daygamer
 one lay out of thirty. He doesn't specify how much practice makes
@@ -463,11 +463,11 @@ The Klong code describing the date- and lay- ratios is then as follows:
 The plotted data for lay ratios (and the corresponding fitted sigmoid
 curve) look like this:
 
-![Empirical data for the cumulative value of lay-ratios over time](./img/daygame_cost_benefit/layratio_data.png "Empirical data for the cumulative value of lay-ratios over time.")
+![Empirical data for the cumulative value of lay-ratios over time](./img/daygame/layratio_data.png "Empirical data for the cumulative value of lay-ratios over time.")
 
 Similarly, the data for reported date ratios:
 
-![Empirical data for the cumulative value of date-ratios over time](./img/daygame_cost_benefit/dateratio_data.png "Empirical data for the cumulative value of date-ratios over time.")
+![Empirical data for the cumulative value of date-ratios over time](./img/daygame/dateratio_data.png "Empirical data for the cumulative value of date-ratios over time.")
 
 #### Comparing Date & Lay Ratios
 
@@ -475,7 +475,7 @@ We can also compare date & lay ratios with the fitted parameters, and
 I notice that date ratios grow faster than lay ratios. Not sure what is
 up with that.
 
-![The date & lay ratios over thousands of approaches](./img/daygame_cost_benefit/ratio_data.png "The date & lay ratios over thousands of approaches")
+![The date & lay ratios over thousands of approaches](./img/daygame/ratio_data.png "The date & lay ratios over thousands of approaches")
 
 A Simple Model
 --------------
@@ -630,7 +630,7 @@ The resulting function is linear on the number of approaches:
 	plot(cost)
 	draw()
 
-![Cumulative cost of approaching & dating](./img/daygame_cost_benefit/cost.png "Cumulative cost of approaching and dating, is pretty much linear over approaches.")
+![Cumulative cost of approaching & dating](./img/daygame/cost.png "Cumulative cost of approaching and dating, is pretty much linear over approaches.")
 
 ### Benefit
 
@@ -773,7 +773,7 @@ This looks like this for up to 5000 approaches:
 	plot(layvals)
 	draw()
 
-![Value of lays for a given number of approaches, cumulatively](./img/daygame_cost_benefit/layvals.png "Value of lays for a given number of approaches, cumulatively. It is a graph growing approximately by the number of approaches to the power of 199/200.")
+![Value of lays for a given number of approaches, cumulatively](./img/daygame/layvals.png "Value of lays for a given number of approaches, cumulatively. It is a graph growing approximately by the number of approaches to the power of 199/200.")
 
 Then the total benefit is the discounted pride values and the discounted
 value of sex:
@@ -822,7 +822,7 @@ This can be visualized as well:
 
 	draw()
 
-![Visualizing the cost & benefit of daygame, against each other, as well as the optimum](img/daygame_cost_benefit/complete.png "Visualizing the cost & benefit of daygame, against each other, as well as the optimum")
+![Visualizing the cost & benefit of daygame, against each other, as well as the optimum](img/daygame/complete.png "Visualizing the cost & benefit of daygame, against each other, as well as the optimum")
 
 A Slightly More Complex Model
 ------------------------------
@@ -876,7 +876,7 @@ doing x daygame approaches then is
 	apppy::1000
 	sideeff::{yearsben*increase*annsal*ln(1+x%apppy)}
 
-![Positive side effects from doing daygame](img/daygame_cost_benefit/sideeff.png "Positive side effects from doing daygame")
+![Positive side effects from doing daygame](img/daygame/sideeff.png "Positive side effects from doing daygame")
 
 #### Mental Benefit
 
@@ -904,7 +904,7 @@ to represent the value over time:
 
 	mental::{(10000*(ln.pdf((x*0.005)+0.5;1;1)))-1900}
 
-![Value of mental states due to doing daygame](img/daygame_cost_benefit/mental.png "Value of mental states due to doing daygame")
+![Value of mental states due to doing daygame](img/daygame/mental.png "Value of mental states due to doing daygame")
 
 ### Additional Costs
 
@@ -1106,7 +1106,7 @@ Graphically:
 
 	draw()
 
-![Visualizing the cost & benefit of daygame, against each other, as well as the optimum. Using the more complex model.](img/daygame_cost_benefit/complete_complex.png "Visualizing the cost & benefit of daygame, against each other, as well as the optimum. Using the more complex model.")
+![Visualizing the cost & benefit of daygame, against each other, as well as the optimum. Using the more complex model.](img/daygame/complete_complex.png "Visualizing the cost & benefit of daygame, against each other, as well as the optimum. Using the more complex model.")
 
 Conclusion
 ----------
