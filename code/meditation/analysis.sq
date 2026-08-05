@@ -1,0 +1,568 @@
+// Cost-benefit model for a long meditation retreat (e.g. 3 months at Lumbini).
+// A *practice period* is a tuple (h, d) in [0,24] x [0,90]: h hours of formal
+// practice per day, sustained for d days. value(h, d) = benefit - cost, in $.
+// Benefits split into supramundane (p(stream entry) * value(SE)) and mundane.
+// The SE benefit accrues only until the "Automated Enlightener" arrives (or
+// until TAI kills us), so the accrual window is a dependent distribution.
+
+// ===== Exogenous inputs =====
+
+@name("Key exogenous inputs")
+inputs = {
+  @name("Hourly wage ($/hr)")
+  hourlyWage = 38
+
+  @name("Baseline practice absent this retreat (hr/day)")
+  @doc(
+    "Set to literally zero at niplav's instruction: the decision-relevant
+counterfactual is 'no further practice at all', not 'keep dripping'. This makes
+the supramundane term the *full* conditional p(SE) from the period rather than
+an increment over a drip.
+
+Do not confuse this with practice *history*, which is very much not zero — see
+`historyEffectiveHours`. Zero baseline means no future practice; the 2.5k hours
+already logged still count as accumulated dose, and conditioning on them is
+what does the work now."
+  )
+  baselineHours = 0
+
+  @name("Natural remaining lifespan (years, absent TAI)")
+  naturalLifespan = 40 to 60
+
+  @format(".0%")
+  @name("Fraction of in-normal-life practice hours that displace paid work")
+  @doc(
+    "The spec says sub-2 hr/day practice costs 'just my hourly wage', which
+implicitly assumes every meditation hour is an hour not billed. In practice
+some of it eats slack, sleep, or scrolling rather than billable time. Set this
+to 100% to recover the literal reading."
+  )
+  workDisplacement = truncateRight(0.55 to 0.98, 1)
+
+  { hourlyWage, baselineHours, naturalLifespan, workDisplacement }
+}
+
+// ===== TAI: the common cause of both the Enlightener and doom =====
+
+@name("Years to transformative AI")
+@doc(
+  "Calibrated to niplav's stated view (2026-08): median 2031, i.e. ~5 years out,
+with 75% credence that the transitive closure of obvious things for LLMs gets
+us there. The 25% arm is the 'needs a further insight' world, which is slower
+and much wider.
+
+Modelling TAI explicitly as a common cause is what generates the dependence
+between the Enlightener and doom. Sample-set arithmetic preserves it downstream."
+)
+taiYears = mx([2 to 12, 8 to 60], [75%, 25%])
+
+// ===== Automated Enlightener timing (Manifold stub) =====
+
+@name("Automated Enlightener arrival (years from now)")
+@doc(
+  "STUB, to be replaced by a Manifold question: 'By when will there exist a
+protocol/device that gets a motivated person to >90% chance of stream entry
+in <14 days and for <$10k?'
+
+Structured as TAI plus a diffusion lag rather than as a free-standing date, so
+that it inherits the TAI timeline. The lag covers applied research, trials, and
+actually being purchasable — 3 months to 5 years, median ~1.2. `pEverArrives`
+is the chance it is achievable at all conditional on TAI; the residual arm is a
+placeholder 200 years. Replace the whole block with the Manifold community
+distribution once that question has a forecast."
+)
+enlightener = {
+  diffusionLag = 0.25 to 5 // (years after TAI)
+  pEverArrives = 90%
+  arrivalIfEver = taiYears + diffusionLag
+  yearsToArrival = mx([arrivalIfEver, 200], [pEverArrives, 1 - pEverArrives])
+  { yearsToArrival, }
+}
+
+// ===== Doom timing, conditional on TAI =====
+
+@name("Existential catastrophe timing (conditional on TAI date)")
+@doc(
+  "Calibrated to niplav's stated p(doom) = 65%. Doom is modelled as TAI times a
+ratio rather than TAI plus a lag, because a slower takeoff plausibly stretches
+the whole sequence. The ratio has mass below 1, i.e. catastrophe during the
+run-up rather than after a clean TAI milestone.
+
+Because both this and the Enlightener are functions of the same `taiYears`
+samples, they are correlated, which is the dependent structure the accrual
+window needs. Roughly a third of the mass has doom arriving before the
+Enlightener: the benefit window is cut short without SE ever being made
+obsolete, a different failure mode from being scooped by the Enlightener."
+)
+doom = {
+  pDoomEver = 65%
+  timingRatio = 0.7 to 4 // doom clock relative to the TAI clock
+  yearsToDoomIfEver = taiYears * timingRatio
+  yearsToDoom = mx([yearsToDoomIfEver, 500], [pDoomEver, 1 - pDoomEver])
+  { yearsToDoom, }
+}
+
+// Clamp (not truncate): we want max(x, lo) pointwise, not conditioning on
+// x > lo, which would renormalise away the mass we care about.
+@hide
+clampLow(dst, lo) = SampleSet.map(
+  SampleSet.fromDist(dst),
+  {|x| Number.max([x, lo])}
+)
+
+@name("SE benefit accrual window (years)")
+@doc(
+  "How long a stream entry attained *now* actually pays counterfactual rent.
+It ends at whichever comes first: the Enlightener (after which SE is cheap and
+having gotten it early is worth ~nothing counterfactually), doom, or death of
+old age. Truncated at 0.05 years to avoid degenerate zero windows."
+)
+accrualWindow = clampLow(
+  SampleSet.map3(
+    SampleSet.fromDist(enlightener.yearsToArrival),
+    SampleSet.fromDist(doom.yearsToDoom),
+    SampleSet.fromDist(inputs.naturalLifespan),
+    {|a, b, c| Number.min([a, b, c])}
+  ),
+  0.05
+)
+
+// ===== p(stream entry | practice period): survival model =====
+
+@name("Dose-response parameters for stream entry")
+@doc(
+  "STUB, but now a *survival* model rather than a bare dose-response. Form:
+
+  effectiveHours(h, d) = d * h^intensityExp
+  F(EH) = ceiling * (1 - exp(-EH / scaleHours))       // cumulative p(SE by EH)
+  p(SE from a period) = (F(EH0 + dEH) - F(EH0)) / (1 - F(EH0))
+
+`intensityExp > 1` encodes the pragmatic-dharma claim that continuity is
+superlinearly valuable: 12 hr/day for 30 days beats 2 hr/day for 180 days even
+though raw hour counts are similar. `ceiling` is the asymptote for an
+A&P-crossing practitioner.
+
+The medians here are lightly shifted from the original guesses to reflect a
+rejection-sampling update on the single hardest datum available: niplav has
+~4.9k effective hours and has not attained stream entry. Under the original
+prior that outcome had probability 0.38, so the update is real but mild
+(scaleHours median 3.0k -> 3.3k, ceiling 0.77 -> 0.75). The full update
+belongs in the Julia model; this is a hand-transcribed approximation."
+)
+seParams = {
+  @doc("Superlinearity of daily practice intensity. 1.0 = hours are fungible.")
+  intensityExp = 1.2 to 1.8
+
+  @doc("Effective-hour scale constant of the exponential saturation.")
+  scaleHours = 1700 to 6800
+
+  @format(".0%")
+  @doc("Asymptotic p(SE) for an A&P-crossing practitioner with infinite practice.")
+  ceiling = truncateRight(0.58 to 0.93, 0.99)
+
+  { intensityExp, scaleHours, ceiling }
+}
+
+@hide
+effectiveHours(h, d) = d * (h ^ seParams.intensityExp)
+
+@name("Effective hours already accumulated, as of 2026-08")
+@doc(
+  "Computed from data/meditations.csv: 3,644 sessions, 2,261 logged hours over
+1,565 distinct days from 2020-01-23 to 2026-06-26, plus the 28-day July 2026
+retreat assumed at 10 hr/day. Because effective hours are `sum over days of
+h_day^intensityExp`, the total depends on the exponent, so this is a fitted
+function of it rather than a constant. The fit is a quadratic in log space
+against the true day-by-day sum, accurate to under 1% over gamma in [1, 2].
+
+This is the single most informative piece of evidence in the model and it was
+missing from the first version."
+)
+historyEffectiveHours = {
+  g = seParams.intensityExp
+  exp(0.45459 * g ^ 2 + 0.29998 * g + 7.08002)
+}
+
+// Cumulative p(SE by the time EH effective hours have been accumulated.)
+@hide
+cumF(eh) = seParams.ceiling * (1 - exp(-eh / seParams.scaleHours))
+
+@name("p(stream entry | h hr/day for d days, given history and no SE yet)")
+@doc(
+  "The conditional hazard, not the raw dose-response. Because ~4.9k effective
+hours have already been spent without attaining first path, the retreat starts
+far up the saturation curve where the marginal return per hour is much lower.
+Conditioning drops p(SE | 12 hr/day, 90 days) from the unconditional ~52% to
+roughly 23%. This is the largest single correction in the model, and it comes
+straight out of data/meditations.csv."
+)
+pSE(h: [0, 24], d: [0, 90]) = {
+  eh0 = historyEffectiveHours
+  survived = 1 - cumF(eh0)
+  (cumF(eh0 + effectiveHours(h, d)) - cumF(eh0)) / survived
+}
+
+// Counterfactual: what a `bh` hr/day drip achieves over the accrual window,
+// also conditioned on history. With baselineHours = 0 this is exactly zero.
+@hide
+pSEBase(bh) = if bh <= 0 then 0 else {
+  eh0 = historyEffectiveHours
+  dEH = accrualWindow * 365 * (bh ^ seParams.intensityExp)
+  (cumF(eh0 + dEH) - cumF(eh0)) / (1 - cumF(eh0))
+}
+
+@name("p(SE) from the counterfactual baseline alone")
+@doc(
+  "Zero by construction now: the stated counterfactual is no further practice
+at all. Kept as a knob so the sensitivity table can still ask what happens if
+a drip would in fact have gotten there eventually."
+)
+@format(".0%")
+pSEBaseline = pSEBase(inputs.baselineHours)
+
+// ===== value(stream entry): STUB =====
+
+@name("Value of stream entry ($/year of accrual)")
+@doc(
+  "STUB, to be replaced by structured interviews with stream-enterers. Framed
+as annual willingness-to-pay for the persistent shift, not a one-off. The fat
+upper tail (5% weight on $30k-$1M/yr) covers the possibility that the
+first-path reduction in suffering is worth far more than introspection
+suggests; the model is quite sensitive to this tail."
+)
+@format("$,.0f")
+valueSEPerYear = mx([2k to 40k, 30k to 1M], [95%, 5%])
+
+// ===== Mundane benefits =====
+
+@name("Mundane (non-path) benefits of the practice period ($)")
+@doc(
+  "Concentration, equanimity, sleep, reduced akrasia, the value of the retreat
+qua vacation, minus the real downside risk: dark-night territory that persists
+after the retreat, meditation-induced depersonalisation, or (rarely) psychosis.
+The downside is more likely at high h and long d, so it scales with the same
+effective-hours measure. Net expectation is small and can be negative."
+)
+mundane(h: [0, 24], d: [0, 90]) = {
+  eh = effectiveHours(h, d)
+  // Upside saturates: most of the concentration gains come early.
+  upside = (3k to 25k) * (1 - exp(-eh / 2000))
+  // Downside grows roughly linearly in dose, with a nasty tail.
+  darkNightCost = mx([500 to 8k, 20k to 200k], [92%, 8%]) * (eh / 3000)
+  upside - darkNightCost
+}
+
+// ===== Costs =====
+
+@name("Cost of a practice period ($)")
+@doc(
+  "Three regimes:
+- h <= 2: fits into normal life; cost is the wage of the displaced hours.
+- 2 < h <= 8: soft-retreat with a friend plus part-time work whose intensity
+  declines as h rises; a friction multiplier takes the effective productivity
+  loss from 1.0x the meditation hours at h=2 to ~1.4x at h=8, plus lodging.
+- h > 8: full retreat. Marginal cost schedule per meditation-hour: $50/hr up
+  to 12 hr/day, rising linearly to $80/hr at 18 hr/day, then sharply to
+  $200/hr at 24 hr/day. Applied to every hour that day.
+
+Travel: retreats of <= 28 days are 'travel in Europe' mode; longer ones are
+'travel to Nepal' mode.
+
+CAVEAT: the specified $50/hr retreat rate is a big number. At 12 hr/day for
+90 days it implies $54k, which is ~2.7x a bottom-up estimate (foregone wage
+of ~$19k for a quarter of full-time work, plus ~$1.5k of dana-based Lumbini
+lodging and ~$2k of travel). Either the rate is meant to price in something
+the bottom-up estimate misses (career discontinuity, reintegration costs,
+relationship strain), or it is too high by roughly a factor of two. This is
+the single most load-bearing disagreement between us in the model."
+)
+cost(h: [0, 24], d: [0, 90]) = {
+  wage = inputs.hourlyWage
+
+  // --- regime 1: normal life ---
+  normalLifeDaily = h * wage * inputs.workDisplacement
+
+  // --- regime 2: soft retreat ---
+  friction = 1 + 0.4 * (Number.max([h - 2, 0]) / 6)
+  softLodgingDaily = 25 to 60
+  softDaily = h * friction * wage + softLodgingDaily
+
+  // --- regime 3: full retreat, marginal rate schedule ---
+  retreatRate = if h <= 12 then 50
+  else if h <= 18 then 50 + 30 * (h - 12) / 6
+  else 80 + 120 * (h - 18) / 6
+  retreatDaily = h * retreatRate
+
+  daily = if h <= 2 then normalLifeDaily
+  else if h <= 8 then softDaily
+  else retreatDaily
+
+  // --- travel ---
+  europeTravel = 150 to 700
+  nepalTravel = 1.2k to 3k // flights, visa, in-country transit, gear
+  travel = if h <= 2 then 0
+  else if d <= 28 then europeTravel
+  else nepalTravel
+
+  daily * d + travel
+}
+
+// ===== value(practice period) =====
+
+@name("value(h, d) = benefit - cost, in $")
+@doc(
+  "The supramundane term is counterfactual: only the *increment* in p(SE) over
+what the baseline drip would have delivered within the accrual window counts.
+This is why the model is far less enthusiastic than a naive p(SE)*value(SE)
+calculation would be."
+)
+valueGen(h: [0, 24], d: [0, 90], costMult, baselineHours) = {
+  deltaP = clampLow(pSE(h, d) - pSEBase(baselineHours), 0)
+  supramundane = deltaP * valueSEPerYear * accrualWindow
+  mund = mundane(h, d)
+  c = cost(h, d) * costMult
+  { supramundane: supramundane, mundane: mund, cost: c, net: supramundane + mund - c }
+}
+
+value(h: [0, 24], d: [0, 90]) = valueGen(h, d, 1, inputs.baselineHours)
+
+// ===== Scenarios =====
+
+@hide
+scenarioRow(s) = {
+  v = value(s.h, s.d)
+  {
+    name: s.name,
+    h: s.h,
+    d: s.d,
+    p: pSE(s.h, s.d),
+    cost: v.cost,
+    net: v.net,
+  }
+}
+
+@hide
+fmtDist(dst) = String(Dist.inv(dst, 0.05), ",.0f") + " to " +
+  String(Dist.inv(dst, 0.95), ",.0f")
+
+@name("Scenario comparison")
+@startOpen
+scenarios = {
+  rows = List.map(
+    [
+      { name: "Nothing extra (0.5 hr/day, 90d)", h: 0.5, d: 90 },
+      { name: "Daily discipline (2 hr/day, 90d)", h: 2, d: 90 },
+      { name: "Soft retreat w/ friend (5 hr/day, 60d)", h: 5, d: 60 },
+      { name: "Soft retreat, hard (8 hr/day, 90d)", h: 8, d: 90 },
+      { name: "Europe retreat (12 hr/day, 28d)", h: 12, d: 28 },
+      { name: "Lumbini, moderate (10 hr/day, 90d)", h: 10, d: 90 },
+      { name: "Lumbini, standard (12 hr/day, 90d)", h: 12, d: 90 },
+      { name: "Lumbini, hardcore (16 hr/day, 90d)", h: 16, d: 90 },
+      { name: "Ascetic maximum (20 hr/day, 90d)", h: 20, d: 90 },
+    ],
+    scenarioRow
+  )
+  Table.make(
+    rows,
+    {
+      columns: [
+        { name: "scenario", fn: {|r| r.name} },
+        { name: "hr/day", fn: {|r| r.h} },
+        { name: "days", fn: {|r| r.d} },
+        { name: "p(SE)", fn: {|r| String(mean(r.p) * 100, ".0f") + "%"} },
+        { name: "cost ($)", fn: {|r| fmtDist(r.cost)} },
+        { name: "E[net] ($)", fn: {|r| String(mean(r.net), ",.0f")} },
+        { name: "P(net>0)", fn: {|r| String(1 - cdf(r.net, 0), ".0%")} },
+      ],
+    }
+  )
+}
+
+@name("Sensitivity of the Lumbini scenario (12 hr/day, 90 days)")
+@doc(
+  "The headline result — that every practice period has negative expected value
+— is not robust. It survives or dies on two assumptions. `costMult` scales the
+retreat cost schedule (0.4 is roughly the bottom-up estimate of ~$23k). `bh` is
+the counterfactual daily-practice rate; bh = 0.05 is the 'retreats are the only
+thing that works' view, under which the retreat's p(SE) increment is nearly its
+full p(SE)."
+)
+@startOpen
+sensitivity = {
+  cells = List.map(
+    [
+      { costMult: 1.0, bh: 1.0, label: "as specified" },
+      { costMult: 1.0, bh: 0.05, label: "drip never works" },
+      { costMult: 0.4, bh: 1.0, label: "bottom-up cost" },
+      { costMult: 0.4, bh: 0.05, label: "both" },
+      { costMult: 0.7, bh: 0.3, label: "split the difference" },
+    ],
+    {
+      |c|
+      v = valueGen(12, 90, c.costMult, c.bh)
+      {
+        label: c.label,
+        costMult: c.costMult,
+        bh: c.bh,
+        net: v.net,
+        supra: v.supramundane,
+      }
+    }
+  )
+  Table.make(
+    cells,
+    {
+      columns: [
+        { name: "assumption", fn: {|r| r.label} },
+        { name: "cost x", fn: {|r| r.costMult} },
+        { name: "baseline hr/day", fn: {|r| r.bh} },
+        { name: "E[supramundane] ($)", fn: {|r| String(mean(r.supra), ",.0f")} },
+        { name: "E[net] ($)", fn: {|r| String(mean(r.net), ",.0f")} },
+        { name: "P(net>0)", fn: {|r| String(1 - cdf(r.net, 0), ".0%")} },
+      ],
+    }
+  )
+}
+
+@name("Net value vs. hours/day, at d = 90")
+@doc("Note the discontinuities at h=2 and h=8 where the cost regime switches.")
+netAt90Days(h: [0.5, 22]) = value(h, 90).net
+
+@name("Net value vs. duration, at h = 12 hr/day")
+@doc("Note the jump at d = 28 where travel switches from Europe to Nepal.")
+netAt12Hours(d: [1, 90]) = value(12, d).net
+
+// ===== Headline result =====
+
+@name("Lumbini, 3 months, 12 hr/day")
+@startOpen
+lumbini = {
+  v = value(12, 90)
+  @format("$,.0f")
+  net = v.net
+
+  @format("$,.0f")
+  totalCost = v.cost
+
+  @format("$,.0f")
+  supramundaneBenefit = v.supramundane
+
+  @format("$,.0f")
+  mundaneBenefit = v.mundane
+
+  { net, totalCost, supramundaneBenefit, mundaneBenefit }
+}
+
+@notebook
+@startOpen
+summary = [
+  "## Should I go to Lumbini for three months?
+
+This model prices a *practice period* (h, d) — h hours of formal practice per day
+sustained for d days — as benefit minus cost, in dollars. Benefit = supramundane
+(counterfactual increment in p(stream entry) × annual value of SE × the years
+that increment actually pays rent) + mundane (concentration and wellbeing gains,
+net of dark-night risk). Cost follows the three-regime schedule: wage-only below
+2 hr/day, soft-retreat-with-declining-part-time-work up to 8 hr/day, and the
+$50→$80→$200/hr retreat schedule above that, plus Europe-or-Nepal travel.",
+  lumbini,
+  scenarios,
+  "## The headline result, and why you should not believe it yet
+
+Under the assumptions exactly as specified, **every practice period in the
+feasible space has negative expected value**, including doing nothing beyond
+the baseline. The Lumbini scenario comes out at roughly −$40k to −$55k with
+P(net > 0) ≈ 5%.
+
+Do not act on that. The result is an artefact of two assumptions, and flipping
+either one flips the sign:",
+  sensitivity,
+  "## ① The counterfactual is eating the entire benefit
+
+The supramundane term is `(p(SE | retreat) − p(SE | baseline drip)) × value(SE) × window`,
+not `p(SE | retreat) × value(SE) × window`. Under the current dose-response, a
+0.5–1.5 hr/day drip sustained across a ~12-year accrual window accumulates
+enough effective hours to reach **p(SE) ≈ 50% on its own**. The retreat's
+p(SE) ≈ 52% therefore buys an increment of ~2 percentage points, and the whole
+edifice collapses.
+
+That is almost certainly wrong, and the wrongness is in the functional form
+rather than the parameters. `d × h^intensityExp` says hours are fungible across
+days as long as you weight intense days more. The pragmatic-dharma consensus is
+stronger than that: *continuity* — unbroken practice across weeks, with no
+re-entry into ordinary life resetting the concentration ramp — is claimed to be
+categorically necessary for first path, not merely efficient. A drip has an
+effective ceiling well below the retreat ceiling, and the model has no term for
+it. Setting `bh = 0.05` in the sensitivity table simulates this crudely; the
+Lumbini scenario goes to **+$215k with P(net > 0) ≈ 54%**.
+
+**This is the single highest-value question for your practitioner interviews.**
+Not 'how valuable was stream entry' — 'could you have gotten here on an hour a
+day?' Everything else is second-order.
+
+## ② The retreat cost schedule is roughly 2.4× a bottom-up estimate
+
+At $50/hr for 12 hr/day over 90 days, the schedule prices Lumbini at ~$56k.
+Bottom-up: ~$19k foregone wage for a quarter of full-time work at $38/hr,
+~$1.5k dana-based lodging in Nepal, ~$2k travel — call it $23k. Your schedule
+is 2.4× that. Either it is silently pricing in career discontinuity and
+reintegration friction, in which case say so and keep it, or it double-counts.
+
+There is also a structural problem: the schedule is denominated per
+*meditation-hour*, so the 13th hour of sitting costs more than the 12th — but
+its marginal opportunity cost is zero, because you are already on retreat and
+not working. The convexity is real, but it is strain and dark-night risk, not
+foregone income. A cleaner decomposition:
+`fixed daily retreat cost + foregone wage(d) + strain(h)`, with `strain`
+denominated in dark-night probability rather than dollars, so it feeds the
+benefit side rather than the cost side.
+
+## ③ The accrual window and its correlation with doom",
+  {accrualWindow, pSEBaseline},
+  "Median window ~12 years. The dependent structure matters: doom time is
+modelled as `Enlightener arrival × lognormal(0.35, 3)`, which puts ~35% of the
+mass on doom arriving *first*. In those worlds the retreat's benefit is cut
+short without SE ever being made obsolete — a different failure mode from the
+one you described, and one an independent-draws model would miss entirely.
+
+Note the second-order effect: a *shorter* window cuts the retreat's benefit,
+but it also cuts the counterfactual drip's chance to catch up, which pushes the
+other way. The net sign of window length on retreat value is ambiguous and
+depends on where you are on the saturation curve.
+
+## Things the model does not do, that it probably should
+
+- **No completion probability.** h and d are treated as independent. Sustaining
+  16 hr/day for 90 days is not merely expensive, it is *unlikely*. A factor
+  `p(finish | h, d)` plus partial credit for days actually completed would kill
+  the ascetic scenarios far more honestly than the cost schedule does.
+- **No option value.** Going for 90 days and bailing at day 30 is available;
+  the model prices only the committed plan.
+- **No post-retreat practice change.** Retreats plausibly raise the baseline
+  drip afterwards, which is a benefit channel entirely absent here.
+- **Monte Carlo instability.** `valueSEPerYear` has a 5% mixture arm reaching
+  $1M/yr, so the *mean* of the supramundane term moves by 2× between runs at
+  the default 1000 samples. Prefer P(net > 0) and the median over E[net] as the
+  decision statistic, or raise the sample count.
+
+## Stubs to replace
+
+- `seParams` — the p(SE) dose-response. Three guessed parameters, ~2× each.
+  This is the Julia Bayesian model, fit on interviews, conditioned on prior
+  experience (A&P crossings, lifetime hours, technique). **Add a continuity
+  term**; see ① above.
+- `valueSEPerYear` — annual WTP for the persistent shift. Interview material.
+- `enlightener.arrivalIfEver` — replace with the Manifold community forecast
+  for 'Wen Enlightener' once it exists.
+- `doom.timingRatio` — currently pure assertion, and the conditional structure
+  is the interesting part.
+
+## What I would actually tell you
+
+The cost-benefit calculation cannot presently answer the question, because it
+is dominated by a parameter you have not measured: whether daily practice can
+substitute for retreat time at all. If it can, no retreat is worth it at these
+prices. If it cannot, a 3-month Lumbini retreat is worth roughly a quarter of a
+million dollars and you should have left already. Go find that number first —
+it is a dozen interviews, not a research programme.",
+]

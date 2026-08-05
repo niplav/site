@@ -26,6 +26,7 @@ __pycache__
 code/turning/*.csv
 code/process/state
 code/champagne/attempt*.json
+code/champagne/opus_5/*.json
 code/logical/target/
 
 anim/*/media
