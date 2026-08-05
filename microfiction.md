@@ -966,7 +966,7 @@ The resulting source languages & language families:
 
 </details>
 
-<!--sabre, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), mukbang, kiwi, llama, pemmican, ¿patch?, skurr, shucks, monogatari, tipi, wigwam, ¿abarka?, burqa?, maize, anchovy, moose, glonzo, clanker, almanach, jedi, padawan, sietch, hocus pocus, abracadabra, alakazam, shazam, boss, orange, rizz, pog, quark, meep, smurf, bazinga, cowabunga, wagyu, conundrum-->
+<!--sabre, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), mukbang, kiwi, llama, pemmican, ¿patch?, skurr, shucks, monogatari, tipi, wigwam, ¿abarka?, burqa?, maize, anchovy, moose, glonzo, clanker, almanach, jedi, padawan, sietch, hocus pocus, abracadabra, alakazam, shazam, boss, orange, rizz, pog, quark, meep, smurf, bazinga, cowabunga, wagyu, conundrum, Beelzebub-->
 
 ### Isekai Jihad
 
@@ -1016,6 +1016,7 @@ Tom Swifties
 
 * "These mussels weren't good anymore!", Tom exclamated.
 * "Then you'll have to find an atomic solution", Tom departed.
+* "I'm u-tilling!" Tom joyously plowed.
 
 Mathwords
 ----------

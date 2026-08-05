@@ -43,6 +43,8 @@ Text
 	* "Inszenierung"
 	* "Spielverderber" ("spoilsport" is also *great*)
 	* "Beschäftigungstherapie"
+	* "Ehrfurcht"
+	* "Endspurt"
 
 <!--TODO: Aboriginals used the word "ooga" (staring eyes) for [australite](https://en.wikipedia.org/wiki/Australite) in ceremonies-->
 
