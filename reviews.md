@@ -15,31 +15,42 @@ Meditation Retreats
 
 [Dhammacari](https://vipassana-dhammacari.com/en/home/)
 
-- My experience
-	- Big emotional processes/processing steps (two IIRC)
-		- Changed attachment style away from avoidant
-	- Likely crossed the A&P (lots of very strong absorption with much focus, followed by a very bright yellow-white & *loud* sensation with lots of energy rising up in the body, accumulating below the top of the skull)
-	- Saw tanha, I think?
-		- Like not *saw* saw, I didn't have a path moment, but there was something very clearly fast/grabby/suffering-inducing that my mind was involved in when it was *doing* stuff.
-		- It's kind of disgusting, feels almost insectoid/parasitic. Much ew.
-	- If there were dukkha-ñanas they were quite mild
-- Mice in the attic that one can hear in the meditation hall, it's kinda cute
-- Now stomach aches and churns while meditating
-	- Maybe just more awareness of sensations from the stomach
-- The center itself
-	- They tell you not to sleep for three nights in a row
-		- This is bad, write whole rant on it?
-		- Pretty clearly a monastic practice blindly applied to laypeople
-		- This made the last few days useless for me, and I'm pretty sure it doesn't help with awakening
-		- From now on I'll always ask before a retreat if there's days with sleep restriction below 4 hours, which is the minimum I need
-	- They tell you some quite strict rules at the beginning, then don't supervise at all.
-		- E.g. white clothes, right leg on left leg, right hand in left hand, prostating before the small altar before/after each meditation session…
-- Meditation style:
-	- Half the time was spent on walking meditation! It's great!
-	- Sitting meditation:
-		- Simple labeling, some light bodyscanning
-		- Balances absorption and insight quite well imho
-	- During sleep deprivation nights they make you do some strange exercises with a clicker, I don't quite understand why
+* My experience
+	* Big emotional processes/processing steps (two IIRC)
+		* Changed attachment style away from avoidant
+	* Likely crossed the A&P (lots of very strong absorption with much focus, followed by a very bright yellow-white & *loud* sensation with lots of energy rising up in the body, accumulating below the top of the skull)
+	* Saw tanha, I think?
+		* Like not *saw* saw, I didn't have a path moment, but there was something very clearly fast/grabby/suffering-inducing that my mind was involved in when it was *doing* stuff.
+		* It's kind of disgusting, feels almost insectoid/parasitic. Much ew.
+	* If there were dukkha-ñanas they were quite mild
+* Mice in the attic that one can hear in the meditation hall, it's kinda cute
+* Now stomach aches and churns while meditating
+	* Maybe just more awareness of sensations from the stomach
+* The center itself
+	* They tell you not to sleep for three nights in a row
+		* This is bad, write whole rant on it?
+		* Pretty clearly a monastic practice blindly applied to laypeople
+		* This made the last few days useless for me, and I'm pretty sure it doesn't help with awakening
+		* From now on I'll always ask before a retreat if there's days with sleep restriction below 4 hours, which is the minimum I need
+	* They tell you some quite strict rules at the beginning, then don't supervise at all.
+		* E.g. white clothes, right leg on left leg, right hand in left hand, prostating before the small altar before/after each meditation session…
+* Meditation style:
+	* Half the time was spent on walking meditation! It's great!
+	* Sitting meditation:
+		* Simple labeling, some light bodyscanning
+		* Balances absorption and insight quite well imho
+	* During sleep deprivation nights they make you do some strange exercises with a clicker, I don't quite understand why
+
+### Dhammaramsi Long Retreat
+
+* My experience
+	* A&P on the tenth day
+	* Another A&P (?) four days later
+	* Strange "3d manifold moving through 4d spacetime, dreamcatching sensations out of the block universe"
+* The center itself
+	* Gorgeous location
+* Meditation style
+	* Burmese teaching style is generally towards "more effort please"
 
 Books
 ------

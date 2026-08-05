@@ -46,6 +46,7 @@ HTML=index.html \
 	become.html \
 	buch_stab.html \
 	cause.html \
+	charlatan.html \
 	circles.html \
 	china.html \
 	consciousness_diagram.html \
