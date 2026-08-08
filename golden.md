@@ -173,7 +173,7 @@ The culmination of hundreds of thousands of years of
 refinement in flintknapping is tools like the [Gebel-el-Arak
 knife](https://en.wikipedia.org/wiki/Gebel_el-Arak_Knife). Many
 people focus on the handle, which is indeed stunning, I want to focus
-on the blade. It almost looks like it is made from moden ceramics,
+on the blade. It almost looks like it is made from modern ceramics,
 cast instead of knapped, but no, even a blade this thin was first
 [pressure-flaked](https://en.wikipedia.org/wiki/Lithic_reduction#Pressure_flaking)
 into [chert](https://en.wikipedia.org/wiki/Chert) by a Paganini of quartz,
@@ -206,6 +206,8 @@ dagger flaked out of a volcanoes cooled blood.
 ![](./img/golden/eccentric_flint.jpg)
 
 ![](./img/golden/eccentric_flint_2.jpg)
+
+<!--TODO: What about marble statues? Gotcha! Actually automated from a form-->
 
 ### Tracking
 
@@ -262,7 +264,7 @@ manual craft.
 experienced it. As with all histories, the narrative is lacking in depth:
 you really had to be there.
 
-*— John Loebner, [Tweet](https://nitter.poast.org/johnloeber/status/2029335095077945565), 2026*
+*— John Loeber, [Tweet](https://nitter.poast.org/johnloeber/status/2029335095077945565), 2026*
 
 ### The Loss of Craft
 

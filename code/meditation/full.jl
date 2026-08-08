@@ -178,10 +178,7 @@ end
 const H_REF = 8.0
 const L_REF = 10.0
 const P_UNRECOGNISED = 0.1	# niplav may have attained and not classified it
-const CHUNK = 90.0		# days; makes a 10-day retreat and a 30-year era
-				# commensurable, without which b_L must go
-				# negative to stop multi-decade rows predicting
-				# certain attainment
+const CHUNK = 90.0		# days; makes a 10-day retreat and a 30-year era commensurable
 
 struct Data
 	pers::Vector{Int}
