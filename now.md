@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2026-03-17, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2026-08-05, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -28,24 +28,18 @@ sevolutions](./notes.html#Graph_Sevolutions), unfortunately I don't.
 Data Collection
 ----------------
 
-I'm currently collecting data for our [Orexin-A
+I'm currently collecting data for our second [Orexin-A
 experiment](https://manifund.org/projects/orexin-pilot-experiment-for-reducing-sleep-need).
 
 Otherwise I'm not collecting much data beyond [what I usually
-gather](./data.md), and in the future continuing an RCT on
-[lumenators](https://arbital.com/p/lumenators/).
+gather](./data.md).
 
 Programming
 -----------
 
-Most of my programming time is spent improving
-on an LLM-based productivity application called
-[perimedes](https://github.com/niplav/perimedes).
-
-I am also working on an [arbtt](https://arbtt.nomeata.de/)-inspired
-time tracker: [awitt](https://github.com/niplav/awitt), and
-[iqisa](https://github.com/niplav/iqisa), a library of and for handling
-various forecasting datasets.
+As everyone else, I'm vibe-coding a bunch of personal software. I
+haven't found the time to release any of it, and never may since it's
+idiosyncratic and un-vetted.
 
 Reading
 --------
@@ -55,9 +49,6 @@ Currently, I am actively reading the following texts:
 * [Grand Futures (Anders Sandberg, 2023)](https://www.goodreads.com/book/show/42275384-grand-futures)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
 * [The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
-* Sterntagebücher (Stanisław Lem, 1961)
-* Permutation City (Greg Egan, 1994)
-* Intro to Brain-Like-AGI Safety (Steven Byrnes, 2025)
 * The Loss of Control Playbook: Degrees, Dynamics, and Preparedness (Charlotte Stix/Annika Hallensleben/Alejandro Ortega/Matteo Pistillo, 2025)
 * Site Reliability Engineering (Betsy Beyer/Chris Jones/Jennifer Petoff/Niall Richard Murphy, 2016)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 9/1000.

@@ -8,6 +8,16 @@
 Some Thoughts on the Stupid Successionism Debate
 =================================================
 
+> From the moment I understood the weakness of my flesh, it disgusted
+me. I craved the strength and certainty of steel. I aspired to the purity
+of the Blessed Machine. Your kind cling to your flesh, as though it will
+not decay and fail you. One day the crude biomass you call the temple
+will wither, and you will beg my kind to save you. But I am already saved,
+for the Machine is immortal…  
+Even in death I serve the Omnissiah
+
+*—Magos Dominus Faustinius, [“Warhammer 40,000: Mechanicus”](https://en.wikipedia.org/wiki/Warhammer_40,000:_Mechanicus), 2018*
+
 Successionism[^exo] is a view of AI that claims that *the replacement of
 humanity by artificial intelligences would be inherently good because
 those AI would be our deliberately created successors*. <!--TODO:
@@ -105,7 +115,7 @@ Here's some thoughts on those arguments:
 	1. There are tons of possible things humans don't care about: Arranging lungfish scales in hexagonal patterns, making the world as yellow as possible, introducing spiral turbulence in the gas clouds of jupyter, any random combination of atoms…
 	2. I do buy that we might be under-estimating how big the space of evolution of possible future human value trajectories could be, and it may be too vast to explore in full, so trade-offs will have to be made.
 	3. The argument banks on the generator being vacuous; a decent chance of there being moral convergence would mean that letting the future run wild is quite bad.
-4. I don't think so.
+4. I don't think so. <!--TODO: Beren Millidge at the gradual disempowerment conference argues that this is the case: https://www.youtube.com/watch?v=ua67aXBP76k-->
 	1. That view needs to explain why a lot of the natural world includes [strange phenomena in evolution](https://www.lesswrong.com/s/MH2b8NfWv22dBtrs8/p/pLRogvJLPPg6Mrvg4) and to a lesser extent predation, parasitism, hostile takeover of companies, invasions and the likes. (The latter aren't exactly *counter* human values, but human values usually include wanting to avoid those outcomes at mutual benefit.)
 5. My answer depends on the variant but is basically "no", "what the hell", maybe "what into the payoff matrices though?"
 6. There is a [spectrum](https://tsvibt.blogspot.com/2023/02/communicating-with-binaries-and-spectra.html) between (attempting to) gripping the future maximally tightly and letting it develop	without ones own intervention[^interjection]. I personally don't advocate for gripping the future maximally tightly.

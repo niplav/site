@@ -217,7 +217,7 @@ const XS = 1:MAX_APPR
 function plot_layratio(suffix; only_fit=false)
     datasets = only_fit ? filter(x -> x[4], LAY_DATASETS) : LAY_DATASETS
     p = plot(xlabel="Approaches", ylabel="Cumulative lay ratio",
-             ylims=(0, 0.04), legend=:topleft, size=(900,600), dpi=150)
+             ylims=(0, 0.04), legend=:outertopright, size=(900,600), dpi=150)
     plot!(p, XS, layratio.(XS), color=:black, linewidth=2, label="Fitted sigmoid")
     for (data, c, label, _) in datasets
         line_ratio!(p, data, c; label=label)
@@ -231,7 +231,7 @@ end
 function plot_dateratio(suffix; only_fit=false)
     datasets = only_fit ? filter(x -> x[4], DATE_DATASETS) : DATE_DATASETS
     p = plot(xlabel="Approaches", ylabel="Cumulative date ratio",
-             ylims=(0, 0.08), legend=:topleft, size=(900,600), dpi=150)
+             ylims=(0, 0.08), legend=:outertopright, size=(900,600), dpi=150)
     plot!(p, XS, dateratio.(XS), color=:black, linewidth=2, label="Fitted sigmoid")
     for (data, c, label, _) in datasets
         line_ratio!(p, data, c; label=label)
@@ -243,7 +243,7 @@ function plot_ratio(suffix; only_fit=false)
     lay_ds  = only_fit ? filter(x -> x[4], LAY_DATASETS)  : LAY_DATASETS
     date_ds = only_fit ? filter(x -> x[4], DATE_DATASETS) : DATE_DATASETS
     p = plot(xlabel="Approaches", ylabel="Cumulative ratios",
-             ylims=(0, 0.08), legend=:topleft, size=(900,600), dpi=150)
+             ylims=(0, 0.08), legend=:outertopright, size=(900,600), dpi=150)
     plot!(p, XS, layratio.(XS),  color=:black, linewidth=2, label="Lay fit")
     plot!(p, XS, dateratio.(XS), color=:blue,  linewidth=2, label="Date fit")
     for (data, c, label, _) in lay_ds

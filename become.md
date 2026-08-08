@@ -3,13 +3,13 @@
 
 *author: niplav, created: 2026-06-11, modified: 2026-06-28, language: english, status: in progress, importance: 1, confidence: other*
 
-> __I'm looking for a meditation teacher. Background: ~2k hours of
-meditation in various traditions, understanding is broadly [pragmatic
+> __I'm looking for a meditation teacher. Background: ~2.5k hours of
+meditation in various techniques, model is broadly [pragmatic
 dharma](https://meditative.dev/web/resources/the-core-features-of-pragmatic-dharma/).
 Willingness to pay is 40–50€/session, would meet every two
-weeks in the European evening.
+weeks in the European evening.__
 >
-> Contact me at my email address `niplav@posteo.net` if that seems interesting.__
+> __Contact me at my email address `niplav@posteo.net` if that seems interesting.__
 
 Become My Meditation Teacher
 ==============================
@@ -34,7 +34,9 @@ given feedback on how I could adjust my practice.
 * ???
 * Profit
 
-In general, my current best guess on what my goal with meditation is is summarized in the blogpost [better](https://meditationstuff.wordpress.com/2020/07/14/better/). I do on some level buy the path model, though it looks very ad-hoc/pretheoretic, still, and quite dependent on the type of practice.
+In general, my current best guess on what my goal with meditation is is summarized in the blogpost [better](https://meditationstuff.wordpress.com/2020/07/14/better/). I do on some level buy the path model, though it looks very ad-hoc/pretheoretic, still, and quite dependent on the type of practice. Cessations/path moments do look pretty real, though, and immensely valuable. I'm not sure what my relationship to them should be, my guess is that I'm currently pretty strive-y towards them, and I don't particularly like that.
+
+I am very happy to experiment around with my practice, e.g. being told "hm, let's try this completely different Tibetan practice for two weeks", or "I think it'd help you if you did some yoga, here's a resource", or "you may need this particular kind of therapy, I can refer you to someone".
 
 I'm happy to compensate people for their work, and surplus should be distributed fairly. I will probably not be earning any income at the time when I start this, so my willingness to pay is ~capped at 40–50€. I'd be fine talking about ways of compensation that partially route through something that is not money (e.g. performing some service on top of monetary compensation). I'd be happy paying after every session.
 
@@ -55,23 +57,25 @@ on retreat).
 * Tried several different techniques (core transformation, coming to wholeness, some IFS-ish parts work, do nothing meditation, open awareness, variants of Mahasi-style-labeling/noting) for ~300 hours, in a less-structured-than-optimal way
 * Settled on Mahasi-/Ingram-style labeling and with increasing familiarity (optionally fast) noting, as I feel like it suits my mental disposition (slightly ADHD, tends to overthink, so fast noting leaves "no time" to get distracted/is very non-judgmental)
 
+![](./img/become/meditation_home.png)
+
 #### Meditation retreats
 
-I've been on three "official" meditation retreats, two run by the Goenka organization, and one at [Dhammacari](https://vipassana-dhammacari.com/en/home/). Each of these was ~10 days long.
+I've been on four "official" meditation retreats, two run by the Goenka organization, one at [Dhammacari](https://vipassana-dhammacari.com/en/home/), and a recent one at [Dhammaramsi](https://dhammagroupbrussels.be/en/history/dhammaramsi-center/). Three of these were ~10 days long, one was 28 days.
 
-On top of that I've organized some longer retreats with friends at home, specifically [a month-long retreat in August 2022](./reports.html#MonthLong_Meditation_Retreat_At_Home) (during which I tried to go all-in on absorption meditation with the goal to get into the jhanas, which was a small mistake at the time, though I'm still happy I did it.)
+On top of that I've organized some longer retreats with friends at home, specifically [a month-long retreat in August 2022](./reports.html#MonthLong_Meditation_Retreat_At_Home) (during which I tried to go all-in on absorption meditation with the goal to get into the [jhanas](https://en.wikipedia.org/wiki/Jhāna), which was a small mistake at the time, though I'm still happy I did it.)
 
 I also ran an interrupted (intended to be a month long) retreat in October 2023, during which I practiced a strange combination of Mahasi-style fast noting during the day, and fire kasina+internal family systems in the evening. (The loop was fire kasina→some unpleasantness comes up→soothe/drop an question mark into the unpleasantness→repeat this until it resolves→go back to fire kasina.)
 
-Plus some weekend-retreats with a friend. In total ~109 days that I spent north of 6 hours on the cushion.
+Plus some weekend-retreats with a friend. In total ~120 days that I spent north of 6 hours on the cushion.
+
+![](./img/become/meditation_retreats.png)
 
 ##### Future Retreats
 
-I'm planning to go on a few longer meditation retreats:
+I'm planning to go on a longer meditation retreat:
 
-* For the month of July 2026 (organized)
 * For the month of November 2026 (partially organized)
-* From early January to early April 2027 (actively planned for, not organized)
 
 ### My Psychology, as Far as I Can Tell
 

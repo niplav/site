@@ -545,6 +545,7 @@ Advertising Lines
 * Niplav Yushtun™: Can It Export the Data to CSV?
 * Niplav Yushtun™: High Quality Human Thoughts
 * O man, whoever you are and wherever you come from, for I know you will come, I am Niplav who wrote this site. Do not therefore begrudge me this bit of earth that covers my bones.
+* Niplav Yushtun™: Spes non consilium
 
 ### Also Known As
 

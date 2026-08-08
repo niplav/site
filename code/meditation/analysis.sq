@@ -1,10 +1,3 @@
-// Cost-benefit model for a long meditation retreat (e.g. 3 months at Lumbini).
-// A *practice period* is a tuple (h, d) in [0,24] x [0,90]: h hours of formal
-// practice per day, sustained for d days. value(h, d) = benefit - cost, in $.
-// Benefits split into supramundane (p(stream entry) * value(SE)) and mundane.
-// The SE benefit accrues only until the "Automated Enlightener" arrives (or
-// until TAI kills us), so the accrual window is a dependent distribution.
-
 // ===== Exogenous inputs =====
 
 @name("Key exogenous inputs")
@@ -12,48 +5,19 @@ inputs = {
   @name("Hourly wage ($/hr)")
   hourlyWage = 38
 
-  @name("Baseline practice absent this retreat (hr/day)")
-  @doc(
-    "Set to literally zero at niplav's instruction: the decision-relevant
-counterfactual is 'no further practice at all', not 'keep dripping'. This makes
-the supramundane term the *full* conditional p(SE) from the period rather than
-an increment over a drip.
-
-Do not confuse this with practice *history*, which is very much not zero — see
-`historyEffectiveHours`. Zero baseline means no future practice; the 2.5k hours
-already logged still count as accumulated dose, and conditioning on them is
-what does the work now."
-  )
-  baselineHours = 0
-
   @name("Natural remaining lifespan (years, absent TAI)")
   naturalLifespan = 40 to 60
 
   @format(".0%")
   @name("Fraction of in-normal-life practice hours that displace paid work")
-  @doc(
-    "The spec says sub-2 hr/day practice costs 'just my hourly wage', which
-implicitly assumes every meditation hour is an hour not billed. In practice
-some of it eats slack, sleep, or scrolling rather than billable time. Set this
-to 100% to recover the literal reading."
-  )
   workDisplacement = truncateRight(0.55 to 0.98, 1)
 
-  { hourlyWage, baselineHours, naturalLifespan, workDisplacement }
+  { hourlyWage, naturalLifespan, workDisplacement }
 }
 
 // ===== TAI: the common cause of both the Enlightener and doom =====
 
 @name("Years to transformative AI")
-@doc(
-  "Calibrated to niplav's stated view (2026-08): median 2031, i.e. ~5 years out,
-with 75% credence that the transitive closure of obvious things for LLMs gets
-us there. The 25% arm is the 'needs a further insight' world, which is slower
-and much wider.
-
-Modelling TAI explicitly as a common cause is what generates the dependence
-between the Enlightener and doom. Sample-set arithmetic preserves it downstream."
-)
 taiYears = mx([2 to 12, 8 to 60], [75%, 25%])
 
 // ===== Automated Enlightener timing (Manifold stub) =====
@@ -62,14 +26,7 @@ taiYears = mx([2 to 12, 8 to 60], [75%, 25%])
 @doc(
   "STUB, to be replaced by a Manifold question: 'By when will there exist a
 protocol/device that gets a motivated person to >90% chance of stream entry
-in <14 days and for <$10k?'
-
-Structured as TAI plus a diffusion lag rather than as a free-standing date, so
-that it inherits the TAI timeline. The lag covers applied research, trials, and
-actually being purchasable — 3 months to 5 years, median ~1.2. `pEverArrives`
-is the chance it is achievable at all conditional on TAI; the residual arm is a
-placeholder 200 years. Replace the whole block with the Manifold community
-distribution once that question has a forecast."
+in <14 days and for <$10k?'"
 )
 enlightener = {
   diffusionLag = 0.25 to 5 // (years after TAI)
@@ -202,15 +159,6 @@ pSE(h: [0, 24], d: [0, 90]) = {
   (cumF(eh0 + effectiveHours(h, d)) - cumF(eh0)) / survived
 }
 
-// Counterfactual: what a `bh` hr/day drip achieves over the accrual window,
-// also conditioned on history. With baselineHours = 0 this is exactly zero.
-@hide
-pSEBase(bh) = if bh <= 0 then 0 else {
-  eh0 = historyEffectiveHours
-  dEH = accrualWindow * 365 * (bh ^ seParams.intensityExp)
-  (cumF(eh0 + dEH) - cumF(eh0)) / (1 - cumF(eh0))
-}
-
 @name("p(SE) from the counterfactual baseline alone")
 @doc(
   "Zero by construction now: the stated counterfactual is no further practice
@@ -218,7 +166,7 @@ at all. Kept as a knob so the sensitivity table can still ask what happens if
 a drip would in fact have gotten there eventually."
 )
 @format(".0%")
-pSEBaseline = pSEBase(inputs.baselineHours)
+pSEBaseline = 0
 
 // ===== value(stream entry): STUB =====
 
@@ -316,15 +264,15 @@ what the baseline drip would have delivered within the accrual window counts.
 This is why the model is far less enthusiastic than a naive p(SE)*value(SE)
 calculation would be."
 )
-valueGen(h: [0, 24], d: [0, 90], costMult, baselineHours) = {
-  deltaP = clampLow(pSE(h, d) - pSEBase(baselineHours), 0)
+valueGen(h: [0, 24], d: [0, 90], costMult) = {
+  deltaP = clampLow(pSE(h, d), 0)
   supramundane = deltaP * valueSEPerYear * accrualWindow
   mund = mundane(h, d)
   c = cost(h, d) * costMult
   { supramundane: supramundane, mundane: mund, cost: c, net: supramundane + mund - c }
 }
 
-value(h: [0, 24], d: [0, 90]) = valueGen(h, d, 1, inputs.baselineHours)
+value(h: [0, 24], d: [0, 90]) = valueGen(h, d, 1)
 
 // ===== Scenarios =====
 
@@ -399,7 +347,7 @@ sensitivity = {
     ],
     {
       |c|
-      v = valueGen(12, 90, c.costMult, c.bh)
+      v = valueGen(12, 90, c.costMult)
       {
         label: c.label,
         costMult: c.costMult,
@@ -524,11 +472,6 @@ modelled as `Enlightener arrival × lognormal(0.35, 3)`, which puts ~35% of the
 mass on doom arriving *first*. In those worlds the retreat's benefit is cut
 short without SE ever being made obsolete — a different failure mode from the
 one you described, and one an independent-draws model would miss entirely.
-
-Note the second-order effect: a *shorter* window cuts the retreat's benefit,
-but it also cuts the counterfactual drip's chance to catch up, which pushes the
-other way. The net sign of window length on retreat value is ambiguous and
-depends on where you are on the saturation curve.
 
 ## Things the model does not do, that it probably should
 

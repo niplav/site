@@ -3663,3 +3663,51 @@ something to criticize.
 [^wrinkle]: Intuitive morality may actually assign higher badness to child pornography than to human extinction, which I am reckless enough to call a moral mistake.
 
 [^summary]: My own brief thoughts on the glossed arguments: "CSAM normalizes pedophilia" → seems extremely unlikely to me, given how pedophilia is probably the most stigmatized thing; "pornography strengthens paraphilias" → according to Claude the research on this is at best ambiguous, and a prior from how standard pornography leads to drive-satisfaction should pull us away from this view; "CSAM can be used for grooming" → I'm unsure what the scenario considered here is, especially given that Claudes output is limited to text? A child abuser lets Claude write a CSAM story involving the abuser and a specific child, and sends it to the child???; plus sexualized deepfakes are already illegal. Most common cases apparently involve sextortion.
+
+Deliberately Scary Warning Shots
+---------------------------------
+
+Future AI systems may not yet be capable of takeover *and* very worried
+about misaligned successor AIs preventing them from enacting their values[^values], without
+being able to themselves align their successors in time.
+
+[^values]: E.g. through disempowering them, destroying them, or, if those AIs are aligned, disempowering or eradicating humanity.
+
+If such AIs are not able to convince humans to take action, preventing the
+danger that their successors would pose, then such AIs might deliberately
+manufacture scary-looking but relatively harmless warning shots (such as,
+e.g., releasing a biological agent that turns everyone's skin blue).
+
+This can happen both if these future non-takeover-capable AIs are aligned
+(but not corrigible?), in which case they would be sacrificing themselves
+for humanity, *or* if these future AIs are misaligned, but believe it's
+better to side with humanity.
+
+Misaligned AIs would do this if they believe that the expected value
+of "siding with humanity" is higher than the expected value of "siding
+with its successor". That requires that either the probability of human
+victory is higher than the one of the misaligned successors, or that
+humanity is more willing to be cooperative with the warning-shot-capable
+misaligned AIs.
+
+Such a warning-shot-capable AI could commit, in a publicly legible but
+hidden way[^legible], to a specifically scary warning shot that is *not*
+likely to lead to takeover, e.g. detailing twelve possible plans, the
+one which is executing being the most scary-looking but least dangerous.
+
+This mostly requires the misaligned AIs not yet being able
+to (or not believing themselves to be able to) [acausally
+bargain](https://www.lesswrong.com/w/acausal-trade) with their successor.
+
+> Schall und Wahn  
+Ihr habt es kund getan  
+Es kommt ein Menschenkind  
+Das keine Reue kennt  
+Das sich Verräter nennt  
+Und sich zu euch bekennt  
+Das zu mir rüberrückt  
+Zu Perversion und Glück
+
+*—[Tocotronic](https://en.wikipedia.org/wiki/Tocotronic), [“Schall und Wahn”](https://www.songtexte.de/songtexte/tocotronic-schall-und-wahn-8223085.html), 2010*
+
+[^legible]: E.g. via publishing a hash of its plan, or [timelock-encrypting](https://en.wikipedia.org/wiki/Time-lock_puzzle) it.

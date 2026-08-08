@@ -1,13 +1,25 @@
 include config.mk
 
-JULIA=/usr/local/etc/julia/juliaup/julia-1.12.6+0.x64.linux.gnu/bin/julia
+JULIA=julia
 
 .SUFFIXES: .rc .kg .eps .png
 
+# Images with a Julia plotter: build these via Julia by default, not Klong.
+# Everything else in $(IMG) (complete.png, cost.png, &c.) has no Julia port
+# yet, so it still falls through to the .eps.png/draw_all.kg rules below.
+PLOTS_IMG=layratio_data.png layratio_data_reduced.png \
+          dateratio_data.png dateratio_data_reduced.png \
+          ratio_data.png ratio_data_reduced.png
+SCALING_IMG=scaling_fertility.png scaling_value_m.png \
+            scaling_heatmap.png scaling_Ne.png
+
 all: $(IMG)
 
-julia: daygame.jl
-	$(JULIA) daygame.jl
+$(PLOTS_IMG) &: plots.jl
+	$(JULIA) plots.jl
+
+$(SCALING_IMG) &: scaling.jl
+	$(JULIA) scaling.jl
 
 puttit: $(IMG)
 	mv $(IMG) ../../img/daygame
@@ -22,4 +34,4 @@ puttit: $(IMG)
 clean:
 	rm -f $(IMG)
 
-.PHONY: puttit clean julia
+.PHONY: puttit clean

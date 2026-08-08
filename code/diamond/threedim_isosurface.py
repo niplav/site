@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import gc
 
-from generalized_o3_pro import create_space, diamond_square_nd
+from generalized_ai_pro import create_space, diamond_square_nd
 
 try:
 	from skimage import measure

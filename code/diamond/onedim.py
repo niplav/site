@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from generalized_o3_pro import create_space, diamond_square_nd
+from generalized_ai_pro import create_space, diamond_square_nd
 
 size = 129
 minval = 0

@@ -7,4 +7,8 @@ IMG=\
 	sideeff.png \
 	layvals.png \
 	mental.png \
-	ratio_data.png
+	ratio_data.png \
+	scaling_fertility.png \
+	scaling_value_m.png \
+	scaling_heatmap.png \
+	scaling_Ne.png

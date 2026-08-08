@@ -3,7 +3,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 import numpy as np
 
-from generalized_o3_pro import create_space, diamond_square_nd
+from generalized_ai_pro import create_space, diamond_square_nd
 
 size = 65
 minval = 0
