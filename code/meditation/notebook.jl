@@ -4,17 +4,22 @@
 using Markdown
 using InteractiveUtils
 
-# ╔═╡ 0d3adf68-934e-11f1-9e6f-d9c933bf00f8
-push!(LOAD_PATH, joinpath(homedir(), "proj/Gekrakel.jl"))
+# ╔═╡ cc88334c-1e90-4cd0-b4ef-d672a5851f52
+# same cell on purpose: Gekrakel is not in the notebook's Project.toml, so it
+# resolves only through LOAD_PATH, and there is no dependency edge that would
+# make Pluto run the push! first if it lived in its own cell
+begin
+	push!(LOAD_PATH, joinpath(homedir(), "proj/Gekrakel.jl"))
+	using Gekrakel
+end
 
 # ╔═╡ c4fa1fee-d7c4-4b43-92bb-a17f94e822c4
 using CSV, DataFrames, Dates, Turing, Distributions, Random, Statistics, Printf
 
-# ╔═╡ cc88334c-1e90-4cd0-b4ef-d672a5851f52
-using Gekrakel
-
-# ╔═╡ 5975f055-85eb-4769-9723-417e4b33e071
-Random.seed!(20260808)
+# ╔═╡ 8cd82f5d-ff27-44d6-ad21-b156271d82c0
+md"""
+## Setup
+"""
 
 # ╔═╡ d7f65c1b-8e4e-4f35-bbe4-6ad1bfe768cd
 begin
@@ -22,18 +27,23 @@ begin
 	const INTERVIEWS = joinpath(@__DIR__, "interviews.csv")
 	const WEB = joinpath(@__DIR__, "web_periods.csv")
 	
-	const QUICK = "--quick" in ARGS
-	const SYNTHETIC = "--synthetic" in ARGS
-	const DRAWS = QUICK ? 400 : 1500
-	const PRIOR = "--prior" in ARGS
+	const SYNTHETIC = false
+	# For the full fit: DRAWS = 1500, PRIOR = false.
+	const DRAWS = 1500
+	const PRIOR = false
 end
 
 # ╔═╡ fcd964a1-9618-40b1-9ebe-aec48b1ae200
 begin
 	const RT_MIN_H = 4.0            # hr/day for a day to count as retreat-intensity
-	const RT_MIN_D = 5              # days for a run to count as a retreat
+	const RT_MIN_D = 4              # days for a run to count as a retreat
 	const RT_GAP = 2                # sub-threshold days tolerated inside a run
 end
+
+# ╔═╡ d3cd5780-167a-4ec4-8ba7-6a0eea900992
+md"""
+## Loading my Own Data Into Practice Periods
+"""
 
 # ╔═╡ 1cee9b79-41fd-46da-ab1d-d8311e12aa26
 function daily_hours(path)
@@ -156,6 +166,11 @@ begin
             n_miss::Int
     end
 end
+
+# ╔═╡ 07882bd2-8c1f-4dd6-9e5d-c55e68eef30c
+md"""
+## Creating the Posterior over Web Data
+"""
 
 # ╔═╡ 3a1b0630-6994-4150-b34e-bf4c79766254
 begin
@@ -339,6 +354,11 @@ function p_cess(P::Post, h, d)
         return 1 - exp(-lam)
 end
 
+# ╔═╡ 53a4727a-2167-4653-8185-1ca47a05413f
+md"""
+## Gekrakel.jl model
+"""
+
 # ╔═╡ 6290ebf3-7d95-49db-9d13-777dd0c76eca
 Base.@kwdef struct Model
         # --- exogenous ---
@@ -452,7 +472,7 @@ begin
     const SCENARIOS = [
             ("nothing extra (0.5 hr/day, 90d)", 0.5, 90),
             ("daily discipline (2 hr/day, 90d)", 2.0, 90),
-            ("soft retreat w/ friend (5 hr/day, 60d)", 5.0, 60),
+            ("soft retreat with friend (5 hr/day, 60d)", 5.0, 60),
             ("soft retreat, hard (8 hr/day, 90d)", 8.0, 90),
             ("Europe retreat (12 hr/day, 28d)", 12.0, 28),
             ("Lumbini, moderate (10 hr/day, 90d)", 10.0, 90),
@@ -468,9 +488,6 @@ begin
     ]
 end
 
-# ╔═╡ f426a9fc-bbd1-4d9e-a300-682ad63c16d9
-
-
 # ╔═╡ 3dca1448-f6e1-4591-9c5a-fea17528748c
 begin
     ci(x) = string(money(quantile(x, 0.05)), " – ", money(quantile(x, 0.95)))
@@ -479,65 +496,70 @@ begin
 end
 
 # ╔═╡ bb08a3d4-6a1c-40e7-b885-e0d449e95d8d
-function dose_response(P::Post)
-        p(h, d) = 100 * mean(p_cess(P, h, d))
-        println("\ndose-response, p(cess) in %:")
-        @printf("  %-10s %8s %8s %8s %8s\n", "hr/day \\ d", "28", "60", "90", "365")
-        for h in (1.0, 2.0, 8.0, 12.0, 16.0)
-                @printf("  %-10.0f %7.1f%% %7.1f%% %7.1f%% %7.1f%%\n",
-                        h, p(h, 28), p(h, 60), p(h, 90), p(h, 365))
-        end
-        ok_len = p(12, 90) > p(12, 28)
-        ok_int = p(12, 90) > p(2, 90)
-        ok_len && ok_int && return
-        println("  !! NOT monotone: ",
-                ok_len ? "" : "longer retreats score lower (b_L < 0). ",
-                ok_int ? "" : "more intense retreats score lower (b_h < 0). ")
-        println("  !! Give the web rows their own b_h/b_L/b_hL or exclude them.",
-                "\n  !! The tables below are plumbing, not advice.")
+# dose-response, p(cessation) in %, read back out of the fitted hazard along
+# both axes. It has to be increasing in each; see dose_warning.
+function dose_table(P::Post)
+	p(h, d) = @sprintf("%.1f%%", 100 * mean(p_cess(P, h, d)))
+	hs = [1.0, 2.0, 8.0, 12.0, 16.0]
+	return DataFrame("hr/day" => hs,
+		"28" => [p(h, 28) for h in hs],
+		"60" => [p(h, 60) for h in hs],
+		"90" => [p(h, 90) for h in hs],
+		"365" => [p(h, 365) for h in hs])
+end
+
+# ╔═╡ c8574904-1630-48e9-a7f3-5631c68159a9
+# If more practice does not buy more probability, everything below is
+# arithmetic on a broken model. The known failure mode is that b_h and b_L fit
+# negative on the web rows, whose period boundaries are endogenous to the
+# outcome and whose highest-dose traditions have the strongest taboo on
+# claiming attainment.
+function dose_warning(P::Post)
+	p(h, d) = mean(p_cess(P, h, d))
+	ok_len = p(12, 90) > p(12, 28)
+	ok_int = p(12, 90) > p(2, 90)
+	ok_len && ok_int && return nothing
+	msg = string("**NOT monotone:** ",
+		ok_len ? "" : "longer retreats score lower (`b_L < 0`). ",
+		ok_int ? "" : "more intense retreats score lower (`b_h < 0`). ",
+		"Give the web rows their own `b_h`/`b_L`/`b_hL` or exclude them. ",
+		"The tables below are plumbing, not advice.")
+	return Markdown.MD(Markdown.Admonition("danger", "Broken dose-response",
+		[Markdown.parse(msg)]))
 end
 
 # ╔═╡ 61f3e8c6-86a4-437a-990e-062b9cfbcf75
-function report(M::Model, P::Post)
-        println("\npractice history: $(round(Int, P.acc0)) formal hours before the decision point")
-        dose_response(P)
+# Decision statistic: prefer the median and P(net>0). E[net] is driven by the
+# 5% tail of value_se_per_year and is not stable across runs.
+function scenario_table(M::Model, P::Post)
+	rows = NamedTuple[]
+	for (name, h, d) in SCENARIOS
+		v = value(M, P, h, d)
+		push!(rows, (scenario = name,
+			var"p(cess)" = @sprintf("%.1f%%", 100 * mean(v.p)),
+			var"cost (90%)" = ci(v.cost),
+			var"E[net]" = money(mean(v.net)),
+			var"median net" = money(median(v.net)),
+			var"P(net>0)" = @sprintf("%.0f%%", 100 * (1 - cdf(v.net, 0)))))
+	end
+	return DataFrame(rows)
+end
 
-        println("\naccrual window (years)")
-        println("  ", spark(M.window), "  median ", round(median(M.window), digits = 1),
-                "   90% ", yrs(M.window))
-
-        println("\nscenarios")
-        @printf("  %-40s %7s %23s %12s %12s %8s\n",
-                "", "p(cess)", "cost (90%)", "E[net]", "median net", "P(net>0)")
-        for (name, h, d) in SCENARIOS
-                v = value(M, P, h, d)
-                @printf("  %-40s %6.1f%% %23s %12s %12s %7.0f%%\n", name,
-                        100 * mean(v.p), ci(v.cost), money(mean(v.net)),
-                        money(median(v.net)), 100 * (1 - cdf(v.net, 0)))
-        end
-
-        println("\nsensitivity, Lumbini standard (12 hr/day, 90 days)")
-        @printf("  %-34s %6s %12s %12s %12s %8s\n",
-                "", "cost×", "cost", "E[net]", "median net", "P(net>0)")
-        for (label, cm) in SENSITIVITY
-                v = value(M, P, 12.0, 90; cost_mult = cm)
-                @printf("  %-34s %6.1f %12s %12s %12s %7.0f%%\n", label, cm,
-                        money(mean(v.cost)), money(mean(v.net)),
-                        money(median(v.net)), 100 * (1 - cdf(v.net, 0)))
-        end
-
-        v = value(M, P, 12.0, 90)
-        println("\nLumbini, 3 months, 12 hr/day — net value")
-        println("  ", spark(v.net))
-        println("  90% ", ci(v.net), "   median ", money(median(v.net)),
-                "   mean ", money(mean(v.net)))
-        println("  supramundane ", money(mean(v.supramundane)),
-                "   mundane ", money(mean(v.mundane)),
-                "   cost ", money(mean(v.cost)))
-        # the mean is dominated by the 5% arm of value_se_per_year reaching
-        # $1M/yr, so it moves between runs; the median and P(net>0) do not
-        println("\nDecision statistic: prefer the median and P(net>0). E[net] is " *
-                "driven by the\n5% tail of value_se_per_year and is not stable across runs.")
+# ╔═╡ f7a59b01-3539-4ab3-ad7e-cd0fd1320cb2
+# sensitivity of Lumbini standard (12 hr/day, 90 days) to the cost schedule,
+# which is the load-bearing stub
+function sensitivity_table(M::Model, P::Post)
+	rows = NamedTuple[]
+	for (label, cm) in SENSITIVITY
+		v = value(M, P, 12.0, 90; cost_mult = cm)
+		push!(rows, (schedule = label,
+			var"cost×" = cm,
+			cost = money(mean(v.cost)),
+			var"E[net]" = money(mean(v.net)),
+			var"median net" = money(median(v.net)),
+			var"P(net>0)" = @sprintf("%.0f%%", 100 * (1 - cdf(v.net, 0)))))
+	end
+	return DataFrame(rows)
 end
 
 # ╔═╡ cfc60c21-8fce-4154-bda6-581913ff6a62
@@ -580,13 +602,14 @@ function synthetic(n = 40)
         return finish_data(b)
 end
 
+# ╔═╡ 6721c5cb-04a2-46d2-bcae-4211e11022ce
+md"""
+## Putting it all together
+"""
+
 # ╔═╡ f5caf6f4-328c-4227-a090-484b2bdb81ba
 function main()
         D = SYNTHETIC ? synthetic() : load_all()
-        SYNTHETIC || println("$(length(D.rows)) people, $(length(D.days)) chunks, " *
-                "$(sum(D.web)) web rows, $(sum(.!D.known)) outcome-unknown people\n" *
-                "$(D.n_miss)/$(length(D.days)) intensities latent across " *
-                "$(D.n_type) practice types")
 
         pars = [:a, :sigma_u, :b_d, :b_h, :b_L, :b_hL, :mu0, :sigma_h, :tau_type]
         SYNTHETIC || push!(pars, :b_src)
@@ -596,8 +619,6 @@ function main()
         chain = sample(se_model(D), PRIOR ? Prior() : NUTS(0.8), DRAWS; progress = false)
         PRIOR && println("\n!! PRIOR MODE: the likelihood was not evaluated. " *
                 "Everything below is a\n!! prior predictive check.")
-        show(stdout, MIME("text/plain"), summarystats(chain[pars]))
-        println()
         SYNTHETIC && return chain
 
         # the 24-day Wales retreat postdates the fitted log and is survived
@@ -605,12 +626,44 @@ function main()
         # order matters: to_gekrakel calls setnsamp!, and Model()'s fields are
         # particle-backed, so they have to be built after the count is fixed
         P = to_gekrakel(chain, D, wales)
-        report(Model(), P)
-        return chain
+        return (; chain, M = Model(), P)
 end
 
 # ╔═╡ 9f01bfce-31e2-47f3-b95c-acd8dbbb4897
-main()
+res = main()
+
+# ╔═╡ 94742e9f-8c54-4fd6-ae6f-549d258343cd
+M = res.M
+
+# ╔═╡ 266a3c59-7e23-4e65-9358-ce2eed607501
+P = res.P
+
+# ╔═╡ f0e66b34-6d10-429d-8579-31642c212074
+dose_warning(P)
+
+# ╔═╡ 195ad585-dcb6-4ff5-814a-b08454fa47bb
+dose_table(P)
+
+# ╔═╡ 67d6b3b6-3b35-4328-8bd7-d54077fb78e5
+scenario_table(M, P)
+
+# ╔═╡ aaa628db-debd-4327-93e7-e111702018a3
+sensitivity_table(M, P)
+
+# ╔═╡ 8bd4153d-d307-48e0-a814-95a03e5663b4
+# accrual window in years: how long a cessation attained now pays rent, i.e.
+# min(Enlightener, doom, old age)
+M.window
+
+# ╔═╡ 4d4bf2ec-5166-4094-bb41-57e3d936e479
+# Lumbini, 3 months, 12 hr/day -- net value in dollars
+value(M, P, 12.0, 90).net
+
+# ╔═╡ f3bfc6d8-8cc4-432b-b4af-356cfb3bd080
+distfn(h -> value(M, P, h, 90).net, 0.5, 20; n = 24, xlab = "hr/day")
+
+# ╔═╡ c07b6f2e-9b1a-4a3e-8f5d-1b2c3d4e5f60
+distfn(d -> value(M, P, 12.0, d).net, 5, 365; n = 24, xlab = "days")
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -2295,20 +2348,21 @@ version = "17.7.0+0"
 """
 
 # ╔═╡ Cell order:
-# ╠═0d3adf68-934e-11f1-9e6f-d9c933bf00f8
+# ╟─8cd82f5d-ff27-44d6-ad21-b156271d82c0
 # ╠═c4fa1fee-d7c4-4b43-92bb-a17f94e822c4
 # ╠═cc88334c-1e90-4cd0-b4ef-d672a5851f52
-# ╠═5975f055-85eb-4769-9723-417e4b33e071
 # ╠═d7f65c1b-8e4e-4f35-bbe4-6ad1bfe768cd
 # ╠═fcd964a1-9618-40b1-9ebe-aec48b1ae200
-# ╠═1cee9b79-41fd-46da-ab1d-d8311e12aa26
-# ╠═41b573a9-37e2-41be-af63-52226b95f633
-# ╠═07102747-a4fc-46a0-879a-322c7fc88d7c
-# ╠═ec8a72cc-44df-4fcc-b419-6c493d181e4b
-# ╠═8d31adbd-794f-4bec-b193-bb6c7f931cd6
-# ╠═39ca740d-b79c-4834-bdd1-fca3f19450d0
-# ╠═22354df2-39f6-46f0-9407-94850b1f6f8d
+# ╟─d3cd5780-167a-4ec4-8ba7-6a0eea900992
+# ╟─1cee9b79-41fd-46da-ab1d-d8311e12aa26
+# ╟─41b573a9-37e2-41be-af63-52226b95f633
+# ╟─07102747-a4fc-46a0-879a-322c7fc88d7c
+# ╟─ec8a72cc-44df-4fcc-b419-6c493d181e4b
+# ╟─8d31adbd-794f-4bec-b193-bb6c7f931cd6
+# ╟─39ca740d-b79c-4834-bdd1-fca3f19450d0
+# ╟─22354df2-39f6-46f0-9407-94850b1f6f8d
 # ╠═3c4f05e4-787b-45eb-8b29-3491149a9c39
+# ╟─07882bd2-8c1f-4dd6-9e5d-c55e68eef30c
 # ╠═3a1b0630-6994-4150-b34e-bf4c79766254
 # ╠═0ab7bf98-251f-45f7-b874-b23a90f9ebb1
 # ╠═b9cc819e-da09-4897-a1b0-2777cbf8bf2d
@@ -2318,18 +2372,31 @@ version = "17.7.0+0"
 # ╠═0084c677-9ff1-49fe-9b88-2f81aa555ef0
 # ╠═43c59e15-e9a0-436c-b947-7a4c06d35b1b
 # ╠═f28819d1-4c3b-47c6-be7a-c09b3330ec66
+# ╟─53a4727a-2167-4653-8185-1ca47a05413f
 # ╠═6290ebf3-7d95-49db-9d13-777dd0c76eca
 # ╠═0d842ccc-717e-4199-93a4-c0814ec2e9e8
 # ╠═5cbbc465-8448-400e-9fb6-12c2972607f2
 # ╠═6d1b2eb1-4a1a-4487-b721-c1bc23576011
 # ╠═6f4d54e6-00f5-4bb5-a16c-5462c4f62be4
 # ╠═7234534c-372c-4604-b939-6142651b24f4
-# ╠═f426a9fc-bbd1-4d9e-a300-682ad63c16d9
 # ╠═3dca1448-f6e1-4591-9c5a-fea17528748c
 # ╠═bb08a3d4-6a1c-40e7-b885-e0d449e95d8d
+# ╠═c8574904-1630-48e9-a7f3-5631c68159a9
 # ╠═61f3e8c6-86a4-437a-990e-062b9cfbcf75
+# ╠═f7a59b01-3539-4ab3-ad7e-cd0fd1320cb2
 # ╠═cfc60c21-8fce-4154-bda6-581913ff6a62
+# ╟─6721c5cb-04a2-46d2-bcae-4211e11022ce
 # ╠═f5caf6f4-328c-4227-a090-484b2bdb81ba
 # ╠═9f01bfce-31e2-47f3-b95c-acd8dbbb4897
+# ╠═94742e9f-8c54-4fd6-ae6f-549d258343cd
+# ╠═266a3c59-7e23-4e65-9358-ce2eed607501
+# ╠═f0e66b34-6d10-429d-8579-31642c212074
+# ╠═195ad585-dcb6-4ff5-814a-b08454fa47bb
+# ╠═67d6b3b6-3b35-4328-8bd7-d54077fb78e5
+# ╠═aaa628db-debd-4327-93e7-e111702018a3
+# ╠═8bd4153d-d307-48e0-a814-95a03e5663b4
+# ╠═4d4bf2ec-5166-4094-bb41-57e3d936e479
+# ╠═f3bfc6d8-8cc4-432b-b4af-356cfb3bd080
+# ╠═c07b6f2e-9b1a-4a3e-8f5d-1b2c3d4e5f60
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
