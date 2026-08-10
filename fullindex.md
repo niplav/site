@@ -1,6 +1,6 @@
 ![Sol Plav](./favicon.png "kakja kjerbas unjobares")
 
-*author: niplav, created: 2019-03-20, modified: 2025-10-21, language: english, status: in progress, importance: 6, confidence: log*
+*author: niplav, created: 2019-03-20, modified: 2026-08-09, language: english, status: in progress, importance: 6, confidence: log*
 
 > __This is the website of niplav. It contains texts on different topics,
 including (but not limited to) forecasting, existential risk, computer
@@ -137,6 +137,10 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 * [Building a Cuboid](./cuboid.html)
 * [Prepare to Leave The Internet](./leave.html)
 
+##### Meditation
+
+* [Become My Meditation Teacher](./become.html)
+
 ##### Pick-Up
 
 > The American girl is well acquainted with her body’s seductive
@@ -261,8 +265,9 @@ das dort hervorragte, und eine alte Stiefelsohle auf.
 * [Buch Stab](./buch_stab.html)
 * [Platte](./platte.html)
 * [Microfiction](./microfiction.html)
-* [`filepunk`](./outputs/filepunk.html)
+* [`filepunk`](./filepunk.html)
 * [Playing with Language](./language.html)
+* [Charlatan Labyrinth](./charlatan.html)
 
 ### AI Outputs
 

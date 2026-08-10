@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2026-06-27, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2026-08-09, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,6 +17,15 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* Monitoring Distributed Systems (Rob Ewaschuk/Betsy Beyer, 2014)
+* Eliminating Toil (Vivek Rau/Betsy Beyer, 2014)
+* Service Level Objectives (Chris Jones/John Wilkes/Niall Murphy/Cody Smith/Betsy Beyer, 2014)
+* Motivation for Errors Budgets (Mark Roth/Carmela Quinito, 2014)
+* Embracing Risk (Marc Alvidrez/Kavita Guliani, 2014)
+* [\* AI 2040 Plan A (Thomas Larsen/Romeo Dean/Brendan Halstead/Eli Lifland/Ryan Greenblatt/Daniel Kokotajlo, 2026)](https://ai-2040.com/?choices=plan-a-root)
+* The Restaurant at the End of the Universe (Douglas Adams, 1980)
+* There is No Antimemetics Division (qntm, 2025)
+* The Hitchhikers Guide to the Galaxy (Douglas Adams, 1979)
 * [Comment on ”Alignment remains a hard, unsolved problem“ (evhub, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=poKDn6BWzua5c6ri7)
 * [Comment on ”Alignment remains a hard, unsolved problem“ (Eliezer Yudkowsky, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=DuuWYrpSJnnEdYhyT)
 * [Comment on ”Alignment remains a hard, unsolved problem“ (habryka, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=kfeuRZJoKGX9uakMd)
@@ -27,7 +36,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Comment on ”Alignment remains a hard, unsolved problem“ (Rohin Shah, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=eiszE7rKpHcay34Zw)
 * [Comment on ”Alignment remains a hard, unsolved problem“ (evhub, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=P6gseCBrTPpvwZ6st)
 * [Comment on ”Alignment remains a hard, unsolved problem“ (Adrià Garriga-alonso, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem?commentId=gAuM6MKBdpyu6JszR)
-* [Alignment remains a hard, unsolved problem (evhub, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem
+* [Alignment remains a hard, unsolved problem (evhub, 2025)](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem)
 * [Programmer Science Fiction (Sam T. Oates, 2026)](https://stoates.substack.com/p/programmer-science-fiction)
 * [Comment on “Meta Questions about Metaphilosophy” (Connor Leahy, 2023)](https://www.lesswrong.com/posts/fJqP9WcnHXBRBeiBg/meta-questions-about-metaphilosophy?commentId=runhNkj6u3b2BbDjj)
 * [Comment on “Meta Questions about Metaphilosophy” (Wei Dai, 2023)](https://www.lesswrong.com/posts/fJqP9WcnHXBRBeiBg/meta-questions-about-metaphilosophy?commentId=oNd6cmq3nxysAjnSF)
