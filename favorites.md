@@ -45,6 +45,7 @@ Text
 	* "Beschäftigungstherapie"
 	* "Ehrfurcht"
 	* "Endspurt"
+	* "Bestellerprinzip"
 
 <!--TODO: Aboriginals used the word "ooga" (staring eyes) for [australite](https://en.wikipedia.org/wiki/Australite) in ceremonies-->
 

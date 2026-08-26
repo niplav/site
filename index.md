@@ -52,6 +52,7 @@ you’d like to forward
 ##### Technical
 
 * [Resolving von Neumann-Morgenstern Inconsistent Preferences](./resolving.html)
+* [LLMs as Giant Lookup-Tables of Shallow Circuits](./lookup.html)
 
 ##### Strategy
 
@@ -300,7 +301,7 @@ Miscellaneous
 
 I sometimes write reviews of things I have watched/read.
 
-* [Text Reviews](./text_reviews.html)
+* [Reviews](./reviews.html)
 
 The following is four lists on the content I consume. The content listed
 there is a fairly big subset of what I actually read/listen to/watch,

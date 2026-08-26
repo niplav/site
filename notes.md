@@ -3711,3 +3711,22 @@ Zu Perversion und Glück
 *—[Tocotronic](https://en.wikipedia.org/wiki/Tocotronic), [“Schall und Wahn”](https://www.songtexte.de/songtexte/tocotronic-schall-und-wahn-8223085.html), 2010*
 
 [^legible]: E.g. via publishing a hash of its plan, or [timelock-encrypting](https://en.wikipedia.org/wiki/Time-lock_puzzle) it.
+
+Can Valence Compete, At Least?
+-------------------------------
+
+Prerequisites: [Spreading happiness to the stars seems little harder than just spreading (Carl Shulman, 2012)](https://reflectivedisequilibrium.blogspot.com/2012/09/spreading-happiness-to-stars-seems.html), [The Universal Plot: Consciousness vs. Pure Replicators (Andrés Gómez-Emilsson, 2017)](https://qri.org/blog/universal-plot), Can Goodness Compete (Joe Carlsmith, 2025)
+
+Question to keep in mind: why (arguendo) *did* valence in evolved
+organisms center around net-zero valence? At least in the humans who
+bother reporting on this.
+
+Perspectives:
+
+* Eliminativist:
+	* Valence *is* just reward, computationally, directly
+* Non-eliminativist:
+	* Valance centers around net-zero because extremely high-valence/extremely low-valence states require more/less energy, and evolution penalizes energy-expenditure
+	* Valence centers around net-zero because due to *mumble mumble* [psychophysics](https://en.wikipedia.org/wiki/Psychophysics) *mumble* [Weber-Fechner law](https://en.wikipedia.org/wiki/Weber-Fechner_Law) valence is symmetric-logarithmic in some relevant resource, and the steepest gradients with logarithmic functions occur around net-zero
+
+<!--TODO: cont-->

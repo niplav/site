@@ -105,7 +105,7 @@ Possibly: [Nothing Human Makes it Out Of The Near
 Future](https://en.wikipedia.org/wiki/Fanged_Noumena#"Meltdown"). (Unless:
 [Pause](https://pauseai.info/)/[Control AI](https://controlai.com/). "Thou
 shalt not make a machine in the likeness of a human mind". [Movement
-78](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol#Game_4).)
+78](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol#Game_4). The Brink.)
 
 Indeed, I put a probability of ~70% on us being in that fearsome
 *other* world, and that being quite frightening (primarily due to
@@ -203,13 +203,49 @@ dagger flaked out of a volcanoes cooled blood.
 
 ![](./img/golden/hindsgavl_daggers.jpg)
 
+"What about marble statues? Aren't they much *more* impressive, given that
+they're not a simple geometric shape (a blade), but delicate statues? Is
+the [Nike of Samothrace](https://en.wikipedia.org/wiki/Nike_of_Samothrace)
+not infinitely more impressive than the Hindsgavl daggers? And is this not
+an argument against your case, since we have skulptors *today* who can make
+status that are as impressive as the Nike?"
+
+Thank you, hypothetical interlocutor! I do find marble statues to
+be pretty impressive, but not *more* (or at least not *much* more) than
+knapped flint.
+
+This stems from two roots, namely:
+
+1. Flintstone and obsidian are even less forgiving materials than marble; the former splinter & shatter more easily, and techniques like polishing don't apply well when trying to create a blade (as opposed to a surface on the marble).
+2. To my knowledge, almost all of the impressive marble statues we know were produced by first making clay of wax models, iterating on the form, and then copying the model with a [pointing machine](https://en.wikipedia.org/wiki/Pointing_machine). Especially modern skulptors almost never create statues by [direct carving](https://en.wikipedia.org/wiki/Direct_carving), or when they do the resulting statue is far less sophisticated.<!--TODO: check Works in Progress article on this?-->
+
+Arguably, creating stone skulptures is still a respectable craft (though
+slightly impressive when done with a pointing machine, and direct carving
+a full complicated statue is afaik dead as a craft).
+
+Knapping reached its roccoco height in the [eccentric
+flints](https://en.wikipedia.org/wiki/Eccentric_flint)
+created by Maya maestros<!--TODO: plural of
+"maestro"?-->, possibly spurred on by the [relative lack of
+metallurgy](https://en.wikipedia.org/wiki/Mesoamerican_chronology#Postclassical_period)
+in pre-Columbian meso-America. I do not find these beautiful,
+per se, my aesthetics are of simplicity, so give me the simple
+elegance of a chipped obsidian arrowhead instead. Instead these
+flint are *splendid*, *impressive*, *decadent*, yes, definitely
+__eccentric__. Where the Hindsgavl dagger and Gebel-el-Arak knife are
+[sonatas](https://en.wikipedia.org/wiki/Sonata), an eccentric flint is a
+[fantasia](https://en.wikipedia.org/wiki/Fantasia_(music)).
+
+I can admire them in the abstract, as craft finally unmoored from even
+the pretense of utility.
+
 ![](./img/golden/eccentric_flint.jpg)
 
 ![](./img/golden/eccentric_flint_2.jpg)
 
-<!--TODO: What about marble statues? Gotcha! Actually automated from a form-->
-
 ### Tracking
+
+The second craft I want to mourn is an even older one, the craft of tracking.
 
 > As to the question of tracking, the idea which has been generally
 held, that the shoes are used to prevent the tracks being seen will
@@ -230,6 +266,53 @@ them —has seen the track of a man or woman he will distinguish it
 afterwards from that of any other individual of his acquaintance__.
 
 *—[Baldwin Spencer](https://en.wikipedia.org/wiki/Baldwin_Spencer_(anthropologist))/[Francis James Gillen](https://en.wikipedia.org/wiki/Francis_James_Gillen), “The Native Tribes of Central Australia” p. 483, 1899*
+
+I imagine that if I witnessed this kind of ability, it'd look like
+magic[^magic] to me. And yet, there were entire cultures where this kind
+of ability was as fundamental as literacy is in ours!
+
+[^magic]: "Magic" in the Yudkowskian sense<!--TODO: link to a sequences post here? Not "Mundane Magic", that's a different one-->, in that it's a thing that is so far outside of my understanding what's possible that I can't even rederive *that* it could work.
+
+I'm also almost certain that all the best trackers are long dead,
+and that present-day hunter-gatherer groups are too small to have
+transmitted all the knowledge from the past, or that (e.g. with the
+[Hadza](https://en.wikipedia.org/wiki/Hadza_people)) the surrounding
+industrial civilization relieves some of the pressure to drive the art
+to its peak, and that Louis Liebenberg and Mark Elbroch are a step of
+skill below those present-day hunter-gatherers.
+
+We get glimmers of this depth in some
+anthropologies, for example in the [Story of Short
+Kwi](https://traditionsofconflict.substack.com/p/the-sad-story-of-short-kwi-legendary):
+
+> Among the Bushmen of Nyae Nyae in Namibia during the 1950’s, the
+man known as Short Kwi was famous for his hunting prowess. Tales were
+told of his great achievements in the chase—the time he killed an
+[eland](https://en.wikipedia.org/wiki/Common_Eland), a wild pig, and
+a wildebeest in a single day; the time he killed four wildebeest in a
+large herd—his exploits were legendary.
+>
+> He was said to be a relentless pursuer who almost never lost an
+animal. He could pick up a cold trail even over stones. He deduced
+subtle clues from fallen leaves, such as whether they had been
+disarrayed by the wind or the movements of his prey. The meat
+from his pursuits was never wasted, as it was shared liberally
+and dried to last weeks.
+>
+> He had encyclopedic knowledge of the animals in his
+environment—from the smallest mice to the largest antelope,
+he knew by heart their habits and where they could be
+found. Elizabeth Marshall Thomas writes that, “He knew every
+bush and stone in the area of thousands of square miles that he
+ranged over, and he lived for hunting."
+>
+> While the Bushman practice of ‘shaming the meat’ to prevent
+an effective hunter from getting a big head is well known, with
+Short Kwi, “his great ability set him so far apart from ordinary
+mortals that for once the Bushmen forgot their jealousy and agreed
+that he was the best hunter the Kalahari had ever known.”
+
+*— [William Buckner](https://traditionsofconflict.substack.com), [“The Sad Story of Short Kwi, Legendary Hunter of the Kalahari”](https://traditionsofconflict.substack.com/p/the-sad-story-of-short-kwi-legendary), 2022*
 
 ### Coding
 
@@ -264,7 +347,14 @@ manual craft.
 experienced it. As with all histories, the narrative is lacking in depth:
 you really had to be there.
 
-*— John Loeber, [Tweet](https://nitter.poast.org/johnloeber/status/2029335095077945565), 2026*
+*— [John Loeber](https://nitter.poast.org/johnloeber), [Tweet](https://nitter.poast.org/johnloeber/status/2029335095077945565), 2026*
+
+>  Importantly, the main thing on my mind here is not really about
+programming, it’s the nature of seeing something change and totally
+go away, fade in real-time, with the actual way that it once was being
+impossible to record or to really convey
+
+*— [John Loeber](https://nitter.poast.org/johnloeber), Followup Tweet<!--TODO: link-->, 2026*
 
 ### The Loss of Craft
 
@@ -272,7 +362,67 @@ you really had to be there.
 
 #### Cope
 
-There is no good replacement word for "cope", truly an incredible coinage.
+Sometimes (okay, *usually*) the attachment to a particular craft does
+not go quietly.
+
+There is no good replacement word for "cope", truly an incredible
+coinage. "Sour grapes" is purely for giving up on possibly valuable
+things, "rationalization" and "denial" are too clinical, "motivated
+reasoning" is too wordy.
+
+"Cope" covers it all, from denying the existence of the fact that one
+might never be truly loved, to (ineffectually) dealing with the fact that
+your neighbour has a cooler car than you; it can function verb, noun
+and imperative; it's not purely dismissive but not absolving<!--TODO:
+absolutive?--> either. I don't know how we managed before 4chan gave
+it to us.
+
+A common reaction to losing ones craft is cope.
+
+Because this is me, and this is my essay, I shall illustrate this with
+a German poem. The context for this poem is that during the industrial revolution,
+[silesian](https://en.wikipedia.org/wiki/Silesian) artisan weaver had been automated,
+and the poet [Heinrich Heine](https://en.wikipedia.org/wiki/Heinrich_Heine)
+wrote an fiery war cry in their name:
+
+> Im düstern Auge keine Träne  
+Sie sitzen am Webstuhl und fletschen die Zähne:  
+Deutschland, wir weben dein Leichentuch,  
+Wir weben hinein den dreifachen Fluch -  
+Wir weben, wir weben!
+>
+> Ein Fluch dem Gotte, zu dem wir gebeten  
+In Winterskälte und Hungersnöten;  
+Wir haben vergebens gehofft und geharrt -  
+Er hat uns geäfft, gefoppt und genarrt -  
+Wir weben, wir weben!
+>
+Ein Fluch dem König, dem König der Reichen,  
+Den unser Elend nicht konnte erweichen  
+Der den letzten Groschen von uns erpreßt  
+Und uns wie Hunde erschießen läßt -  
+Wir weben, wir weben!
+>
+Ein Fluch dem falschen Vaterlande,  
+Wo nur gedeihen Schmach und Schande,  
+Wo jede Blume früh geknickt,  
+Wo Fäulnis und Moder den Wurm erquickt -  
+Wir weben, wir weben!
+>
+Das Schiffchen fliegt, der Webstuhl kracht,  
+Wir weben emsig Tag und Nacht -  
+Altdeutschland, wir weben dein Leichentuch,  
+Wir weben hinein den dreifachen Fluch,  
+Wir weben, wir weben!"
+
+*— Heinrich Heine, [“Die schlesischen Weber”](https://www.deutschelyrik.de/die-schlesischen-weber.407.html), 1845*
+
+<!--TODO: expand on artists, mathematicians, musicians, software engineers-->
+
+I've felt this cope (and seen it in others!), multiple times, seeing the
+LLMs flood a skill I have, and then coping "but they can't do X yet!!!".
+
+No. Stop. Let go. Nothing Human Makes It Out Of The Near Future. I'm Sorry. :-|
 
 Purpose
 --------
@@ -284,5 +434,103 @@ Purpose
 The View of Utopia From Below
 -------------------------------
 
-Doch uns ist gegeben, auf keiner Stätte zu ruhn
--------------------------------------------------
+Nick Bostrom's [Letter from Utopia](https://nickbostrom.com/utopia.html)
+is on of my favourite pieces of writing, ever. It takes the perspective
+of distant future posthuman eutopians trying to communicate to us,
+beckoning us to come closer, to *become them*, to join them at the
+*Festspiel*<!--TODO: link Wiktionary--> then<!--TODO: "then" but for
+the future? "back then" but for the future, in at most two words?-->
+in Heaven.
+
+Another one of my favourite pieces of writing is [Hyperions
+Schicksalslied](https://www.textlog.de/17824.html)
+by the German romantic [Friedrich
+Hölderlin](https://en.wikipedia.org/wiki/Friedrich_Hölderlin).
+
+It is the [dual](https://en.wikipedia.org/wiki/Dual_(mathematics))
+of the Letter, which speaks to us in the voice of the Posthumans,
+Hölderlin addresses them from our perspective.
+
+> Ihr wandelt droben im Licht  
+Auf weichem Boden, selige Genien!  
+Glänzende Götterlüfte  
+Rühren euch leicht,  
+Wie die Finger der Künstlerin  
+Heilige Saiten.[^german]
+
+[^german]: In this whole text, I will not translate the German to English, as doing so would damage something fragile in the meaning I'm trying to get across.
+
+The Posthumans are cradled by a soft and ubiquitous sysopmind<!--TODO: link-->,
+touched only softly by the most refined aspects of reality. They dwell in
+the [realm of the devas](https://en.wikipedia.org/wiki/Deva_(Buddhism)),
+unperturbed.
+
+> Schicksallos, wie der schlafende  
+Säugling, atmen die Himmlischen;  
+Keusch bewahrt  
+In bescheidener Knospe,  
+Blühet ewig  
+Ihnen der Geist,  
+Und die seligen Augen  
+Blicken in stiller  
+Ewiger Klarheit.
+
+No Purpose drives them, Purpose has been handed off and completely
+spent; the world has reached a final state, and its inhabitants reside
+in fatelessness and eternal clarity. Craft is even *less* necessary than
+Purpose, now hidden somewhere deep inside the machinery that underpins
+the new world.
+
+Whether such a world is a *good* world, and what the posthuman *Genien*
+would be doing, exactly, is the purpose of another book<!--TODO: link
+Deep Utopia here-->.
+
+*Doch uns ist gegeben, auf keiner Stätte zu ruhn*
+--------------------------------------------------
+
+We are *decidedly* not in the world of the *Genien* yet. Perhaps, at
+some point, we'll be enveloped. But not right now. Right now we hold
+the largest levers over the pulleys and cables of history, the dials
+for the circuit of the lightcone, the switches for the machinery of night.
+
+We are, as the saying goes, in that awkward phase between being being
+born and dying, but we are also (if I'm correct[^disclaimer]) about to
+enter that awkward phase between losing Craft and losing Purpose.
+
+In such a case seeking cope in Craft, doubling down on that
+ancient and familiar safety, will do no good. You will [waste your
+time](https://en.wikipedia.org/wiki/Opportunity_Cost), you will be
+jolted by reality as your craft is rugpulled out from under you, only to
+finally realize that all relevant time has passed, and all your levers
+have disappeared.
+
+Thus, my sad battlecry: Do not shape yourself into an
+instrument of deep skill. Look instead at the world,
+grab all the {levers, AI agents, [convergent instrumental
+strategies](https://arbital.com/p/convergent_strategies/)} you can
+plausibly get, and instrument the universe into the direction you desire.
+
+Craft is clearly ill, its [buboes](https://en.wikipedia.org/wiki/Buboe)
+swelling in mathematics and software engineering, it will die, how long
+the course is not certain. Mourn it, sings to it elegies, nurse its
+healthier parts with expendable free energy, but do not ally with it.
+
+Because time is precious, now, and focus and
+attention are, too. Yet you have write access to the
+universe, yet it yields. The window is closing, and [we are on
+triage](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/XXLf6FmWujkxna3E6).
+Do not cope.
+
+Now Is The Golden Age of Purpose.
+
+> Doch uns ist gegeben,  
+Auf keiner Stätte zu ruhn,  
+Es schwinden, es fallen  
+Die leidenden Menschen  
+Blindlings von einer  
+Stunde zur andern,  
+Wie Wasser von Klippe  
+Zu Klippe geworfen,  
+Jahr lang ins Ungewisse hinab."
+
+[^disclaimer]: Which I don't have to be.

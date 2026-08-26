@@ -56,6 +56,7 @@ you’d like to forward
 * [Turning Some Inconsistent Preferences Into Consistent Ones](./turning.html)
 * [Model Expansion and AI Alignment](./expansion.html)
 * [Automated AI Alignment Research](./automated.html)
+* [LLMs as Giant Lookup-Tables of Shallow Circuits](./lookup.html)
 
 ##### Strategy
 
@@ -178,6 +179,7 @@ Beides verdammen sie dir, zeigest du beides zugleich
 
 * [Black Hole Mop](./mop.html)
 * [Quantum Computing is about Atoms, not Bits](./quantum.html)
+* [Now Is The Golden Age Of Purpose](./golden.html)
 
 #### Philosophy
 
@@ -345,7 +347,7 @@ Miscellaneous
 
 I sometimes write reviews of things I have watched/read.
 
-* [Text Reviews](./text_reviews.html)
+* [Reviews](./reviews.html)
 
 The following is four lists on the content I consume. The content listed
 there is a fairly big subset of what I actually read/listen to/watch,
