@@ -3734,7 +3734,17 @@ Perspectives:
 A Toy Structural Equation Model For Psychological Agency
 ----------------------------------------------------------
 
-Psychological [agency]()<!--TODO: link--> is inhibited by generalized social fear, improved/increased by [error-correction ability](https://en.wikipedia.org/wiki/Error-correction) and by intelligence, both [fluid](https://en.wikipedia.org/wiki/Fluid_Intelligence) and [crystallized](https://en.wikipedia.org/wiki/Crystallized_Intelligence). Error-correction ability is increased by [stamina](https://www.overcomingbias.com/p/stamina-succeedshtml)/["energy"](https://stephenmalina.com/post/2021-07-01-energetic-aliens-among-us/) and also by intelligence. <!--TODO: How to deal with the double-counting?--> Generalized social fear also probably inhibits stamina, rumination ain't cheap.
+Psychological
+[agency](https://www.goodreads.com/book/show/232294916-you-can-just-do-things)
+is inhibited by generalized social fear, improved/increased by
+[error-correction ability](https://en.wikipedia.org/wiki/Error-correction)
+and by intelligence, both
+[fluid](https://en.wikipedia.org/wiki/Fluid_Intelligence) and
+[crystallized](https://en.wikipedia.org/wiki/Crystallized_Intelligence).
+Error-correction ability is increased by
+[stamina](https://www.overcomingbias.com/p/stamina-succeedshtml)/["energy"](https://stephenmalina.com/post/2021-07-01-energetic-aliens-among-us/)
+and also by intelligence. Generalized social fear also probably inhibits
+stamina, rumination ain't cheap.
 
 A toy [structural equation model](https://en.wikipedia.org/wiki/Structural_equation_model):
 
@@ -3746,15 +3756,23 @@ A toy [structural equation model](https://en.wikipedia.org/wiki/Structural_equat
 
 ![](./img/agency/sem.png)
 
-In a human enacting agency, error-correction ability and intelligence trade off against each other (intelligence means you make fewer mistakes, whereas error-correction ability means that you can revert mistakes once made). Social fear is probably multiplicative[^grat]: Even if you're very smart and good at fixing things once they go wrong, you'll still not do anything.
+In a human enacting agency, error-correction ability and intelligence
+complement each other (intelligence means you make fewer mistakes,
+whereas error-correction ability means that you can revert mistakes once
+made). Social fear is probably multiplicative[^grat]: Even if you're
+very smart and good at fixing things once they go wrong, you'll still
+not do anything.
 
 [^grat]: Thanks to Opus 5 for this point.
 
-Stamina helps with error-correction: If you mess up, you can back-track and try another strategy, but doing so is costly. I'd guess that stamina *also* directly helps with agency, simply by being able to take many actions.
+Stamina helps with error-correction: If you mess up, you can back-track
+and try another strategy, but doing so is costly. I'd guess that stamina
+*also* directly helps with agency, simply by being able to take many
+actions.
 
 Interventions:
 
-* One can train against *generalized social fear*, e.g. by doing [comfort-zone expansion exercises]<!--TODO: link--> or [exposure therapy](https://en.wikipedia.org/wiki/Exposure_Therapy).
+* One can train against *generalized social fear*, e.g. by doing [comfort-zone expansion exercises](https://nomagicpill.site/knowledge/comfortzone.html) or [exposure therapy](https://en.wikipedia.org/wiki/Exposure_Therapy).
 * One can probably slightly intervene on stamina, e.g. through stimulants, fixing [sleep apnea](https://en.wikipedia.org/wiki/Sleep_Apnea), [GLP-1s](https://en.wikipedia.org/wiki/GLP-1_drug) and the other Standard Good Interventions™. I'm holding my hope for even better stamina interventions, but I'm not certain.
 * I don't think one can, at this point, meaningfully intervene on error-correction ability or intelligence.
 
@@ -3763,6 +3781,15 @@ social fear, and that's where I'd put most applied rationality training.
 
 Expanding on the terms:
 
-**Generalized social fear** is the tendency of humans not to take opportunities because they look cringe/unusual/low status/disgusting &c. My guess is that most humans have much too large a generalized social fear because (Just So Story!) being low status in a group of hunter-gatherers has much higher costs: no ability to exit/switch to another group, which is often trivial today. (Not always! Social capital is still a thing).
+**Generalized social fear** is the tendency of humans not to take
+opportunities because they look cringe/unusual/low status/disgusting
+&c. My guess is that most humans have much too large a generalized
+social fear because (Just So Story!) being low status in a group of
+hunter-gatherers has much higher costs: no ability to exit/switch to
+another group, which is often trivial today. (Not always! Social capital
+is still a thing).
 
-**Error-correction** is the ability to finds flaws in ones plans before and during execution, [back-track](https://en.wikipedia.org/wiki/Backtracking), make amends & apologize effectively, etc.
+**Error-correction** is the ability to finds
+flaws in ones plans before and during execution,
+[back-track](https://en.wikipedia.org/wiki/Backtracking), make amends &
+apologize effectively, etc.

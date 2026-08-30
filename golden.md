@@ -1,9 +1,9 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2026-04-17, modified: 2026-05-19, language: english, status: in progress, importance: 1, confidence: possible*
+*author: niplav, created: 2026-04-17, modified: 2026-08-30, language: english, status: in progress, importance: 1, confidence: possible*
 
-> __.__
+> __An exercise in heartfelt futility.__
 
 Now Is The Golden Age Of Purpose
 =================================
@@ -107,13 +107,16 @@ Future](https://en.wikipedia.org/wiki/Fanged_Noumena#"Meltdown"). (Unless:
 shalt not make a machine in the likeness of a human mind". [Movement
 78](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol#Game_4). The Brink.)
 
-Indeed, I put a probability of ~70% on us being in that fearsome
-*other* world, and that being quite frightening (primarily due to
-superintelligences leading to human extinction<!--TODO: some link?-->, but
-also concentration of power to a small group of humans<!--TODO: link-->,
-loss of lots of value even though humans don't technically "go extinct",
-and stranger badnesses such as (if we're in a simulation) the simulation
-being shut down<!--TODO: Tomasik writes about this, dig it out-->).
+Indeed, I put a probability of ~70% on us being
+in that fearsome *other* world, and that being quite
+frightening (primarily due to [superintelligences leading to human
+extinction](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence),
+but also [concentration of power to a small group of
+humans](https://80000hours.org/problem-profiles/extreme-power-concentration/),
+loss of lots of value even though humans don't
+technically "go extinct", and stranger badnesses such as
+(if we're in a simulation) [that simulation being shut
+down](https://simulation-argument.com/pdf/preston-greene-termination-risks.pdf)).
 
 But: That's not the only things that will happen. Even if these scary
 events don't happen, or take a while to happen, there is a very specific
@@ -135,7 +138,7 @@ and feet are intuitively involved in the activity. I feel myself reaching for
 as "Zuhandenheit" and "In-der-Welt-sein" to describe a human engaged in
 a craft, though I'm not sure they're fully applicable here.
 
-Instead of further defining "craft", I'll instead orbit it
+Instead of further defining "craft", I'll instead satellite it
 [extensionally](https://www.lesswrong.com/rationality/extensions-and-intensions),
 examining three different instances of it (two, mostly dead; one, dying)
 and then turn to how AI might entail a total loss of craft, and what
@@ -184,13 +187,13 @@ and then polished.
 I have a pet theory that flintknapping was the activity that allowed for a
 social niche for autistic people in hunter-gatherer groups<sub>30%</sub>.
 Paleolithic humans had to spend thousands, maybe tens of thousands of
-hours to learn how to knap arrowheads, knives and axeheads. The kind of
-person who is able to sit at camp, every evening, not engaging with the
-others but instead obsessed with the exact way in which obsidian flakes
-off when pressed at a slightly different angle… does that remind you
-of people? Maybe even yourself? Being able to gift better stone tools to
-others confers social status, which can be converted into reproductive
-success.
+hours to learn how to knap arrowheads, knives and axeheads. The kind
+of person who is able to sit at camp, every evening, not engaging with
+the others but instead obsessively inspecting the exact way in which
+obsidian flakes off when pressed at a slightly different angle… does
+that remind you of people? Maybe even yourself? Being able to gift better
+stone tools to others confers social status, which can be converted into
+reproductive success.
 
 But flintknapping doesn't just produce tools—sometimes
 the resulting objects are too fragile, too *ethereal*
@@ -217,7 +220,7 @@ knapped flint.
 This stems from two roots, namely:
 
 1. Flintstone and obsidian are even less forgiving materials than marble; the former splinter & shatter more easily, and techniques like polishing don't apply well when trying to create a blade (as opposed to a surface on the marble).
-2. To my knowledge, almost all of the impressive marble statues we know were produced by first making clay of wax models, iterating on the form, and then copying the model with a [pointing machine](https://en.wikipedia.org/wiki/Pointing_machine). Especially modern skulptors almost never create statues by [direct carving](https://en.wikipedia.org/wiki/Direct_carving), or when they do the resulting statue is far less sophisticated.<!--TODO: check Works in Progress article on this?-->
+2. To my knowledge, almost all of the impressive marble statues we know were produced by first making clay of wax models, iterating on the form, and then copying the model with a [pointing machine](https://en.wikipedia.org/wiki/Pointing_machine). Especially modern skulptors almost never create statues by [direct carving](https://en.wikipedia.org/wiki/Direct_carving), or when they do the resulting statue is far less sophisticated.
 
 Arguably, creating stone skulptures is still a respectable craft (though
 slightly impressive when done with a pointing machine, and direct carving
@@ -225,11 +228,10 @@ a full complicated statue is afaik dead as a craft).
 
 Knapping reached its roccoco height in the [eccentric
 flints](https://en.wikipedia.org/wiki/Eccentric_flint)
-created by Maya maestros<!--TODO: plural of
-"maestro"?-->, possibly spurred on by the [relative lack of
+created by Maya maestri, possibly spurred on by the [relative lack of
 metallurgy](https://en.wikipedia.org/wiki/Mesoamerican_chronology#Postclassical_period)
-in pre-Columbian meso-America. I do not find these beautiful,
-per se, my aesthetics are of simplicity, so give me the simple
+in pre-Columbian meso-America. I do not find these beautiful, per
+se; my aesthetic is one of simplicity: please give me the stark
 elegance of a chipped obsidian arrowhead instead. Instead these
 flint are *splendid*, *impressive*, *decadent*, yes, definitely
 __eccentric__. Where the Hindsgavl dagger and Gebel-el-Arak knife are
@@ -271,7 +273,7 @@ I imagine that if I witnessed this kind of ability, it'd look like
 magic[^magic] to me. And yet, there were entire cultures where this kind
 of ability was as fundamental as literacy is in ours!
 
-[^magic]: "Magic" in the Yudkowskian sense<!--TODO: link to a sequences post here? Not "Mundane Magic", that's a different one-->, in that it's a thing that is so far outside of my understanding what's possible that I can't even rederive *that* it could work.
+[^magic]: "Magic" in the [Yudkowskian sense](https://www.lesswrong.com/s/6BFkmEgre7uwhDxDR/p/x4dG4GhpZH2hgz59x), in that it's a thing that is so far outside of my understanding what's possible that I can't even rederive *that* it could work.
 
 I'm also almost certain that all the best trackers are long dead,
 and that present-day hunter-gatherer groups are too small to have
@@ -316,7 +318,7 @@ that he was the best hunter the Kalahari had ever known.”
 
 ### Coding
 
-[The Story of Mel (Ed Nather, 1983)](http://www.catb.org/jargon/html/story-of-mel.html)
+This third one is closer to my heart.
 
 >  it's strange to see the world of the past fade before my eyes
 >
@@ -349,6 +351,42 @@ you really had to be there.
 
 *— [John Loeber](https://nitter.poast.org/johnloeber), [Tweet](https://nitter.poast.org/johnloeber/status/2029335095077945565), 2026*
 
+I was recently rewatching [Silicon
+Valley](https://en.wikipedia.org/wiki/Silicon_Valley_(series)),
+and was surprised by the *pride* that Richard & Dinesh & Gilfoyle
+put on their technical ability in software engineering and systems
+architecture, in algorithm design and reliability engineering. That
+had been my aspirational pride, too, after reading [Eric S. Raymond's
+FAQ](https://www.catb.org/~esr/faqs/hacker-howto.html) as a 14-year old,
+and decided I wanted to become a great hacker, in the [hacker culture
+sense](https://en.wikipedia.org/wiki/Hacker_Culture).
+
+I think I'd forgotten this part of my psyche, swept by
+the Gezeiten[^tides] of AI progress around me, silently
+and unconsciously giving up on the aim of craft, of
+becoming really fucking good at writing [crisp and crystalline
+code](https://www.stilldrinking.org/programming-sucks) in the tradition
+of the monastic order of the [suckless](https://suckless.org). I hadn't
+even quite realized that this part of me was unhappy that something
+important had been taken away with the release of Claude Code, back then
+in early 2025.
+
+I had been robbed of the opportunity to become
+[Mel](http://www.catb.org/jargon/html/story-of-mel.html).
+
+There was another, similar, moment when I installed Claude Cowork for my
+partner on their work laptop to test how good it'd be at their job. We
+gave it a simple task of setting up an oneline form, and sent Sonnet
+grinding away. We watched Claude work (surprisingly slowly, compared
+to Claude Code!) away on it while we were cuddling.<!--TODO: that meme
+where the couple is cuddling and watching something from the bed?-->
+It felt… irreal. Watching something important sublimate in the middle of its existence.
+
+The weaver in front of the industrial loom, the medieval blacksmith
+before the factory with a blast furnace.
+
+[^tides]: Alright, this word choice I'll explain a bit. "Gezeiten" means "tides" in German, but "Zeiten" is *also* translateable as "times", and the "Ge-" prefix indicates something that is occurring/being done. So the best translation her would be "tidal times-ings", but even that's not perfect. Forgive my attempts at load-bearing multilingual puns.
+
 >  Importantly, the main thing on my mind here is not really about
 programming, it’s the nature of seeing something change and totally
 go away, fade in real-time, with the actual way that it once was being
@@ -358,32 +396,69 @@ impossible to record or to really convey
 
 ### The Loss of Craft
 
+If we are in the other world of full automation and human obsolescence
+and |disempowerent⟩+|Deep Utopia⟩, then we will lose all basis of craft.
+
 ![](./img/golden/blast_furnace.jpg)
+
+*A new star is rising on the firmament*
+
+This type of loss is not new, per se. I've named two crafts that
+have ~completely disappeared, and there are many others (reciting the
+Iliad or the Vedas from memory<!--TODO: link-->, marine navigation by
+stars, blacksmithing…) The loss of craft is one of the [diseases of the
+soul](./notes.html#Forager_Society_is_a_Disease_of_the_Flesh_Industrial_Society_is_a_Disease_of_the_Soul)
+that the golden goose of civilization demands from us. But, so far,
+as far as I can tell, one wasn't expected to deal with more than one
+loss of craft in ones lifetime, not to speak of the *whole damn rug*
+being pulled away from under oneself.
+
+Every now and then reality jerks your craft away from what is necessary,
+see Short Kwi, the flintknappers, the Iliad-singers, the weavers and
+blacksmiths, the software engineers and geometers, this happens rarely
+and slowly enough that a human will experience it at most once in their
+lives, maybe not even that.
+
+Sure, one could technically continue to practice the craft in ones free
+time, but what a hollow answer! I am a human who wants to turn himself
+into an instrument for a craft, which *is* purpose, as long as it connects
+well enough to reality.
+
+This loss was tragic whenever it happened! It was horrible! Such deep
+skill was lost, such incredible finesse! LOOK AT THE HINDSGAVL DAGGERS!
+
+…
+
+And now, the whole thing. "All that is solid melts into air, all that
+is holy is profaned, and man is at last compelled to face with sober
+senses his real conditions of life"
 
 #### Cope
 
-Sometimes (okay, *usually*) the attachment to a particular craft does
+Sometimes (okay, *almost always*) the attachment to a particular craft does
 not go quietly.
 
-There is no good replacement word for "cope", truly an incredible
-coinage. "Sour grapes" is purely for giving up on possibly valuable
-things, "rationalization" and "denial" are too clinical, "motivated
-reasoning" is too wordy.
+There is no good replacement word for "cope" in English, truly an
+incredible coinage.
+
+None come close: "Sour grapes" is purely about giving up on possibly
+valuable things, "rationalization" and "denial" are too clinical,
+"motivated reasoning" is too wordy.
 
 "Cope" covers it all, from denying the existence of the fact that one
-might never be truly loved, to (ineffectually) dealing with the fact that
-your neighbour has a cooler car than you; it can function verb, noun
-and imperative; it's not purely dismissive but not absolving<!--TODO:
-absolutive?--> either. I don't know how we managed before 4chan gave
-it to us.
+might never be truly loved, to (ineffectually) dealing with the fact
+that your neighbour has a cooler car than you; it can function verb,
+noun and imperative; it's not purely dismissive but not exculpatory
+either. I don't know how we managed before 4chan gave it to us.
 
 A common reaction to losing ones craft is cope.
 
 Because this is me, and this is my essay, I shall illustrate this with
-a German poem. The context for this poem is that during the industrial revolution,
-[silesian](https://en.wikipedia.org/wiki/Silesian) artisan weaver had been automated,
-and the poet [Heinrich Heine](https://en.wikipedia.org/wiki/Heinrich_Heine)
-wrote an fiery war cry in their name:
+a German poem. The context for this poem is that during the industrial
+revolution, the [silesian](https://en.wikipedia.org/wiki/Silesian)
+artisan weavers were being automated, and the poet [Heinrich
+Heine](https://en.wikipedia.org/wiki/Heinrich_Heine) wrote an fiery war
+cry in their name[^german]:
 
 > Im düstern Auge keine Träne  
 Sie sitzen am Webstuhl und fletschen die Zähne:  
@@ -417,12 +492,22 @@ Wir weben, wir weben!"
 
 *— Heinrich Heine, [“Die schlesischen Weber”](https://www.deutschelyrik.de/die-schlesischen-weber.407.html), 1845*
 
-<!--TODO: expand on artists, mathematicians, musicians, software engineers-->
+Heine inadvertently describes the cope perfectly: The reaction to the
+rising tide is not nimble action, but denial and accusations and a
+doubling-down on the very thing that has no power anymore. Ihr webt,
+ihr webt, but what use does that have? The mechanical loom over there
+could be coping much harder than you, too.
 
-I've felt this cope (and seen it in others!), multiple times, seeing the
-LLMs flood a skill I have, and then coping "but they can't do X yet!!!".
+I've felt this cope (and seen it in others!), multiple times, seeing
+the LLMs flood a skill I have, and then coping "but they can't do X
+yet!!!"; visual artists[^yes] and software engineers and musicians<!--TODO:
+link Adam Neely video--> and mathematicians scream "no! not me! I won't
+be afflicted by the age of mechanical production!"
 
-No. Stop. Let go. Nothing Human Makes It Out Of The Near Future. I'm Sorry. :-|
+No. Stop. Let go. Feel into your cope, give yourself a hug, and then
+drop it. Nothing Human Makes It Out Of The Near Future. I'm Sorry. :-|
+
+[^yes]: I fully believe that neither art nor music are as close to being automated as e.g. software engineering and mathematics are. I do think that they *will be*, soon, and that the reaction would be the same either way.
 
 Purpose
 --------
@@ -438,31 +523,35 @@ Nick Bostrom's [Letter from Utopia](https://nickbostrom.com/utopia.html)
 is on of my favourite pieces of writing, ever. It takes the perspective
 of distant future posthuman eutopians trying to communicate to us,
 beckoning us to come closer, to *become them*, to join them at the
-*Festspiel*<!--TODO: link Wiktionary--> then<!--TODO: "then" but for
-the future? "back then" but for the future, in at most two words?-->
-in Heaven.
+[*Festspiel*](https://en.wiktionary.org/wiki/Festspiel) forth then[^sonnet]
+in Heaven. I've cried many times upon listening to it, a unique and
+uncommon religious experience—and I'm not the only one<!--TODO: link
+@yashkaf who reports similarly-->.
+
+[^sonnet]: Thanks to Sonnet 5 for this construction.
 
 Another one of my favourite pieces of writing is [Hyperions
 Schicksalslied](https://www.textlog.de/17824.html)
 by the German romantic [Friedrich
 Hölderlin](https://en.wikipedia.org/wiki/Friedrich_Hölderlin).
 
-It is the [dual](https://en.wikipedia.org/wiki/Dual_(mathematics))
-of the Letter, which speaks to us in the voice of the Posthumans,
-Hölderlin addresses them from our perspective.
+It is the [dual](https://en.wikipedia.org/wiki/Dual_(mathematics)) of the
+Letter, which speaks to us in the voice of the Posthumans.  Hölderlin,
+on the other hand, addresses *them* from our perspective.
 
 > Ihr wandelt droben im Licht  
 Auf weichem Boden, selige Genien!  
 Glänzende Götterlüfte  
 Rühren euch leicht,  
 Wie die Finger der Künstlerin  
-Heilige Saiten.[^german]
+Heilige Saiten.
 
-[^german]: In this whole text, I will not translate the German to English, as doing so would damage something fragile in the meaning I'm trying to get across.
+[^german]: In this whole text, I will not translate the German to English, as doing so would damage something fragile in the meaning I'm trying to get across. I recommend (but do not mandate) that you consult your favourite large language model to find you an adequate translation.
 
-The Posthumans are cradled by a soft and ubiquitous sysopmind<!--TODO: link-->,
-touched only softly by the most refined aspects of reality. They dwell in
-the [realm of the devas](https://en.wikipedia.org/wiki/Deva_(Buddhism)),
+The Posthumans are cradled by a soft and ubiquitous
+[sysopmind](https://intelligence.org/files/CFAI.pdf#page=199), touched
+only softly by the most refined aspects of reality. They dwell in the
+[realm of the devas](https://en.wikipedia.org/wiki/Deva_(Buddhism)),
 unperturbed.
 
 > Schicksallos, wie der schlafende  
@@ -475,15 +564,15 @@ Und die seligen Augen
 Blicken in stiller  
 Ewiger Klarheit.
 
-No Purpose drives them, Purpose has been handed off and completely
-spent; the world has reached a final state, and its inhabitants reside
-in fatelessness and eternal clarity. Craft is even *less* necessary than
-Purpose, now hidden somewhere deep inside the machinery that underpins
-the new world.
+No Purpose drives them, no Need propels. Purpose has been handed off
+and completely spent; the world has reached a final orbit, and its
+inhabitants reside in fatelessness and eternal clarity. Craft is even
+*less* necessary than Purpose, now hidden somewhere deep inside the
+machinery that underpins the new world.
 
-Whether such a world is a *good* world, and what the posthuman *Genien*
-would be doing, exactly, is the purpose of another book<!--TODO: link
-Deep Utopia here-->.
+Whether such a world is a *good* world, and what the posthuman
+*Genien* would be doing, exactly, is the purpose of [another
+book](https://www.goodreads.com/book/show/208707460-deep-utopia).
 
 *Doch uns ist gegeben, auf keiner Stätte zu ruhn*
 --------------------------------------------------
@@ -496,6 +585,8 @@ for the circuit of the lightcone, the switches for the machinery of night.
 We are, as the saying goes, in that awkward phase between being being
 born and dying, but we are also (if I'm correct[^disclaimer]) about to
 enter that awkward phase between losing Craft and losing Purpose.
+
+[^disclaimer]: I may still be wrong! Oh god please
 
 In such a case seeking cope in Craft, doubling down on that
 ancient and familiar safety, will do no good. You will [waste your
@@ -513,12 +604,12 @@ plausibly get, and instrument the universe into the direction you desire.
 Craft is clearly ill, its [buboes](https://en.wikipedia.org/wiki/Buboe)
 swelling in mathematics and software engineering, it will die, how long
 the course is not certain. Mourn it, sings to it elegies, nurse its
-healthier parts with expendable free energy, but do not ally with it.
+healthier parts with expendable free energy, but do *not* ally with it.
 
-Because time is precious, now, and focus and
-attention are, too. Yet you have write access to the
-universe, yet it yields. The window is closing, and [we are on
-triage](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/XXLf6FmWujkxna3E6).
+Time is precious, now, and focus and attention are, too. Yet
+you have write access to the universe, yet it yields. The
+window is closing, and [we are on triage every second of the
+day](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/XXLf6FmWujkxna3E6).
 Do not cope.
 
 Now Is The Golden Age of Purpose.
@@ -531,6 +622,4 @@ Blindlings von einer
 Stunde zur andern,  
 Wie Wasser von Klippe  
 Zu Klippe geworfen,  
-Jahr lang ins Ungewisse hinab."
-
-[^disclaimer]: Which I don't have to be.
+Jahr lang ins Ungewisse hinab.
