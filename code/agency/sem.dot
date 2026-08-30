@@ -1,0 +1,8 @@
+digraph agency {
+	Fear -> Agency [arrowhead=tee]
+	Fear -> Stamina [arrowhead=tee]
+	ErrorCorrection -> Agency
+	Intelligence -> Agency
+	Stamina -> ErrorCorrection
+	Intelligence -> ErrorCorrection
+}

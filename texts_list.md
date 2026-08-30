@@ -17,12 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [\* Investigating the consequences of accidentally grading CoT during RL (Micah Carroll/Tomek Korbak/Zehao Dou/Bowen Baker/Ian Kivlichan, 2026)](https://alignment.openai.com/accidental-cot-grading/)
+* [Research note: The Economics of Recursive Self-Improvement (Partker Whitfill/Tom Cunningham, 2026)](https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/)
+* [Full-stack futurism (Lydia Nottingham, 2026)](https://idealistscollective.org/writings/full-stack-futurism-apparently)
+* \* Nanosystems (Eric Drexler, 1992)
+* The Evolution of Automation at Google (Niall Murphy/John Looney/Michael Kacirek/Betsy Beyer, 2014)
 * Monitoring Distributed Systems (Rob Ewaschuk/Betsy Beyer, 2014)
 * Eliminating Toil (Vivek Rau/Betsy Beyer, 2014)
 * Service Level Objectives (Chris Jones/John Wilkes/Niall Murphy/Cody Smith/Betsy Beyer, 2014)
 * Motivation for Errors Budgets (Mark Roth/Carmela Quinito, 2014)
 * Embracing Risk (Marc Alvidrez/Kavita Guliani, 2014)
-* [\* AI 2040 Plan A (Thomas Larsen/Romeo Dean/Brendan Halstead/Eli Lifland/Ryan Greenblatt/Daniel Kokotajlo, 2026)](https://ai-2040.com/?choices=plan-a-root)
+* [AI 2040 Plan A (Thomas Larsen/Romeo Dean/Brendan Halstead/Eli Lifland/Ryan Greenblatt/Daniel Kokotajlo, 2026)](https://ai-2040.com/?choices=plan-a-root)
 * The Restaurant at the End of the Universe (Douglas Adams, 1980)
 * There is No Antimemetics Division (qntm, 2025)
 * The Hitchhikers Guide to the Galaxy (Douglas Adams, 1979)

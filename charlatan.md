@@ -1,11 +1,11 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2026-02-16, modified: 2026-08-05, language: multiple, status: in progress, importance: 1, confidence: other*
+*author: niplav, created: 2026-02-16, modified: 2026-08-30, language: multiple, status: in progress, importance: 1, confidence: other*
 
-> __.__
+> __Some [constrained writing](https://en.wikipedia.org/wiki/Constrained_writing).__
 
-<!--sabre, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), mukbang, kiwi, llama, pemmican, ¿patch?, skurr, shucks, monogatari, tipi, wigwam, ¿abarka?, burqa?, maize, anchovy, moose, glonzo, clanker, almanach, jedi, padawan, sietch, hocus pocus, abracadabra, alakazam, shazam, boss, orange, rizz, pog, quark, meep, smurf, bazinga, cowabunga, wagyu, conundrum, Beelzebub, -sama, -san, senpai, sensei, rizz (check, but Claude claims the originator didn't get it from "charisma", cool if true), sherpa, bushido, ronin-->
+<!--sabre, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), mukbang, kiwi, llama, pemmican, ¿patch?, skurr, shucks, monogatari, tipi, wigwam, ¿abarka?, burqa?, maize, anchovy, moose, glonzo, clanker, almanach, jedi, padawan, sietch, hocus pocus, abracadabra, alakazam, shazam, boss, orange, rizz, pog, quark, meep, smurf, bazinga, cowabunga, wagyu, conundrum, Beelzebub, -sama, -san, senpai, sensei, rizz (check, but Claude claims the originator didn't get it from "charisma", cool if true), sherpa, bushido, ronin, aurebesh, yurt-->
 
 Charlatan Labyrinth
 =====================

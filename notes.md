@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2026-01-06, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2026-08-30, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -3483,8 +3483,8 @@ to change your mind after receiving the money and not drink the toxin.
 * Counterlogical Mugging
 * XOR Logical Mugging
 
-Different Kinds of Strength
------------------------------
+Different Kinds of Belief Strength
+------------------------------------
 
 As of now, I can find six distinct types of (incommensurable?) belief
 strength:
@@ -3495,7 +3495,7 @@ strength:
 * [Indexical](https://www.lesswrong.com/w/indexical-uncertainty) ([Anthropic reasoning](https://en.wikipedia.org/wiki/Anthropic_reasoning), [SIA](https://en.wikipedia.org/wiki/Self-indication_assumption)/[SSA](https://en.wikipedia.org/wiki/Self-Sampling_Assumption))
 * [Quantum state](https://en.wikipedia.org/wiki/Quantum_state_vector) credences (non-commuting observables, [Born rule](https://en.wikipedia.org/wiki/Born_Rule)?)
 * [Normative](./doc/philosophy/ethics/moral_uncertainty_macaskill_et_al_2020.pdf) (choiceworthiness, decision-theoretic/¿aesthetic?)
-* [Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)???
+* ¿¿[Steam](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)??
 
 Possibly commensurable:
 
@@ -3726,7 +3726,43 @@ Perspectives:
 * Eliminativist:
 	* Valence *is* just reward, computationally, directly
 * Non-eliminativist:
-	* Valance centers around net-zero because extremely high-valence/extremely low-valence states require more/less energy, and evolution penalizes energy-expenditure
+	* Valence centers around net-zero because extremely high-valence/extremely low-valence states require more/less energy, and evolution penalizes energy-expenditure
 	* Valence centers around net-zero because due to *mumble mumble* [psychophysics](https://en.wikipedia.org/wiki/Psychophysics) *mumble* [Weber-Fechner law](https://en.wikipedia.org/wiki/Weber-Fechner_Law) valence is symmetric-logarithmic in some relevant resource, and the steepest gradients with logarithmic functions occur around net-zero
 
-<!--TODO: cont-->
+<!--TODO: cont.-->
+
+A Toy Structural Equation Model For Psychological Agency
+----------------------------------------------------------
+
+Psychological [agency]()<!--TODO: link--> is inhibited by generalized social fear, improved/increased by [error-correction ability](https://en.wikipedia.org/wiki/Error-correction) and by intelligence, both [fluid](https://en.wikipedia.org/wiki/Fluid_Intelligence) and [crystallized](https://en.wikipedia.org/wiki/Crystallized_Intelligence). Error-correction ability is increased by [stamina](https://www.overcomingbias.com/p/stamina-succeedshtml)/["energy"](https://stephenmalina.com/post/2021-07-01-energetic-aliens-among-us/) and also by intelligence. <!--TODO: How to deal with the double-counting?--> Generalized social fear also probably inhibits stamina, rumination ain't cheap.
+
+A toy [structural equation model](https://en.wikipedia.org/wiki/Structural_equation_model):
+
+<div>
+	$$\text{Agency}=(1-\text{Fear}) \cdot (\text{ErrorCorrection}+\text{Intelligence}) + ε_1 \\
+	\text{ErrorCorrection}=\text{Stamina} + \text{Intelligence} + ε_2 \\
+	\text{Stamina}=(1-\text{Fear}) + ε_3 $$
+</div>
+
+![](./img/agency/sem.png)
+
+In a human enacting agency, error-correction ability and intelligence trade off against each other (intelligence means you make fewer mistakes, whereas error-correction ability means that you can revert mistakes once made). Social fear is probably multiplicative[^grat]: Even if you're very smart and good at fixing things once they go wrong, you'll still not do anything.
+
+[^grat]: Thanks to Opus 5 for this point.
+
+Stamina helps with error-correction: If you mess up, you can back-track and try another strategy, but doing so is costly. I'd guess that stamina *also* directly helps with agency, simply by being able to take many actions.
+
+Interventions:
+
+* One can train against *generalized social fear*, e.g. by doing [comfort-zone expansion exercises]<!--TODO: link--> or [exposure therapy](https://en.wikipedia.org/wiki/Exposure_Therapy).
+* One can probably slightly intervene on stamina, e.g. through stimulants, fixing [sleep apnea](https://en.wikipedia.org/wiki/Sleep_Apnea), [GLP-1s](https://en.wikipedia.org/wiki/GLP-1_drug) and the other Standard Good Interventions™. I'm holding my hope for even better stamina interventions, but I'm not certain.
+* I don't think one can, at this point, meaningfully intervene on error-correction ability or intelligence.
+
+In general, the biggest lever to me looks like decreasing generalized
+social fear, and that's where I'd put most applied rationality training.
+
+Expanding on the terms:
+
+**Generalized social fear** is the tendency of humans not to take opportunities because they look cringe/unusual/low status/disgusting &c. My guess is that most humans have much too large a generalized social fear because (Just So Story!) being low status in a group of hunter-gatherers has much higher costs: no ability to exit/switch to another group, which is often trivial today. (Not always! Social capital is still a thing).
+
+**Error-correction** is the ability to finds flaws in ones plans before and during execution, [back-track](https://en.wikipedia.org/wiki/Backtracking), make amends & apologize effectively, etc.

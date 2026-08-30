@@ -23,6 +23,19 @@ the content is a copy of each monthly changelog. [Here's the RSS
 feed](https://niplav.substack.com/feed). Don't expect any *different*
 content.
 
+June, July & August 2026
+-------------------------
+
+* [Become My Meditation Teacher](./become.html)
+* [Notes](./notes.html)
+	* [Different Kinds of Belief Strength](./notes.html#Different_Kinds_of_Strength)
+	* [Qualiagnosia](./notes.html#Qualiagnosia)
+	* [CSAM v. Other Hard Constraints in the Claude Constitution](./notes.html#CSAM_v_Other_Hard_Constraints_in_the_Claude_Constitution)
+	* [Deliberately Scary Warning Shots](./notes.html#Deliberately_Scary_Warning_Shots)
+	* [A Toy Structural Equation Model For Psychological Agency](./notes.html#A_Toy_Structural_Equation_Model_For_Psychological_Agency)
+
+No links this time, sorry.
+
 May 2026
 ---------
 
