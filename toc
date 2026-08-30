@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import copy
 import re
 import sys
 from bs4 import BeautifulSoup as bs
@@ -23,7 +24,11 @@ def create_list_item(soup, header):
 
 	header_id = header.get('id') or get_header_id(header_text)
 	a = soup.new_tag('a', href=f'#{header_id}')
-	a.string = header_text
+	# anchors wraps the header content in an inner "hanchor" <a>; pull
+	# formatting (e.g. <del>) from there so it survives into the TOC.
+	content_source = header.find('a', class_='hanchor') or header
+	for child in list(content_source.children):
+		a.append(copy.deepcopy(child))
 	li.append(a)
 	return li
 

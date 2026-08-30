@@ -14,10 +14,10 @@ subheaders=soup.find_all(lambda tag: tag.name in ['h1', 'h2', 'h3', 'h4', 'h5', 
 anchorhash=dict()
 
 for sh in subheaders:
-	ref=sh.string
-	if str(ref)=='home':
+	ref=' '.join(sh.stripped_strings)
+	if ref=='home':
 		continue
-	ref=re.sub('[^a-zA-Z0-9 ]', '', str(ref))
+	ref=re.sub('[^a-zA-Z0-9 ]', '', ref)
 	ref=re.sub(' ', '_', ref)
 
 	i=0
