@@ -17,6 +17,8 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
+* [Comfort Zone Expansion for Social Interactions (nomagicpill, 2025)](https://nomagicpill.site/knowledge/comfortzone.html)
+* [Programming Sucks (Peter Welch, 2014)](https://www.stilldrinking.org/programming-sucks)
 * [\* Investigating the consequences of accidentally grading CoT during RL (Micah Carroll/Tomek Korbak/Zehao Dou/Bowen Baker/Ian Kivlichan, 2026)](https://alignment.openai.com/accidental-cot-grading/)
 * [Research note: The Economics of Recursive Self-Improvement (Partker Whitfill/Tom Cunningham, 2026)](https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/)
 * [Full-stack futurism (Lydia Nottingham, 2026)](https://idealistscollective.org/writings/full-stack-futurism-apparently)

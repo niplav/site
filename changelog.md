@@ -34,7 +34,11 @@ June, July & August 2026
 	* [Deliberately Scary Warning Shots](./notes.html#Deliberately_Scary_Warning_Shots)
 	* [A Toy Structural Equation Model For Psychological Agency](./notes.html#A_Toy_Structural_Equation_Model_For_Psychological_Agency)
 
-No links this time, sorry.
+### Links
+
+* [100,000 lumens to treat seasonal affective disorder: A proof of concept RCT of Bright, whole-ROom, All-Day (BROAD) light therapy (Julia F. Sandkühler/Sarah Brochhagen/Paul Rohde/Rosa C. Muscheidt/Teja W. Grömer/Helge Müller/Jan M. Brauner, 2022)](./doc/lumenator/100000_lumens_to_treat_sand_sandkühler_et_al_2022.pdf)
+* [Model Organisms of Misalignment: The Case for a New Pillar of Alignment Research (evhub/Nicholas Schiefer/Carson Denison/Ethan Perez, 2023)](https://www.alignmentforum.org/posts/ChDH335ckdvpxXaXX/model-organisms-of-misalignment-the-case-for-a-new-pillar-of-1)
+* [Comfort Zone Expansion for Social Interactions (nomagicpill, 2025)](https://nomagicpill.site/knowledge/comfortzone.html)
 
 May 2026
 ---------
