@@ -45,6 +45,8 @@ img {
 	position: relative; /* Position relative to allow left 50% to work */
 	left: 50%; /* Set left edge of image to the middle of the container */
 	transform: translateX(-50%); /* Pull back to the left half the width of the image */
+	max-width: 100%;
+	height: auto;
 }
 
 video {

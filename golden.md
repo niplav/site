@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2026-04-17, modified: 2026-08-30, language: english, status: in progress, importance: 1, confidence: possible*
+*author: niplav, created: 2026-04-17, modified: 2026-08-31, language: english, status: in progress, importance: 1, confidence: possible*
 
 > __An exercise in heartfelt futility.__
 
@@ -523,10 +523,12 @@ Nick Bostrom's [Letter from Utopia](https://nickbostrom.com/utopia.html)
 is on of my favourite pieces of writing, ever. It takes the perspective
 of distant future posthuman eutopians trying to communicate to us,
 beckoning us to come closer, to *become them*, to join them at the
-[*Festspiel*](https://en.wiktionary.org/wiki/Festspiel) forth then[^sonnet]
-in Heaven. I've cried many times upon listening to it, a unique and
-uncommon religious experience—and I'm not the only one<!--TODO: link
-@yashkaf who reports similarly-->.
+[*Festspiel*](https://en.wiktionary.org/wiki/Festspiel) forth
+then[^sonnet] in Heaven. I've cried many times upon [listening
+to](https://www.youtube.com/watch?v=GWP1rlbjszg)/reading over
+it, a unique and to me uncommon religious experience—and I'm [not
+the](https://joecarlsmith.com/2021/01/18/actually-possible-thoughts-on-utopia/)
+only one<!--TODO: link @yashkaf who reports similarly-->.
 
 [^sonnet]: Thanks to Sonnet 5 for this construction.
 
@@ -537,7 +539,7 @@ Hölderlin](https://en.wikipedia.org/wiki/Friedrich_Hölderlin).
 
 It is the [dual](https://en.wikipedia.org/wiki/Dual_(mathematics)) of the
 Letter, which speaks to us in the voice of the Posthumans.  Hölderlin,
-on the other hand, addresses *them* from our perspective.
+on the other hand, addresses *them* from __our__ perspective.
 
 > Ihr wandelt droben im Licht  
 Auf weichem Boden, selige Genien!  
@@ -595,20 +597,21 @@ jolted by reality as your craft is rugpulled out from under you, only to
 finally realize that all relevant time has passed, and all your levers
 have disappeared.
 
-Thus, my sad battlecry: Do not shape yourself into an
-instrument of deep skill. Look instead at the world,
+Thus, my sad and desperate battlecry: Do not shape yourself
+into an instrument of deep skill. Look instead at the world,
 grab all the {levers, AI agents, [convergent instrumental
 strategies](https://arbital.com/p/convergent_strategies/)} you can
 plausibly get, and instrument the universe into the direction you desire.
 
-Craft is clearly ill, its [buboes](https://en.wikipedia.org/wiki/Buboe)
-swelling in mathematics and software engineering, it will die, how long
-the course is not certain. Mourn it, sings to it elegies, nurse its
+Craft is clearly ill, its [bubos](https://en.wikipedia.org/wiki/Buboe)
+swelling in mathematics and software engineering — it will die, how
+long the course is not certain. Mourn it, sings to it elegies, nurse its
 healthier parts with expendable free energy, but do *not* ally with it.
 
-Time is precious, now, and focus and attention are, too. Yet
-you have write access to the universe, yet it yields. The
-window is closing, and [we are on triage every second of the
+Time is precious, now, and focus and attention are, too. Yet you
+have [write access](https://en.wikipedia.org/wiki/Write_access)
+to the universe, yet it yields. The window is
+closing, and [we are on triage every second of the
 day](https://forum.effectivealtruism.org/s/HSA8wsaYiqdt4ouNF/p/XXLf6FmWujkxna3E6).
 Do not cope.
 

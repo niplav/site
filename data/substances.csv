@@ -1559,3 +1559,7 @@ datetime,substance,amount,experiment,id,prediction
 2026-08-13T11:56:00+02:00,zinc,25mg,,,
 2026-08-13T11:56:00+02:00,magnesium,300mg,,,
 2026-08-13T22:59:04+02:00,melatonin,0.4mg,,,
+2026-08-31T10:11:03+02:00,iron,40mg,,,
+2026-08-31T10:11:10+02:00,caffeine,200mg,,,
+2026-08-31T10:11:17+02:00,vitamind3,25μg,,,
+2026-08-31T10:11:25+02:00,magnesium,300mg,,,
