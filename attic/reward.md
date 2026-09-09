@@ -1,4 +1,4 @@
-[home](./index.md)
+[home](/index.md)
 ------------------
 
 *author: niplav, created: 2022-04-14, modified: 2022-05-07, language: english, status: abandoned, importance: 4, confidence: emotional*
@@ -96,7 +96,7 @@ rewriting it after it has turned out to be wrong.
 ### Did __Anybody__ *Think* About The Incentives?
 
 We can then look at the prize from another lens: Which [algorithms'
-measures](zackmdavis.net/blog/2013/08/measure/) does this prize
+measures](https://zackmdavis.net/blog/2013/08/measure/) does this prize
 increase? Surely not the one of people who are willing to put in a decade
 into a post about spaced repetition, since one of the requirements is
 that the blog should have been started at most 12 months ago (‽),
@@ -134,7 +134,7 @@ DID THEY NOT SEE THE IRONY OF PUTTING OUT A PRIZE LOOKING FOR BLOGS
 FOCUSED ON LONGERMISM WITH POSTS THAT STAND THE TEST OF TIME, BUT EXCLUDE
 ANY BLOG OLDER THAN 12 MONTHS? AM I GOING CRAZY?
 
-![Well, that's not very lindy of you](./img/content/frustrated.jpg "Well, that's not very lindy of you")
+![Well, that's not very lindy of you](/img/content/frustrated.jpg "Well, that's not very lindy of you")
 
 *Supported by the [FTX Future Fund](http://ftxfuturefund.org/)™ and [Longview Philanthropy](https://www.longview.org/)®*
 
@@ -400,7 +400,7 @@ contributions](https://en.wikipedia.org/wiki/Special:Contributions/Gwern)
 and [archiving & tagging
 papers](https://www.gwern.net/Search#post-finding) and [open-source
 contributions](https://www.gwern.net/Links#coding-contributions)
-and [predictions](predictionbook.com/users/gwern) and [URL
+and [predictions](https://predictionbook.com/users/gwern) and [URL
 archiving](https://www.gwern.net/Archiving-URLs)), if they don't have
 sufficient funding, offer to fund them completely for a year. Make online
 conscientiousness be __worth it__.

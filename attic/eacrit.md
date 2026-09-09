@@ -1,4 +1,4 @@
-[home](./index.html)
+[home](/index.html)
 ---------------------
 
 *author: niplav, created: 2022-07-28, modified: 2022-07-28, language: english, status: abandoned, importance: 5, confidence: unlikely*

@@ -62,7 +62,7 @@ designing better coordination mechanisms.
 
 **Computing**: Plan 9-style everything-is-a-file philosophy
 dominates. Services mounted as filesystems, coordination through namespace
-manipulation. See [`filepunk`](./filepunk.html).
+manipulation. See [`filepunk`](/filepunk.html).
 
 **Military**: Sophisticated drone warfare and defensive tech, designed by
 people who treat war as an optimization puzzle. Some bioweapons research
@@ -193,7 +193,7 @@ addition to widespread cryopreservation, why rush?
 Everything operates through optimal mechanisms rather than traditional
 political structures. Governance becomes an engineering problem with
 continuous optimization based on revealed preferences and outcome
-measurement. See also [filepunk](./filepunk.html).
+measurement. See also [filepunk](/filepunk.html).
 
 ## Tourism Warning
 

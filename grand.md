@@ -720,6 +720,25 @@ Footnote 74: "with adaptivethat achieved a", typo.
 
 Typo, 2 should be a superscript.
 
+#### 18.5.4
+
+##### Hypercomputation models
+
+> Chaitin's Ω-constant is an example of that even mere advice can allow
+hypercomputation: the constant is the binary expansion of the probability
+that a given Turing machine will halt given a random program. This
+uncomputable number, if given as advice to a Turing machine, enables it
+to solve the halting problem.
+
+Technically true, but useless: In order to determine if a program of
+length `$n$` halts, one would have to expend a computation on the size of
+`$\text{BB}(n)$` to "read" the bit.
+
+The protocol is: dovetail all programs, accumulate halting measure,
+stop when your running sum's first `$n$` bits equal Ω's. The stopping
+time is dominated by the slowest-halting program with `$\le n$` bits,
+that is `$≈ \text{BB}(n)$`.
+
 Citations
 ----------
 

@@ -60,11 +60,11 @@ a new one.
 Code + plots:
 [`code/daygame/scaling.jl`](https://github.com/niplav/site/blob/master/code/daygame/scaling.jl).
 
-![A stylized age-fertility curve](./img/daygame/scaling_fertility.png "A stylized logistic age-fertility curve for per-cycle conception probability.")
+![A stylized age-fertility curve](/img/daygame/scaling_fertility.png "A stylized logistic age-fertility curve for per-cycle conception probability.")
 
-![Diminishing returns to repeated chances with the same partner, by partner age](./img/daygame/scaling_value_m.png "V(n,m) against m for several fixed ages n — steep diminishing returns, fanning out with younger/more fertile partners.")
+![Diminishing returns to repeated chances with the same partner, by partner age](/img/daygame/scaling_value_m.png "V(n,m) against m for several fixed ages n — steep diminishing returns, fanning out with younger/more fertile partners.")
 
-![The V(n,m) surface](./img/daygame/scaling_heatmap.png "The full V(n,m) surface across partner age and number of chances.")
+![The V(n,m) surface](/img/daygame/scaling_heatmap.png "The full V(n,m) surface across partner age and number of chances.")
 
 ### Perceived Effective Population Size as a Value Input (Speculative)
 
@@ -106,4 +106,4 @@ EV-maximization.
 `marginal_value(n, m, Ne)`) with `$N_e$` as an explicit parameter, using
 an illustrative constant to make the crossover visible:
 
-![Marginal value of one more partner, by perceived N_e](./img/daygame/scaling_Ne.png "The marginal value of pursuing one more partner at (n,m), for several values of perceived N_e — small N_e drives low-chance partners to negative marginal value; large N_e recovers plain expected-value maximization.")
+![Marginal value of one more partner, by perceived N_e](/img/daygame/scaling_Ne.png "The marginal value of pursuing one more partner at (n,m), for several values of perceived N_e — small N_e drives low-chance partners to negative marginal value; large N_e recovers plain expected-value maximization.")

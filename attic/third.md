@@ -1,4 +1,4 @@
-[home](./index.md)
+[home](/index.md)
 -------------------
 
 *author: niplav, created: 2022-02-03, modified: 2022-02-03, language: english, status: draft, importance: 1, confidence: fiction*

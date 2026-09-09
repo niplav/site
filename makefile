@@ -8,7 +8,9 @@ all: sitedata
 
 total: sitedata puttit
 
-sitedata: $(CONF) $(HTML)
+sitedata: $(HTML)
+
+$(HTML): $(CONF)
 
 .md.html:
 	./details $< | $(MARKDOWN) > $@

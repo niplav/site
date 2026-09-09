@@ -84,6 +84,7 @@ HTML=index.html \
 	leave.html \
 	life_advice.html \
 	logical.html \
+	lookup.html \
 	malleable.html \
 	masturbation.html \
 	convention.html \
