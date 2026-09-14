@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-04-02, modified: 2026-05-18, language: english, status: in progress, importance: 3, confidence: log*
+*author: niplav, created: 2019-04-02, modified: 2026-09-11, language: english, status: in progress, importance: 3, confidence: log*
 
 > __A monthly review of changes on this website.__
 
@@ -28,7 +28,7 @@ June, July & August 2026
 
 * [Become My Meditation Teacher](./become.html)
 * [Notes](./notes.html)
-	* [Different Kinds of Belief Strength](./notes.html#Different_Kinds_of_Strength)
+	* [Different Kinds of Belief Strength](./notes.html#Different_Kinds_of_Belief_Strength)
 	* [Qualiagnosia](./notes.html#Qualiagnosia)
 	* [CSAM v. Other Hard Constraints in the Claude Constitution](./notes.html#CSAM_v_Other_Hard_Constraints_in_the_Claude_Constitution)
 	* [Deliberately Scary Warning Shots](./notes.html#Deliberately_Scary_Warning_Shots)
@@ -66,7 +66,7 @@ April 2026
 
 * [Cyborgism (NicholasKees/janus, 2023)](https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism)
 * [Core EA principles (Centre for Effective Altruism, 2026)](https://www.centreforeffectivealtruism.org/core-principles)
-* [Infinitesimally False (Adrià Garriga-alonso/Abram Demski, 2025)](https://www.lesswrong.com/posts/j3Cv94eEZTDFiLREW/infinitesimally-false)
+* [Infinitesimally False (Adrià Garriga-Alonso/Abram Demski, 2025)](https://www.lesswrong.com/posts/j3Cv94eEZTDFiLREW/infinitesimally-false)
 * Some singularity poetry:
 	* [Hyperions Schicksalslied (Friedrich Hölderlin, 1797)](https://www.textlog.de/17824.html)
 	* [Die schlesischen Weber (Heinrich Heine, 1845)](https://www.deutschelyrik.de/die-schlesischen-weber.407.html)

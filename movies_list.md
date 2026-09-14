@@ -11,6 +11,7 @@ List of Movies I have Watched
 These are the movies I have watched since December 2018 (newest additions
 first).
 
+* [Gentle Monster](https://www.imdb.com/title/tt37020296/)
 * [Backrooms](https://www.imdb.com/title/tt26657236/)
 * [The Boondock Saints II: All Saints Day](https://www.imdb.com/title/tt1300851/)
 * [The Love That Remains](https://www.imdb.com/title/tt33381401/)

@@ -309,7 +309,7 @@ datetime,substance,amount,experiment,id,prediction
 2023-09-17T12:51:05+02:00,creatine,3g,,,
 2023-09-17T22:57:14+02:00,melatonin,0.4mg,,,
 2023-09-18T09:55:30+02:00,sugar,500mg,B,44,0.55
-2023-09-19T13:20:46+02:00,sugar,5001g,B,45,0.4
+2023-09-19T13:20:46+02:00,sugar,1g,B,45,0.4
 2023-09-20T13:02:55+02:00,l-theanine,500mg,B,46,0.6
 2023-09-20T21:53:54+02:00,creatine,3g,,,
 2023-09-22T11:16:41+02:00,sugar,500mg,B,47,0.35
@@ -591,7 +591,6 @@ datetime,substance,amount,experiment,id,prediction
 2024-10-17T02:38:56+02:00,melatonin,0.18mg,,,
 2024-10-17T13:07:42+02:00,caffeine,200mg,,,
 2024-10-17T13:07:59+02:00,vitamind3,25μg,,,
-2024-08-06T09:25:00+02:00,vitaminb12,500μg,,,
 2024-10-17T23:18:37+02:00,melatonin,0.375mg,,,
 2024-10-18T09:00:52+02:00,l-theanine,500mg,,,
 2024-10-22T00:42:55+02:00,melatonin,0.375mg,,,
@@ -776,7 +775,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-04-11T09:14:49+02:00,vitamind3,25μg,C,50,0.65
 2025-04-11T17:00:07+02:00,creatine,3g,,,
 2025-04-13T00:10:14+02:00,melatonin,0.3mg,,,
-2025-04-13T23:20:26+02:00,melatonin,0.3,,,
+2025-04-13T23:20:26+02:00,melatonin,0.3mg,,,
 2025-04-14T11:50:18+02:00,caffeine,200mg,,,
 2025-04-14T11:50:18+02:00,vitamind3,25μg,,,
 2025-04-14T11:50:18+02:00,vitaminb12,500μg,,,
@@ -927,7 +926,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-09-08T00:10:39+02:00,melatonin,0.48mg,,,
 2025-09-08T07:16:58+02:00,water,2.5ml,D,black,0.38
 2025-09-09T22:30:40+02:00,melatonin,0.47mg,,,
-2025-09-10T06:42:13+02:00,orexin-a,2.5ml,D,white,0.62
+2025-09-10T06:42:13+02:00,orexin-a,100μg,D,white,0.62
 2025-09-12T14:03:32+02:00,creatine,6g,,,
 2025-09-12T14:10:00+02:00,vitamind3,25μg,,,
 2025-09-12T14:10:00+02:00,vitaminb12,500μg,,,
@@ -948,7 +947,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-09-16T11:17:59+02:00,l-glycine,1500mg,,,
 2025-09-16T11:17:59+02:00,creatine,6g,,,
 2025-09-17T00:51:33+02:00,magnesium,300mg,,,
-2025-09-17T07:19:00+02:00,orexin-a,2.5ml,D,A,0.4
+2025-09-17T07:19:00+02:00,orexin-a,100μg,D,A,0.4
 2025-09-18T19:15:23+02:00,creatine,6g,,,
 2025-09-22T10:14:59+02:00,vitamind3,25μg,,,
 2025-09-22T10:14:59+02:00,omega3,265mg,,,
@@ -975,7 +974,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-09-27T12:27:47+02:00,creatine,6g,,,
 2025-09-29T00:46:16+02:00,melatonin,0.375mg,,,
 2025-09-29T00:46:16+02:00,magnesium,300mg,,,
-2025-09-29T08:08:17+02:00,orexin-a,2.5ml,D,A,0.35
+2025-09-29T08:08:17+02:00,orexin-a,100μg,D,A,0.35
 2025-09-29T08:40:10+02:00,creatine,6g,,,
 2025-09-29T08:57:15+02:00,caffeine,200mg,,,
 2025-09-29T08:57:15+02:00,omega3,265mg,,,
@@ -1010,7 +1009,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-10-10T14:54:15+02:00,l-glycine,1500mg,,,
 2025-10-10T14:54:15+02:00,vitaminb12,500μg,,,
 2025-10-10T14:54:15+02:00,omega3,265mg,,,
-2025-10-13T09:36:09+02:00,orexin-a,2.5ml,D,A,0.6
+2025-10-13T09:36:09+02:00,orexin-a,100μg,D,A,0.6
 2025-10-13T11:45:28+02:00,caffeine,200mg,,,
 2025-10-15T00:14:24+02:00,creatine,4g,,,
 2025-10-15T00:47:26+02:00,melatonin,0.5mg,,,
@@ -1037,7 +1036,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-10-29T12:30:15+01:00,omega3,265mg,,,
 2025-10-30T01:04:26+01:00,melatonin,0.5mg,,,
 2025-10-30T01:04:50+01:00,magnesium,300mg,,,
-2025-10-30T09:07:07+01:00,orexin-a,2.5ml,D,B,0.35
+2025-10-30T09:07:07+01:00,orexin-a,100μg,D,B,0.35
 2025-10-30T10:26:59+01:00,caffeine,200mg,,,
 2025-10-31T14:01:20+01:00,2c-b,15mg,,,
 2025-11-03T23:26:29+01:00,melatonin,0.65mg,,,
@@ -1077,7 +1076,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-11-25T11:27:55+01:00,caffeine,200mg,,,
 2025-11-25T11:27:55+01:00,vitaminb12,500μg,,,
 2025-11-25T11:27:38+01:00,vitamind3,25μg,,,
-2025-11-26T08:50:00+01:00,orexin-a,2.5ml,D,B,0.5
+2025-11-26T08:50:00+01:00,orexin-a,100μg,D,B,0.5
 2025-11-27T11:58:11+01:00,l-glycine,1500mg,,,
 2025-11-27T11:58:11+01:00,l-theanine,500mg,,,
 2025-11-27T11:58:11+01:00,omega3,265mg,,,
@@ -1095,7 +1094,7 @@ datetime,substance,amount,experiment,id,prediction
 2025-12-12T00:37:13+01:00,magnesium,300mg,,,
 2025-12-14T01:43:51+01:00,melatonin,0.4mg,,,
 2025-12-14T01:43:58+01:00,magnesium,300mg,,,
-2025-12-14T09:05:22+01:00,orexin-a,2.5ml,D,B,0.55
+2025-12-14T09:05:22+01:00,orexin-a,100μg,D,B,0.55
 2025-12-16T18:28:11+01:00,zinc,25mg,,,
 2025-12-16T23:20:00+01:00,melatonin,0.3mg,,,
 2025-12-16T23:20:00+01:00,magnesium,300mg,,,
@@ -1120,7 +1119,7 @@ datetime,substance,amount,experiment,id,prediction
 2026-01-04T02:59:01+01:00,magnesium,300mg,,,
 2026-01-04T20:15:00+01:00,magnesium,300mg,,,
 2026-01-04T20:15:00+01:00,melatonin,0.3mg,,,
-2026-01-05T10:15:58+01:00,orexin-a,2.5ml,D,B,0.4
+2026-01-05T10:15:58+01:00,orexin-a,100μg,D,B,0.4
 2026-01-06T20:40:00+00:00,melatonin,0.3mg,,,
 2026-01-06T20:40:00+00:00,magnesium,300mg,,,
 2026-01-23T12:42:12+01:00,creatine,6g,,,
@@ -1195,7 +1194,6 @@ datetime,substance,amount,experiment,id,prediction
 2026-02-26T20:57:08+01:00,melatonin,0.3mg,,,
 2026-02-27T15:22:08+01:00,caffeine,200mg,,,
 2026-03-02T13:52:54+01:00,vitamind3,25μg,,,
-2026-03-02T13:52:54+01:00,caffeine,500μgg,,,
 2026-03-02T15:36:54+01:00,caffeine,200mg,,,
 2026-03-02T20:02:00+01:00,melatonin,0.3mg,,,
 2026-03-04T13:34:24+01:00,vitamind3,25μg,,,
@@ -1243,7 +1241,7 @@ datetime,substance,amount,experiment,id,prediction
 2026-03-02T01:20:00+01:00,melatonin,0.4mg,,,
 2026-03-02T01:20:00+01:00,magnesium,300mg,,,
 2026-03-05T00:42:00+01:00,melatonin,0.3mg,,,
-2026-03-05T00:42:00+01:00,magnesium,300μg,,,
+2026-03-05T00:42:00+01:00,magnesium,300mg,,,
 2026-03-07T20:00:51+01:00,melatonin,0.3mg,,,
 2026-03-13T15:53:45+01:00,caffeine,200mg,,,
 2026-03-13T23:18:17+01:00,magnesium,300mg,,,
@@ -1344,7 +1342,7 @@ datetime,substance,amount,experiment,id,prediction
 2026-04-10T15:01:54+02:00,omega3,265mg,,,
 2026-04-10T15:02:01+02:00,vitaminb12,500μg,,,
 2026-04-10T15:02:08+02:00,l-theanine,500mg,,,
-2026-04-10T15:02:15+02:00,magnesium,1500mg,,,
+2026-04-10T15:02:15+02:00,magnesium,300mg,,,
 2026-04-10T15:02:23+02:00,creatine,6g,,,
 2026-04-12T16:02:48+02:00,creatine,6g,,,
 2026-04-12T16:02:52+02:00,magnesium,300mg,,,
@@ -1596,3 +1594,22 @@ datetime,substance,amount,experiment,id,prediction
 2026-09-09T09:00:00+02:00,vitamind3,25μg,,,
 2026-09-09T09:00:00+02:00,creatine,6g,,,
 2026-09-09T09:00:00+02:00,sugar,6g,,,
+2026-09-10T17:24:37+02:00,l-theanine,500mg,,,
+2026-09-10T17:24:42+02:00,magnesium,300mg,,,
+2026-09-10T17:24:52+02:00,l-glycine,1500mg,,,
+2026-09-10T17:24:57+02:00,iron,40mg,,,
+2026-09-10T17:25:05+02:00,zinc,25mg,,,
+2026-09-11T10:42:36+02:00,l-theanine,500mg,,,
+2026-09-11T10:42:45+02:00,l-glycine,1500mg,,,
+2026-09-11T10:43:11+02:00,magnesium,300mg,,,
+2026-09-11T10:43:16+02:00,vitamind3,25μg,,,
+2026-09-11T10:43:23+02:00,vitaminb12,500μg,,,
+2026-09-11T10:43:39+02:00,omega3,265mg,,,
+2026-09-14T11:00:45+02:00,magnesium,300mg,,,
+2026-09-14T11:00:50+02:00,vitamind3,25μg,,,
+2026-09-14T11:00:55+02:00,vitaminb12,500μg,,,
+2026-09-14T11:01:10+02:00,omega3,265mg,,,
+2026-09-14T11:01:15+02:00,caffeine,200mg,,,
+2026-09-14T11:05:51+02:00,sugar,6g,,,
+2026-09-13T19:01:18+02:00,melatonin,0.3mg,,,
+2026-09-14T19:33:37+02:00,melatonin,0.35mg,,,

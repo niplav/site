@@ -2,18 +2,41 @@
 
 echo -n 'datetime (ISO-8601): '
 datetime=`{read}
-if(~ $datetime '') {
+if(~ $#datetime 0) {
 	datetime=`{date --iso-8601'=seconds'}
 }
 echo -n 'substance: '
 substance=`{read}
-echo -n 'amount: '
+if(~ $#substance 0) substance=''
+
+# most common non-empty amount recorded for this substance
+deflt=`{awk -F, -v 's='^$"substance '
+	$2==s && $3!="" {c[$3]++}
+	END {
+		m=0
+		for(a in c)
+			if(c[a]>m || (c[a]==m && a<b)) {m=c[a]; b=a}
+		if(m>0) print b
+	}' substances.csv}
+
+if(~ $#deflt 0) {
+	echo -n 'amount: '
+}
+if not {
+	echo -n 'amount ['^$deflt^']: '
+}
 amount=`{read}
+if(~ $#amount 0) amount=$deflt
+if(~ $#amount 0) amount=''
+
 echo -n 'experiment: '
 experiment=`{read}
+if(~ $#experiment 0) experiment=''
 echo -n 'id: '
 id=`{read}
+if(~ $#id 0) id=''
 echo -n 'substance prediction: '
 prediction=`{read}
+if(~ $#prediction 0) prediction=''
 
 printf '%s,%s,%s,%s,%s,%s\n' $datetime $substance $amount $experiment $id $prediction >>substances.csv
