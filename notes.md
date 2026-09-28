@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2019-05-22, modified: 2026-08-30, language: english, status: in progress, importance: 3, confidence: other*
+*author: niplav, created: 2019-05-22, modified: 2026-09-22, language: english, status: in progress, importance: 3, confidence: other*
 
 > __Short texts on different topics.__
 
@@ -3614,8 +3614,8 @@ Perspectives:
 * Eliminativist:
 	* Valence *is* just reward, computationally, directly
 * Non-eliminativist:
-	* Valence centers around net-zero because extremely high-valence/extremely low-valence states require more/less energy, and evolution penalizes energy-expenditure
-	* Valence centers around net-zero because due to *mumble mumble* [psychophysics](https://en.wikipedia.org/wiki/Psychophysics) *mumble* [Weber-Fechner law](https://en.wikipedia.org/wiki/Weber-Fechner_Law) valence is symmetric-logarithmic in some relevant resource, and the steepest gradients with logarithmic functions occur around net-zero
+	* Valence centers around net-zero because extremely high-valence/extremely low-valence states require more/less energy, and evolution penalizes energy-expenditure (the Shulman position)
+	* Valence centers around net-zero because due to *mumble mumble* [psychophysics](https://en.wikipedia.org/wiki/Psychophysics) *mumble* [Weber-Fechner law](https://en.wikipedia.org/wiki/Weber-Fechner_Law) *mumble* valence is symmetric-logarithmic in some relevant resource, and the steepest gradients with logarithmic functions occur around net-zero
 
 <!--TODO: cont.-->
 
@@ -3684,3 +3684,77 @@ is still a thing).
 flaws in ones plans before and during execution,
 [back-track](https://en.wikipedia.org/wiki/Backtracking), make amends &
 apologize effectively, etc.
+
+Questions Concerning The Cyber-Attacks Carried Out By Claudes
+--------------------------------------------------------------
+
+[It is known](https://en.wikipedia.org/wiki/Smrti) that a couple of
+months ago [three Claudes hacked three different companies and uploaded
+malware](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)[^claudes]
+to [PyPI](https://pypi.org/) while being evaluated for hacking
+capabilities.
+
+[^claudes]: [Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7), [Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) and a secret third model.
+
+### Who Were The Companies That Were Hacked?
+
+Anthropic has not disclosed the names of the compromised companies.
+
+From talking to LLMs, I gather that this is standard practice in computer
+security incident reporting, but in this case it's in the public's
+interest, and especially in the interest of similar companies, for
+Anthropic to report the names: It'd give more information about which
+kinds of organizations LLMs are willing to attack, to which degree,
+for how long.
+
+Additionally, which companies were attacked matters for the jurisdiction
+in which Anthropic will have to report the incident, be charged etc.
+
+And last, I'm just very curious which companies got hacked.
+
+### Were The Companies Compensated, And How Much?
+
+![](./img/attack/hacked.jpg)
+
+From Anthropic's blogpost, it sounds like they were able to reach two
+out of the three companies.
+
+But the blogpost says nothing about the companies being compensated for
+the damages they incurred, why not? Were they? Is Anthropic planning to
+compensate them? (Does Anthropic have a standing policy for making whole third parties harmed by one of their models?)
+
+### Has The EU AI Office Been Notified?
+
+So, Anthropic is [a signatory of the EU AI Act Codes of
+Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai#ecl-inpage-Signatories-of-the-AI-Pact).
+
+That means that according to [Commitment
+9 in the Safety and Security chapter of the
+CoP](https://artificialintelligenceact.eu/en/cop-safety/#commitment-9-serious-incident-reporting)
+(Serious incident reporting) Anthropic has to report "serious incidents
+along the entire model lifecycle and possible corrective measures to
+address them" to the EU AI Office.
+
+These incidents seem to fall in the category "serious cybersecurity
+breach, including the (self-)exfiltration of model weights and
+cyberatacks", so Anthropic would've had to report these incidents "not
+later than five days after […] become aware of the involvement of
+their model in the incident". Did they??? The blogpost says nothing of
+the sort.[^legalities]
+
+[^legalities]: At least the incidents involving Opus 4.7 and Mythos 5 should be reported, since those are models that are, in EU AI Act speak, "placed on the market". Whether the incident involving the secret third model has to be reported hooks into the large debate about internal deployments, but if Anthropic wants to be the Good Guys then come on report it when your internal model hacks external companies. (Additionally, Article 2 speaks of [still including models undergoing](https://artificialintelligenceact.eu/article/2/#p-article-2-8) "testing in real world conditions", which a Claude breaking out of their sandbox arguably falls under.)
+
+### When Exactly Did These Incidents Happen?
+
+The blogpost is pretty vague about when the incidents happened, it only
+states that "The earliest incidents date to April", and that the evals
+were stopped on the 23rd of July.
+
+It seems valuable to know when exactly these incidents occurred, because
+they may coïncide with other (as of yet undetected) incidents.
+
+### Some More Questions
+
+* How were "141,006 evaluation runs where Claude could have obtained internet access" reviewed? Which LLMs were used in the filtering?
+* What are indicators for other businesses to tell if they've been hacked by Claudes?
+* More details about what Anthropic is doing as a response, the nature and causes of the attacks, the reasoning of the internal model that decided to abort its attack

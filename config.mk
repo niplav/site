@@ -1,6 +1,6 @@
 MARKDOWN=lowdown --html-no-skiphtml --html-no-escapehtml --out-no-smarty
 
-CONF=config.mk header.html main.css
+CONF=config.mk header.html main.css details html anchors toc prerender
 
 HTML=index.html \
 	fullindex.html \

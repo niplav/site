@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2026-08-05, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2026-09-21, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -9,10 +9,8 @@
 Now
 ====
 
-Currently, my main focus is on getting my life in order. That includes
-shifting into an equilibrium mode where I am independent and have
-structured my life in a way that enables me to work on my personal
-projects full-time (including, but not limited to, this website).
+I'm currently {funemployed, in limbo,
+[wayfinding](https://musingsandroughdrafts.com/2023/03/04/investing-in-wayfinding-over-speed/)}.
 
 Because of this, work on this website is currently limited to a small
 part of my free time. I apologize for any inconveniences.
@@ -39,7 +37,7 @@ Programming
 
 As everyone else, I'm vibe-coding a bunch of personal software. I
 haven't found the time to release any of it, and never may since it's
-idiosyncratic and un-vetted.
+idiosyncratic and un-vetted, also the value of software has been falling.
 
 Reading
 --------
@@ -48,8 +46,8 @@ Currently, I am actively reading the following texts:
 
 * [Grand Futures (Anders Sandberg, 2023)](https://www.goodreads.com/book/show/42275384-grand-futures)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
-* [The Native Tribes of Central Australia (Baldwin Spencer/Francis James Gillen, 1899)](https://www.goodreads.com/book/show/68126748-the-native-tribes-of-central-australiar)
 * The Loss of Control Playbook: Degrees, Dynamics, and Preparedness (Charlotte Stix/Annika Hallensleben/Alejandro Ortega/Matteo Pistillo, 2025)
+* The 2025 Peregrine Report (Maximilian Schons/Samuel Härgestam/Gavin Leech/Raymound Bermejo, 2025)
 * Site Reliability Engineering (Betsy Beyer/Chris Jones/Jennifer Petoff/Niall Richard Murphy, 2016)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 9/1000.
 	* [Book (2019)](https://en.wikipedia.org/wiki/Book)

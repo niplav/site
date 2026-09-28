@@ -7,7 +7,13 @@ if(! ~ $#* '1'){
 
 sed -i 's/\(\/[._a-zA-Z0-9%]\+\)\.md/\1.html/g' $1
 
-sed -i '1r header.html' $1
+prefix=''
+if(~ $1 */*)
+	prefix=`{echo $1 | awk -F/ '{s="";for(i=1;i<NF;i++)s=s"../";print s}'}
+
+{sed 's|href="/|href="'^$prefix^'|g; s|src="/|src="'^$prefix^'|g' header.html; cat $1} >$1.new
+mv $1.new $1
+
 echo '</body>' >>$1
 echo '</html>' >>$1
 
