@@ -917,3 +917,8 @@ Videos
 Video by
 [@liminal_bardo](https://x.com/liminal_bardo/status/1970220902420819992),
 music is Moons from Schwarz by Patricia Taxxon<!--TODO: links-->.
+
+<video src="./vid/misc/foundations_dark_age.mp4" type='video/mp4' controls>
+</video>
+
+Opus 5 made this after I asked it to.

@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2026-08-09, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2026-10-01, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,8 +17,17 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
-* \* Kommentare zu “Die Kunst des Krieges” (Gitta Peyn, 2001
-* \* Die Kunst des Krieges (Sun Tzu, -400)
+* \* Rumo und die Wunder im Dunkeln (Walter Moers, 2004)
+* Liking What You See: A Documentary (Ted Chiang, 2002)
+* The Merchant and the Alchemist's Gate (Ted Chiang, 2007)
+* [The Origami Men (Tomás Bjartur, 2025)](https://www.lesswrong.com/posts/cDwp4qNgePh3FrEMc/the-origami-men)
+* \* Der Baader Meinhof Komplex (Stefan Aust, 2008)
+* [Plan E for AI Doom (Ihor Kendiukov, 2025)](https://www.lesswrong.com/posts/2xHhe4EBHAFofkQJf/plan-e-for-ai-doom)
+* [Frog and Toad and the Increasing Capable Machines (Elizabeth Van Nostrand/HungerArtist, 2026)](https://www.frogandtoad.ai/)
+* \* Epistolae familiares IV, 1 (Francesco Petrarca, 1352)
+* \* Die Besteigung des Mont Ventoux (Francesco Petrarca, 1352)
+* Kommentare zu “Die Kunst des Krieges” (Gitta Peyn, 2001
+* Die Kunst des Krieges (Sun Tzu, -400)
 * So Long, and Thanks for All the Fish (Douglas Adams, 1984)
 * [Prometheus Labs Hub (SCP Foundation, 2026)](https://scp-wiki.wikidot.com/prometheus-labs-hub)
 * [Blandford-Znajek Process (English Wikipedia, 2024)](https://en.wikipedia.org/wiki/Blandford-Znajek_Process)
@@ -37,7 +46,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Investigating the consequences of accidentally grading CoT during RL (Micah Carroll/Tomek Korbak/Zehao Dou/Bowen Baker/Ian Kivlichan, 2026)](https://alignment.openai.com/accidental-cot-grading/)
 * [Research note: The Economics of Recursive Self-Improvement (Partker Whitfill/Tom Cunningham, 2026)](https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/)
 * [Full-stack futurism (Lydia Nottingham, 2026)](https://idealistscollective.org/writings/full-stack-futurism-apparently)
-* \* Nanosystems (Eric Drexler, 1992)
+* |23,466-473 Nanosystems (Eric Drexler, 1992)
 * The Evolution of Automation at Google (Niall Murphy/John Looney/Michael Kacirek/Betsy Beyer, 2014)
 * Monitoring Distributed Systems (Rob Ewaschuk/Betsy Beyer, 2014)
 * Eliminating Toil (Vivek Rau/Betsy Beyer, 2014)
