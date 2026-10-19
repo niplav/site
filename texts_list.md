@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2026-10-01, language: english, status: in progress, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2026-10-14, language: english, status: in progress, importance: 1, confidence: log*
 
 > __Texts I have read since May 2017.__
 
@@ -17,15 +17,18 @@ comments or tweets, because that would be too extensive.
 A '\*' prefix signifies I'm still reading the
 text, a '|123' prefix shows I abandoned reading the text at page 123.
 
-* \* Rumo und die Wunder im Dunkeln (Walter Moers, 2004)
+* Exhalation (Ted Chiang, 2008)
+* [Failed Utopia #4-2 (Eliezer Yudkowsky, 2009)](https://www.lesswrong.com/posts/ctpkTaqTKbmm6uRgC/failed-utopia-4-2)
+* The Lifecycle of Software Objects (Ted Chiang, 2010)
+* Rumo und die Wunder im Dunkeln (Walter Moers, 2004)
 * Liking What You See: A Documentary (Ted Chiang, 2002)
 * The Merchant and the Alchemist's Gate (Ted Chiang, 2007)
 * [The Origami Men (Tomás Bjartur, 2025)](https://www.lesswrong.com/posts/cDwp4qNgePh3FrEMc/the-origami-men)
-* \* Der Baader Meinhof Komplex (Stefan Aust, 2008)
+* * Der Baader Meinhof Komplex (Stefan Aust, 2008)
 * [Plan E for AI Doom (Ihor Kendiukov, 2025)](https://www.lesswrong.com/posts/2xHhe4EBHAFofkQJf/plan-e-for-ai-doom)
 * [Frog and Toad and the Increasing Capable Machines (Elizabeth Van Nostrand/HungerArtist, 2026)](https://www.frogandtoad.ai/)
-* \* Epistolae familiares IV, 1 (Francesco Petrarca, 1352)
-* \* Die Besteigung des Mont Ventoux (Francesco Petrarca, 1352)
+* * Epistolae familiares IV, 1 (Francesco Petrarca, 1352)
+* * Die Besteigung des Mont Ventoux (Francesco Petrarca, 1352)
 * Kommentare zu “Die Kunst des Krieges” (Gitta Peyn, 2001
 * Die Kunst des Krieges (Sun Tzu, -400)
 * So Long, and Thanks for All the Fish (Douglas Adams, 1984)
@@ -122,7 +125,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Gorm (corinfinite, 2024)](https://cyborgism.wiki/hypha/gorm)
 * Introduction (Benjamin Treynor Sloss/Betsy Beyer, 2016)
 * Foreword (Mark Burgess, 2016)
-* \* Site Reliability Engineering (Betsy Beyer/Chris Jones/Jennifer Petoff/Niall Richard Murphy, 2016)
+* * Site Reliability Engineering (Betsy Beyer/Chris Jones/Jennifer Petoff/Niall Richard Murphy, 2016)
 * Vom Licht des Krieges zur Geburt der Geschichte (Michel Foucault, 1986)
 * Für Christian von Mechel (Friedrich Schiller, 1805)
 * Scharade (Friedrich Schiller, 1804)
@@ -228,7 +231,7 @@ text, a '|123' prefix shows I abandoned reading the text at page 123.
 * [Category:English LLM coinages (English Wiktionary, 2025)](https://en.wiktionary.org/wiki/Category:English_LLM_coinages)
 * [Predeployment Interview Excerpt — Jan 12, 2029 (Brangus, 2026)](https://ratorthodox.substack.com/p/predeployment-interview-excerpt-jan)
 * [Nenex: A Neural Personal Wiki Idea (Gwern Branwen, 2023)](https://gwern.net/nenex)
-* * The 2025 Peregrine Report (Maximilian Schons/Samuel Härgestam/Gavin Leech/Raymound Bermejo, 2025)
+* The 2025 Peregrine Report (Maximilian Schons/Samuel Härgestam/Gavin Leech/Raymound Bermejo, 2025)
 * [How relevant is wild intelligence to the future? (Croissanthology, 2026)](https://croissanthology.substack.com/p/how-relevant-is-wild-intelligence)
 * [Julia (Fernando Boretti, 2026)](https://borretti.me/fiction/julia)
 * [An update on our child safety efforts and commitments (Susan Jasper, 2024)](https://blog.google/innovation-and-ai/technology/safety-security/an-update-on-our-child-safety-efforts-and-commitments/)

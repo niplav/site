@@ -1,7 +1,7 @@
 [home](./index.md)
 -------------------
 
-*author: niplav, created: 2020-06-25, modified: 2024-04-18, language: english, status: finished, importance: 1, confidence: log*
+*author: niplav, created: 2020-06-25, modified: 2026-10-19, language: english, status: finished, importance: 1, confidence: log*
 
 > __Series I have watched since January 2018.__
 
@@ -44,6 +44,7 @@ order). I may not be finished with some of these yet.
 * [The Boys](https://en.wikipedia.org/wiki/The_Boys_\(TV_series\))
 * [The Lord of the Rings: The Rings of Power](https://www.imdb.com/title/tt7631058/)
 * [The Mandalorian](https://www.imdb.com/title/tt8111088/)
+* [The Wire](https://www.imdb.com/title/tt0306414/)
 * [Walking with Beasts](https://en.wikipedia.org/wiki/Walking_With_Beasts)
 * [Walking With Dinosaurs](https://en.wikipedia.org/wiki/Walking_with_Dinosaurs)
 * [Wednesday](https://en.wikipedia.org/wiki/Wednesday_\(TV_Series\))

@@ -1,7 +1,7 @@
 [home](./index.md)
 ------------------
 
-*author: niplav, created: 2019-07-24, modified: 2026-09-21, language: english, status: in progress, importance: 2, confidence: highly likely*
+*author: niplav, created: 2019-07-24, modified: 2026-10-19, language: english, status: in progress, importance: 2, confidence: highly likely*
 
 > __What I am doing at the moment (inspired by the
 > [now movement](https://nownownow.com/about)).__
@@ -46,9 +46,10 @@ Currently, I am actively reading the following texts:
 
 * [Grand Futures (Anders Sandberg, 2023)](https://www.goodreads.com/book/show/42275384-grand-futures)
 * [Coming to Wholeness (Connirae Andreas, 2018)](https://www.goodreads.com/book/show/42348332-coming-to-wholeness)
-* The Loss of Control Playbook: Degrees, Dynamics, and Preparedness (Charlotte Stix/Annika Hallensleben/Alejandro Ortega/Matteo Pistillo, 2025)
-* The 2025 Peregrine Report (Maximilian Schons/Samuel Härgestam/Gavin Leech/Raymound Bermejo, 2025)
 * Site Reliability Engineering (Betsy Beyer/Chris Jones/Jennifer Petoff/Niall Richard Murphy, 2016)
+* Der Baader Meinhof Komplex (Stefan Aust, 2008)
+* Die Besteigung des Mont Ventoux (Francesco Petrarca, 1352)
+* The Loss of Control Playbook: Degrees, Dynamics, and Preparedness (Charlotte Stix/Annika Hallensleben/Alejandro Ortega/Matteo Pistillo, 2025)
 * The Wikipedia [Level 3 Vital articles](https://en.wikipedia.org/wiki/Wikipedia%3AVital_articles). Progress: 9/1000.
 	* [Book (2019)](https://en.wikipedia.org/wiki/Book)
 	* [Hammurabi (2023)](https://en.wikipedia.org/wiki/Hammurabi)

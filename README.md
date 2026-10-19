@@ -2,7 +2,7 @@ Content and Code for a Website
 ==============================
 
 These files contain articles, images, recordings and code for a website.
-It currently has no domain (yet), but that should take only 1 or 2 years.
+Domain is https://niplav.site/.
 
 Building
 --------
