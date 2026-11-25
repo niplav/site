@@ -5,7 +5,7 @@
 
 > __Some [constrained writing](https://en.wikipedia.org/wiki/Constrained_writing).__
 
-<!--sabre, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), mukbang, kiwi, llama, pemmican, ¿patch?, skurr, shucks, monogatari, tipi, wigwam, ¿abarka?, burqa?, maize, anchovy, moose, glonzo, clanker, almanach, jedi, padawan, sietch, hocus pocus, abracadabra, alakazam, shazam, boss, orange, rizz, pog, quark, meep, smurf, bazinga, cowabunga, wagyu, conundrum, Beelzebub, -sama, -san, senpai, sensei, rizz (check, but Claude claims the originator didn't get it from "charisma", cool if true), sherpa, bushido, ronin, aurebesh, yurt, ger, thrackle, quandle, ¿snark?, bandersnatch, jabberwock, boojum, the rest of the words from [Jabberwocky](https://en.wikipedia.org/wiki/Jabberwocky)? Do they count?, ¿doggerel?, shabbath, ¿lizard?, jenga-->
+<!--sabre, cheese, [shōgun](https://en.wiktionary.org/wiki/shogun), [chiffre/cipher](https://en.wiktionary.org/wiki/cipher), ¿tub?, ¿mack?, capybara, maybe cartel (could be Phoenician 𐤇𐤓𐤈𐤉𐤕, or Proto-Indo-European *ǵʰer-), mukbang, kiwi, llama, pemmican, ¿patch?, skurr, shucks, monogatari, tipi, wigwam, ¿abarka?, burqa?, maize, anchovy, moose, glonzo, clanker, almanach, jedi, padawan, sietch, hocus pocus, abracadabra, alakazam, boss, orange, rizz, pog, quark, meep, smurf, bazinga, cowabunga, wagyu, conundrum, Beelzebub, -sama, -san, senpai, sensei, rizz (check, but Claude claims the originator didn't get it from "charisma", cool if true), sherpa, bushido, ronin, aurebesh, yurt, ger, thrackle, quandle, ¿snark?, bandersnatch, jabberwock, boojum, the rest of the words from [Jabberwocky](https://en.wikipedia.org/wiki/Jabberwocky)? Do they count?, ¿doggerel?, shabbath, ¿lizard?, jenga, sodomize, tahafut, qi, mammoth, "munchkin"-->
 
 Charlatan Labyrinth
 =====================
@@ -18,15 +18,15 @@ Charlatan Labyrinth
 
 > Bizarre: Myths don't rattle in this hip ghetto — I dig it.
 
-> I twitchily hassle; "__The assassin at the canal, you clocked?__"
+> I twitchily hassle; "__The canal assassin, you clocked?__"
 
-> "Pow pow out the slum. He barged in, massaged the racket, mopped up, you grok? Boomeranged chop-chop. Fun caliber, righted me an average migraine. No person but me, the just zombifieds, and the assassin; he fake kowtowed to the sultan — to Laniakea blings. Kungfu there!"
+> "Pow pow out the slum. He barged in, massaged the racket, mopped it all, you grok? Boomeranged chop-chop. Fun uzi, righted me an average migraine. No person but me, the just zombifieds, and the assassin; he fake kowtowed to the sultan — to Laniakea blings. Kungfu there!"
 
 > I dodge to bother: there he is. "__Your admiral, in person‽__" I'm flummoxed. Admiral traffics the coach zig-zag and gets in the compound.
 
-> The tattooed admiral, crashing the sofa: "*I hustled our cocaine from the saboteur.*"
+> The tattooed admiral, crashing the sofa: "*I hustled the saboteur out of our cocaine.*"
 
-> Khan yanks the coffer with narcotic alabaster saffron of admiral, whose cotton is nasty scarlet and cerise, ouch — on turquoise satin canopy.
+> Khan yanks the coffer with narcotic alabaster saffron of admiral, whose cotton is nasty maroon and cerise, ouch — on turquoise satin canopy.
 
 > Khan: "Yours?"
 
@@ -34,29 +34,29 @@ Charlatan Labyrinth
 
 > "You're a goon."
 
-> "*No, a candy shaman*" admiral rumbles stubbornly. The elixir jitters out of sapphire spheres, we absinthe.
+> "*No, a candy shaman*" admiral rumbles stubbornly. The hooch jitters out of sapphire spheres, we absinthe.
 
-> "No taboos at this corroboree. The narc, is he, um, “amen”?"
+> "This corroboree has no taboos. The narc, is he, um, “amen”?"
 
-> "*Yes.*"
+> "*Inshallah.*"
 
 > "OK" Khan scratches. "Tabbed to me? Shenanigans?"
 
-> "*No cops. … My sabbatical, my cash? My chili squaw will squeeze her flimsy bikini, but that's OK. I'll syrup-daddy*" he yaps.
+> "*No cops. … My sabbatical, my shekels? My chili squaw will squeeze her flimsy bikini, but that's OK. I'll syrup-daddy*" he yaps.
 
-> "Cheugy, soynerd"—Khan yeets the cash to the sofa. "Don't go amok in the ghetto, don't boogie macabre hash, don't flop, and we are wicked hip. No skulduggery. Jive her, fuck her, marry her, hallelujah."
+> "Cheugy, soynerd"—Khan yeets the moola to the sofa. "Don't go amok in the ghetto, don't binge macabre hash, don't flop, and we are wicked hip. No skulduggery. Jive her, fuck her, marry her, hallelujah."
 
 > "*OK, no shenanigans in the slum. Chào.*"
 
 > Admiral traffics me the silver cannon gizmo, ruffles out.
 
-> I hazard the sofa—admiral's mana ketchups me, I'm bothered. I'll pump soda when Betelgeuse capoeiras. "__Goofy bloke__" I bounce. "__He gets to cottage and barbecue?__"
+> I hazard the sofa—admiral's mana ketchups me, I'm bothered. I'll pump soda with Betelgeuse capoeiraing. "__Goofy bloke__" I bounce. "__He gets to cottage and barbecue?__"
 
-> A dzogchen Khan chats: "Not with that chutzpah… he's the narc. No cottage, no pyramid, just a mummy in a canal by monsoon. I'll bag his kawaii sheila."
+> A dzogchen Khan chats: "Not with that chutzpah… he's the narc. No cottage, no pyramid, just a mummy in a monsoon canal. I'll bag his kawaii sheila."
 
 > I'm petrified. What a coyote, this bastard. He squints.
 
-> "My horde has to have fit asabiyyah. You yabber to the cops, you beg to satan and Yahweh. That's the algebra. I'm a sigma Chad, I'm the sulfur phoenix, I boom."
+> "My horde has to have fit asabiyyah. You yabber to the cops, you beg to satan and Yahweh. That's the algebra. I'm a sigma mogul, I'm the sulfur phoenix, I boom."
 
 > No fanfare, no shouting. Ditzily: "Scram. Wok me curry, baizuo."
 
@@ -64,7 +64,7 @@ Charlatan Labyrinth
 
 > I taped this gibberish in the bungalow. I'm the narc, the saboteur: mundane, embryonic—he doesn't ping.
 
-> I'll sumō my tycoon, the Khan, at ramadan. Ivory'll triumph.
+> I'll sumō my tycoon, the Khan, in ramadan. Ivory'll triumph.
 
 <details>
 <summary>Explanation with comments (spoiler)</summary>
@@ -81,15 +81,15 @@ Conjugating & combining allowed words was permitted.
 
 > [Bizarre](https://en.wiktionary.org/wiki/bizarre): [My](https://en.wiktionary.org/wiki/myth)[ths](https://en.wiktionary.org/wiki/%CE%BC%E1%BF%A6%CE%B8%CE%BF%CF%82#Ancient_Greek) don't [rattle](https://en.wiktionary.org/wiki/rattle) in this [hip](https://en.wiktionary.org/wiki/hip#Etymology_3) [ghetto](https://en.wiktionary.org/wiki/ghetto)[^ghetto] — I [dig it](https://en.wiktionary.org/wiki/dig#Etymology_2).
 
-> I [twit](https://en.wiktionary.org/wiki/twitch)[chily](https://en.wiktionary.org/wiki/Reconstruction:Proto-West_Germanic/twikkijan) [hassle](https://en.wiktionary.org/wiki/hassle); "__The [assassin](https://en.wiktionary.org/wiki/assassin) at the [canal](https://en.wiktionary.org/wiki/canal), you [clocked](https://en.wiktionary.org/wiki/clock)?__"
+> I [twit](https://en.wiktionary.org/wiki/twitch)[chily](https://en.wiktionary.org/wiki/Reconstruction:Proto-West_Germanic/twikkijan) [hassle](https://en.wiktionary.org/wiki/hassle); "__The [canal](https://en.wiktionary.org/wiki/canal) [assassin](https://en.wiktionary.org/wiki/assassin), you [clocked](https://en.wiktionary.org/wiki/clock)?__"
 
-> "[Pow pow](https://en.wiktionary.org/wiki/pow#Etymology_1) out the [slum](https://en.wiktionary.org/wiki/slum). He [barged](https://en.wiktionary.org/wiki/barge#Etymology) in, [massaged](https://en.wiktionary.org/wiki/massage) the [racket](https://en.wiktionary.org/wiki/racket), [mopped](https://en.wiktionary.org/wiki/mop#Etymology_1) up, you [grok](https://en.wiktionary.org/wiki/grok)? [Boomeranged](https://en.wiktionary.org/wiki/boomerang) [chop-chop](https://en.wiktionary.org/wiki/chop-chop#English). [Fun](https://en.wiktionary.org/wiki/fun) [caliber](https://en.wiktionary.org/wiki/caliber), righted[^right] me an [average](https://en.wiktionary.org/wiki/average)[^average] [migraine](https://en.wiktionary.org/wiki/migraine)[^migraine]. No [person](https://en.wiktionary.org/wiki/person) but me, the just [zombifieds](https://en.wiktionary.org/wiki/zombie#English), and the assassin; he [fake](https://en.wiktionary.org/wiki/fake#Etymology_1) [kowtowed](https://en.wiktionary.org/wiki/kowtow#Etymology) to the [sultan](https://en.wiktionary.org/wiki/sultan) — to [Laniakea](https://en.wiktionary.org/wiki/Laniakea#Etymology) [blings](https://en.wiktionary.org/wiki/bling#Etymology). [Kungfu](https://en.wiktionary.org/wiki/kung_fu#Etymology)[^kungfu] there!"
+> "[Pow pow](https://en.wiktionary.org/wiki/pow#Etymology_1) out the [slum](https://en.wiktionary.org/wiki/slum). He [barged](https://en.wiktionary.org/wiki/barge#Etymology) in, [massaged](https://en.wiktionary.org/wiki/massage) the [racket](https://en.wiktionary.org/wiki/racket), [mopped](https://en.wiktionary.org/wiki/mop#Etymology_1) it all, you [grok](https://en.wiktionary.org/wiki/grok)? [Boomeranged](https://en.wiktionary.org/wiki/boomerang) [chop-chop](https://en.wiktionary.org/wiki/chop-chop#English). [Fun](https://en.wiktionary.org/wiki/fun) [uzi](https://en.wiktionary.org/wiki/uzi#Etymology_1)[^uzi], righted[^right] me an [average](https://en.wiktionary.org/wiki/average)[^average] [migraine](https://en.wiktionary.org/wiki/migraine)[^migraine]. No [person](https://en.wiktionary.org/wiki/person) but me, the just [zombifieds](https://en.wiktionary.org/wiki/zombie#English), and the assassin; he [fake](https://en.wiktionary.org/wiki/fake#Etymology_1) [kowtowed](https://en.wiktionary.org/wiki/kowtow#Etymology) to the [sultan](https://en.wiktionary.org/wiki/sultan) — to [Laniakea](https://en.wiktionary.org/wiki/Laniakea#Etymology) [blings](https://en.wiktionary.org/wiki/bling#Etymology). [Kungfu](https://en.wiktionary.org/wiki/kung_fu#Etymology)[^kungfu] there!"
 
 > I [dodge](https://en.wiktionary.org/wiki/dodge) to [bother](https://en.wiktionary.org/wiki/bother): there he is. "__Your [admiral](https://en.wiktionary.org/wiki/admiral), in person‽__". I'm [flummoxed](https://en.wiktionary.org/wiki/flummox). Admiral traffics the [coach](https://en.wiktionary.org/wiki/coach) [zig-zag](https://en.wiktionary.org/wiki/zigzag#English) and gets in the [compound](https://en.wiktionary.org/wiki/compound#Etymology_1).
 
-> The [tattooed](https://en.wiktionary.org/wiki/tattoo#Etymology_1) admiral, [crashing](https://en.wiktionary.org/wiki/crash#Etymology_1) the [sofa](https://en.wiktionary.org/wiki/sofa#Etymology_1): "*I [hust](https://en.wiktionary.org/wiki/hustle)[led](https://en.wiktionary.org/wiki/hutsen#Middle_Dutch)[^hustle] our [cocaine](https://en.wiktionary.org/wiki/cocaine) from the [saboteur](https://en.wiktionary.org/wiki/saboteur)[^saboteur].*"
+> The [tattooed](https://en.wiktionary.org/wiki/tattoo#Etymology_1) admiral, [crashing](https://en.wiktionary.org/wiki/crash#Etymology_1) the [sofa](https://en.wiktionary.org/wiki/sofa#Etymology_1): "*I [hust](https://en.wiktionary.org/wiki/hustle)[led](https://en.wiktionary.org/wiki/hutsen#Middle_Dutch)[^hustle] the [saboteur](https://en.wiktionary.org/wiki/saboteur)[^saboteur] out of our [cocaine](https://en.wiktionary.org/wiki/cocaine).*"
 
-> Khan [yanks](https://en.wiktionary.org/wiki/yank#Etymology_1) the [cof](https://en.wiktionary.org/wiki/coffer)[fer](https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%86%CE%B9%CE%BD%CE%BF%CF%82#Ancient_Greek)[^coffer] with [nar](https://en.wiktionary.org/wiki/narcotic)[cotic](https://en.wiktionary.org/wiki/%CE%BD%CE%AC%CF%81%CE%BA%CE%B7#Ancient_Greek) [alabaster](https://en.wiktionary.org/wiki/alabaster) [saffron](https://en.wiktionary.org/wiki/saffron) of admiral, whose [cotton](https://en.wiktionary.org/wiki/cotton) is [nasty](https://en.wiktionary.org/wiki/nasty)[^nasty] [scarlet](https://en.wiktionary.org/wiki/scarlet) and [cerise](https://en.wiktionary.org/wiki/cerise)[^cerise], [ouch](https://en.wiktionary.org/wiki/ouch) — on [turq](https://en.wiktionary.org/wiki/turquoise)[uoise](https://en.wiktionary.org/wiki/%F0%90%B1%85%F0%90%B0%87%F0%90%B0%BC%F0%90%B0%9C#Old_Turkic) [satin](https://en.wiktionary.org/wiki/satin) [can](https://en.wiktionary.org/wiki/canopy)[opy](https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BD%CF%89%CF%88#Ancient_Greek).
+> Khan [yanks](https://en.wiktionary.org/wiki/yank#Etymology_1) the [cof](https://en.wiktionary.org/wiki/coffer)[fer](https://en.wiktionary.org/wiki/%CE%BA%CF%8C%CF%86%CE%B9%CE%BD%CE%BF%CF%82#Ancient_Greek)[^coffer] with [nar](https://en.wiktionary.org/wiki/narcotic)[cotic](https://en.wiktionary.org/wiki/%CE%BD%CE%AC%CF%81%CE%BA%CE%B7#Ancient_Greek) [alabaster](https://en.wiktionary.org/wiki/alabaster) [saffron](https://en.wiktionary.org/wiki/saffron) of admiral, whose [cotton](https://en.wiktionary.org/wiki/cotton) is [nasty](https://en.wiktionary.org/wiki/nasty)[^nasty] [maroon](https://en.wiktionary.org/wiki/maroon#Etymology_1) and [cerise](https://en.wiktionary.org/wiki/cerise)[^cerise], [ouch](https://en.wiktionary.org/wiki/ouch) — on [turq](https://en.wiktionary.org/wiki/turquoise)[uoise](https://en.wiktionary.org/wiki/%F0%90%B1%85%F0%90%B0%87%F0%90%B0%BC%F0%90%B0%9C#Old_Turkic) [satin](https://en.wiktionary.org/wiki/satin) [can](https://en.wiktionary.org/wiki/canopy)[opy](https://en.wiktionary.org/wiki/%CE%BA%CF%8E%CE%BD%CF%89%CF%88#Ancient_Greek).
 
 > Khan: "Yours?"
 
@@ -97,29 +97,29 @@ Conjugating & combining allowed words was permitted.
 
 > "You're a [goon](https://en.wiktionary.org/wiki/goon)."
 
-> "*No, a [candy](https://en.wiktionary.org/wiki/candy)[^candy] [shaman](https://en.wiktionary.org/wiki/shaman)*" admiral [rumbles](https://en.wiktionary.org/wiki/rumble) stubbornly. The [elixir](https://en.wiktionary.org/wiki/elixir) [jitters](https://en.wiktionary.org/wiki/jitter) out of [sapphire](https://en.wiktionary.org/wiki/sapphire) [sphe](https://en.wiktionary.org/wiki/sphere)[res](https://en.wiktionary.org/wiki/%CF%83%CF%86%CE%B1%E1%BF%96%CF%81%CE%B1#Ancient_Greek), we [absi](https://en.wiktionary.org/wiki/absinthe#English)[nthe](https://en.wiktionary.org/wiki/%E1%BC%80%CF%88%CE%AF%CE%BD%CE%B8%CE%B9%CE%BF%CE%BD#Ancient_Greek).
+> "*No, a [candy](https://en.wiktionary.org/wiki/candy)[^candy] [shaman](https://en.wiktionary.org/wiki/shaman)*" admiral [rumbles](https://en.wiktionary.org/wiki/rumble) stubbornly. The [hooch](https://en.wiktionary.org/wiki/hooch#Etymology_1) [jitters](https://en.wiktionary.org/wiki/jitter) out of [sapphire](https://en.wiktionary.org/wiki/sapphire) [sphe](https://en.wiktionary.org/wiki/sphere)[res](https://en.wiktionary.org/wiki/%CF%83%CF%86%CE%B1%E1%BF%96%CF%81%CE%B1#Ancient_Greek), we [absi](https://en.wiktionary.org/wiki/absinthe#English)[nthe](https://en.wiktionary.org/wiki/%E1%BC%80%CF%88%CE%AF%CE%BD%CE%B8%CE%B9%CE%BF%CE%BD#Ancient_Greek).
 
-> "No [taboos](https://en.wiktionary.org/wiki/taboo) at this [corroboree](https://en.wiktionary.org/wiki/corroboree#English). The [narc](https://en.wiktionary.org/wiki/narc#English), is he, [um](https://en.wiktionary.org/wiki/um#Etymology_1)[^um], "[amen](https://en.wiktionary.org/wiki/amen#English)"?"
+> "This [corroboree](https://en.wiktionary.org/wiki/corroboree#English) has no [taboos](https://en.wiktionary.org/wiki/taboo). The [narc](https://en.wiktionary.org/wiki/narc#English), is he, [um](https://en.wiktionary.org/wiki/um#Etymology_1)[^um], "[amen](https://en.wiktionary.org/wiki/amen#English)"?"
 
-> "*Yes.*"
+> "*[Inshallah](https://en.wiktionary.org/wiki/inshallah#English).*"
 
 > "OK" Khan [scratches](https://en.wiktionary.org/wiki/scratch#English)[^scratch]. "[Tabbed](https://en.wiktionary.org/wiki/tab#Etymology_1) to me? [Shenanigans](https://en.wiktionary.org/wiki/shenanigan#English)?"
 
-> "*No [cops](https://en.wiktionary.org/wiki/cop#Etymology_1). … My [sabbatical](https://en.wiktionary.org/wiki/sabbatical#Etymology), my [cash](https://en.wiktionary.org/wiki/cash#Etymology_2)[^cash]? My [chili](https://en.wiktionary.org/wiki/chili#Etymology_1) [squaw](https://en.wiktionary.org/wiki/squaw#Etymology) will [squeeze](https://en.wiktionary.org/wiki/squeeze#Etymology) her [flimsy](https://en.wiktionary.org/wiki/flimsy#Etymology) [bikini](https://en.wiktionary.org/wiki/bikini#Etymology), but that's OK. I'll syrup-[daddy](https://en.wiktionary.org/wiki/dad#English)[^daddy]*" he [yaps](https://en.wiktionary.org/wiki/yap#Etymology_2).
+> "*No [cops](https://en.wiktionary.org/wiki/cop#Etymology_1). … My [sabbatical](https://en.wiktionary.org/wiki/sabbatical#Etymology), my [shekels](https://en.wiktionary.org/wiki/shekel#Etymology)[^shekels]? My [chili](https://en.wiktionary.org/wiki/chili#Etymology_1) [squaw](https://en.wiktionary.org/wiki/squaw#Etymology) will [squeeze](https://en.wiktionary.org/wiki/squeeze#Etymology) her [flimsy](https://en.wiktionary.org/wiki/flimsy#Etymology) [bikini](https://en.wiktionary.org/wiki/bikini#Etymology), but that's OK. I'll syrup-[daddy](https://en.wiktionary.org/wiki/dad#English)[^daddy]*" he [yaps](https://en.wiktionary.org/wiki/yap#Etymology_2).
 
-> "[Cheugy](https://en.wiktionary.org/wiki/cheugy#Etymology_2), [soy](https://en.wiktionary.org/wiki/soy#Etymology_1)[nerd](https://en.wiktionary.org/wiki/nerd#Etymology_1)"—Khan [yeets](https://en.wiktionary.org/wiki/yeet#Etymology_1)[^yeet] the cash to the sofa. "Don't go [amok](https://en.wiktionary.org/wiki/amok#Etymology_1) in the [ghetto](https://en.wiktionary.org/wiki/ghetto#Etymology), don't [boogie](https://en.wiktionary.org/wiki/boogie)<!--TODO: check-->[^boogie] [macabre](https://en.wiktionary.org/wiki/macabre#Etymology) [hash](https://en.wiktionary.org/wiki/hash#Etymology_2), don't [flop](https://en.wiktionary.org/wiki/flop#Etymology_1)[^flop], and we are [wicked](https://en.wiktionary.org/wiki/wicked#Etymology_1) hip. No [skulduggery](https://en.wiktionary.org/wiki/skulduggery#Etymology). [Jive](https://en.wiktionary.org/wiki/jive#Etymology_1)[^jive] her, [fuck](https://en.wiktionary.org/wiki/fuck#Etymology)[^fuck] her, [marry](https://en.wiktionary.org/wiki/marry#Etymology_1)[^marry] her, [hallelujah](https://en.wiktionary.org/wiki/hallelujah#Etymology)."
+> "[Cheugy](https://en.wiktionary.org/wiki/cheugy#Etymology_2), [soy](https://en.wiktionary.org/wiki/soy#Etymology_1)[nerd](https://en.wiktionary.org/wiki/nerd#Etymology_1)"—Khan [yeets](https://en.wiktionary.org/wiki/yeet#Etymology_1)[^yeet] the [moola](https://en.wiktionary.org/wiki/moola)[^moola] to the sofa. "Don't go [amok](https://en.wiktionary.org/wiki/amok#Etymology_1) in the [ghetto](https://en.wiktionary.org/wiki/ghetto#Etymology), don't [binge](https://en.wiktionary.org/wiki/binge#Etymolog)[^binge] [macabre](https://en.wiktionary.org/wiki/macabre#Etymology) [hash](https://en.wiktionary.org/wiki/hash#Etymology_2), don't [flop](https://en.wiktionary.org/wiki/flop#Etymology_1)[^flop], and we are [wicked](https://en.wiktionary.org/wiki/wicked#Etymology_1) hip. No [skulduggery](https://en.wiktionary.org/wiki/skulduggery#Etymology). [Jive](https://en.wiktionary.org/wiki/jive#Etymology_1)[^jive] her, [fuck](https://en.wiktionary.org/wiki/fuck#Etymology)[^fuck] her, [marry](https://en.wiktionary.org/wiki/marry#Etymology_1)[^marry] her, [hallelujah](https://en.wiktionary.org/wiki/hallelujah#Etymology)."
 
 > "*OK, no shenanigans in the slum. [Chào](https://en.wiktionary.org/wiki/ch%C3%A0o#Etymology)[^chao].*"
 
-> Admiral traffics the [silver](https://en.wiktionary.org/wiki/silver#Etymology) [cannon](https://en.wiktionary.org/wiki/cannon#Etymology_1) [gizmo](https://en.wiktionary.org/wiki/gizmo#Etymology) to me, [ruffles](https://en.wiktionary.org/wiki/ruffle)<!--TODO: replace with swagger?--> out.
+> Admiral traffics me the [silver](https://en.wiktionary.org/wiki/silver#Etymology) [cannon](https://en.wiktionary.org/wiki/cannon#Etymology_1) [gizmo](https://en.wiktionary.org/wiki/gizmo#Etymology), [ruffles](https://en.wiktionary.org/wiki/ruffle)<!--TODO: replace with swagger?--> out.
 
-> I [hazard](https://en.wiktionary.org/wiki/hazard#Etymology) the sofa—admiral's mana [ketchups](https://en.wiktionary.org/wiki/ketchup#Etymology) me, I'm bothered. I'll [pump](https://en.wiktionary.org/wiki/pump#Etymology)[^pump] [soda](https://en.wiktionary.org/wiki/soda#Italian) when [Betelgeuse](https://en.wiktionary.org/wiki/Betelgeuse#Etymology) [capoeiras](https://en.wiktionary.org/wiki/capoeira#Etymology). "__[Goofy](https://en.wiktionary.org/wiki/goofy#Etymology)[^goofy] [bloke](https://en.wiktionary.org/wiki/bloke#English)__" I [bounce](https://en.wiktionary.org/wiki/bounce#English). "__He gets to [cottage](https://en.wiktionary.org/wiki/cottage#English)[^cottage] and [barbecue](https://en.wiktionary.org/wiki/barbecue#Etymology)?__"
+> I [hazard](https://en.wiktionary.org/wiki/hazard#Etymology) the sofa—admiral's mana [ketchups](https://en.wiktionary.org/wiki/ketchup#Etymology) me, I'm bothered. I'll [pump](https://en.wiktionary.org/wiki/pump#Etymology)[^pump] [soda](https://en.wiktionary.org/wiki/soda#Italian) with [Betelgeuse](https://en.wiktionary.org/wiki/Betelgeuse#Etymology) [capoeiraing](https://en.wiktionary.org/wiki/capoeira#Etymology). "__[Goofy](https://en.wiktionary.org/wiki/goofy#Etymology)[^goofy] [bloke](https://en.wiktionary.org/wiki/bloke#English)__" I [bounce](https://en.wiktionary.org/wiki/bounce#English). "__He gets to [cottage](https://en.wiktionary.org/wiki/cottage#English)[^cottage] and [barbecue](https://en.wiktionary.org/wiki/barbecue#Etymology)?__"
 
-> A [dzogchen](https://en.wiktionary.org/wiki/Dzogchen)[^zen] Khan [chats](https://en.wiktionary.org/wiki/chat#Etymology_1): "Not with that [chutzpah](https://en.wiktionary.org/wiki/chutzpah#Etymology)[^chutzpah]… he's the narc. No cottage, no [pyramid](https://en.wiktionary.org/wiki/pyramid#Etymology), just a [mummy](https://en.wiktionary.org/wiki/mummy#Etymology_1) in a canal by [monsoon](https://en.wiktionary.org/wiki/monsoon#Etymology). I'll bag his [kawaii](https://en.wiktionary.org/wiki/kawaii#Etymology) [sheila](https://en.wiktionary.org/wiki/sheila#Etymology_2)."
+> A [dzogchen](https://en.wiktionary.org/wiki/Dzogchen)[^zen] Khan [chats](https://en.wiktionary.org/wiki/chat#Etymology_1): "Not with that [chutzpah](https://en.wiktionary.org/wiki/chutzpah#Etymology)[^chutzpah]… he's the narc. No cottage, no [pyramid](https://en.wiktionary.org/wiki/pyramid#Etymology), just a [mummy](https://en.wiktionary.org/wiki/mummy#Etymology_1) in a [monsoon](https://en.wiktionary.org/wiki/monsoon#Etymology) canal. I'll bag his [kawaii](https://en.wiktionary.org/wiki/kawaii#Etymology) [sheila](https://en.wiktionary.org/wiki/sheila#Etymology_2)."
 
 > I'm [petrified](https://en.wiktionary.org/wiki/petrify#Etymology). What a [coyote](https://en.wiktionary.org/wiki/coyote#Etymology), this [bastard](https://en.wiktionary.org/wiki/bastard#Etymology). He [squints](https://en.wiktionary.org/wiki/squint#Etymology)[^squint].
 
-> "My [horde](https://en.wiktionary.org/wiki/horde#Etymology) has to have [fit](https://en.wiktionary.org/wiki/fit#Etymology) [asabiyyah](https://en.wiktionary.org/wiki/asabiyyah#Etymology). You [yabber](https://en.wiktionary.org/wiki/yabber#Etymology) to the cops, you beg to [satan](https://en.wiktionary.org/wiki/satan#Etymology) and [Yahweh](https://en.wiktionary.org/wiki/Yahweh#Etymology). That's the [algebra](https://en.wiktionary.org/wiki/algebra#Etymology). I'm a [sigma](https://en.wiktionary.org/wiki/sigma#Etymology)[^sigma] [Chad](https://en.wiktionary.org/wiki/Chad#Etymology_1), I'm the [sulfur](https://en.wiktionary.org/wiki/sulfur#Etymology) [phoenix](https://en.wiktionary.org/wiki/phoenix#Etymology), I [boom](https://en.wiktionary.org/wiki/boom#Etymology_1)."
+> "My [horde](https://en.wiktionary.org/wiki/horde#Etymology) has to have [fit](https://en.wiktionary.org/wiki/fit#Etymology) [asabiyyah](https://en.wiktionary.org/wiki/asabiyyah#Etymology). You [yabber](https://en.wiktionary.org/wiki/yabber#Etymology) to the cops, you beg to [satan](https://en.wiktionary.org/wiki/satan#Etymology) and [Yahweh](https://en.wiktionary.org/wiki/Yahweh#Etymology). That's the [algebra](https://en.wiktionary.org/wiki/algebra#Etymology). I'm a [sigma](https://en.wiktionary.org/wiki/sigma#Etymology)[^sigma] [mogul](https://en.wiktionary.org/wiki/mogul#Etymology_1)[^mogul], I'm the [sulfur](https://en.wiktionary.org/wiki/sulfur#Etymology) [phoenix](https://en.wiktionary.org/wiki/phoenix#Etymology), I [boom](https://en.wiktionary.org/wiki/boom#Etymology_1)."
 
 > No [fanfare](https://en.wiktionary.org/wiki/fanfare#Etymology), no [shouting](https://en.wiktionary.org/wiki/shout#Etymology_1). [Ditzily](https://en.wiktionary.org/wiki/ditzy#Etymology): "[Scram](https://en.wiktionary.org/wiki/scram#Etymology_1). Wok<!--TODO: link--> me [curry](https://en.wiktionary.org/wiki/curry#Etymology_1), [baizuo](https://en.wiktionary.org/wiki/baizuo#Etymology)."
 
@@ -127,7 +127,7 @@ Conjugating & combining allowed words was permitted.
 
 > I [taped](https://en.wiktionary.org/wiki/tape#Etymology) this [gibberish](https://en.wiktionary.org/wiki/gibberish#Etymology) in the [bungalow](https://en.wiktionary.org/wiki/bungalow)[^bungalow]. I'm the narc, the saboteur: [mun](https://en.wiktionary.org/wiki/mundane#Etymology)[dane](https://en.wiktionary.org/wiki/mundus#Latin)[^mundane], [embr](https://en.wiktionary.org/wiki/embryo#Etymology)[yonic](https://en.wiktionary.org/wiki/%CE%B2%CF%81%CF%8D%CF%89#Ancient_Greek)[^embryonic]—he doesn't [ping](https://en.wiktionary.org/wiki/ping#Etymology)[^ping].
 
-> I'll [sumō](https://en.wiktionary.org/wiki/sumo#English) my tycoon<!--TODO: find & list etymology-->, the Khan, at [ramadan](https://en.wiktionary.org/wiki/ramadan#Etymology). [Ivory](https://en.wiktionary.org/wiki/ivory#Etymology)'ll [triumph](https://en.wiktionary.org/wiki/triumph#Etymology_1).
+> I'll [sumō](https://en.wiktionary.org/wiki/sumo#English) my tycoon<!--TODO: find & list etymology-->, the Khan, in [ramadan](https://en.wiktionary.org/wiki/ramadan#Etymology). [Ivory](https://en.wiktionary.org/wiki/ivory#Etymology)'ll [triumph](https://en.wiktionary.org/wiki/triumph#Etymology_1).
 
 [^satellite]: A bit of a cop-out, since I'm assuming the [Etruscan](https://en.wikipedia.org/wiki/Etruscan_language) etymology and not tracing it back through ["fulgāną"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/fulg%C4%81n%C4%85) (though note that that's also not traced back to PIE) or ["𐎧𐏁𐏂𐎶"](https://en.wiktionary.org/wiki/%F0%90%8E%A7%F0%90%8F%81%F0%90%8F%82%F0%90%8E%B6#Old_Persian) to ["*tek-"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tek-) I could also use [shiver](https://en.wiktionary.org/wiki/shiver) here, which is uncertain. But I like Etruscan more.
 [^barracks]: Seems unclear. I originally thought this was Uralic from Hungarian, but I was mistaken. Either from a [substrate language](https://en.wikipedia.org/wiki/Vasconic_substrate) (!) from ["bara"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Slavic/bara) (thouh possibly from ["*bʰeh₂-"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0eh%E2%82%82-)) through ["barrum"](https://en.wiktionary.org/wiki/Reconstruction:Latin/barrum) *or* from ["*bʰerH-"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0erH-) through ["*barra"](https://en.wiktionary.org/wiki/Reconstruction:Latin/barra). I'll let it slide, I think, but it's also an edge-case. Otherwise I could use "bungalow" a second time.
@@ -136,6 +136,7 @@ Conjugating & combining allowed words was permitted.
 [^stubborn]: Could be from ["*(s)tewp-"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(s)tewp-) via ["stubbaz"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/stubbaz), but that's more of a hypothesis. I count it as uncertain.
 [^tote]: Another one where I'm playing it fast & loose. Seems disputed, either from Proto-German ["*tut(t)-"](https://en.wiktionary.org/w/index.php?title=Reconstruction:Proto-Germanic/tut(t)-) (but without further history) *or* (more fun) from a [Bantu language](https://en.wikipedia.org/wiki/Bantu-language).
 [^ginger]: Yes, it went through [Prakrit](https://en.wikipedia.org/wiki/Prakrit_language) but is ultimately Dravidian with ["𑀇𑀜𑁆𑀘𑀺𑀯𑁂𑀭𑁆"](https://en.wiktionary.org/wiki/%F0%91%80%87%F0%91%80%9C%F0%91%81%86%F0%91%80%98%F0%91%80%BA%F0%91%80%AF%F0%91%81%82%F0%91%80%AD%F0%91%81%86#Old_Tamil)! LLMs often get tripped up by this.
+[^uzi]: After [Uziel Gal](https://en.wikipedia.org/wiki/Uziel_Gal). Also considered here was [Glock](https://en.wikipedia.org/wiki/Glock), which is uncertain, and plausibly non-PIE! Similar to "clock".
 [^right]: This is in the top 50 words by frequency as "right".
 [^average]: Needful to say, I use the origin from ["عَوِرَ"](https://en.wiktionary.org/wiki/%D8%B9%D9%88%D8%B1#Arabic) instead of ["avere"](https://en.wiktionary.org/wiki/avere#Italian).
 [^migraine]: The Egyptian origin. I know we could also trace it back to ["*sēmi"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/s%C4%93mi) from ["*ḱr̥h₂-(e)s-n-"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/s%C4%93mi), but let's not.
@@ -147,7 +148,8 @@ Conjugating & combining allowed words was permitted.
 [^cerise]: I'll take the [substrate](https://en.wikipedia.org/wiki/Pre-Greek_substrate) origin through ["κερασός"](https://en.wiktionary.org/wiki/%CE%BA%CE%B5%CF%81%CE%B1%CF%83%CF%8C%CF%82#Ancient_Greek).
 [^candy]: This one's fun! I like the Proto-Dravidian reconstruction from "\*kaṇṭu", and Wiktionary on ["खण्ड"](https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%A3%E0%A5%8D%E0%A4%A1#Sanskrit) says "An internally-derived word, likely of non-Indo-European origin but no convincing Dravidian or Munda sources. […] Part of the Indo-Aryan ["defective" group](https://en.wiktionary.org/wiki/Category:Sanskrit_terms_of_the_defective_word_group) of words", which "do not have clear Indo-European etymology. They are characterized by showing a wide variety of alternative forms, perhaps indicating [substrate](https://en.wiktionary.org/wiki/substrate) origin or [taboo deformation](https://en.wiktionary.org/wiki/taboo_deformation)". Very cool! I'll count it as Dravidian.
 [^scratch]: Wiktionary doesn't connect it with ["\*gred-"](https://en.wiktionary.org/w/index.php?title=Reconstruction:Proto-Indo-European/gred-) and instead says "of uncertain origin". Surprising, but I'll take it.
-[^cash]: I'll use the Tamil etymology from ["காசு"](https://en.wiktionary.org/wiki/%E0%AE%95%E0%AE%BE%E0%AE%9A%E0%AF%81#Tamil) instead of the Latin one from ["\*kap-"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kap-#Proto-Indo-European:_seize) via ["capiō"](https://en.wiktionary.org/wiki/capio#Latin). Alternatively I could use ["shekels"](https://en.wiktionary.org/wiki/shekel#Etymology).
+[^shekels]: I avoided a trap here! Originally I thought: "I'll use the Tamil etymology from ["காசு"](https://en.wiktionary.org/wiki/%E0%AE%95%E0%AE%BE%E0%AE%9A%E0%AF%81#Tamil) instead of the Latin one from ["\*kap-"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kap-#Proto-Indo-European:_seize) via ["capiō"](https://en.wiktionary.org/wiki/capio#Latin)", but the Tamil ultimately comes from Sanskrit "karṣa", from PIE "*kʷels-"<!--TODO: copy over the terms & links-->. So it's "shekels", originally Akkadian, too!<!--TODO: links-->
+[^moola]: Disputed, first appeared in the 1920s. Six rival etymologies, one Romani from "mol", one from Irish "moll óir", one from French "moulin", one from Chinook "moola", one from Sanskrit, and one de novo coinage, so that's a ⅓ chance of non-PIE, we take it from there via uncertainty.
 [^daddy]: I'd guess that "dad" is so common that I could just say "nuh uh it's actually the [Elamite](https://en.wikipedia.org/wiki/Elamite) honorific for “dear father”, deal with it" or whatever. But Wiktionary also says "dad" is "of uncertain ultimate origin", so I win.
 [^yeet]: My arch-nemesis: I have the speculation this is actually from ["jeter"](https://en.wiktionary.org/wiki/jeter) via French from New Orleans into [AAVE](https://en.wikipedia.org/wiki/African_American_Vernacular_English) *or* via ["iettare"](https://en.wiktionary.org/wiki/iettare#Etymology) through some unknown-to-me route. But our etymology goes only back to 2014 (or 2008 if we count the [Urban Dictionary entry](https://www.urbandictionary.com/define.php?term=yeet%C2%A0yeet) as related), and none of the originators are from New Orleans as far as I can tell, so I get to use the word.
 [^flop]: Here again the etymology only goes back to Middle English, and ends there. Alternatively I could use ["botch"](https://en.wiktionary.org/wiki/botch).
@@ -163,9 +165,10 @@ Conjugating & combining allowed words was permitted.
 [^embryonic]: Unclear or from Hebrew ["עֻבָּר"](https://en.wiktionary.org/wiki/%D7%A2%D7%91%D7%A8#Hebrew), I'll assume unclear from Greek, quoth Wiktionary: "None of them are particularly convincing."
 [^ping]: I'll assume it's onomatopoetic. If you disagree, imagine I'd re-used "grok" here.
 [^chutzpah]: Previously ["ease"](https://en.wiktionary.org/wiki/ease#Etymology_1) which I thought was disputed (Wiktionary says it's from Old French ["eise"](https://en.wiktionary.org/wiki/eise#Old_French)/["aise"](https://en.wiktionary.org/wiki/aise#Old_French), "of uncertain and obscure origin"). But it just links too easily (pun intended) to other well-attested words. Like, we may not be able to trace it back to PIE but this is like the most Germanic-looking word I've ever seen, and I'm not taking the risk for a *maybe pre-IE* word.
-[^boogie]: In the sense of "sell", "distribute", "party with". I originally had "list" here, which is a big no-no<!--TODO: establish?-->.
+[^binge]: This one looks quite uncertain via wiktionary, so I'll take it. Previously "boogie" but that's very clearly "*bew-"<!--TODO: link-->.
 [^um]: I'd guess this one can be counted as "onomatopoetic", and it's paralinguistic. I'm not actually sure I remember what non-English speakers use as a pause-marker.
 [^sigma]: It's not (as I also suspected) from Phoenician but instead onomatopoetic from ["σίζω"](https://en.wiktionary.org/wiki/%CF%83%CE%AF%CE%B6%CF%89#Ancient_Greek) for "to hiss".
+[^mogul]: Many good options here. ["boss"](https://en.wiktionary.org/wiki/boss), which is of uncertain origin (though not quite uncertain *enough*, with "*bʰā-", "*bʰāt-"<!--TODO: links-->) and would fit the Khan's try-hard personality; ["kahuna"](https://en.wiktionary.org/wiki/kahuna) which sounds pretty cool (a bit like "big kahuna"), "honcho" from Japonic. Ultimately, if in doubt, introduce another language family, which I hereby do.
 [^cottage]: Wiktionary says it's from Proto-Germanic ["*kutą"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/kut%C4%85) and speculates it's possibly borrowed from Uralic, e.g. from Proto-Uralic ["*kota"](https://en.wiktionary.org/wiki/Reconstruction:Proto-Uralic/kota), similar to Finnish ["kota"](https://en.wiktionary.org/wiki/kota#Finnish). I can't think of any other similar-sounding Germanic words, and if I can't think of anthing in 40 seconds all etymologists of the world probably couldn't either.
 [^ghetto]: A bit tricky with the ["borgo"](https://en.wiktionary.org/wiki/borgo#Italian) source. Alternatively I could take ["favela"](https://en.wiktionary.org/wiki/favela#Etymology_6) through the substrate origin from ["faba"](https://en.wiktionary.org/wiki/faba#Etymology_5).
 
@@ -186,8 +189,8 @@ obviously traceable to me. Thanks to mainly Claude 4.5 Sonnet & Claude
 The resulting source languages & language families:
 
 1. Uncertain:
-	1. Recent: "OK" (1839), "punk" (1678), "dog" (14th to 16th century), "clock" (1370), "fake" (1775), <!--"ogle" (17th century),--> "flummoxed" (1837), "zig-zag" (1712), "yank" (1822), "ouch" (1838), "goon" (1580), "tab" (1607), "shenanigans" (1850s), "squeeze" (1600), "nerd" (1951), "Chad" (7th century), "ditzily" (1800s), "gibberish" (mid 16th century)
-	2. Older: "calm", "try", "beg", "rubbish", "stubborn", "rattle", "twitch", "hassle", "racket", "fun", "bother", "crash", "hustle", "nasty", "scratch", "cop", "flimsy", "daddy", "yap", "macabre", "flop", "wicked", "skulduggery", "fuck", "marry", "silver", "gizmo", "ruffle", "capoeira", "goofy", "bloke", "bounce", <!--"ease",--> "bastard", "squint", "fit", "sulfur", "shouting", "scram", "tape", "ping", "pink", "nape", "itch"
+	1. Recent: "OK" (1839), "punk" (1678), "dog" (14th to 16th century), "clock" (1370), "fake" (1775), "flummoxed" (1837), "zig-zag" (1712), "yank" (1822), "ouch" (1838), "goon" (1580), "tab" (1607), "shenanigans" (1850s), "squeeze" (1600), "nerd" (1951), "ditzily" (1800s), "gibberish" (mid 16th century), "moola" (1920s)
+	2. Older: "calm", "try", "beg", "rubbish", "stubborn", "rattle", "twitch", "hassle", "racket", "fun", "bother", "crash", "hustle", "nasty", "scratch", "cop", "flimsy", "daddy", "yap", "macabre", "flop", "wicked", "skulduggery", "fuck", "marry", "silver", "gizmo", "ruffle", "capoeira", "goofy", "bloke", "bounce", "bastard", "squint", "fit", "sulfur", "shouting", "scram", "tape", "ping", "pink", "nape", "itch", "maroon", "dodge", "bag", "binge"
 	3. From Greek: "sandal", "sphere", "embryonic"
 	4. From Italian: "ghetto"
 2. Turkic: "Khan", "saboteur", "turquoise", "horde"
@@ -195,21 +198,22 @@ The resulting source languages & language families:
 4. Afro-Asiatic:
 	1. Egyptian: "Ra", "barge", "migraine", "alabaster", "pyramid", "phoenix", "ivory"
 	2. Semitic: "copper", "emerald", "mop", "coffer", "sapphire", "mummy"
-		1. Arabic: "zenith", "traffic", "alcohol", "syrup", "jar", "assassin", "massage", "caliber", "average", "sultan", "admiral", "sofa", "saffron", "cotton", "scarlet", "elixir", "hash", "hazard", "soda", "Betelgeuse", "monsoon", "sheila", "asabiyyah", "algebra", "ramadan"
-		2. Hebrew: "amen", "hallelujah", "sabbatical", "satan", "Yahweh", "chutzpah"
+		1. Arabic: "zenith", "traffic", "alcohol", "syrup", "jar", "assassin", "massage", "average", "sultan", "admiral", "sofa", "saffron", "cotton", "hash", "hazard", "soda", "Betelgeuse", "monsoon", "sheila", "asabiyyah", "algebra", "ramadan", "inshallah"
+		2. Hebrew: "amen", "hallelujah", "sabbatical", "satan", "Yahweh", "chutzpah", "uzi"
+		3. Akkadian: "shekel"
 5. Tyrsenian:
 	1. Etruscan: "satellite", "person", "mundane"
 6. Uralic: "cottage"
 	1. Finnic: "sauna"
 	2. Hungarian: "coach"
 7. Dravidian: "bungalow", "candy"
-	1. Tamil: "ginger", "cash", "curry"
+	1. Tamil: "ginger", "curry"
 8. Niger-Congo: "tote"
 	1. Atlantic-Congo
 		1. Bantu: "zombified"
 		1. Wolof: "hip", "dig it", "jive"
 9. Sino-Tibetan:
-	1. Chinese: "tea", "shōgun", "satin", "chào", "baizuo", "kungfu", "wok"
+	1. Chinese: "tea", "satin", "chào", "baizuo", "kungfu", "wok"
 		1. Cantonese: "chop-chop", "kowtowed"
 		2. Hokkien: "ketchuped"
 	2. Tibetan: "dzogchen"
@@ -227,19 +231,23 @@ The resulting source languages & language families:
 	3. Samoan: "tattooed"
 	4. Tongan: "taboo"
 	5. Marshallese: "bikini"
-15. Yuman:
-	1. Quechan: "cocaine"
+	6. Māori: "mana"
+15. Quechuan:
+	1. Quecha: "cocaine"
 16. Tungusic:
 	1. Evenki: "shaman"
 17. Algic:
 	1. Massachusett: "squaw"
 18. Arawakan:
 	1. Taíno: "barbecue"
-19. Substrate:
+19. Na-Dene:
+	1. Tlingit: "hooch"
+20. Mongolic: "mogul"
+21. Substrate:
 	1. Pre-Greek: "narcotic", "cerise", "canopy", "absinthe", "narc", "petrified", "triumph"
 	2. Other: "myth", "barrack"
-20. Onomatopoetic: "pow pow", "rumble", "jitter", "pump", "chat", "sigma", "boom", "fanfare", "um"
-21. De novo: "slum", "grok" (1961), "bling", "cheugy" (2013), "yeet" (2008)
+22. Onomatopoetic: "pow pow", "rumble", "jitter", "pump", "chat", "sigma", "boom", "fanfare", "um"
+23. De novo: "slum", "grok" (1961), "bling", "cheugy" (2013), "yeet" (2008)
 
 </details>
 

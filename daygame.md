@@ -150,238 +150,9 @@ a beginner/intermediate/advanced daygamer.
 
 The numbers for the approach-to-lay ratios were 1 in 100 for beginners,
 1 in 50 for intermediate daygamers and 1 in 30 for experts.
-### Empirical Data for Ratios
 
-Fortunately, some daygamers are often very diligent in keeping track
-records of their ratios and even publish them.
-
-Here, I collect cumulative date and lay ratios from several blogs. I
-don't count idates as dates, because I'm not sure whether daygamers
-usually pay for them or not.
-
-Note that these numbers are just stats some guys wrote on the internet,
-usual qualifiers about the accuracy of these values apply.
-
-#### Roy Walker
-
-I am also not sure whether at some points "dates" was all dates combined,
-and later was split into "first date", "second date" etc. For simplicity I
-assume that in the beginning, "dates" simply referred to "first date". It
-still seems to be coherent.
-
-[Roy Walker](https://roywalkerdaygame.wordpress.com/):
-
-* [Before 2016](https://roywalkerdaygame.wordpress.com/2016/08/07/the-journey-two-years-in/)
-* [2016](https://roywalkerdaygame.wordpress.com/2017/01/02/2016-the-year-of-1000-sets/)
-	* [March](https://roywalkerdaygame.wordpress.com/2016/04/02/march-review/)
-	* [April](https://roywalkerdaygame.wordpress.com/2016/05/02/april-review/)
-	* [May](https://roywalkerdaygame.wordpress.com/2016/06/02/may-review/)
-	* [June](https://roywalkerdaygame.wordpress.com/2016/07/03/june-review/)
-	* [September](https://roywalkerdaygame.wordpress.com/2016/10/01/herpescelling/)
-	* [November](https://roywalkerdaygame.wordpress.com/2016/12/02/nonotchvember/)
-* [2017](https://roywalkerdaygame.wordpress.com/2018/01/06/2017-the-year-of-ups-and-downs/)
-	* [January](https://roywalkerdaygame.wordpress.com/2017/02/04/keep-er-lit/)
-	* [February](https://roywalkerdaygame.wordpress.com/2017/02/27/enjoy-the-process/)
-	* [March](https://roywalkerdaygame.wordpress.com/2017/04/09/is-daygame-getting-harder-in-london/)
-	* [April](https://roywalkerdaygame.wordpress.com/2017/05/15/update-a-month-on-the-road/) (?)
-	* [July-September](https://roywalkerdaygame.wordpress.com/2017/10/09/game-over/)
-* [2018](https://roywalkerdaygame.wordpress.com/2019/01/09/2018-a-year-of-change/)
-* [4000 sets](http://nitter.poast.org/RoyWalkerPUA/status/1183757732551282690)
-* [2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
-	* [January](https://roywalkerdaygame.wordpress.com/2019/02/19/ketchup-in-glass-bottles/)
-
-Lay ratios:
-
-	rwlay::[[511 5][901 10][977 10][1060 11][1143 13][1216 14][1380 16][1448 18][1557 19][1990 27][2063 27][2130 27][2230 27][2373 31][2540 35][2876 44][3442 62][3567 63][3991 83][4092 84]]
-	rwlayrat::{(*x),%/|x}'rwlay
-
-Date ratios:
-
-	rwdate::[[511 19][901 38][977 38][1060 40][1143 46][1216 48][1380 58][1448 63][1557 64][1990 81][2063 81][2130 84][2230 85][2373 91][2540 97][2876 126][3442 165][3567 170][3991 200][4092 202]]
-	rwdaterat::{(*x),%/|x}'rwdate
-
-#### Seven
-
-[Seven](https://sevendaygame.wordpress.com/) (he says that "I started
-my daygame journey back in 2014", so there is information missing):
-
-* [2016](https://sevendaygame.wordpress.com/2017/01/21/dec-2016-report-2016-review-and-kicking-off-2017/) (July to December)
-	* [July](https://sevendaygame.wordpress.com/2016/10/03/a-year-of-daygame-in-tallinn-estonia-aug-2015-to-aug-216/) (?)
-	* [August](https://sevendaygame.wordpress.com/2016/09/08/august-2016-daygame-stats/)
-	* [September](https://sevendaygame.wordpress.com/2016/10/12/september-2016-daygame-report/)
-	* [October](https://sevendaygame.wordpress.com/2016/11/06/october-2016-daygame-report/)
-	* [November](https://sevendaygame.wordpress.com/2016/12/12/november-2016-daygame-report/)
-* [2017](https://sevendaygame.wordpress.com/2018/01/15/2017-review-a-year-in-st-petersburg/)
-	* [January](https://sevendaygame.wordpress.com/2017/02/15/january-2017-review-end-of-eurojaunt-and-new-life-in-st-petersburg/)
-	* [February](https://sevendaygame.wordpress.com/2017/03/13/february-2017-review-need-to-go-back-to-basic-stacking/)
-	* [March](https://sevendaygame.wordpress.com/2017/04/02/march-2017-review-no-lay-month/)
-	* [April](https://sevendaygame.wordpress.com/2017/05/10/april-2017-review-pretty-standard-month/)
-	* [May](https://sevendaygame.wordpress.com/2017/06/13/may-2017-review-feeling-like-a-number-collector/)
-	* [June](https://sevendaygame.wordpress.com/2017/07/17/june-2017-review-another-no-lay-month/)
-	* [July](https://sevendaygame.wordpress.com/2017/08/07/july-2017-review-best-month-this-year-so-far/)
-	* [August](https://sevendaygame.wordpress.com/2017/09/04/august-2017-review-quiet-in-term-of-game/)
-* [2018](https://sevendaygame.wordpress.com/2019/01/20/2018-review-well/)
-
-Lay ratios:
-
-	slay::[[38 3][176 4][238 5][318 8][344 9][367 11][434 12][478 13][543 13][588 14][663 15][691 15][752 17][774 18][853 20][942 20][1087 24]]
-	slayrat::{(*x),%/|x}'slay
-
-Date ratios:
-
-	sdate::[[38 8][174 11][236 14][318 21][344 23][367 26][434 27][478 27][543 32][588 33][663 36][691 41][752 44][774 47][853 53][942 54][1087 76]]
-	sdaterat::{(*x),%/|x}'sdate
-
-His numbers are quite high, and I'm not really sure why—perhaps a
-combination of only taking numbers from somebody experienced, combined
-with the fact that he does daygame in russia, which is supposedly easier
-than London, where most of the others publishing data do daygame.
-
-<!--Add:
-https://sevendaygame.wordpress.com/2020/06/28/2019-review-it-was-good/ -->
-
-#### Mr. White
-
-[Mr. White](https://mrwhitedaygame.wordpress.com/) didn't publish
-statistics from the beginning (this data is from his 8th & 9th year of
-doing daygame), this information is therefore unfortunately incomplete:
-
-* [2018](https://mrwhitedaygame.wordpress.com/2019/01/02/2018-daygame-results-stats-and-overview/)
-* [2019](https://mrwhitedaygame.wordpress.com/2020/01/02/2019-daygame-results-stats-and-overview/)
-
-Lay ratios:
-
-	mwlay::[[700 13][1212 25]]
-	mwlayrat::{(*x),%/|x}'mwlay
-
-Date ratios:
-
-	mwdate::[[700 30][1212 68]]
-	mwdaterat::{(*x),%/|x}'mwdate
-
-#### Thomas Crown
-
-[Thomas Crown](https://thomascrownpua.wordpress.com):
-
-* [2016/2017](https://thomascrownpua.wordpress.com/2016-17/)
-* [2018](https://thomascrownpua.wordpress.com/2018-statistics/)
-* [2019](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/)
-
-The 2019 review unfortunately doesn't contain the number of approaches, but he writes:
-
-> I got 11 lays this year and my approach to lay ratio was around 1:53
-> with roughly the same age and quality: an improvement on last year’s
-> ratio.
-
-*— [Thomas Crown](https://thomascrownpua.wordpress.com), [“2019 In Review”](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/), 2020*
-
-From this one can deduce that the number of approaches was `$11*53=583$`,
-or at least a number somewhere near that.
-
-Lay ratios:
-
-	tclay::[[208 2][1638 20][2453 34][3036 45]]
-	tclayrat::{(*x),%/|x}'tclay
-
-Date ratios (he talks about dates, but it's not clear what the number
-of first dates is. I'll still collect the data, but take with a grain
-of salt) (also, his 2019 review doesn't say anything about the number
-of dates, so that is omitted):
-
-	tcdate::[[208 12][1638 79][2453 116]]
-	tcdaterat::{(*x),%/|x}'tcdate
-
-#### Krauser
-
-[Krauser](https://krauserpua.com/) (who started sometime in 2009,
-I believe, so these numbers are after several years of training):
-
-* [2013](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/)
-* [2014](https://krauserpua.com/2015/01/03/my-2014-daygame-stats/)
-* [2015](https://krauserpua.com/2016/01/02/my-2015-daygame-stats/)
-
-> Most of these numbers rely upon estimates because I didn’t keep notes.
-
-*— [Nick Krauser](https://krauserpua.com/), [“My 2013 Daygame Stats”](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/), 2014*
-
-Lay ratios:
-
-	klay::[[1000 27][1480 50][2150 65]]
-	klayrat::{(*x),%/|x}'klay
-
-Date ratios:
-
-	kdate::[[1000 60][1480 110][2150 160]]
-	kdaterat::{(*x),%/|x}'kdate
-
-#### Wolfe Daygame
-
-* [First 445 approaches](https://wolfedaygame.wordpress.com/2021/09/30/the-first-three-months/index.html)
-* [First 593 approaches](https://wolfedaygame.wordpress.com/2021/11/28/600-not-out/index.html)
-* [First 1000 approaches](https://wolfedaygame.wordpress.com/2022/06/05/1000-sets-of-hell/index.html)
-* [2022](https://wolfedaygame.wordpress.com/2022/12/20/daygame-review-2022/index.html)
-	* [January](https://wolfedaygame.wordpress.com/2022/02/01/january-review/index.html)
-	* [February](https://wolfedaygame.wordpress.com/2022/02/28/february-review/index.html)
-	* [March](https://wolfedaygame.wordpress.com/2022/04/04/march-review/index.html)
-	* [April](https://wolfedaygame.wordpress.com/2022/05/03/april-review-frustrating-progress/index.html)
-	* [May](https://wolfedaygame.wordpress.com/2022/06/05/may-review/index.html)
-	* [June](https://wolfedaygame.wordpress.com/2022/07/05/june-review-shit-approaches-weekends-with-girls-and-lessons-from-self-coaching/index.html)
-	* [July](https://wolfedaygame.wordpress.com/2022/08/02/july-review-much-ado-about-nothing/index.html)
-	* [August](https://wolfedaygame.wordpress.com/2022/08/31/august-review-sprezzatura-smv-and-greek-delights/index.html)
-	* [September](https://wolfedaygame.wordpress.com/2022/10/08/september-review-am-i-even-doing-daygame/index.html)
-	* [October](wolfedaygame.wordpress.com/2022/11/01/october-review-seven-weeks-to-go/index.html)
-	* [November](https://wolfedaygame.wordpress.com/2022/12/10/november-review-biting-your-hand-off/index.html)
-	* [December](https://wolfedaygame.wordpress.com/2022/12/16/december-review-the-streets-are-yours-son/index.html)
-
-Lay ratios:
-
-	wlay::[[39 1][200 2][396 3][584 4][619 5][678 6][746 7][825 8][961 9][1086 9][1122 9][1174 10][1220 11][1267 11][1317 12][1322 12]]
-	wlayrat::{(+/(*+wlay)<x)%x}'1+!1000
-
-Since the data for the first 1000 approaches is complete, we can create
-a dense array of ratios over time.
-
-Date ratios:
-
-	wdate::[[445 11][593 12][700 14][783 15][858 19][925 23][1000 32][1086 32][1122 32][1174 35][1220 37][1267 37][1317 39][1322 39]]
-	wdaterat::{(*x),%/|x}'wdate
-
-<!--TODO: these three
-
-#### Runner
-
-(Seems offline :-/, and I haven't downloaded the site)
-
-[Runner](http://daygamenyc.com):
-
-* [First 2000 approaches](http://daygamenyc.com/2019/05/31/approaching-2000-approaches/)
-* [First 2 years](http://daygamenyc.com/2019/08/06/2-years-on-is-daygame-worth-it/)
-* [2019](http://daygamenyc.com/2020/01/01/im-now-an-intermediate-level-daygamer/)
-
-#### Tom Torero
-
-[Tom Torero](https://tomtorero.com/):
-
-* [2013](https://krauserpua.com/2014/01/02/guest-post-tom-toreros-2013-daygame-stats/)
-
-#### Clarky
-
-* [2023](https://scalingthemountain6.wordpress.com/2023/12/31/2023-my-first-year-in-game/)
-
-### D.J. Caird
-
-[Blog](https://djcaird.wordpress.com/).
-
-And this one:
-
-https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_statistics_and/
-
-https://gringodaygame.wordpress.com/2024/12/16/2000-and-still-counting/
-
-https://thefurnacesofdaygame.wordpress.com/
-
-https://coffeedaygame.wordpress.com/2025/06/16/my-2025-daygame-stats-climbing-mount-improbable/
--->
+The empirical data from daygamers who published their stats is collected
+in [Appendix E](#Appendix_E_Empirical_Data_for_Ratios).
 
 ### Estimating Parameters
 
@@ -1160,3 +931,311 @@ perspective:
 	1. This could be investigated in the same way as the question above.
 
 <!--TODO: Is this something?-->
+
+Appendix E: Empirical Data for Ratios
+--------------------------------------
+
+<!--TODO: search the Wayback Machine for dead daygame blogs (blogrolls of
+Seven/Roy Walker/Krauser link to many) and for reddit stat posts; live
+web search is mostly exhausted-->
+
+Fortunately, some daygamers are often very diligent in keeping track
+records of their ratios and even publish them.
+
+Here, I collect cumulative date and lay ratios from several blogs. I
+don't count idates as dates, because I'm not sure whether daygamers
+usually pay for them or not.
+
+Note that these numbers are just stats some guys wrote on the internet,
+usual qualifiers about the accuracy of these values apply.
+
+### Roy Walker
+
+<!--Claude: verification (Haiku agent, 2026-11-21): confirmed, starts
+from the beginning (July 2014 bootcamp, 8 approaches on day 1). Only
+the 511 and 1380 anchors were checked against posts; the monthly rows
+in between weren't reconstructed. The source is internally inconsistent:
+the two-years-in post's 780 + 511 ≠ 1380 approaches, and its dates
+19+38=57 vs. stated 58. The 1990 row conflicts with "now at 1905" at
+the end of 2016. Extra: 242 numbers at 1380 approaches. Dates seem to
+be first dates.-->
+
+I am also not sure whether at some points "dates" was all dates combined,
+and later was split into "first date", "second date" etc. For simplicity I
+assume that in the beginning, "dates" simply referred to "first date". It
+still seems to be coherent.
+
+[Roy Walker](https://roywalkerdaygame.wordpress.com/):
+
+* [Before 2016](https://roywalkerdaygame.wordpress.com/2016/08/07/the-journey-two-years-in/)
+* [2016](https://roywalkerdaygame.wordpress.com/2017/01/02/2016-the-year-of-1000-sets/)
+	* [March](https://roywalkerdaygame.wordpress.com/2016/04/02/march-review/)
+	* [April](https://roywalkerdaygame.wordpress.com/2016/05/02/april-review/)
+	* [May](https://roywalkerdaygame.wordpress.com/2016/06/02/may-review/)
+	* [June](https://roywalkerdaygame.wordpress.com/2016/07/03/june-review/)
+	* [September](https://roywalkerdaygame.wordpress.com/2016/10/01/herpescelling/)
+	* [November](https://roywalkerdaygame.wordpress.com/2016/12/02/nonotchvember/)
+* [2017](https://roywalkerdaygame.wordpress.com/2018/01/06/2017-the-year-of-ups-and-downs/)
+	* [January](https://roywalkerdaygame.wordpress.com/2017/02/04/keep-er-lit/)
+	* [February](https://roywalkerdaygame.wordpress.com/2017/02/27/enjoy-the-process/)
+	* [March](https://roywalkerdaygame.wordpress.com/2017/04/09/is-daygame-getting-harder-in-london/)
+	* [April](https://roywalkerdaygame.wordpress.com/2017/05/15/update-a-month-on-the-road/) (?)
+	* [July-September](https://roywalkerdaygame.wordpress.com/2017/10/09/game-over/)
+* [2018](https://roywalkerdaygame.wordpress.com/2019/01/09/2018-a-year-of-change/)
+* [4000 sets](http://nitter.poast.org/RoyWalkerPUA/status/1183757732551282690)
+* [2019](https://roywalkerdaygame.wordpress.com/2020/01/07/2019-the-year-of-meh/)
+	* [January](https://roywalkerdaygame.wordpress.com/2019/02/19/ketchup-in-glass-bottles/)
+
+Lay ratios:
+
+	rwlay::[[511 5][901 10][977 10][1060 11][1143 13][1216 14][1380 16][1448 18][1557 19][1990 27][2063 27][2130 27][2230 27][2373 31][2540 35][2876 44][3442 62][3567 63][3991 83][4092 84]]
+	rwlayrat::{(*x),%/|x}'rwlay
+
+Date ratios:
+
+	rwdate::[[511 19][901 38][977 38][1060 40][1143 46][1216 48][1380 58][1448 63][1557 64][1990 81][2063 81][2130 84][2230 85][2373 91][2540 97][2876 126][3442 165][3567 170][3991 200][4092 202]]
+	rwdaterat::{(*x),%/|x}'rwdate
+
+### Seven
+
+<!--Claude: verification (Haiku agent, 2026-11-21): corrected, does NOT
+start from the beginning: "I started to track my Daygame stats only
+since July this year" (2016). Suggested fixes: lay row 176 → 174 (matches
+the August total 38+136); first date 8 → 3 ("3 of 8 girls went out on
+a date", the 8 may be contacts; worth checking yourself). Rows after
+238 approaches weren't checked. "Dates" seems to mean all dates, not
+just first dates.-->
+
+[Seven](https://sevendaygame.wordpress.com/) (he says that "I started
+my daygame journey back in 2014", so there is information missing):
+
+* [2016](https://sevendaygame.wordpress.com/2017/01/21/dec-2016-report-2016-review-and-kicking-off-2017/) (July to December)
+	* [July](https://sevendaygame.wordpress.com/2016/10/03/a-year-of-daygame-in-tallinn-estonia-aug-2015-to-aug-216/) (?)
+	* [August](https://sevendaygame.wordpress.com/2016/09/08/august-2016-daygame-stats/)
+	* [September](https://sevendaygame.wordpress.com/2016/10/12/september-2016-daygame-report/)
+	* [October](https://sevendaygame.wordpress.com/2016/11/06/october-2016-daygame-report/)
+	* [November](https://sevendaygame.wordpress.com/2016/12/12/november-2016-daygame-report/)
+* [2017](https://sevendaygame.wordpress.com/2018/01/15/2017-review-a-year-in-st-petersburg/)
+	* [January](https://sevendaygame.wordpress.com/2017/02/15/january-2017-review-end-of-eurojaunt-and-new-life-in-st-petersburg/)
+	* [February](https://sevendaygame.wordpress.com/2017/03/13/february-2017-review-need-to-go-back-to-basic-stacking/)
+	* [March](https://sevendaygame.wordpress.com/2017/04/02/march-2017-review-no-lay-month/)
+	* [April](https://sevendaygame.wordpress.com/2017/05/10/april-2017-review-pretty-standard-month/)
+	* [May](https://sevendaygame.wordpress.com/2017/06/13/may-2017-review-feeling-like-a-number-collector/)
+	* [June](https://sevendaygame.wordpress.com/2017/07/17/june-2017-review-another-no-lay-month/)
+	* [July](https://sevendaygame.wordpress.com/2017/08/07/july-2017-review-best-month-this-year-so-far/)
+	* [August](https://sevendaygame.wordpress.com/2017/09/04/august-2017-review-quiet-in-term-of-game/)
+* [2018](https://sevendaygame.wordpress.com/2019/01/20/2018-review-well/)
+
+Lay ratios:
+
+	slay::[[38 3][176 4][238 5][318 8][344 9][367 11][434 12][478 13][543 13][588 14][663 15][691 15][752 17][774 18][853 20][942 20][1087 24]]
+	slayrat::{(*x),%/|x}'slay
+
+Date ratios:
+
+	sdate::[[38 8][174 11][236 14][318 21][344 23][367 26][434 27][478 27][543 32][588 33][663 36][691 41][752 44][774 47][853 53][942 54][1087 76]]
+	sdaterat::{(*x),%/|x}'sdate
+
+His numbers are quite high, and I'm not really sure why—perhaps a
+combination of only taking numbers from somebody experienced, combined
+with the fact that he does daygame in russia, which is supposedly easier
+than London, where most of the others publishing data do daygame.
+
+<!--Add:
+https://sevendaygame.wordpress.com/2020/06/28/2019-review-it-was-good/ -->
+
+### Mr. White
+
+<!--Claude: verification (Haiku agent, 2026-11-21): unverifiable, both
+posts are now private (login wall), and the Wayback Machine refused the
+agent. Values unchanged.-->
+
+[Mr. White](https://mrwhitedaygame.wordpress.com/) didn't publish
+statistics from the beginning (this data is from his 8th & 9th year of
+doing daygame), this information is therefore unfortunately incomplete:
+
+* [2018](https://mrwhitedaygame.wordpress.com/2019/01/02/2018-daygame-results-stats-and-overview/)
+* [2019](https://mrwhitedaygame.wordpress.com/2020/01/02/2019-daygame-results-stats-and-overview/)
+
+Lay ratios:
+
+	mwlay::[[700 13][1212 25]]
+	mwlayrat::{(*x),%/|x}'mwlay
+
+Date ratios:
+
+	mwdate::[[700 30][1212 68]]
+	mwdaterat::{(*x),%/|x}'mwdate
+
+### Thomas Crown
+
+<!--Claude: verification (Haiku agent, 2026-11-21): corrected; whether
+it starts from the beginning is unknown. The 2019 row should be
+3036 → 3025 approaches (the post corrected its ratio from 1:53 to 1:52;
+11·52=572). The 2016–2018 rows check out. Extra: numbers 54/454/675 at
+the corresponding rows. The blog moved to thomascrownpua.com.-->
+
+[Thomas Crown](https://thomascrownpua.wordpress.com):
+
+* [2016/2017](https://thomascrownpua.wordpress.com/2016-17/)
+* [2018](https://thomascrownpua.wordpress.com/2018-statistics/)
+* [2019](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/)
+
+The 2019 review unfortunately doesn't contain the number of approaches, but he writes:
+
+> I got 11 lays this year and my approach to lay ratio was around 1:53
+> with roughly the same age and quality: an improvement on last year’s
+> ratio.
+
+*— [Thomas Crown](https://thomascrownpua.wordpress.com), [“2019 In Review”](https://thomascrownpua.wordpress.com/2020/01/03/2019-in-review/), 2020*
+
+From this one can deduce that the number of approaches was `$11*53=583$`,
+or at least a number somewhere near that.
+
+Lay ratios:
+
+	tclay::[[208 2][1638 20][2453 34][3036 45]]
+	tclayrat::{(*x),%/|x}'tclay
+
+Date ratios (he talks about dates, but it's not clear what the number
+of first dates is. I'll still collect the data, but take with a grain
+of salt) (also, his 2019 review doesn't say anything about the number
+of dates, so that is omitted):
+
+	tcdate::[[208 12][1638 79][2453 116]]
+	tcdaterat::{(*x),%/|x}'tcdate
+
+### Krauser
+
+<!--Claude: verification (Haiku agent, 2026-11-21): confirmed, does not
+start from the beginning (started ~2009, data begins with 2013 stats).
+The cumulative rows sum correctly from the yearly posts (opens
+1000/1480/2150, lays 27/50/65, dates 60/110/160 as new-girl counts);
+the 2013 and 2014 figures are his own estimates. Extra: idates 15 at
+1000 and 30 at 1480 approaches, plus numbers.-->
+
+[Krauser](https://krauserpua.com/) (who started sometime in 2009,
+I believe, so these numbers are after several years of training):
+
+* [2013](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/)
+* [2014](https://krauserpua.com/2015/01/03/my-2014-daygame-stats/)
+* [2015](https://krauserpua.com/2016/01/02/my-2015-daygame-stats/)
+
+> Most of these numbers rely upon estimates because I didn’t keep notes.
+
+*— [Nick Krauser](https://krauserpua.com/), [“My 2013 Daygame Stats”](https://krauserpua.com/2014/01/01/my-2013-daygame-stats/), 2014*
+
+Lay ratios:
+
+	klay::[[1000 27][1480 50][2150 65]]
+	klayrat::{(*x),%/|x}'klay
+
+Date ratios:
+
+	kdate::[[1000 60][1480 110][2150 160]]
+	kdaterat::{(*x),%/|x}'kdate
+
+### Wolfe Daygame
+
+<!--Claude: verification (Haiku agent, 2026-11-21): unverifiable, the
+blog returns 410 Gone on every page; a Wayback Machine candidate.
+Starts from the beginning per the "First 445/593" post titles.-->
+
+* [First 445 approaches](https://wolfedaygame.wordpress.com/2021/09/30/the-first-three-months/index.html)
+* [First 593 approaches](https://wolfedaygame.wordpress.com/2021/11/28/600-not-out/index.html)
+* [First 1000 approaches](https://wolfedaygame.wordpress.com/2022/06/05/1000-sets-of-hell/index.html)
+* [2022](https://wolfedaygame.wordpress.com/2022/12/20/daygame-review-2022/index.html)
+	* [January](https://wolfedaygame.wordpress.com/2022/02/01/january-review/index.html)
+	* [February](https://wolfedaygame.wordpress.com/2022/02/28/february-review/index.html)
+	* [March](https://wolfedaygame.wordpress.com/2022/04/04/march-review/index.html)
+	* [April](https://wolfedaygame.wordpress.com/2022/05/03/april-review-frustrating-progress/index.html)
+	* [May](https://wolfedaygame.wordpress.com/2022/06/05/may-review/index.html)
+	* [June](https://wolfedaygame.wordpress.com/2022/07/05/june-review-shit-approaches-weekends-with-girls-and-lessons-from-self-coaching/index.html)
+	* [July](https://wolfedaygame.wordpress.com/2022/08/02/july-review-much-ado-about-nothing/index.html)
+	* [August](https://wolfedaygame.wordpress.com/2022/08/31/august-review-sprezzatura-smv-and-greek-delights/index.html)
+	* [September](https://wolfedaygame.wordpress.com/2022/10/08/september-review-am-i-even-doing-daygame/index.html)
+	* [October](wolfedaygame.wordpress.com/2022/11/01/october-review-seven-weeks-to-go/index.html)
+	* [November](https://wolfedaygame.wordpress.com/2022/12/10/november-review-biting-your-hand-off/index.html)
+	* [December](https://wolfedaygame.wordpress.com/2022/12/16/december-review-the-streets-are-yours-son/index.html)
+
+Lay ratios:
+
+	wlay::[[39 1][200 2][396 3][584 4][619 5][678 6][746 7][825 8][961 9][1086 9][1122 9][1174 10][1220 11][1267 11][1317 12][1322 12]]
+	wlayrat::{(+/(*+wlay)<x)%x}'1+!1000
+
+Since the data for the first 1000 approaches is complete, we can create
+a dense array of ratios over time.
+
+Date ratios:
+
+	wdate::[[445 11][593 12][700 14][783 15][858 19][925 23][1000 32][1086 32][1122 32][1174 35][1220 37][1267 37][1317 39][1322 39]]
+	wdaterat::{(*x),%/|x}'wdate
+
+<!--TODO: these three
+
+### Runner
+
+(Seems offline :-/, and I haven't downloaded the site)
+
+[Runner](http://daygamenyc.com):
+
+* [First 2000 approaches](http://daygamenyc.com/2019/05/31/approaching-2000-approaches/)
+* [First 2 years](http://daygamenyc.com/2019/08/06/2-years-on-is-daygame-worth-it/)
+* [2019](http://daygamenyc.com/2020/01/01/im-now-an-intermediate-level-daygamer/)
+
+### Tom Torero
+
+[Tom Torero](https://tomtorero.com/):
+
+* [2013](https://krauserpua.com/2014/01/02/guest-post-tom-toreros-2013-daygame-stats/)
+
+### Clarky
+
+* [2023](https://scalingthemountain6.wordpress.com/2023/12/31/2023-my-first-year-in-game/)
+
+### D.J. Caird
+
+[Blog](https://djcaird.wordpress.com/).
+
+And this one:
+
+https://old.reddit.com/r/seduction/comments/9ock2a/my_daygame_experience_so_far_statistics_and/
+
+https://gringodaygame.wordpress.com/2024/12/16/2000-and-still-counting/
+
+https://thefurnacesofdaygame.wordpress.com/
+
+https://coffeedaygame.wordpress.com/2025/06/16/my-2025-daygame-stats-climbing-mount-improbable/
+-->
+
+<!--Claude: verification of the datasets that are only in
+code/daygame/data.jl (Haiku agents, 2026-11-21):
+
+* Gringo Daygame: confirmed, starts from the beginning ("8 years on
+  from my 1st ever set"). The 2000 anchor matches (31 lays, 152 first
+  dates). Extra anchor at 1000 approaches: 14 lays, 56 first dates,
+  199 contacts. Rows in between weren't checked.
+* Coffee Daygame: the 2025 stats post covers a single June–June year
+  (230 approaches, 4 lays, 33 dates including 19 idates, i.e. 14 first
+  dates) and is internally inconsistent (4 vs. 16 lays in one passage).
+  The 1170/1400/1415 rows in data.jl have no source found yet. The
+  "Learning Stage" post (coffeedaygame.blog/2025/06/26/learning-daygame/)
+  has weeks 6–10: approaches 280→506, numbers 8→57, dates 4→10, idates
+  1→2, lays 0→1.
+* D.J. Caird: unverifiable. The reddit source was unreachable, and
+  djcaird.wordpress.com has no cumulative stats. The Furnaces blog is
+  probably the same author, but that's unconfirmed.
+* Smirking Soldier, Barry Burgle, Brown Daygame, Viking Flaneur, Mr. B,
+  Pink Panther, Garret Forward, Jax, theplayerway: no source found.
+  Provenance unknown (added by an earlier Claude session?).
+* New, weak: Red Archive "Days of Game", trip-level only (doesn't
+  start from the beginning): Tokyo 2017 386 approaches → ~20 dates,
+  8 idates, 3 lays; Tokyo 2015 80 → 4 dates, 1 lay.
+* Excluded: @BroodingSea (2019 tweet, 96 approaches → 8 lays,
+  self-contradictory about dates).
+* Cost/time data (cost per date, hours per date, approaches per hour,
+  flake rates): basically nowhere in public sources.
+
+Agent output (Julia NamedTuples, with URLs, from_start, evidence and
+the cost/time fields): code/daygame/agents_verify_existing.jl,
+agents_new_blogs.jl, agents_new_forums.jl.-->

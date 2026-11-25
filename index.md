@@ -132,6 +132,7 @@ Von dem Sichgeistigen des Lebens Jahre zählen.
 
 * [Become My Meditation Teacher](./become.html)
 
+<!--
 ##### Pick-Up
 
 > The American girl is well acquainted with her body’s seductive
@@ -151,6 +152,7 @@ one moment or forget it!
 * [Using A Multi-Armed Bandit to Select Daygame Locations](./bandit.html)
 * [Notes on Pickup](./notes_on_pickup.html)
 * [Pickup Reports](./pickup_reports.html)
+-->
 
 #### Existential Risk
 

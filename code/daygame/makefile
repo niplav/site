@@ -15,7 +15,7 @@ SCALING_IMG=scaling_fertility.png scaling_value_m.png \
 
 all: $(IMG)
 
-$(PLOTS_IMG) &: plots.jl
+$(PLOTS_IMG) &: plots.jl data.jl
 	$(JULIA) plots.jl
 
 $(SCALING_IMG) &: scaling.jl

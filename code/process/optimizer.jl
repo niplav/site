@@ -15,6 +15,7 @@ using CSV, DataFrames, Dates, JSON3, Statistics
 using AbstractGPs, KernelFunctions, LinearAlgebra
 using Distributions: MvNormal
 using JLD2
+using Optim
 
 include(joinpath(@__DIR__, "..", "load.jl"))
 
@@ -33,10 +34,9 @@ const MASTURBATIONS_FILE = joinpath(DATA_DIR, "masturbations.csv")
 const MOOD_VARIABLES = ["happy", "content", "relaxed", "horny"]
 const MENTAL_VARIABLES = ["productivity", "creativity", "sublen", "meaning"]
 const ALL_VARIABLES = vcat(MOOD_VARIABLES, MENTAL_VARIABLES)
-const MIN_SUPPLEMENT_COUNT = 10
 
-const MORNING_SUBSTANCES = ["caffeine", "creatine", "l-theanine", "nicotine", "omega3", "sugar", "vitaminb12", "vitamind3", "l-glycine", "magnesium"]
-const EVENING_SUBSTANCES = ["creatine", "magnesium", "melatonin", "l-glycine", "zinc", "l-theanine"]
+const MORNING_SUBSTANCES = ["caffeine", "l-theanine", "nicotine", "modafinil", "methylphenidate"]
+const EVENING_SUBSTANCES = ["melatonin", "l-glycine", "magnesium", "l-theanine"]
 
 const MORNING_CUTOFF_HOUR = 4
 const EVENING_CUTOFF_HOUR = 16
@@ -47,7 +47,8 @@ const MIN_TRAINING_DATE = Date("2022-07-06")  # Substance tracking start
 const MORNING_INTERVENTIONS = ["meditation", "lumenator", "masturbation"]
 const EVENING_INTERVENTIONS = ["meditation", "masturbation"]
 
-const EXCLUDED_SUBSTANCES = String[]
+# At most one of these per stack; each one (plus none) is a "head"
+const STIMULANTS = ["caffeine", "nicotine", "modafinil", "methylphenidate"]
 
 mkpath(STATE_DIR)
 
@@ -290,30 +291,24 @@ function build_training_data(substances_df, outcome_df, supplements, variable, p
 end
 
 # GP model
-function make_kernel(n_supplements, kernel_type="matern")
-	if kernel_type == "matern"
-		# Matérn 5/2 with ARD
-		length_scales = ones(n_supplements)
-		return Matern52Kernel() ∘ ARDTransform(length_scales)
-	elseif kernel_type == "poly2"
-		# Polynomial degree 2
-		return PolynomialKernel(; degree=2, c=1.0)
-	elseif kernel_type == "poly3"
-		# Polynomial degree 3
-		return PolynomialKernel(; degree=3, c=1.0)
-	else
+# θ = log.([signal variance, lengthscale, noise variance]), on standardised y
+function make_kernel(θ, kernel_type="matern")
+	σf², ℓ = exp(θ[1]), exp(θ[2])
+	base = kernel_type == "matern" ? Matern52Kernel() :
+		kernel_type == "poly2" ? PolynomialKernel(; degree=2, c=1.0) :
+		kernel_type == "poly3" ? PolynomialKernel(; degree=3, c=1.0) :
 		error("Unknown kernel type: $kernel_type")
-	end
+	return σf² * (base ∘ ScaleTransform(1 / ℓ))
 end
 
 function fit_gp(X, y, counts, kernel_type="matern")
-	n, d = size(X)
-	noise = 1.0 ./ counts
-	kernel = make_kernel(d, kernel_type)
-	f = GP(kernel)
-	fx = f(RowVecs(X), noise)
-	post = AbstractGPs.posterior(fx, y)
-	return post, fx
+	μy, σy = mean(y), std(y)
+	z = (y .- μy) ./ σy
+	build(θ) = GP(make_kernel(θ, kernel_type))(RowVecs(X), exp(θ[3]) ./ counts .+ 1e-6)
+	res = optimize(θ -> -logpdf(build(θ), z), [0.0, 0.0, 0.0], LBFGS())
+	θ = Optim.minimizer(res)
+	println("  hyperparameters: σf²=$(round(exp(θ[1]), digits=3)) ℓ=$(round(exp(θ[2]), digits=3)) σn²=$(round(exp(θ[3]), digits=3))")
+	return AbstractGPs.posterior(build(θ), z), (μy, σy)
 end
 
 # Thompson sampling
@@ -343,17 +338,26 @@ function thompson_sample(posterior, candidates)
 end
 
 function filter_candidates(candidates, supplements, excluded)
-	if isempty(excluded)
-		return candidates
-	end
-
+	stim_idx = [i for (i, s) in enumerate(supplements) if s ∈ STIMULANTS]
 	excluded_idx = [i for (i, s) in enumerate(supplements) if s ∈ excluded]
-	if isempty(excluded_idx)
-		return candidates
-	end
 
-	mask = vec(all(candidates[:, excluded_idx] .== 0, dims=2))
+	mask = vec(sum(candidates[:, stim_idx], dims=2) .<= 1) .&
+		vec(all(candidates[:, excluded_idx] .== 0, dims=2))
 	return candidates[mask, :]
+end
+
+function print_heads(sample, candidates, features, best_idx)
+	stim_idx = [i for (i, s) in enumerate(features) if s ∈ STIMULANTS]
+	isempty(stim_idx) && return
+	heads = vcat([("none", vec(sum(candidates[:, stim_idx], dims=2) .== 0))],
+		[(features[i], candidates[:, i] .== 1) for i in stim_idx])
+	for (name, mask) in heads
+		idx = findall(mask)
+		isempty(idx) && continue
+		j = idx[argmax(sample[idx])]
+		mark = j == best_idx ? "→" : " "
+		println("  $mark $(rpad(name, 16)) $(lpad(round(sample[j], digits=3), 7))  $(stack_label(features, candidates[j, :]))")
+	end
 end
 
 # Display
@@ -366,15 +370,15 @@ end
 state_path(variable, period) = joinpath(STATE_DIR, "gp_data_$(variable)_$(period).json")
 model_path(variable, period) = joinpath(STATE_DIR, "gp_model_$(variable)_$(period).jld2")
 
-function save_model(posterior, variable, period)
-	jldsave(model_path(variable, period); posterior=posterior)
+function save_model(posterior, scale, variable, period)
+	jldsave(model_path(variable, period); posterior=posterior, scale=scale)
 end
 
 function load_model(variable, period)
 	path = model_path(variable, period)
-	!isfile(path) && return nothing
+	!isfile(path) && return nothing, nothing
 	data = load(path)
-	return data["posterior"]
+	return data["posterior"], data["scale"]
 end
 
 function save_state(X, y, counts, dates, supplements, variable, period)
@@ -426,14 +430,8 @@ function cmd_init(variable, kernel_type="matern")
 
 		save_state(X, y, counts, dates, features, variable, period)
 
-		posterior, fx = fit_gp(X, y, counts, kernel_type)
-		save_model(posterior, variable, period)
-
-		candidates = all_stacks(length(features))
-		pred = posterior(RowVecs(candidates))
-		μ = mean(pred)
-
-		best_idx = argmax(μ)
+		posterior, scale = fit_gp(X, y, counts, kernel_type)
+		save_model(posterior, scale, variable, period)
 	end
 end
 
@@ -444,14 +442,12 @@ function cmd_recommend(variable; cached=false, excluded=String[], kernel_type="m
 	light_df = cached ? nothing : load_lumenator()
 	mast_df = cached ? nothing : load_masturbations()
 
-	results = Dict{String, String}()
-
 	for period in ["morning", "evening"]
 		supplements = period == "morning" ? MORNING_SUBSTANCES : EVENING_SUBSTANCES
 		interventions = period == "morning" ? MORNING_INTERVENTIONS : EVENING_INTERVENTIONS
 
 		if cached
-			posterior = load_model(variable, period)
+			posterior, scale = load_model(variable, period)
 			state = load_state(variable, period)
 			if isnothing(posterior) || isnothing(state)
 				println("ERROR: No cached $period model. Run without --cached first.")
@@ -461,9 +457,9 @@ function cmd_recommend(variable; cached=false, excluded=String[], kernel_type="m
 		else
 			X, y, counts, dates, features = build_training_data(substances_df, outcome_df, supplements, variable, period,
 			                                                     med_df, light_df, mast_df, interventions)
-			posterior, fx = fit_gp(X, y, counts, kernel_type)
+			posterior, scale = fit_gp(X, y, counts, kernel_type)
 			save_state(X, y, counts, dates, features, variable, period)
-			save_model(posterior, variable, period)
+			save_model(posterior, scale, variable, period)
 		end
 
 		candidates = all_stacks(length(features))
@@ -474,12 +470,11 @@ function cmd_recommend(variable; cached=false, excluded=String[], kernel_type="m
 			exit(1)
 		end
 
-		best_idx, _ = thompson_sample(posterior, candidates)
-		results[period] = stack_label(features, candidates[best_idx, :])
+		best_idx, sample = thompson_sample(posterior, candidates)
+		sample = sample .* scale[2] .+ scale[1]
+		println("$period: $(stack_label(features, candidates[best_idx, :]))")
+		print_heads(sample, candidates, features, best_idx)
 	end
-
-	println("morning: $(results["morning"])")
-	println("evening: $(results["evening"])")
 end
 
 function cmd_stats(variable, kernel_type="matern")
@@ -496,12 +491,12 @@ function cmd_stats(variable, kernel_type="matern")
 		                                                     med_df, light_df, mast_df, interventions)
 
 		println("\nFitting $period GP on $(size(X, 1)) observations (kernel: $kernel_type)...")
-		posterior, fx = fit_gp(X, y, counts, kernel_type)
+		posterior, (μy, σy) = fit_gp(X, y, counts, kernel_type)
 
 		candidates = all_stacks(length(features))
 		pred = posterior(RowVecs(candidates))
-		μ = mean(pred)
-		σ = std(pred)
+		μ = mean(pred) .* σy .+ μy
+		σ = sqrt.(var(pred)) .* σy
 
 		# Marginal effects
 		println("\n" * "="^72)
@@ -521,8 +516,9 @@ function cmd_stats(variable, kernel_type="matern")
 			println("  $(rpad(feat, 40)) $(lpad(round(with_mean, digits=4), 7)) $(lpad(round(without_mean, digits=4), 7)) $(lpad(round(effect, digits=4), 7))")
 		end
 
-		# Top 10 stacks
-		top10_idx = sortperm(μ, rev=true)[1:min(10, length(μ))]
+		# Top 10 feasible stacks (≤1 stimulant)
+		feasible = findall(i -> sum(candidates[i, j] for (j, f) in enumerate(features) if f ∈ STIMULANTS; init=0.0) <= 1, 1:size(candidates, 1))
+		top10_idx = feasible[sortperm(μ[feasible], rev=true)[1:min(10, length(feasible))]]
 
 		println("\n  $(titlecase(period)) — Top 10 Stacks")
 		println("="^90)

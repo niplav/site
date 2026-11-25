@@ -60,6 +60,7 @@ Text
 * https://x.com/norvid_studies/status/1800749427256344813
 * https://x.com/SRamirez68083/status/1883932223281475745
 * https://x.com/eshear/status/1747731486202335457
+* https://x.com/vocalcry/status/1796610329461334279
 
 <!--TODO: "If you're so smart why aren't you hot"-->
 

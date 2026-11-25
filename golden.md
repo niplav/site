@@ -435,15 +435,33 @@ senses his real conditions of life"
 
 #### Cope
 
+> Im düstern Auge keine Träne  
+Sie sitzen am Webstuhl und fletschen die Zähne:  
+Deutschland, wir weben dein Leichentuch,  
+Wir weben hinein den dreifachen Fluch -  
+Wir weben, wir weben!
+
 Sometimes (okay, *almost always*) the attachment to a particular craft does
 not go quietly.
 
 There is no good replacement word for "cope" in English, truly an
 incredible coinage.
 
+> Ein Fluch dem Gotte, zu dem wir gebeten  
+In Winterskälte und Hungersnöten;  
+Wir haben vergebens gehofft und geharrt -  
+Er hat uns geäfft, gefoppt und genarrt -  
+Wir weben, wir weben!
+
 None come close: "Sour grapes" is purely about giving up on possibly
 valuable things, "rationalization" and "denial" are too clinical,
 "motivated reasoning" is too wordy.
+
+>Ein Fluch dem König, dem König der Reichen,  
+Den unser Elend nicht konnte erweichen  
+Der den letzten Groschen von uns erpreßt  
+Und uns wie Hunde erschießen läßt -  
+Wir weben, wir weben!
 
 "Cope" covers it all, from denying the existence of the fact that one
 might never be truly loved, to (ineffectually) dealing with the fact
@@ -453,38 +471,20 @@ either. I don't know how we managed before 4chan gave it to us.
 
 A common reaction to losing ones craft is cope.
 
+> Ein Fluch dem falschen Vaterlande,  
+Wo nur gedeihen Schmach und Schande,  
+Wo jede Blume früh geknickt,  
+Wo Fäulnis und Moder den Wurm erquickt -  
+Wir weben, wir weben!
+
 Because this is me, and this is my essay, I shall illustrate this with
 a German poem. The context for this poem is that during the industrial
 revolution, the [silesian](https://en.wikipedia.org/wiki/Silesian)
 artisan weavers were being automated, and the poet [Heinrich
 Heine](https://en.wikipedia.org/wiki/Heinrich_Heine) wrote an fiery war
-cry in their name[^german]:
+cry in their name[^german].
 
-> Im düstern Auge keine Träne  
-Sie sitzen am Webstuhl und fletschen die Zähne:  
-Deutschland, wir weben dein Leichentuch,  
-Wir weben hinein den dreifachen Fluch -  
-Wir weben, wir weben!
->
-> Ein Fluch dem Gotte, zu dem wir gebeten  
-In Winterskälte und Hungersnöten;  
-Wir haben vergebens gehofft und geharrt -  
-Er hat uns geäfft, gefoppt und genarrt -  
-Wir weben, wir weben!
->
-Ein Fluch dem König, dem König der Reichen,  
-Den unser Elend nicht konnte erweichen  
-Der den letzten Groschen von uns erpreßt  
-Und uns wie Hunde erschießen läßt -  
-Wir weben, wir weben!
->
-Ein Fluch dem falschen Vaterlande,  
-Wo nur gedeihen Schmach und Schande,  
-Wo jede Blume früh geknickt,  
-Wo Fäulnis und Moder den Wurm erquickt -  
-Wir weben, wir weben!
->
-Das Schiffchen fliegt, der Webstuhl kracht,  
+> Das Schiffchen fliegt, der Webstuhl kracht,  
 Wir weben emsig Tag und Nacht -  
 Altdeutschland, wir weben dein Leichentuch,  
 Wir weben hinein den dreifachen Fluch,  
@@ -511,6 +511,10 @@ drop it. Nothing Human Makes It Out Of The Near Future. I'm Sorry. :-|
 
 Purpose
 --------
+
+The *other* concept I want to talk about is Purpose. Purpose is, plainly
+speaking, the type of intent that is behind actions that are aimed at
+getting something inherently valuable done.
 
 ### Longer Levers
 
