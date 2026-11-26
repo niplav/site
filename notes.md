@@ -2598,12 +2598,12 @@ progress gets locked in too early because locking in is an easy action).
 of error-correction, purses its lips, and snarls a disgusted "no"
 into view.-->
 
-[^balance]: Though also equally large amounts of pleasure, balancing it out.
+[^balance]: Though also equally large amounts of pleasure, balancing it out.<!--Claude: This assumes the net-zero centering that "Can Valence Compete, At Least?" (~line 3603) treats as a puzzle to be explained.-->
 
 Indicators that error correction is possible as a replacement backstop:
 
 * Non-mutating self-replicators are possible:
-	* John von Neumann and Arthur Walter Burks. *Theory of self-reproducing automata*, 1996
+	* John von Neumann and Arthur Walter Burks. *Theory of self-reproducing automata*, 1996<!--Claude: 1966.-->
 	* John von Neumann: *Probabilistic logics and synthesis of reliable organisms from unreliable components, automata studies*, 1956
 * Reasoning models, [iterated distillation and amplification](https://www.lesswrong.com/s/EmDuGeRw749sD3GKd/p/HqLxuZ4LhaFhmAHWk).
 * Error-correcting codes.
@@ -2623,8 +2623,20 @@ Indicators that there is no replacement for evolution:
 * Neither aging nor Lindy effect for civilizations.<!--See Grand Futures-->
 * Organisms die.
 * Transposons, cancer<!--TODO: Look at post by Elmore again-->.
+<!--Claude: Candidate: congenital insensitivity to pain. Patients know what
+damages them and still wreck their joints, bones and tongues, so information
+without valence doesn't suffice for humans as built. Caveat: the failure is
+in attention/prioritization, not missing information, so it's evidence
+against current architectures, not against the possibility in general.-->
 * [No coalition-incentive-compatible mechanisms under vNM](./doc/econ/on_coalition_incentive_compatibility_green_laffont_1979.pdf).
 
+<!--Claude: Yes, beyond redundancy: kinetic proofreading (Hopfield 1974,
+error correction paid for in free energy); proofreading polymerases +
+mismatch repair take replication from ~1e-5 to ~1e-9–1e-10 errors/base;
+the standard genetic code is error-minimizing, better than ~all but one
+in 10⁶ random codes (Freeland & Hurst 1998). Contested but on point: Mac
+Dónaill 2002 argues the nucleotide alphabet is an even-parity code with
+base-pairing as the parity check.-->
 Has nature ever found the concept of [parity
 bits](https://en.wikipedia.org/wiki/Parity_Bit)/[error
 detection and correction

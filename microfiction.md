@@ -303,6 +303,19 @@ geführt; —
 
 > L'an deux-mille cent ne passera pas.
 
+### Koans
+
+#### Rakko As Seen By The Frogs
+
+One day Rakko decided to go fishing down at the lake. He took his fishing
+rod and walked over, put the bait on the hook and the hook into the water.
+
+After several hours he hadn't caught any fishes, so he grew frustrated,
+tossed the fishing rod into the water, and walked off angrily, on
+lighter feet.
+
+*Mumons commentary*:
+
 ### Senryū
 
 Well, not strictly [haiku](https://en.wikipedia.org/wiki/Haiku)

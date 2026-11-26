@@ -521,6 +521,11 @@ increases success from cold approaching women. The hypothesis is that
 meditation decreases muscular tension, thus indicating that the approacher
 doesn't have anything to hide, especially not his desire.
 
+<!--Claude: This tests a state effect (meditation dose in the past week),
+not a trait effect (attainments, which is what "I got more attractive after
+stream entry" claims are about). For the trait version: interrupted time
+series on contact rate around a discrete event, e.g. the Nov 2026 retreat.-->
+
 Given my [meditation data](./data.html#Meditation) (~2.7k meditation
 sessions) and my [daygame approach data](./data.html#Daygame) (~650
 approaches), I can select the meditations that occurred in the week
@@ -604,8 +609,8 @@ regression](https://en.wikipedia.org/wiki/Linear_Regression) has to say:
 
 Yep, just like I thought, the result could've just as well come from
 random data. (Don't be fooled into thinking the slope is meaningfully
-negative: Such a small p-value means it might just flip to positive at
-the next datapoint).
+negative: <!--Claude: "large", not "small": p≈0.94.-->Such a large
+p-value means it might just flip to positive at the next datapoint).
 
 <!--TODO: plot-->
 
@@ -659,6 +664,14 @@ and re-run the linear regression:
 
 Seems a bunch more reliable than the data including retreats! We can
 plot both:
+
+<!--Claude: p=0.22 is still a null, and dropping the >60000s weeks
+post hoc is a forking path. Those weeks are also exactly the post-retreat
+approaches that the "dogpiled after retreats" claim is about, so the filter
+removes the most relevant data (tiny n, but it's the test, not the noise).
+Scale: the filtered slope is ~0.064 approaches per session per hour
+meditated in the past week, so ~+0.6 at 10h/week.-->
+
 
 ![](./img/vascular/volume.png)
 

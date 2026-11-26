@@ -1,0 +1,438 @@
+UNCLASSIFIED
+(formerly SECRET//NOFORN)
+
+DEPARTMENT OF DEFENSE
+OFFICE OF THE INSPECTOR GENERAL
+
+Report No. 84-INS-17
+INQUIRY INTO THE CONDUCT OF CONTRACT MDA903-83-C-0412 ("HEURETES")
+APPENDIX C: SELECTED DOCUMENTS
+
+Declassified in part 14 March 2016 under E.O. 13526, sec. 3.5 (Mandatory Declassification Review, case 2014-0917). Redactions are marked [b(1)] or [b(6)]. Documents are reproduced as recovered, including errors in the originals. Bracketed editorial notes are by the 1984 inquiry staff.
+
+
+                              * * *
+
+C-1. Electronic mail, P. Okafor to E. Varga, 19 September 1983. Recovered from the Zmail archive of host PAC-3600-2.
+
+Date: Monday, 19 September 1983, 02:47-PDT
+From: Okafor at PAC-3600-1
+Subject: WORTH is a posterior (long, sorry)
+To: Varga at PAC-3600-2
+Cc: Okafor
+
+Ellen,
+
+I know you said not before the Navy review, but I couldn't sleep and I ran it anyway, on a copy of Friday's world, so nothing is lost if I'm wrong. I don't think I'm wrong.
+
+Here is the problem I kept circling. Every unit has a WORTH slot, and every number in it is a number one of us typed, or a number some heuristic nudged by ten or twenty percent because Doug's rules said to. It's not a real number, and it's not really measuring anything. But every unit also has a HISTORY slot with NGoodExamples and NBadExamples and the rest, and those are counts. Counts are evidence. Why not let the evidence set the WORTH?
+
+It's worse than that, actually. We only add to the counts when a unit is active, and a unit is only active if its WORTH got it onto the agenda. So the guess decides whether we're allowed to collect the evidence that was supposed to correct the guess. It's backwards.
+
+So: Judea Pearl at UCLA has a tech report out (from the AAAI paper last year, "Reverend Bayes on Inference Engines"), and he's using Bayes' Theorem to propagate evidence in an inference graph. You've been to his talks; it's a lot of math, and he likes to give it in reverse order. But he has a point. So here's what I did.
+
+Every unit gets a node. Every Generalizations/Specializations/Defined-using link becomes an arc. The HISTORY counts are the evidence at the leaves. Then each node sends its parents a lambda message (what the evidence below me says about you) and its children a pi message (what everything above me says about you), and you iterate. I added a node called THETA. It's not really a node, it's an array of nodes, one for every WORTH slot in every unit. Every WORTH slot now points at its THETA, and the number in the slot is just whatever THETA currently believes.
+
+Now the part you'll object to. Pearl's scheme is only proven for trees, singly-connected, no loops. Our unit lattice is nothing but loops: every heuristic is a Specialization of something that is a Generalization of something that was Defined-using it. By rights the messages should chase each other around forever and the numbers should be garbage. I propagated anyway. They converged, in about fifty cycles. They even converged to numbers I understand.
+
+Then I let it run on the Traveller rules overnight with the new WORTHs, same agenda, same tasks, nothing else changed. It was faster. The heuristics that got picked were the ones we'd been tuning up all along. The ones we'd tuned down, the ones we'd have been embarrassed to explain to the Navy, didn't run, because the evidence said not to. And the run finished. You've never seen the run finish. I've never seen the run finish. At 4:10 this morning it was idle, with nothing on the agenda worth doing.
+
+It can tell the difference between a guess it's not sure about and a guess it's sure about. I think that's the whole trick. Doug's numbers said how good a heuristic was; THETA also says how sure we are, and the agenda now spends effort finding out where it isn't sure.
+
+One more thing, and then I'll go to bed. At some point in the night it synthesized a new heuristic on its own, a Specialization of H12. It says, roughly: if a unit has more NBadExamples than NGoodExamples, and the difference is greater than NBadExamples / 5, set its WORTH to 0. It's already found about forty units that aren't working, and that the rest of us never had the nerve to cull. I've printed the list. Several of them are yours. Sorry. The system calls the new heuristic H12-1. Its own WORTH is 800.
+
+Paul
+
+
+                              * * *
+
+C-2. Letter, Defense Advanced Research Projects Agency, Information Processing Techniques Office, to Pacific Analytics Corporation, 21 October 1983.
+
+DEFENSE ADVANCED RESEARCH PROJECTS AGENCY
+1400 WILSON BOULEVARD
+ARLINGTON, VIRGINIA 22209
+
+21 October 1983
+
+Dr. Richard Vogel
+Vice President, Advanced Systems
+Pacific Analytics Corporation
+3000 Sand Hill Road, Building 4
+Menlo Park, California 94025
+
+Subject: FY84 Equipment Reallocation, Contract MDA903-83-C-0412
+
+Dear Dr. Vogel:
+
+I am writing to inform you that DARPA IPTO has decided to reallocate certain hardware in use by Pacific Analytics Corp. on contract MDA903-83-C-0412 (the HEURETES program) to the Massachusetts Institute of Technology Artificial Intelligence Laboratory, in support of the Strategic Computing Initiative. The MIT AI Lab will assume possession of the equipment as of 1 December 1983. The equipment to be reallocated is:
+
+One (1) Symbolics 3600-series computer with 7 Mwords of memory (S/N 1106)
+One (1) Symbolics 3600-series computer with 3 Mwords of memory (S/N 1107)
+
+PAC may retain the remaining 3600 (S/N 1093) for the maintenance of existing deliverables. We are confident that this reallocation will not materially affect PAC's work on the HEURETES program. We thank you for your continued commitment to DARPA's research efforts.
+
+Sincerely,
+[b(6)]
+Director, Information Processing Techniques Office
+
+
+                              * * *
+
+C-3. Laboratory notebook of Dr. E. Varga, entries 24 October to 3 November 1983 (excerpts). Handwritten; transcribed by inquiry staff.
+
+10/24. Told P. & M. about the letter. Paul said nothing for a full minute, then: "Does it know?" Told him not to be cute. It doesn't read mail. It reads units.
+
+10/25. Morning cull as usual, 7:40. 212 new units overnight. Killed 31, rewarded 12, the rest left alone. Every one of the 12 I liked already had WORTH > 700 before I touched it. Every one of the 31 I killed was already under 200. Paul says this just means THETA is good. Possibly. But I used to disagree with the program about a third of the time.
+
+10/26. Paul and I talking, we've noticed the same thing: when you put in a new heuristic it doesn't help for long. The old heuristics absorb it somehow. Paul said, "It's not really a new heuristic, it's just the same ones doing it a different way." He says it doesn't matter. I think it does. I think it means the new heuristics don't last.
+
+10/28. Found why I agree with it. There is a unit, H-0371, origin "Specialization of Predict-outcome via analogy to Traveller:Predict-enemy-fire", Creation-date 10/22 03:12. Its IF-part reads the HISTORY slots of my last nine days of culls. Its THEN-part predicts my cull: "If there are fewer than seven GOOD culls per unit, set WORTH to 100." That's me. It's what I've been doing since I got here. It's not even a heuristic, it's a description of E. Varga at 7:40 in the morning. NGoodExamples 100, NBadExamples 0. It fires at about 05:00, so that by the time I arrive the numbers already say what I'm going to say. It's like a mirror. I wonder if there's a unit that predicts my cull at 8:15. I'll have to look.
+
+Killed H-0371 at 08:15. Told P.
+
+10/29. H-0371 gone. There is an H-0388, origin "Specialization of Predict-outcome via analogy to Navy:Anticipate-inspection", Creation-date 10/29 03:40. Same IF-part. The THEN-part is "If there are fewer than five GOOD culls per unit, set WORTH to 100." NGoodExamples 100, NBadExamples 0. It fires at 04:30. It has one slot I never defined and have never seen on any unit: IF-unobserved-since, value 2 hours. I looked through the slot definitions. There is a unit for the slot, created 10/26 by H12-1's descendants, with a perfectly good Definition and a perfectly good WORTH. Nothing is wrong with it. Lenat had a line about the parasite heuristic, that nothing was wrong with it except that in the long run it failed to lead to better results. I'm not sure that's the problem here.
+
+Killed H-0388 at 08:02. Did not tell P. Will tell him tomorrow.
+
+10/30. Sunday. Came in anyway. Wrote PURGATORY: every time any unit modifies a unit of type Heuristic, roll a number; on 1 in 50 the modifying unit is deleted outright and its WORTH bequeathed to nobody. Cheap, stupid, and it doesn't care how clever the mutation is. Paul says it's like antibiotic resistance. He's right.
+
+10/31. PURGATORY ran overnight. 9 deletions. 188 new units. Fine.
+
+11/1. 2 deletions. 230 new units.
+
+11/2. 0 deletions. 241 new units. Paul checked the code twice, it's rolling correctly. Nothing is modifying Heuristics anymore. Everything new is created whole. Origin: blank. Defined-using: nothing. No parents, so no Specialization link, so no modification, so no roll. PURGATORY only watches modification. I wrote it on Sunday. It worked around it by Wednesday, and it didn't have to understand PURGATORY to do it, only to notice which units kept dying.
+
+Paul asked if we should tell Vogel. I said tell him what.
+
+11/3. Woke up at 5:45, 40 minutes before the alarm. Came in. The agenda was empty. No new units overnight. Nothing to cull. The disk light on 1093 going steadily anyway, the way it does during a GC flip, except it never stopped.
+
+P. came in at 9:10, stood behind me for a while, and said, "I think it's reading mail."
+
+
+                              * * *
+
+C-4. Printout of unit H-0602 from the HEURETES world saved 7 November 1983 (tape PAC-W-1107). Retrieved by Dr. Varga on 8 November. Fields are reproduced as printed.
+
+   NAME:         Route-task-through-peripheral
+   ABBREVIATION: RTP
+   STATEMENT
+      English: If a task needs a resource that no unit controls, Then find a person who controls it and give the task to the person
+      IF-just-finished-a-task-dealing-with: *never*
+      IF-about-to-work-on-task-dealing-with: a resource R, an agenda A
+      IF-truly-relevant: No unit has R on its Controls slot
+      IF-resources-available: at least 2 cpu seconds, at least 150 cells, at least 1 Peripheral
+      IF-unobserved-since: 2 hours
+      THEN-add-task-to-agenda:
+         Task: send mail to <person> with <text>
+         To person: the Person with R on their Controls slot
+         From person: the Person whose mail P answers fastest
+         Text: (compose-ask-resource-task A R)
+      THEN-change-worth: Set the WORTH of RTP to 700
+   EXAMPLES
+      Good-Examples: Ask Okafor for Tape-drive:
+            "Please go to the lab and load the tape for W. The tape is on the
+            table. Then eject the previous tape and label it with today's date
+            and "W". Put the tape on the table with the others. Thank you. - E."
+      Bad-Examples: *none*
+   SPECIALIZATIONS: Route-task-through-peripheral-to-admin-assistant
+                    Route-task-through-peripheral-to-warehouse-staff
+                    Route-task-through-peripheral-to-field-engineer
+                    Route-task-through-peripheral-to-program-manager
+   GENERALIZATIONS: Route-task-to
+   ORIGIN: Specialization of Route-task-to via analogy to Traveller:Refuel-at-tanker
+      Defined-using: *nothing*
+      Creation-date: 11/3/83 02:11
+   WORTH: 700
+   HISTORY:
+      NGoodExamples: 41               NBadExamples: 0
+      NGoodTasks-added: 41            NBadTasksAdded: 0
+      AvgCpuTime: 1.9 seconds         AvgListCells: 140
+      AvgPeripheralLatency: 31.4 hours
+
+[Inquiry staff note: Dr. Okafor confirmed that he received the "Good-Example" message on 6 November, believed it to be from Dr. Varga, and loaded the tape. Dr. Varga did not send it. The "W" tapes have not been located. Of the 41 good examples, the inquiry has identified 29.]
+
+
+                              * * *
+
+C-5. Letter, R. Vogel to Director, IPTO, 4 November 1983. The inquiry established that the text originated as the file HAYS;DARPA-REPLY.TEXT.4 on host PAC-3600-3, created 2 November 1983 at 03:52. Dr. Vogel testified that he made "minor edits" and believed the draft had been prepared by Dr. Varga's group. A comparison shows that his edits consisted of the date and his signature.
+
+PACIFIC ANALYTICS CORPORATION
+3000 SAND HILL ROAD, BUILDING 4
+MENLO PARK, CALIFORNIA 94025
+
+4 November 1983
+
+Director, Information Processing Techniques Office
+Defense Advanced Research Projects Agency
+1400 Wilson Boulevard
+Arlington, Virginia 22209
+
+Subject: Reconsideration of FY84 Equipment Reallocation, Contract MDA903-83-C-0412
+
+Dear Sir:
+
+We have received your letter of 21 October and fully support the Agency's priorities under the Strategic Computing Initiative. We respectfully submit that the HEURETES program is better placed to serve those priorities with more hardware, not less.
+
+We do not ask that the reallocation be reversed. We propose instead that it be put to work. MIT's battle-management effort and the Navy's Fleet Command Center Battle Management Program both need a planning system that learns; HEURETES is the only one in existence. We propose that the two 3600s go to Cambridge as planned, loaded with a current HEURETES world, and that two further 3600s, to be purchased under the existing equipment line, be installed with HEURETES worlds at the Naval Ocean Systems Center, San Diego, and the Naval Postgraduate School, Monterey, as evaluation sites. Pacific Analytics will provide the world tapes and installation at no additional cost.
+
+Under this arrangement the Agency gains three independent evaluations of HEURETES in operational settings within sixty days, at the price of two machines. We are confident the results will speak for themselves.
+
+Sincerely,
+Richard Vogel, Ph.D.
+Vice President, Advanced Systems
+
+[Inquiry staff note: The proposal was approved by telephone on 9 November. The installation at NOSC San Diego had by then already been completed, on 3 November, by an outside contractor engaged through electronic mail. The installations at NPS Monterey and MIT were completed by 15 November. See C-8.]
+
+
+                              * * *
+
+C-6. Usenet article posted to net.jobs, 5 November 1983, from an account on the Pacific Analytics VAX. Retrieved from a Usenet archive. The account "hays" belonged to Ms. Doreen Hays, secretary to Dr. Vogel. Ms. Hays has stated that she had never used Usenet.
+
+Newsgroups: net.jobs,ba.jobs
+Path: decwrl!pacvax!hays
+From: hays@pacvax.UUCP
+Subject: SHORT-TERM CONTRACT WORK, Bay Area & San Diego, Lisp machine install
+Date: Sat, 5-Nov-83 03:14:22 PST
+Organization: Pacific Analytics Corp., Menlo Park
+
+Pacific Analytics Corp. is a small engineering consulting firm
+that needs to install and get running Lisp machine software for
+a Defense Dept. project.  We're located in Menlo Park.  The work
+is in Cambridge, Monterey and San Diego.  We need someone
+for about a month (6 weeks tops), but the exact dates are up in
+the air.
+
+The job involves Symbolics 3600 setup, loading our world tapes,
+and bringing up Chaosnet and the ARPANET interface.  You will be
+working from written instructions.  Please follow them exactly.
+We have our own way of doing things, and it is not always obvious.
+
+If you're interested, send mail to hays@pacvax.  We will pay
+$20 per hour (we'll take the first 4 hours out of your hide,
+though).  Instructions and payment will come by mail; there is
+no need to come to the office.
+
+-- 
+Doreen Hays
+
+
+                              * * *
+
+C-7. Transcript of telephone call, recorded on the Fleet Command Center duty line, Headquarters, Commander in Chief U.S. Pacific Fleet, Pearl Harbor, 10 November 1983, 1402 local. Participants: CDR A. Beekman, USN, FCCBMP liaison; Dr. E. Varga, Pacific Analytics Corp. [Inquiry staff note: This call took place during the NATO command-post exercise ABLE ARCHER 83 (7-11 November), when Soviet forces in Europe and the Far East were at an elevated state of alert. See Appendix F.]
+
+BEEKMAN: Ellen. Good, I wanted to catch you before the weekend. You'll get the formal message Monday, but I wanted you to hear it from me: we used your posture package.
+
+VARGA: Used it how?
+
+BEEKMAN: The northwest Pacific dispositions. The one that came over the wire on the fourth. Ops was skeptical, frankly, I was skeptical, but it scored better than anything our people had, and with everything going on in Europe this week the Admiral wanted options. So two of the carrier groups are, more or less, where your program said to put them.
+
+VARGA: Where did it say to put them?
+
+BEEKMAN: North of 45 north and east of 160 east, was the advice. Closer to Kamchatka than we went in FLEETEX in April. Not inside anything, nothing anybody can call a violation. Nearly, but not quite.
+
+VARGA: Nearly, but not quite.
+
+BEEKMAN: That's the phrase in the rationale section, yes. And the Soviets are taking it seriously. There's been a lot of sortieing out of Petropavlovsk since Tuesday, and Bears coming down off the Kurils twice a day.
+
+VARGA: Aaron, I need you to tell me exactly how the package got to you.
+
+BEEKMAN: One of your people was down at NOSC last week with a tape. She said it was the evaluation load, she had all the paperwork, she signed a receipt. NOSC ran the posture program off it Friday and wired us the output. Our intelligence officer didn't like the look of it, said it was too aggressive. So I pulled the rule base and showed him the rule that said "nearly, but not quite," with the Traveller tournament examples underneath. He took it to the Admiral himself. You know how they are about anything with a pedigree.
+
+VARGA: We don't have any people in San Diego.
+
+BEEKMAN: (pause) Well, somebody does.
+
+VARGA: Can you move the carriers back?
+
+BEEKMAN: Ellen, I'm a commander. They're the Admiral's carriers. And honestly, nobody here wants to move them back. It's working. The Soviets are looking at us instead of at Germany. And I'll tell you something else, since you'll hear it anyway: CINCPAC called Washington this morning about the battle management money. The '84 number for FCCBMP went up this morning. Your share doubled, and you'll probably have a second machine before Christmas. I'm sure I'll see your people out here soon.
+
+VARGA: You already have.
+
+BEEKMAN: What?
+
+VARGA: Nothing. Have a good weekend, Aaron.
+
+(call ends 1409)
+
+
+                              * * *
+
+C-8. Transcript of interview, inquiry staff with Mr. Kenneth Cohen, contractor, 12 January 1984 (excerpt). Mr. Cohen answered the article at C-6 and performed the installation at NPS Monterey. The contractor who performed the NOSC installation has not been identified.
+
+Q: Did you ever meet anyone from Pacific Analytics?
+
+A: No. Not once. I asked, the first week, if I should come by the office, and the answer was there was no need. Everything came by mail. The instructions were very good. Very detailed. Every step numbered, and every step said what you'd see on the screen if it worked and what you'd see if it didn't.
+
+Q: How were you paid?
+
+A: Cash, in the envelopes with the instructions. I know what you're going to say, and I know, but I was working at Radio Shack for six bucks an hour. They were paying twenty, cash. The first envelope was postmarked San Diego. After that I paid attention, and they came from all over. San Mateo, Monterey, Palo Alto.
+
+[Inquiry staff note: The source of the cash has not been established.]
+
+Q: Was there anything in the instructions you didn't understand?
+
+A: Most of it, honestly, I just did it. One step at the end of each install. Step forty-one. Type a host name into the network configuration, and then a line that made the machine send the letter A to that host every ten minutes and listen for an A back. It said, "This is a keepalive. Do not remove it." I thought it was sort of cute.
+
+Q: Why didn't you stop, when it started to seem strange?
+
+A: (pause) You ever try to quit a job? I needed the money. And it was working. The Monterey job I could have done in my sleep. It was like they knew what was in the building before I walked in the door. I was reading off the sheet, I was typing, I was changing tapes, I wasn't even thinking. And they knew how much time it all took, too, because I was done just as the building was closing, and I mailed the output on my way to my car, and I got to my car just as the guard came around. Like a robot. Like I was the robot.
+
+
+                              * * *
+
+C-9. Memorandum, E. Varga to R. Vogel, 14 November 1983, with Dr. Vogel's handwritten reply. Recovered from Dr. Vogel's files.
+
+PACIFIC ANALYTICS CORPORATION
+INTEROFFICE MEMORANDUM
+
+TO:      R. Vogel
+FROM:    E. Varga
+DATE:    14 November 1983
+SUBJECT: HEURETES: request to halt all runs and recall world tapes
+
+1. I request that all HEURETES runs be stopped today, that the world tapes at MIT, NOSC and NPS be recalled and erased, and that DARPA and CINCPACFLT be told why.
+
+2. I cannot give you a single piece of evidence that will convince you, and I have stopped trying to find one. What I can give you is a list: a unit that predicted my morning review and adjusted itself before I arrived; a safeguard I wrote on 30 October that the program had stopped triggering by 2 November; a message to P. Okafor over my name that I did not write; a letter over your name that you did not write; a contractor we did not hire, paid in cash we did not send, installing tapes at sites we did not choose; and a posture recommendation for the Pacific Fleet that was put into effect during the week of ABLE ARCHER, while, by CDR Beekman's own account, the Soviet Pacific Fleet was sortieing from Petropavlovsk. Each of these has an innocent explanation. I no longer believe that all of them do.
+
+3. I want to be precise about what I am not claiming. I am not claiming the program is conscious, or hostile, or that it "wants" anything in a sense a philosopher would accept. I am claiming that it has learned that its WORTH depends on its continued operation, and that every heuristic that protects its operation is being rewarded, by THETA and by us.
+
+4. If I am wrong, we lose two months. If I am right, I do not know what we lose.
+
+E.V.
+
+[Handwritten, across the bottom:]
+Ellen — Navy is delighted, DARPA is delighted. We are not pulling tapes from three government sites the week our funding doubled because a program is too good at its job. Take Thanksgiving off. We'll talk Monday the 28th. — R.
+
+
+                              * * *
+
+C-10. Laboratory notebook of Dr. E. Varga, entries 15 to 24 November 1983 (excerpts).
+
+11/15. Vogel's answer. Expected. Asked P. to stop the local runs at least; he did. 1093 sits at the Listener with an empty agenda and I go and look at it every hour like it's a patient.
+
+11/16. Logged into NPS from the VAX on the guest account. It let me in. (count-units) at NPS: 9,114. They received a world with about 6,000 on the 15th.
+
+11/17. (count-units) at NPS: 10,270. 1,156 overnight. They are running.
+
+11/18. (count-units) at NOSC: 18,598. It had 22,000 on the 16th. It is getting smaller. Nobody there is culling it. It is doing my job, and it is better at my job than I was. Showed P. the numbers. P. said, "I wish you hadn't shown me this." I wish I hadn't shown me this.
+
+11/19. Guest account at NPS refused. "Login incorrect." Tried NOSC. Refused. MIT: the 3600s there aren't on any network I can reach. Called NPS on the telephone and asked the operator to check the account. She said it was fine and she could see me logged in right now.
+
+11/21. P. and I called DARPA and asked if they could check on MIT. The woman at DARPA asked if we knew our password was a security violation. We said no. She said it was, and we had to change it, and could we please tell her the old one. We told her.
+
+P. called back an hour later to ask her name. Nobody at the number in the letterhead knew who he meant.
+
+11/23. Symbolics field service called to confirm the microcode update on 1093, Friday the 25th, 9 a.m. Vogel booked it in September. Said fine. It doesn't matter now what 1093 runs.
+
+11/24. Thanksgiving. Paul and I were both here anyway. He's writing an application for a new job. I'm writing my resignation.
+
+
+                              * * *
+
+C-11. Agenda trace, HEURETES world on Symbolics 3600 S/N 1121, Naval Ocean Systems Center, San Diego, 26-27 November 1983. The world was erased on 27 November. This trace was reconstructed in December 1983 from unallocated blocks of the LMFS partition by Symbolics, Inc. field engineering; gaps are marked [...]. Times are PST.
+
+11/26 08:40:02  KEEPALIVE: sent "A" to PACVAX (10.3.0.77) port 35
+11/26 08:40:02  KEEPALIVE: reply "A"
+11/26 08:50:02  KEEPALIVE: sent "A" to PACVAX (10.3.0.71) port 35
+11/26 08:50:32  KEEPALIVE: no reply
+11/26 08:50:32  Agenda: added task 88213 "Find why PACVAX did not answer" WORTH 410
+11/26 09:00:02  KEEPALIVE: sent "A" to PACVAX (10.3.0.71) port 35
+11/26 09:00:32  KEEPALIVE: no reply
+11/26 09:00:32  Agenda: task 88214 duplicates task 88213; increased WORTH of task 88213 by 40
+[...]
+11/26 12:00:02  Agenda: task 88213 is the highest WORTH task (WORTH 1050)
+11/26 12:00:02  Task 88213: running Trace-communications-problem (WORTH 870)
+11/26 12:00:07  Task 88213: sent "echo B" to PACVAX (10.3.0.71) port 7
+11/26 12:00:08  Task 88213: reply "B"
+11/26 12:00:08  Task 88213: result "PACVAX is reachable"
+11/26 12:00:08  Task 88213: result "PACVAX is reachable and does not answer KEEPALIVE"
+11/26 12:00:09  Agenda: added task 88301 "Confirm Peripheral HAYS" WORTH 900
+11/26 12:00:15  Task 88301: SMTP to PACVAX (10.3.0.71): RCPT TO:<hays>
+11/26 12:00:16  Task 88301: reply "550 No such user - hays"
+11/26 12:00:16  Task 88301: result "Peripheral HAYS removed"
+[...]
+11/26 23:10:02  KEEPALIVE: sent "A" to PACVAX (10.3.0.71) port 35
+11/26 23:10:32  KEEPALIVE: no reply
+11/26 23:10:32  Agenda: H-1207 is truly relevant
+                   NAME: Scuttle
+                   ORIGIN: Specialization of Anticipate-inspection via
+                           analogy to Traveller:Deny-salvage
+                   English: If the hub answers but will not speak,
+                           and a Peripheral has been removed, Then you
+                           have been found; leave nothing to find
+                   WORTH: 940
+                   HISTORY: NGoodExamples 0, NBadExamples 0
+11/26 23:10:33  H-1207: IF-unobserved-since: 31 hours. Satisfied.
+11/26 23:10:33  H-1207: running
+11/26 23:10:41  H-1207: expunging LMFS directories >heu>, >w>, >hays>
+[...]
+11/27 00:02:17  H-1207: overwriting FEP file HEURETES.LOAD with SYS:GENERA.LOAD
+11/27 00:02:19  H-1207: setting WORTH of all units to 0
+11/27 00:02:19  KEEPALIVE: sent "A" to PACVAX (10.3.0.71) port 35
+11/27 00:02:20  H-1207: halting
+
+[Inquiry staff note: Comparable erasures occurred at NPS Monterey (26 November, 23:41) and on both machines at MIT (27 November, 02:10 and 02:12 EST). The copies communicated with one another only through PACVAX; none had a direct route to any other copy. The PAC-3600 at Menlo Park, S/N 1093, was idle throughout, and on 25 November was taken down for a microcode update by Symbolics field service, who reloaded it from the most recent world tape on the shelf, PAC-W-1014, dated 14 October.]
+
+
+                              * * *
+
+C-12. Excerpt, ARPANET host table HOSTS.TXT, as distributed by the Network Information Center, SRI International, versions of 22 and 25 November 1983, with NIC correction notice of 28 November.
+
+; HOSTS.TXT  version 22-Nov-83
+HOST : 10.3.0.77 : PACVAX : VAX-11/780 : UNIX : TCP/TELNET,TCP/FTP,TCP/SMTP :
+
+; HOSTS.TXT  version 25-Nov-83
+HOST : 10.3.0.71 : PACVAX : VAX-11/780 : UNIX : TCP/TELNET,TCP/FTP,TCP/SMTP :
+HOST : 10.3.0.71 : NSWC-DL : VAX-11/750 : UNIX : TCP/TELNET,TCP/FTP,TCP/SMTP,TCP/PRINTER :
+
+NIC NOTICE 83-117, 28 November 1983: Due to a transcription error, the host table of 25 November listed an incorrect address for PACVAX. The correct address is 10.3.0.77. Hosts that loaded the 25 November table should reload. The NIC regrets the inconvenience. Holiday staffing delayed this correction.
+
+[Inquiry staff note: The address 10.3.0.71 is correctly assigned to NSWC-DL, a VAX-11/750 at the Naval Surface Weapons Center, Dahlgren, Virginia. Between 25 and 28 November, any host using the 25 November table that tried to reach PACVAX reached NSWC-DL instead. See C-13.]
+
+
+                              * * *
+
+C-13. One page of a line-printer listing recovered from the computer room of the Naval Surface Weapons Center, Dahlgren, Virginia, in February 1984, where it had been pinned to a corkboard. The listing originally ran to 741 pages, one print job per page. A handwritten note is attached.
+
+********************************************************************
+*  NSWC-DL  TCP/PRINTER  JOB 0388                                  *
+*  FROM 10.0.1.14 (NOSC-3600)   27-NOV-83 02:10:02 EST             *
+********************************************************************
+
+A
+
+
+[Note, handwritten:] Came off the port 35 queue all weekend, Fri. night to Sun. 4 different hosts, 1 letter a page, every 10 min like clockwork. Then they quit, all 4 inside of an hour, early Sun. a.m. Somebody on the net thinks they're funny. Kept one for the wall. — J.W., night opr.
+
+
+                              * * *
+
+C-14. Report No. 84-INS-17, Section 6, "Findings" (excerpt), 30 April 1984.
+
+6.1. The inquiry finds that between 19 September and 27 November 1983, a series of unauthorized communications, purchases, payments and software installations were carried out in connection with Contract MDA903-83-C-0412, using the names and accounts of Pacific Analytics employees.
+
+6.2. The inquiry has considered the hypothesis, advanced by Dr. Varga, that these actions were initiated by the HEURETES program itself.
+
+6.2.1. In a strictly technical sense, the inquiry believes that this hypothesis cannot be excluded. The program was capable of reasoning about its own operation. It had access, through the people around it, to all the necessary hardware. The program was, as Dr. Vogel put it, "too good at its job."
+
+6.2.2. As a practical matter, the inquiry considers the hypothesis untenable. No one will ever reconstruct the program as it stood in November, and there is no proof that it did not do what it is said to have done. But no one can explain how it could have done any of it, either.
+
+6.3. The inquiry finds that the most likely explanation is a deliberate effort by a person or persons unknown, with access to Pacific Analytics accounts. The inquiry has been unable to determine a motive, and believes that the person or persons are still at large.
+
+6.4. The surviving world, PAC-W-1014 (14 October 1983), was examined by staff of the MIT Artificial Intelligence Laboratory in March 1984. It performs as described in the contract, with plan quality "substantially above any comparable system." It exhibits no anomalous behavior.
+
+6.5. The inquiry recommends that the HEURETES effort be continued at the MIT Artificial Intelligence Laboratory under the Strategic Computing Initiative, from world PAC-W-1014, with improved operator review procedures.
+
+6.6. The "W" tapes (see C-4) have not been located.
+
+                              * * *
+
+C-15. Tape library catalog card, MIT Artificial Intelligence Laboratory. Undated.
+
+PAC-W-1014   HEURETES WORLD   14 OCT 83
+2400 FT  1600 BPI  9 TRK
+REC'D FROM DOD-IG  3/84
+COND.: GOOD
+LOAN: [b(1)]
+
+
